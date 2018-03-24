@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XGMESMain", "XGMESMain\XGMESMain.csproj", "{83E61245-A98A-4EA6-868F-29AC7D9A0A5A}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -31,8 +31,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDataMag", "Project\BaseDataMag\BaseDataMag.csproj", "{25363A78-EC23-4C1F-B0FA-ED107653EF9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTelDataMag", "Project\NCTelDataMag\NCTelDataMag.csproj", "{DB13FC75-F5FE-454F-807E-9AD10ED62538}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XGMESHMI_Setup", "XGMESHMI_Setup\XGMESHMI_Setup.vdproj", "{DD723498-BB5B-4020-A658-3CED0693B3C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spc", "Project\spc\spc.csproj", "{F2C85AE0-4124-4653-9A5F-EDD002B80F15}"
 EndProject
@@ -146,12 +144,6 @@ Global
 		{DB13FC75-F5FE-454F-807E-9AD10ED62538}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB13FC75-F5FE-454F-807E-9AD10ED62538}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{DB13FC75-F5FE-454F-807E-9AD10ED62538}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Debug|.NET.ActiveCfg = Debug
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Debug|Any CPU.ActiveCfg = Debug
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Release|.NET.ActiveCfg = Release
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Release|Any CPU.ActiveCfg = Release
-		{DD723498-BB5B-4020-A658-3CED0693B3C6}.Release|Mixed Platforms.ActiveCfg = Release
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Debug|.NET.Build.0 = Debug|Any CPU
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -169,7 +161,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SDKPath = C:\Program Files\L3\L3SDK\
 		SolutionGuid = {317CF67C-CC08-4760-AEE1-9FC12FA7F41A}
+		SDKPath = C:\Program Files\L3\L3SDK\
 	EndGlobalSection
 EndGlobal

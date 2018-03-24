@@ -10,3 +10,17 @@ F:\资料\炼钢MES资料\XGMESHMI\Project\CommonMag\obj\Release\CommonMag.dll
 F:\资料\炼钢MES资料\XGMESHMI\Project\CommonMag\obj\Release\CommonMag.pdb
 F:\资料\炼钢MES资料\XGMESHMI\Project\CommonMag\bin\Release\AppSvrHMI.dll
 F:\资料\炼钢MES资料\XGMESHMI\Project\CommonMag\bin\Release\AppSvrIF.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\CommonMag.dll.config
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\CommonMag.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\CommonMag.pdb
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\AppSvrHMI.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\AppSvrIF.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\HMIBase.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\bin\Release\stdole.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.csprojResolveAssemblyReference.cache
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.csproj.ResolveComReference.cache
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.Properties.Resources.resources
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.csproj.GenerateResource.Cache
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.csproj.CoreCompileInputs.cache
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.dll
+C:\Users\rcw\Source\Repos\lg\Project\CommonMag\obj\Release\CommonMag.pdb

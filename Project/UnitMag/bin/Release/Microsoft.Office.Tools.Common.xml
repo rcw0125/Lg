@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+	<assembly>
+		<name>Microsoft.Office.Tools.Common</name>
+	</assembly>
+	<members>
+		<member name="N:Microsoft.Office.Tools">
+			<summary>The <see cref="N:Microsoft.Office.Tools"></see> namespace contains classes that implement smart tag and actions pane functionality in Microsoft Visual Studio 2005 Tools for the Microsoft Office System solutions.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.ActionBase">
+			<summary>Provides the base class for smart tag actions in Microsoft Visual Studio 2005 Tools for the Microsoft Office System solutions. </summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionBase.#ctor">
+			<summary>Initializes a new instance of the <see cref="T:Microsoft.Office.Tools.ActionBase"></see> class.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionBase.Caption">
+			<summary>Gets or sets the name of the action, as displayed in the smart tag menu.</summary>
+			<returns>The name of the action.</returns>
+		</member>
+		<member name="T:Microsoft.Office.Tools.ActionsPane">
+			<summary>The class that provides implementation for customizing the Document Actions task pane in Microsoft Office Word and Microsoft Office Excel.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.AutoValidateChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.ContainerControl.AutoValidateChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.BackColorChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.BackColorChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.BackgroundImageChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.BackgroundImageChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.BackgroundImageLayoutChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.BackgroundImageLayoutChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.BindingContextChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.BindingContextChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.CausesValidationChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.CausesValidationChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ChangeUICues">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ChangeUICues"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Click">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Click"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ContextMenuChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ContextMenuChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ContextMenuStripChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ContextMenuStripChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ControlAdded">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ControlAdded"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ControlRemoved">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ControlRemoved"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.CursorChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.CursorChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DockChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DockChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DoubleClick">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DoubleClick"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DragDrop">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DragDrop"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DragEnter">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DragEnter"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DragLeave">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DragLeave"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.DragOver">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.DragOver"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.EnabledChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.EnabledChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Enter">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Enter"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.FontChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.FontChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ForeColorChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ForeColorChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.GiveFeedback">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.GiveFeedback"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.GotFocus">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.GotFocus"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.HandleCreated">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.HandleCreated"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.HandleDestroyed">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.HandleDestroyed"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.HelpRequested">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.HelpRequested"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ImeModeChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ImeModeChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Invalidated">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Invalidated"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.KeyDown">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.KeyDown"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.KeyPress">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.KeyPress"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.KeyUp">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.KeyUp"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Layout">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Layout"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Leave">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Leave"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Load">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.UserControl.Load"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.LocationChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.LocationChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.LostFocus">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.LostFocus"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MarginChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MarginChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseCaptureChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseCaptureChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseClick">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseClick"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseDoubleClick">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseDoubleClick"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseDown">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseDown"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseEnter">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseEnter"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseHover">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseHover"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseLeave">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseLeave"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseMove">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseMove"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseUp">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseUp"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.MouseWheel">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.MouseWheel"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Move">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Move"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.OrientationChanged">
+			<summary>Occurs when the <see cref="P:Microsoft.Office.Tools.ActionsPane.Orientation"></see> of the actions pane changes.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.PaddingChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.PaddingChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Paint">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Paint"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.ParentChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.ParentChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.QueryAccessibilityHelp">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.QueryAccessibilityHelp"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.QueryContinueDrag">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.QueryContinueDrag"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.RegionChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.RegionChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Resize">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Resize"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.RightToLeftChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.RightToLeftChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Scroll">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.ScrollableControl.Scroll"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.SizeChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.SizeChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.StyleChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.StyleChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.SystemColorsChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.SystemColorsChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.TabIndexChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.TabIndexChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.TabStopChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.TabStopChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.TextChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.TextChanged"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Validated">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Validated"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.Validating">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.Validating"></see> event.</summary>
+		</member>
+		<member name="E:Microsoft.Office.Tools.ActionsPane.VisibleChanged">
+			<summary>Provides the same functionality as the <see cref="E:System.Windows.Forms.Control.VisibleChanged"></see> event.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.BeginInvoke(System.Delegate)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.BeginInvoke(System.Delegate)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.BeginInvoke(System.Delegate,System.Object[])">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.BeginInvoke(System.Delegate,System.Object[])"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.BringToFront">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.BringToFront"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Clear">
+			<summary>Detaches the actions pane solution from the document.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Contains(System.Windows.Forms.Control)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Contains(System.Windows.Forms.Control)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.CreateControl">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.CreateControl"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.CreateGraphics">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.CreateGraphics"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.DoDragDrop(System.Object,System.Windows.Forms.DragDropEffects)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.DoDragDrop(System.Object,System.Windows.Forms.DragDropEffects)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.EndInvoke(System.IAsyncResult)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.EndInvoke(System.IAsyncResult)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.FindForm">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.FindForm"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Focus">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Focus"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.GetChildAtPoint(System.Drawing.Point)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.GetChildAtPoint(System.Drawing.Point)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.GetContainerControl">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.GetContainerControl"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.GetNextControl(System.Windows.Forms.Control,System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.GetNextControl(System.Windows.Forms.Control,System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.GetPreferredSize(System.Drawing.Size)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.GetPreferredSize(System.Drawing.Size)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Hide">
+			<summary>Removes the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see> and the controls from the task pane user interface, but leaves the task pane visible.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate(System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate(System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate(System.Drawing.Rectangle)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate(System.Drawing.Rectangle)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate(System.Drawing.Region)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate(System.Drawing.Region)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate(System.Drawing.Rectangle,System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate(System.Drawing.Rectangle,System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invalidate(System.Drawing.Region,System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invalidate(System.Drawing.Region,System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Invoke(System.Delegate)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Invoke(System.Delegate)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.PerformLayout">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.PerformLayout"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.PerformLayout(System.Windows.Forms.Control,System.String)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.PerformLayout(System.Windows.Forms.Control,System.String)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.PointToClient(System.Drawing.Point)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.PointToClient(System.Drawing.Point)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.PointToScreen(System.Drawing.Point)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.PointToScreen(System.Drawing.Point)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.PreProcessMessage(System.Windows.Forms.Message@)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.PreProcessMessage(System.Windows.Forms.Message@)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.RectangleToClient(System.Drawing.Rectangle)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.RectangleToClient(System.Drawing.Rectangle)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.RectangleToScreen(System.Drawing.Rectangle)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.RectangleToScreen(System.Drawing.Rectangle)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Refresh">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Refresh"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetBackColor">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetBackColor"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetBindings">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetBindings"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetCursor">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetCursor"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetFont">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetFont"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetForeColor">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetForeColor"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetImeMode">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetImeMode"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetRightToLeft">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetRightToLeft"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResetText">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResetText"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResumeLayout">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResumeLayout"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ResumeLayout(System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.ResumeLayout(System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.ScrollControlIntoView(System.Windows.Forms.Control)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.ScrollableControl.ScrollControlIntoView(System.Windows.Forms.Control)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Select">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Select"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SelectNextControl(System.Windows.Forms.Control,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.SelectNextControl(System.Windows.Forms.Control,System.Boolean,System.Boolean,System.Boolean,System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SendToBack">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.SendToBack"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SetAutoScrollMargin(System.Int32,System.Int32)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.ScrollableControl.SetAutoScrollMargin(System.Int32,System.Int32)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SetBounds(System.Int32,System.Int32,System.Int32,System.Int32)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.SetBounds(System.Int32,System.Int32,System.Int32,System.Int32)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SetBounds(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.SetBounds(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Show">
+			<summary>Displays the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see> on the task pane, including all controls that have been added to the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see>, but does not display the task pane if the task pane is not visible.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.SuspendLayout">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.SuspendLayout"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Update">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.Control.Update"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Validate">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.ContainerControl.Validate"></see> method.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.ActionsPane.Validate(System.Boolean)">
+			<summary>Provides the same functionality as the <see cref="M:System.Windows.Forms.ContainerControl.Validate(System.Boolean)"></see> method.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AccessibleRole">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.AccessibleRole"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ActiveControl">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ContainerControl.ActiveControl"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AllowDrop">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.AllowDrop"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Anchor">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Anchor"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoRecover">
+			<summary>Gets or sets a value that indicates whether the actions pane solution automatically re-attaches to the document when it is detached.</summary>
+			<returns>true if the actions pane solution automatically re-attaches to the document; otherwise, false. The default value is true.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoScroll">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.AutoScroll"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoScrollMargin">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.AutoScrollMargin"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoScrollMinSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.AutoScrollMinSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoScrollOffset">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.AutoScrollOffset"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoScrollPosition">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.AutoScrollPosition"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.AutoSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.AutoValidate">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ContainerControl.AutoValidate"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.BackColor">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.DefaultBackColor"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.BackgroundImage">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.BackgroundImage"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.BackgroundImageLayout">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.BackgroundImageLayout"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.BindingContext">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.BindingContext"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.BorderStyle">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.UserControl.BorderStyle"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Bottom">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Bottom"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Bounds">
+			<summary>Do not use. The actions pane cannot be resized programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.CanFocus">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.CanFocus"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.CanSelect">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.CanSelect"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Capture">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Capture"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.CausesValidation">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.CausesValidation"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ClientRectangle">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ClientRectangle"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ClientSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ClientSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.CompanyName">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.CompanyName"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ContainsFocus">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ContainsFocus"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ContextMenu">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ContextMenu"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ContextMenuStrip">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ContextMenuStrip"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Controls">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Controls"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Created">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Created"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Cursor">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Cursor"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.DataBindings">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.DataBindings"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.DisplayRectangle">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.DisplayRectangle"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Disposing">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Disposing"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Dock">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Dock"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.DockPadding">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.DockPadding"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Enabled">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Enabled"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Focused">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Focused"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Font">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Font"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ForeColor">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ForeColor"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Handle">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Handle"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.HasChildren">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.HasChildren"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Height">
+			<summary>Do not use. The actions pane cannot be resized programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.HorizontalScroll">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.HorizontalScroll"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ImeMode">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ImeMode"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.InvokeRequired">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.InvokeRequired"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.IsAccessible">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.IsAccessible"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.IsDisposed">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.IsDisposed"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.IsHandleCreated">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.IsHandleCreated"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.LayoutEngine">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.LayoutEngine"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Left">
+			<summary>Do not use. You cannot change the <see cref="P:Microsoft.Office.Tools.ActionsPane.Left"></see> property of the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see> programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Location">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Location"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Margin">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Margin"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.MaximumSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.MaximumSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.MinimumSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.MinimumSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Name">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Name"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Orientation">
+			<summary>Gets a value indicating whether the placement of the actions pane is vertical or horizontal.</summary>
+			<returns>A value indicating whether the placement of the actions pane is vertical or horizontal.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Padding">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Padding"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Parent">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Parent"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ParentForm">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ContainerControl.ParentForm"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.PreferredSize">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.PreferredSize"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ProductName">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ProductName"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.ProductVersion">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.ProductVersion"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.RecreatingHandle">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.RecreatingHandle"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Region">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Region"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Right">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Right"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.RightToLeft">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.RightToLeft"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Site">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Site"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Size">
+			<summary>Do not use. The actions pane cannot be resized programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.StackOrder">
+			<summary>Gets or sets a value that indicates the direction that the controls are stacked on the actions pane.</summary>
+			<returns>One of the <see cref="T:Microsoft.Office.Tools.StackStyle"></see> values.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.TabIndex">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.TabIndex"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.TabStop">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.TabStop"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Tag">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Tag"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Text">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.Text"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Top">
+			<summary>Do not use. You cannot change the <see cref="P:Microsoft.Office.Tools.ActionsPane.Top"></see> property of the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see> programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.TopLevelControl">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.TopLevelControl"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.UseWaitCursor">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.UseWaitCursor"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.VerticalScroll">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.ScrollableControl.VerticalScroll"></see> property.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Visible">
+			<summary>Gets or sets a value that indicates whether the <see cref="T:Microsoft.Office.Tools.ActionsPane"></see> is visible.</summary>
+			<returns>true if the actions pane is visible on the task pane; otherwise, false.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.Width">
+			<summary>Do not use. The actions pane cannot be resized programmatically.</summary>
+		</member>
+		<member name="P:Microsoft.Office.Tools.ActionsPane.WindowTarget">
+			<summary>Provides the same functionality as the <see cref="P:System.Windows.Forms.Control.WindowTarget"></see> property.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.CannotRemoveControlException">
+			<summary>The exception that is thrown when a control cannot be removed using the Remove method of the ControlCollection or the Delete method of the control.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.ControlNameAlreadyExistsException">
+			<summary>This exception is thrown when the name provided for the control already exists in the worksheet or document.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.InvalidRangeException">
+			<summary>The exception that is thrown when the range supplied is not valid for the document or worksheet.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.RangeNotOnWorksheetException">
+			<summary>The exception that is thrown when the range provided does not exist on the worksheet.</summary>
+		</member>
+		<member name="T:Microsoft.Office.Tools.RegexCollection">
+			<summary>Represents a collection of regular expressions to be recognized by a smart tag.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.Add(System.Text.RegularExpressions.Regex)">
+			<summary>Adds a regular expression to the end of the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</summary>
+			<returns>The index at which the value has been added.</returns>
+			<param name="value">The regular expression to be added to the end of the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.AddRange(System.Text.RegularExpressions.Regex[])">
+			<summary>Adds an array of regular expressions to the end of <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</summary>
+			<param name="value">The array of regular expressions to add to the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.Contains(System.Text.RegularExpressions.Regex)">
+			<summary>Determines whether the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see> contains a specific element. </summary>
+			<returns>true if the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see> contains the specified value; otherwise, false. </returns>
+			<param name="value">The regular expression to locate in the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.CopyTo(System.Text.RegularExpressions.Regex[],System.Int32)">
+			<summary>Copies the entire <see cref="T:Microsoft.Office.Tools.RegexCollection"></see> to a compatible one-dimensional array, starting at the specified index of the target array. </summary>
+			<param name="index">The zero-based index in array at which copying begins.</param>
+			<param name="array">The one-dimensional arrayms-help://MS.VSCC.v80/MS.MSDNQTR.v80.en/MS.MSDN.v80/MS.VisualStudio.v80.en/cpref/html/T_System_Array.htm that is the destination of the elements copied from <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>. The array must have zero-based indexing.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.IndexOf(System.Text.RegularExpressions.Regex)">
+			<summary>Searches for the specified regular expression and returns the zero-based index of the first occurrence within the entire <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</summary>
+			<returns>The zero-based index of the first occurrence of value within the entire <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>, if found; otherwise, -1. </returns>
+			<param name="value">The regular expression to locate in the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.Insert(System.Int32,System.Text.RegularExpressions.Regex)">
+			<summary>Inserts an element into the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see> at the specified index. </summary>
+			<param name="value">The regular expression to insert.</param>
+			<param name="index">The zero-based index at which value should be inserted.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.RegexCollection.Remove(System.Text.RegularExpressions.Regex)">
+			<summary>Removes the first occurrence of a specific regular expression from the <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</summary>
+			<param name="value">The regular expression to remove from <see cref="T:Microsoft.Office.Tools.RegexCollection"></see>.</param>
+		</member>
+		<member name="P:Microsoft.Office.Tools.RegexCollection.Item(System.Int32)">
+			<summary>Gets or sets the element at the specified index.</summary>
+			<returns>The element at the specified index.</returns>
+			<param name="index">The zero-based index of the element to get or set.</param>
+		</member>
+		<member name="T:Microsoft.Office.Tools.SmartTagBase">
+			<summary>Provides the base class for smart tags in Microsoft Visual Studio 2005 Tools for the Microsoft Office System solutions.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagBase.#ctor(System.String,System.String)">
+			<summary>Initializes a new instance of the <see cref="T:Microsoft.Office.Tools.SmartTagBase"></see> class.</summary>
+			<param name="caption">The name of the smart tag, which is displayed on the smart tag menu.</param>
+			<param name="smartTagType">A unique identifier for the smart tag, composed of a namespace URI and a tag type name separated by a number sign (#).</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagBase.Recognize(System.String,Microsoft.Office.Interop.SmartTag.ISmartTagRecognizerSite,Microsoft.Office.Interop.SmartTag.ISmartTagTokenList)">
+			<summary>Searches text for recognized terms.</summary>
+			<param name="tokenList">The text to search for recognized terms, broken down into a list of tokens.</param>
+			<param name="site">The location of the text in the workbook or document.</param>
+			<param name="text">The text to search for recognized terms.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagBase.Remove(System.Text.RegularExpressions.Regex)">
+			<summary>Removes a regular expression recognizer from the smart tag.</summary>
+			<param name="regex">A regular expression that is used to define the term to be searched for in the document.</param>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagBase.Actions">
+			<summary>Gets or sets an array of actions that are exposed by the smart tag.</summary>
+			<returns>An array of actions that are exposed by the smart tag.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagBase.Caption">
+			<summary>Gets the name of the smart tag.</summary>
+			<returns>The name of the smart tag.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagBase.Expressions">
+			<summary>Gets the collection of regular expressions that the smart tag will recognize.</summary>
+			<returns>Gets a <see cref="T:Microsoft.Office.Tools.RegexCollection"></see> that contains the regular expressions that the smart tag will recognize.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagBase.SmartTagType">
+			<summary>Gets a namespace that acts as a unique identifier for the smart tag.</summary>
+			<returns>A namespace that acts as a unique identifier for the smart tag.</returns>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagBase.Terms">
+			<summary>Gets the collection of string literals that the smart tag will recognize.</summary>
+			<returns>Gets a <see cref="T:System.Collections.Specialized.StringCollection"></see> that contains the string literals that the smart tag will recognize.</returns>
+		</member>
+		<member name="T:Microsoft.Office.Tools.SmartTagCollection">
+			<summary>Represents a collection of <see cref="T:Microsoft.Office.Tools.SmartTagBase"></see> objects.</summary>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.Add(Microsoft.Office.Tools.SmartTagBase)">
+			<summary>Adds a smart tag to the end of the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>.</summary>
+			<returns>The index of the new smart tag in the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>.</returns>
+			<param name="value">The smart tag instance to be added.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.AddRange(Microsoft.Office.Tools.SmartTagBase[])">
+			<summary>Adds an array of smart tags to the end of the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>.</summary>
+			<param name="smartTags">The array of smart tag instances to be added.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.Contains(Microsoft.Office.Tools.SmartTagBase)">
+			<summary>Determines whether the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see> contains a specific smart tag.</summary>
+			<returns>true if the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see> contains the specified smart tag; otherwise, false.</returns>
+			<param name="smartTag">The smart tag instance that you want to check for.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.CopyTo(Microsoft.Office.Tools.SmartTagBase[],System.Int32)">
+			<summary>Copies the smart tags in the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see> to a one-dimensional array of smart tags, starting at a specified index.</summary>
+			<param name="index">The index of the array at which to begin copying.</param>
+			<param name="array">The destination of the smart tags copied from the collection.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.IndexOf(Microsoft.Office.Tools.SmartTagBase)">
+			<summary>Determines the index of a specified smart tag in the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>.</summary>
+			<returns>The index of a specified smart tag in the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>. If the smart tag is not in the collection, returns -1.</returns>
+			<param name="value">The smart tag to locate in the collection.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.Insert(System.Int32,Microsoft.Office.Tools.SmartTagBase)">
+			<summary>Inserts a smart tag into the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see> at the specified index.</summary>
+			<param name="value">The smart tag to add to the collection.</param>
+			<param name="index">The zero-based index at which the smart tag should be inserted.</param>
+		</member>
+		<member name="M:Microsoft.Office.Tools.SmartTagCollection.Remove(Microsoft.Office.Tools.SmartTagBase)">
+			<summary>Removes a smart tag from the <see cref="T:Microsoft.Office.Tools.SmartTagCollection"></see>.</summary>
+			<param name="value">The smart tag to be removed.</param>
+		</member>
+		<member name="P:Microsoft.Office.Tools.SmartTagCollection.Item(System.Int32)">
+			<summary>Gets the smart tag at the specified index.</summary>
+			<param name="index">The zero-based index of the smart tag to get.</param>
+		</member>
+		<member name="T:Microsoft.Office.Tools.StackStyle">
+			<summary>Specifies the direction that controls will be stacked on an actions pane. </summary>
+		</member>
+		<member name="F:Microsoft.Office.Tools.StackStyle.FromBottom">
+			<summary>Stack from the bottom of the actions pane.</summary>
+		</member>
+		<member name="F:Microsoft.Office.Tools.StackStyle.FromLeft">
+			<summary>Stack from the left of the actions pane.</summary>
+		</member>
+		<member name="F:Microsoft.Office.Tools.StackStyle.FromRight">
+			<summary>Stack from the right of the actions pane.</summary>
+		</member>
+		<member name="F:Microsoft.Office.Tools.StackStyle.FromTop">
+			<summary>Stack from the top of the actions pane.</summary>
+		</member>
+		<member name="F:Microsoft.Office.Tools.StackStyle.None">
+			<summary>No stacking order defined; order is controlled by the developer.</summary>
+		</member>
+	</members>
+</doc>
