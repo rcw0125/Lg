@@ -233,7 +233,7 @@
             this.dsInstall.L3DataAdapter = this.Adapter;
             this.dsInstall.LoadEvent = "Click";
             this.dsInstall.LoadTrigger = null;
-            this.dsInstall.RefreshValve = 1000;
+            this.dsInstall.RefreshValve = 60000;
             this.dsInstall.SourceCommand = this.cmdInstall;
             this.dsInstall.SourceCondition = null;
             this.dsInstall.SourceMethod = "GetBoardInstallInfo";
@@ -672,7 +672,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = null;
             this.dsShiftID.SourceMethod = null;
@@ -693,7 +693,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = null;
             this.dsTeamID.SourceMethod = null;
@@ -1408,7 +1408,7 @@
             this.dsMoldID.L3DataAdapter = this.Adapter;
             this.dsMoldID.LoadEvent = "Click";
             this.dsMoldID.LoadTrigger = null;
-            this.dsMoldID.RefreshValve = 1000;
+            this.dsMoldID.RefreshValve = 60000;
             this.dsMoldID.SourceCommand = null;
             this.dsMoldID.SourceCondition = "MoldID Like \'J12%\'";
             this.dsMoldID.SourceMethod = "";
@@ -1443,7 +1443,7 @@
             this.dsCopperFac.L3DataAdapter = this.Adapter;
             this.dsCopperFac.LoadEvent = "Click";
             this.dsCopperFac.LoadTrigger = null;
-            this.dsCopperFac.RefreshValve = 1000;
+            this.dsCopperFac.RefreshValve = 60000;
             this.dsCopperFac.SourceCommand = null;
             this.dsCopperFac.SourceCondition = "MATGROUP_CODE = \'MoldFac\' and MATNAME = \'铜板\'";
             this.dsCopperFac.SourceMethod = "";

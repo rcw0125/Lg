@@ -124,7 +124,7 @@
             this.dsSampleApply.L3DataAdapter = null;
             this.dsSampleApply.LoadEvent = "Click";
             this.dsSampleApply.LoadTrigger = null;
-            this.dsSampleApply.RefreshValve = 1000;
+            this.dsSampleApply.RefreshValve = 60000;
             this.dsSampleApply.SourceCommand = null;
             this.dsSampleApply.SourceCondition = "";
             this.dsSampleApply.SourceMethod = "";
@@ -585,7 +585,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "1=2";
             this.dsSampleType.SourceMethod = "";
@@ -637,7 +637,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = this.cmdHeatID;
             this.dsHeatID.SourceCondition = null;
             this.dsHeatID.SourceMethod = "GetHeatIDByAddr";
@@ -696,7 +696,7 @@
             this.dsIronLadleID.L3DataAdapter = this.Adapter;
             this.dsIronLadleID.LoadEvent = "Click";
             this.dsIronLadleID.LoadTrigger = null;
-            this.dsIronLadleID.RefreshValve = 1000;
+            this.dsIronLadleID.RefreshValve = 60000;
             this.dsIronLadleID.SourceCommand = null;
             this.dsIronLadleID.SourceCondition = null;
             this.dsIronLadleID.SourceMethod = "";
@@ -731,7 +731,7 @@
             this.dsAddress.L3DataAdapter = null;
             this.dsAddress.LoadEvent = "Click";
             this.dsAddress.LoadTrigger = null;
-            this.dsAddress.RefreshValve = 1000;
+            this.dsAddress.RefreshValve = 60000;
             this.dsAddress.SourceCommand = null;
             this.dsAddress.SourceCondition = null;
             this.dsAddress.SourceMethod = null;

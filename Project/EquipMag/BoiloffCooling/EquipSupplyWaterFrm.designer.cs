@@ -214,7 +214,7 @@
             this.dsSupplyWater.L3DataAdapter = null;
             this.dsSupplyWater.LoadEvent = "";
             this.dsSupplyWater.LoadTrigger = null;
-            this.dsSupplyWater.RefreshValve = 1000;
+            this.dsSupplyWater.RefreshValve = 60000;
             this.dsSupplyWater.SourceCommand = null;
             this.dsSupplyWater.SourceCondition = "";
             this.dsSupplyWater.SourceMethod = "";
@@ -544,7 +544,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "CODE_GROUP_DES = \'班次\'";
             this.dsShift.SourceMethod = "";
@@ -613,7 +613,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP_DES = \'班别\'";
             this.dsTeam.SourceMethod = "";

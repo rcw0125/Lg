@@ -182,7 +182,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = null;
             this.dsMain.SourceMethod = "GetIronsForDefineDest";
@@ -579,7 +579,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -622,7 +622,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -665,7 +665,7 @@
             this.dsState.L3DataAdapter = this.Adapter;
             this.dsState.LoadEvent = "Click";
             this.dsState.LoadTrigger = null;
-            this.dsState.RefreshValve = 1000;
+            this.dsState.RefreshValve = 60000;
             this.dsState.SourceCommand = null;
             this.dsState.SourceCondition = null;
             this.dsState.SourceMethod = null;
@@ -803,7 +803,7 @@
             this.dsIronSource.L3DataAdapter = this.Adapter;
             this.dsIronSource.LoadEvent = "Click";
             this.dsIronSource.LoadTrigger = null;
-            this.dsIronSource.RefreshValve = 1000;
+            this.dsIronSource.RefreshValve = 60000;
             this.dsIronSource.SourceCommand = null;
             this.dsIronSource.SourceCondition = "CODE_GROUP = \'Iron_Source\'";
             this.dsIronSource.SourceMethod = "";
@@ -860,7 +860,7 @@
             this.dsIronDestination.L3DataAdapter = this.Adapter;
             this.dsIronDestination.LoadEvent = "Click";
             this.dsIronDestination.LoadTrigger = null;
-            this.dsIronDestination.RefreshValve = 1000;
+            this.dsIronDestination.RefreshValve = 60000;
             this.dsIronDestination.SourceCommand = null;
             this.dsIronDestination.SourceCondition = "CODE_GROUP = \'Iron_Destination\'";
             this.dsIronDestination.SourceMethod = "";
@@ -948,7 +948,7 @@
             this.dsSendFlag.L3DataAdapter = this.Adapter;
             this.dsSendFlag.LoadEvent = "Click";
             this.dsSendFlag.LoadTrigger = null;
-            this.dsSendFlag.RefreshValve = 1000;
+            this.dsSendFlag.RefreshValve = 60000;
             this.dsSendFlag.SourceCommand = null;
             this.dsSendFlag.SourceCondition = "CODE_GROUP = \'SendFlag\'";
             this.dsSendFlag.SourceMethod = "";
@@ -1019,7 +1019,7 @@
             this.dsIronResult.L3DataAdapter = this.Adapter;
             this.dsIronResult.LoadEvent = "Click";
             this.dsIronResult.LoadTrigger = null;
-            this.dsIronResult.RefreshValve = 1000;
+            this.dsIronResult.RefreshValve = 60000;
             this.dsIronResult.SourceCommand = null;
             this.dsIronResult.SourceCondition = "CODE_GROUP = \'Iron_Result\'";
             this.dsIronResult.SourceMethod = "";
@@ -1076,7 +1076,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "Code_Group = \'QA_Sample_Addr\'";
             this.dsSampleAddr.SourceMethod = "";
@@ -1220,7 +1220,7 @@
             this.dsIronStatus.L3DataAdapter = this.Adapter;
             this.dsIronStatus.LoadEvent = "Click";
             this.dsIronStatus.LoadTrigger = null;
-            this.dsIronStatus.RefreshValve = 1000;
+            this.dsIronStatus.RefreshValve = 60000;
             this.dsIronStatus.SourceCommand = null;
             this.dsIronStatus.SourceCondition = "CODE_GROUP = \'Iron_Status\'";
             this.dsIronStatus.SourceMethod = "";

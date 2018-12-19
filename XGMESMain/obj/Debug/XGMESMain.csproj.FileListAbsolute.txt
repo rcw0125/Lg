@@ -1,0 +1,13 @@
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.csprojAssemblyReference.cache
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.csproj.ResolveComReference.cache
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.frmMain.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.frmAbout.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.frmConfigConnection.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.frmLogin.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.frmTipTeamIDChanged.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.PassWordMagFrm.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.Properties.Resources.resources
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.csproj.GenerateResource.cache
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.csproj.CoreCompileInputs.cache
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.exe
+E:\Github\Lg\XGMESMain\obj\Debug\XGMESMain.pdb

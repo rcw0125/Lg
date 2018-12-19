@@ -376,7 +376,7 @@
             this.dsSend.L3DataAdapter = null;
             this.dsSend.LoadEvent = "";
             this.dsSend.LoadTrigger = null;
-            this.dsSend.RefreshValve = 1000;
+            this.dsSend.RefreshValve = 60000;
             this.dsSend.SourceCommand = null;
             this.dsSend.SourceCondition = "";
             this.dsSend.SourceMethod = "";

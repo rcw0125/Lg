@@ -243,7 +243,7 @@
             this.OutType.L3DataAdapter = this.Adapter;
             this.OutType.LoadEvent = "";
             this.OutType.LoadTrigger = null;
-            this.OutType.RefreshValve = 1000;
+            this.OutType.RefreshValve = 60000;
             this.OutType.SourceCommand = null;
             this.OutType.SourceCondition = "code_group = \'OutStoreType\'";
             this.OutType.SourceMethod = "";
@@ -303,7 +303,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\'";
             this.dsBulkArea.SourceMethod = "";
@@ -366,7 +366,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\'";
             this.dsBulkCode.SourceMethod = "";
@@ -428,7 +428,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -483,7 +483,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -553,7 +553,7 @@
             this.dsOutStore.L3DataAdapter = this.Adapter;
             this.dsOutStore.LoadEvent = "Click";
             this.dsOutStore.LoadTrigger = null;
-            this.dsOutStore.RefreshValve = 1000;
+            this.dsOutStore.RefreshValve = 60000;
             this.dsOutStore.SourceCommand = null;
             this.dsOutStore.SourceCondition = "1=2";
             this.dsOutStore.SourceMethod = "";

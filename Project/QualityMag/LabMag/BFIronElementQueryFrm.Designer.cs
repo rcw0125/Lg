@@ -286,7 +286,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "CODE_GROUP = \'QA_Sample_Addr\' and CODE_FUNCTION_GROUP = \'G\' ORDER BY CODE_VAL_LON" +
                 "G";
@@ -347,7 +347,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "CODE_GROUP = \'QA_Sample_Type\' and code <> \'ZG\'  and  CODE_FUNCTION_GROUP = \'G\' OR" +
                 "DER BY CODE_VAL_LONG";
@@ -705,7 +705,7 @@
             this.dsIronElement.L3DataAdapter = this.Adapter;
             this.dsIronElement.LoadEvent = "Click";
             this.dsIronElement.LoadTrigger = null;
-            this.dsIronElement.RefreshValve = 1000;
+            this.dsIronElement.RefreshValve = 60000;
             this.dsIronElement.SourceCommand = null;
             this.dsIronElement.SourceCondition = "1=2";
             this.dsIronElement.SourceMethod = "";

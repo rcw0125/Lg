@@ -164,7 +164,7 @@
             this.dsProbeVendor.L3DataAdapter = this.Adapter;
             this.dsProbeVendor.LoadEvent = "Click";
             this.dsProbeVendor.LoadTrigger = null;
-            this.dsProbeVendor.RefreshValve = 1000;
+            this.dsProbeVendor.RefreshValve = 60000;
             this.dsProbeVendor.SourceCommand = null;
             this.dsProbeVendor.SourceCondition = "code_group = \'Probe_Vonder\' order by code";
             this.dsProbeVendor.SourceMethod = "";
@@ -205,7 +205,7 @@
             this.dsRHUnit.L3DataAdapter = this.Adapter;
             this.dsRHUnit.LoadEvent = "";
             this.dsRHUnit.LoadTrigger = null;
-            this.dsRHUnit.RefreshValve = 1000;
+            this.dsRHUnit.RefreshValve = 60000;
             this.dsRHUnit.SourceCommand = null;
             this.dsRHUnit.SourceCondition = "";
             this.dsRHUnit.SourceMethod = "";

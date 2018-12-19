@@ -182,7 +182,7 @@
             this.dsHeatData.L3DataAdapter = null;
             this.dsHeatData.LoadEvent = "Click";
             this.dsHeatData.LoadTrigger = null;
-            this.dsHeatData.RefreshValve = 1000;
+            this.dsHeatData.RefreshValve = 60000;
             this.dsHeatData.SourceCommand = null;
             this.dsHeatData.SourceCondition = "";
             this.dsHeatData.SourceMethod = "";
@@ -972,7 +972,7 @@
             this.dsReason.L3DataAdapter = this.Adapter;
             this.dsReason.LoadEvent = "Click";
             this.dsReason.LoadTrigger = null;
-            this.dsReason.RefreshValve = 1000;
+            this.dsReason.RefreshValve = 60000;
             this.dsReason.SourceCommand = null;
             this.dsReason.SourceCondition = "Code_Group = \'OFFLINE_REASON_CODE\' and Code is not null";
             this.dsReason.SourceMethod = "";
@@ -1033,7 +1033,7 @@
             this.dsPath.L3DataAdapter = this.Adapter;
             this.dsPath.LoadEvent = "Click";
             this.dsPath.LoadTrigger = null;
-            this.dsPath.RefreshValve = 1000;
+            this.dsPath.RefreshValve = 60000;
             this.dsPath.SourceCommand = null;
             this.dsPath.SourceCondition = "Code_Group = \'DESTINATION\' order by Code";
             this.dsPath.SourceMethod = "";
@@ -1281,7 +1281,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'BloomHotSend\'";
             this.dsError.SourceMethod = "";

@@ -125,7 +125,7 @@
             this.dsSteelGradeStd.L3DataAdapter = this.Adapter;
             this.dsSteelGradeStd.LoadEvent = "Click";
             this.dsSteelGradeStd.LoadTrigger = null;
-            this.dsSteelGradeStd.RefreshValve = 1000;
+            this.dsSteelGradeStd.RefreshValve = 60000;
             this.dsSteelGradeStd.SourceCommand = null;
             this.dsSteelGradeStd.SourceCondition = null;
             this.dsSteelGradeStd.SourceMethod = "";

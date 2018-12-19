@@ -311,7 +311,7 @@
             this.dsMaterialID.L3DataAdapter = this.Adapter;
             this.dsMaterialID.LoadEvent = "";
             this.dsMaterialID.LoadTrigger = null;
-            this.dsMaterialID.RefreshValve = 1000;
+            this.dsMaterialID.RefreshValve = 60000;
             this.dsMaterialID.SourceCommand = null;
             this.dsMaterialID.SourceCondition = " SUBSTR (material_code, 1, 1) = \'1\'  OR SUBSTR (material_code, 1, 1) = \'5\'  OR SU" +
                 "BSTR (material_code, 1, 1) = \'6\'";
@@ -375,7 +375,7 @@
             this.dsWorkCenter.L3DataAdapter = this.Adapter;
             this.dsWorkCenter.LoadEvent = "";
             this.dsWorkCenter.LoadTrigger = null;
-            this.dsWorkCenter.RefreshValve = 1000;
+            this.dsWorkCenter.RefreshValve = 60000;
             this.dsWorkCenter.SourceCommand = null;
             this.dsWorkCenter.SourceCondition = "";
             this.dsWorkCenter.SourceMethod = "";
@@ -614,7 +614,7 @@
             this.dsMaterial.L3DataAdapter = null;
             this.dsMaterial.LoadEvent = "";
             this.dsMaterial.LoadTrigger = null;
-            this.dsMaterial.RefreshValve = 1000;
+            this.dsMaterial.RefreshValve = 60000;
             this.dsMaterial.SourceCommand = null;
             this.dsMaterial.SourceCondition = "";
             this.dsMaterial.SourceMethod = "";
@@ -941,7 +941,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -1143,7 +1143,7 @@
             this.dsLog.L3DataAdapter = null;
             this.dsLog.LoadEvent = "";
             this.dsLog.LoadTrigger = null;
-            this.dsLog.RefreshValve = 1000;
+            this.dsLog.RefreshValve = 60000;
             this.dsLog.SourceCommand = null;
             this.dsLog.SourceCondition = "";
             this.dsLog.SourceMethod = "";

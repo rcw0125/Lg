@@ -366,7 +366,7 @@
             this.dsLance.L3DataAdapter = this.Adapter;
             this.dsLance.LoadEvent = "";
             this.dsLance.LoadTrigger = null;
-            this.dsLance.RefreshValve = 1000;
+            this.dsLance.RefreshValve = 60000;
             this.dsLance.SourceCommand = null;
             this.dsLance.SourceCondition = "1=2";
             this.dsLance.SourceMethod = "";

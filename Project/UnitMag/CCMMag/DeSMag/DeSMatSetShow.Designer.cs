@@ -135,7 +135,7 @@
             this.dsMatSet1.L3DataAdapter = this.Adapter;
             this.dsMatSet1.LoadEvent = "";
             this.dsMatSet1.LoadTrigger = null;
-            this.dsMatSet1.RefreshValve = 1000;
+            this.dsMatSet1.RefreshValve = 60000;
             this.dsMatSet1.SourceCommand = null;
             this.dsMatSet1.SourceCondition = "name = \'S02\'";
             this.dsMatSet1.SourceMethod = "";
@@ -195,7 +195,7 @@
             this.dsMatVendor.L3DataAdapter = this.Adapter;
             this.dsMatVendor.LoadEvent = "";
             this.dsMatVendor.LoadTrigger = null;
-            this.dsMatVendor.RefreshValve = 1000;
+            this.dsMatVendor.RefreshValve = 60000;
             this.dsMatVendor.SourceCommand = null;
             this.dsMatVendor.SourceCondition = "code_group = \'DeS_Mat_Vendor\'";
             this.dsMatVendor.SourceMethod = "";
@@ -250,7 +250,7 @@
             this.dsMatCode.L3DataAdapter = this.Adapter;
             this.dsMatCode.LoadEvent = "";
             this.dsMatCode.LoadTrigger = null;
-            this.dsMatCode.RefreshValve = 1000;
+            this.dsMatCode.RefreshValve = 60000;
             this.dsMatCode.SourceCommand = null;
             this.dsMatCode.SourceCondition = "code_group = \'DeS_Mat_Code\'";
             this.dsMatCode.SourceMethod = "";
@@ -469,7 +469,7 @@
             this.dsMatSet2.L3DataAdapter = this.Adapter;
             this.dsMatSet2.LoadEvent = "";
             this.dsMatSet2.LoadTrigger = null;
-            this.dsMatSet2.RefreshValve = 1000;
+            this.dsMatSet2.RefreshValve = 60000;
             this.dsMatSet2.SourceCommand = null;
             this.dsMatSet2.SourceCondition = "name = \'S03\'";
             this.dsMatSet2.SourceMethod = "";

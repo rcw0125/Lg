@@ -135,7 +135,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "1=2";
             this.dsBase.SourceMethod = "";
@@ -761,7 +761,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "CODE_GROUP = \'RH\' order by code";
             this.dsHeatID.SourceMethod = "";

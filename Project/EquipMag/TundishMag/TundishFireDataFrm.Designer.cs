@@ -151,7 +151,7 @@
             this.dsM.L3DataAdapter = this.Adapter;
             this.dsM.LoadEvent = "";
             this.dsM.LoadTrigger = null;
-            this.dsM.RefreshValve = 1000;
+            this.dsM.RefreshValve = 60000;
             this.dsM.SourceCommand = null;
             this.dsM.SourceCondition = "1=2";
             this.dsM.SourceMethod = "";
@@ -463,7 +463,7 @@
             this.dsFireType.L3DataAdapter = this.Adapter;
             this.dsFireType.LoadEvent = "";
             this.dsFireType.LoadTrigger = null;
-            this.dsFireType.RefreshValve = 1000;
+            this.dsFireType.RefreshValve = 60000;
             this.dsFireType.SourceCommand = null;
             this.dsFireType.SourceCondition = "Code_Group = \'Tundish_HotFire_Type\'";
             this.dsFireType.SourceMethod = "";
@@ -511,7 +511,7 @@
             this.dsCCMID.L3DataAdapter = this.Adapter;
             this.dsCCMID.LoadEvent = "";
             this.dsCCMID.LoadTrigger = null;
-            this.dsCCMID.RefreshValve = 1000;
+            this.dsCCMID.RefreshValve = 60000;
             this.dsCCMID.SourceCommand = null;
             this.dsCCMID.SourceCondition = "Code_Group = \'Caster\' order by Code";
             this.dsCCMID.SourceMethod = "";
@@ -552,7 +552,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "TundishID is not null order by TundishID";
             this.dsTundishID.SourceMethod = "";

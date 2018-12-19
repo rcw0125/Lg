@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCTelDataMag", "Project\NCT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spc", "Project\spc\spc.csproj", "{F2C85AE0-4124-4653-9A5F-EDD002B80F15}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XGMESSetup", "XGMESSetup\XGMESSetup.vdproj", "{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -156,12 +158,18 @@ Global
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F2C85AE0-4124-4653-9A5F-EDD002B80F15}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Debug|.NET.ActiveCfg = Debug
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Debug|Any CPU.ActiveCfg = Debug
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Release|.NET.ActiveCfg = Release
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Release|Any CPU.ActiveCfg = Release
+		{09FC99F5-BF0D-4E00-9E72-6112D25EF33F}.Release|Mixed Platforms.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {317CF67C-CC08-4760-AEE1-9FC12FA7F41A}
 		SDKPath = C:\Program Files\L3\L3SDK\
+		SolutionGuid = {317CF67C-CC08-4760-AEE1-9FC12FA7F41A}
 	EndGlobalSection
 EndGlobal

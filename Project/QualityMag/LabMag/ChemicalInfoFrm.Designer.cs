@@ -234,7 +234,7 @@
             this.dsChemical.L3DataAdapter = this.Adapter;
             this.dsChemical.LoadEvent = "Click";
             this.dsChemical.LoadTrigger = null;
-            this.dsChemical.RefreshValve = 1000;
+            this.dsChemical.RefreshValve = 60000;
             this.dsChemical.SourceCommand = null;
             this.dsChemical.SourceCondition = "";
             this.dsChemical.SourceMethod = "";
@@ -839,7 +839,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "Code_Group =  \'QA_Sample_Type\'";
             this.dsSampleType.SourceMethod = "";
@@ -900,7 +900,7 @@
             this.dsAddr.L3DataAdapter = this.Adapter;
             this.dsAddr.LoadEvent = "Click";
             this.dsAddr.LoadTrigger = null;
-            this.dsAddr.RefreshValve = 1000;
+            this.dsAddr.RefreshValve = 60000;
             this.dsAddr.SourceCommand = null;
             this.dsAddr.SourceCondition = "code_group = \'QA_Sample_Addr\' and substr(Code,1,1) <> \'H\' order by Code_Val_Long";
             this.dsAddr.SourceMethod = "";

@@ -194,7 +194,7 @@
             this.dsQuery.L3DataAdapter = this.Adapter;
             this.dsQuery.LoadEvent = "Click";
             this.dsQuery.LoadTrigger = null;
-            this.dsQuery.RefreshValve = 1000;
+            this.dsQuery.RefreshValve = 60000;
             this.dsQuery.SourceCommand = null;
             this.dsQuery.SourceCondition = "";
             this.dsQuery.SourceMethod = "PlanOrdIntegrate";
@@ -535,7 +535,7 @@
             this.dsPlanOrdRec.L3DataAdapter = this.Adapter;
             this.dsPlanOrdRec.LoadEvent = "Click";
             this.dsPlanOrdRec.LoadTrigger = null;
-            this.dsPlanOrdRec.RefreshValve = 1000;
+            this.dsPlanOrdRec.RefreshValve = 60000;
             this.dsPlanOrdRec.SourceCommand = null;
             this.dsPlanOrdRec.SourceCondition = null;
             this.dsPlanOrdRec.SourceMethod = "GetUnConfirmPlanOrder";
@@ -999,7 +999,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'PLAN_ORDER_STATUS\'";
             this.dsStatus.SourceMethod = "";

@@ -317,7 +317,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -688,7 +688,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -749,7 +749,7 @@
             this.dsLadleFireType.L3DataAdapter = this.Adapter;
             this.dsLadleFireType.LoadEvent = "Click";
             this.dsLadleFireType.LoadTrigger = null;
-            this.dsLadleFireType.RefreshValve = 1000;
+            this.dsLadleFireType.RefreshValve = 60000;
             this.dsLadleFireType.SourceCommand = null;
             this.dsLadleFireType.SourceCondition = "CODE_GROUP = \'LadleFireType\' order by CODE";
             this.dsLadleFireType.SourceMethod = "";
@@ -819,7 +819,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -918,7 +918,7 @@
             this.dsLadleFireEqu.L3DataAdapter = this.Adapter;
             this.dsLadleFireEqu.LoadEvent = "Click";
             this.dsLadleFireEqu.LoadTrigger = null;
-            this.dsLadleFireEqu.RefreshValve = 1000;
+            this.dsLadleFireEqu.RefreshValve = 60000;
             this.dsLadleFireEqu.SourceCommand = null;
             this.dsLadleFireEqu.SourceCondition = "CODE_GROUP = \'LadleFireEqu\' order by CODE_Val_Str";
             this.dsLadleFireEqu.SourceMethod = "";
@@ -1326,7 +1326,7 @@
             this.dsLadleID.L3DataAdapter = this.Adapter;
             this.dsLadleID.LoadEvent = "Click";
             this.dsLadleID.LoadTrigger = null;
-            this.dsLadleID.RefreshValve = 1000;
+            this.dsLadleID.RefreshValve = 60000;
             this.dsLadleID.SourceCommand = null;
             this.dsLadleID.SourceCondition = "";
             this.dsLadleID.SourceMethod = "";

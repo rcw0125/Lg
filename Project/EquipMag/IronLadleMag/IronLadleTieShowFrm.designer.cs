@@ -143,7 +143,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -530,7 +530,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -593,7 +593,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -749,7 +749,7 @@
             this.dsRefraID.L3DataAdapter = this.Adapter;
             this.dsRefraID.LoadEvent = "";
             this.dsRefraID.LoadTrigger = null;
-            this.dsRefraID.RefreshValve = 1000;
+            this.dsRefraID.RefreshValve = 60000;
             this.dsRefraID.SourceCommand = null;
             this.dsRefraID.SourceCondition = "Code_Group = \'IronLadle_Refra_Name\' order by Code_Des";
             this.dsRefraID.SourceMethod = "";
@@ -805,7 +805,7 @@
             this.dsIronLadleID.L3DataAdapter = this.Adapter;
             this.dsIronLadleID.LoadEvent = "Click";
             this.dsIronLadleID.LoadTrigger = null;
-            this.dsIronLadleID.RefreshValve = 1000;
+            this.dsIronLadleID.RefreshValve = 60000;
             this.dsIronLadleID.SourceCommand = null;
             this.dsIronLadleID.SourceCondition = null;
             this.dsIronLadleID.SourceMethod = "";
@@ -860,7 +860,7 @@
             this.dsRefraProduce.L3DataAdapter = this.Adapter;
             this.dsRefraProduce.LoadEvent = "";
             this.dsRefraProduce.LoadTrigger = null;
-            this.dsRefraProduce.RefreshValve = 1000;
+            this.dsRefraProduce.RefreshValve = 60000;
             this.dsRefraProduce.SourceCommand = null;
             this.dsRefraProduce.SourceCondition = "Code_Group = \'IronLadle_Refra_Fac\' order by Code_Des";
             this.dsRefraProduce.SourceMethod = "";

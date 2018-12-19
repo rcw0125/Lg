@@ -10,8 +10,8 @@ namespace XGMESMain
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
-        [DllImport("AutoUPDT.DLL")]
-        public static extern bool DoUpdate();
+        //[DllImport("AutoUPDT.DLL")]
+        //public static extern bool DoUpdate();
         [STAThread]
 
         static void Main()
@@ -19,7 +19,8 @@ namespace XGMESMain
            // DoUpdate();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            SingleApplication.Run(new frmMain());
+            //Application.Run(new frmMain());
         }
     }
 }

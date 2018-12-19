@@ -154,7 +154,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "1=2";
             this.dsBase.SourceMethod = "";
@@ -793,7 +793,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "Click";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "Code_Group = \'ShiftID\'";
             this.dsShift.SourceMethod = "";
@@ -856,7 +856,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "Code_Group = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -930,7 +930,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "CODE_GROUP = \'Caster\' order by code";
             this.dsHeatID.SourceMethod = "";

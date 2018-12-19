@@ -861,7 +861,7 @@
             this.dsChemicalStd.L3DataAdapter = null;
             this.dsChemicalStd.LoadEvent = "Click";
             this.dsChemicalStd.LoadTrigger = null;
-            this.dsChemicalStd.RefreshValve = 1000;
+            this.dsChemicalStd.RefreshValve = 60000;
             this.dsChemicalStd.SourceCommand = this.cmdChemicalStd;
             this.dsChemicalStd.SourceCondition = null;
             this.dsChemicalStd.SourceMethod = "GetBloomStdEle";
@@ -1830,7 +1830,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = this.cmdHeatID;
             this.dsHeatID.SourceCondition = null;
             this.dsHeatID.SourceMethod = "GetFinJudgeHeat";
@@ -1975,7 +1975,7 @@
             this.dsHeatExcept.L3DataAdapter = this.Adapter;
             this.dsHeatExcept.LoadEvent = "Click";
             this.dsHeatExcept.LoadTrigger = null;
-            this.dsHeatExcept.RefreshValve = 1000;
+            this.dsHeatExcept.RefreshValve = 60000;
             this.dsHeatExcept.SourceCommand = null;
             this.dsHeatExcept.SourceCondition = "1=2";
             this.dsHeatExcept.SourceMethod = "";
@@ -2095,7 +2095,7 @@
             this.dsHeatGrade.L3DataAdapter = null;
             this.dsHeatGrade.LoadEvent = "Click";
             this.dsHeatGrade.LoadTrigger = null;
-            this.dsHeatGrade.RefreshValve = 1000;
+            this.dsHeatGrade.RefreshValve = 60000;
             this.dsHeatGrade.SourceCommand = null;
             this.dsHeatGrade.SourceCondition = null;
             this.dsHeatGrade.SourceMethod = "";
@@ -2209,7 +2209,7 @@
             this.dsRefineThirdEle.L3DataAdapter = null;
             this.dsRefineThirdEle.LoadEvent = "Click";
             this.dsRefineThirdEle.LoadTrigger = null;
-            this.dsRefineThirdEle.RefreshValve = 1000;
+            this.dsRefineThirdEle.RefreshValve = 60000;
             this.dsRefineThirdEle.SourceCommand = this.cmdRefineThirdEle;
             this.dsRefineThirdEle.SourceCondition = null;
             this.dsRefineThirdEle.SourceMethod = "GetRefineThirdEle";
@@ -2632,7 +2632,7 @@
             this.dsFinalChemical.L3DataAdapter = null;
             this.dsFinalChemical.LoadEvent = "Click";
             this.dsFinalChemical.LoadTrigger = null;
-            this.dsFinalChemical.RefreshValve = 1000;
+            this.dsFinalChemical.RefreshValve = 60000;
             this.dsFinalChemical.SourceCommand = this.cmdFinalChemical;
             this.dsFinalChemical.SourceCondition = null;
             this.dsFinalChemical.SourceMethod = "GetBloomTerminalEle";
@@ -3050,7 +3050,7 @@
             this.dsSurfaceJudge.L3DataAdapter = null;
             this.dsSurfaceJudge.LoadEvent = "Click";
             this.dsSurfaceJudge.LoadTrigger = null;
-            this.dsSurfaceJudge.RefreshValve = 1000;
+            this.dsSurfaceJudge.RefreshValve = 60000;
             this.dsSurfaceJudge.SourceCommand = this.cmdSurfaceJudge;
             this.dsSurfaceJudge.SourceCondition = null;
             this.dsSurfaceJudge.SourceMethod = "GetSurfaceJudgeInfor";
@@ -3410,7 +3410,7 @@
             this.dsFinalJudge.L3DataAdapter = null;
             this.dsFinalJudge.LoadEvent = "Click";
             this.dsFinalJudge.LoadTrigger = null;
-            this.dsFinalJudge.RefreshValve = 1000;
+            this.dsFinalJudge.RefreshValve = 60000;
             this.dsFinalJudge.SourceCommand = this.cmdFinalJudge;
             this.dsFinalJudge.SourceCondition = null;
             this.dsFinalJudge.SourceMethod = "GetFinJudgeInfor";
@@ -3880,7 +3880,7 @@
             this.dsCCM.L3DataAdapter = this.Adapter;
             this.dsCCM.LoadEvent = "Click";
             this.dsCCM.LoadTrigger = null;
-            this.dsCCM.RefreshValve = 1000;
+            this.dsCCM.RefreshValve = 60000;
             this.dsCCM.SourceCommand = null;
             this.dsCCM.SourceCondition = " CODE_GROUP=\'Caster\' order by code";
             this.dsCCM.SourceMethod = "";
@@ -4216,7 +4216,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "CODE_GROUP = \'QA_Sample_Type\'";
             this.dsSampleType.SourceMethod = "";
@@ -4544,7 +4544,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "CODE_GROUP = \'QA_Sample_Addr\'";
             this.dsSampleAddr.SourceMethod = "";
@@ -4624,7 +4624,7 @@
             this.dsUnitType.L3DataAdapter = this.Adapter;
             this.dsUnitType.LoadEvent = "Click";
             this.dsUnitType.LoadTrigger = null;
-            this.dsUnitType.RefreshValve = 1000;
+            this.dsUnitType.RefreshValve = 60000;
             this.dsUnitType.SourceCommand = null;
             this.dsUnitType.SourceCondition = "CODE_GROUP = \'UnitType\'";
             this.dsUnitType.SourceMethod = "";
@@ -5328,7 +5328,7 @@
             this.dsExcept.L3DataAdapter = this.Adapter;
             this.dsExcept.LoadEvent = "Click";
             this.dsExcept.LoadTrigger = null;
-            this.dsExcept.RefreshValve = 1000;
+            this.dsExcept.RefreshValve = 60000;
             this.dsExcept.SourceCommand = null;
             this.dsExcept.SourceCondition = "EXCEPTIONAL_CODE is not null order by EXCEPTIONAL_CODE";
             this.dsExcept.SourceMethod = "";
@@ -5401,7 +5401,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = this.Adapter;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = this.cmdSteelGradeIndex;
             this.dsSteelGradeIndex.SourceCondition = "";
             this.dsSteelGradeIndex.SourceMethod = "GetJudgedSteelGrade";
@@ -5592,7 +5592,7 @@
             this.dsReason.L3DataAdapter = this.Adapter;
             this.dsReason.LoadEvent = "Click";
             this.dsReason.LoadTrigger = null;
-            this.dsReason.RefreshValve = 1000;
+            this.dsReason.RefreshValve = 60000;
             this.dsReason.SourceCommand = null;
             this.dsReason.SourceCondition = "Code_Group = \'WRONG_REASON_CODE\' order by Code";
             this.dsReason.SourceMethod = "";
@@ -7825,7 +7825,7 @@
             this.dsDecideCode.L3DataAdapter = this.Adapter;
             this.dsDecideCode.LoadEvent = "Click";
             this.dsDecideCode.LoadTrigger = null;
-            this.dsDecideCode.RefreshValve = 1000;
+            this.dsDecideCode.RefreshValve = 60000;
             this.dsDecideCode.SourceCommand = null;
             this.dsDecideCode.SourceCondition = null;
             this.dsDecideCode.SourceMethod = "";

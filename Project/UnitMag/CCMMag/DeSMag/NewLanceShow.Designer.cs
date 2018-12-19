@@ -134,7 +134,7 @@
             this.dsLanceVendor.L3DataAdapter = this.Adapter;
             this.dsLanceVendor.LoadEvent = "";
             this.dsLanceVendor.LoadTrigger = null;
-            this.dsLanceVendor.RefreshValve = 1000;
+            this.dsLanceVendor.RefreshValve = 60000;
             this.dsLanceVendor.SourceCommand = null;
             this.dsLanceVendor.SourceCondition = "code_group = \'DeS_Lance_Vendor\' and code is not null order by code";
             this.dsLanceVendor.SourceMethod = "";
@@ -217,7 +217,7 @@
             this.dsLance.L3DataAdapter = this.Adapter;
             this.dsLance.LoadEvent = "";
             this.dsLance.LoadTrigger = null;
-            this.dsLance.RefreshValve = 1000;
+            this.dsLance.RefreshValve = 60000;
             this.dsLance.SourceCommand = null;
             this.dsLance.SourceCondition = "";
             this.dsLance.SourceMethod = "";
@@ -355,7 +355,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'AddNewLanceData\'";
             this.dsError.SourceMethod = "";

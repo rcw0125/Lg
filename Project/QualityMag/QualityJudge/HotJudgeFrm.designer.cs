@@ -309,7 +309,7 @@
             this.dsBloom.L3DataAdapter = this.Adapter;
             this.dsBloom.LoadEvent = "Click";
             this.dsBloom.LoadTrigger = null;
-            this.dsBloom.RefreshValve = 1000;
+            this.dsBloom.RefreshValve = 60000;
             this.dsBloom.SourceCommand = null;
             this.dsBloom.SourceCondition = "1=2";
             this.dsBloom.SourceMethod = "";
@@ -806,7 +806,7 @@
             this.dsWrongReason.L3DataAdapter = this.Adapter;
             this.dsWrongReason.LoadEvent = "Click";
             this.dsWrongReason.LoadTrigger = null;
-            this.dsWrongReason.RefreshValve = 1000;
+            this.dsWrongReason.RefreshValve = 60000;
             this.dsWrongReason.SourceCommand = null;
             this.dsWrongReason.SourceCondition = "CODE_GROUP = \'WRONG_REASON_CODE\'";
             this.dsWrongReason.SourceMethod = "";
@@ -862,7 +862,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -1048,7 +1048,7 @@
             this.dsBloomStatus.L3DataAdapter = this.Adapter;
             this.dsBloomStatus.LoadEvent = "Click";
             this.dsBloomStatus.LoadTrigger = null;
-            this.dsBloomStatus.RefreshValve = 1000;
+            this.dsBloomStatus.RefreshValve = 60000;
             this.dsBloomStatus.SourceCommand = null;
             this.dsBloomStatus.SourceCondition = "CODE_GROUP = \'BLOOM_STATUS\'";
             this.dsBloomStatus.SourceMethod = "";
@@ -1237,7 +1237,7 @@
             this.dsPile.L3DataAdapter = this.Adapter;
             this.dsPile.LoadEvent = "Click";
             this.dsPile.LoadTrigger = null;
-            this.dsPile.RefreshValve = 1000;
+            this.dsPile.RefreshValve = 60000;
             this.dsPile.SourceCommand = null;
             this.dsPile.SourceCondition = "CODE_GROUP = \'BLOOM_SPILE\'";
             this.dsPile.SourceMethod = "";
@@ -2482,7 +2482,7 @@
             this.dsCCMID.L3DataAdapter = this.Adapter;
             this.dsCCMID.LoadEvent = "";
             this.dsCCMID.LoadTrigger = null;
-            this.dsCCMID.RefreshValve = 1000;
+            this.dsCCMID.RefreshValve = 60000;
             this.dsCCMID.SourceCommand = null;
             this.dsCCMID.SourceCondition = "Code_Group = \'Caster\' order by Code";
             this.dsCCMID.SourceMethod = "";

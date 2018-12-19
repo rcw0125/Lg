@@ -428,7 +428,7 @@
             this.dsTpcNo.L3DataAdapter = null;
             this.dsTpcNo.LoadEvent = "";
             this.dsTpcNo.LoadTrigger = null;
-            this.dsTpcNo.RefreshValve = 1000;
+            this.dsTpcNo.RefreshValve = 60000;
             this.dsTpcNo.SourceCommand = null;
             this.dsTpcNo.SourceCondition = "";
             this.dsTpcNo.SourceMethod = "";
@@ -490,7 +490,7 @@
             this.dsTapNo.L3DataAdapter = null;
             this.dsTapNo.LoadEvent = "";
             this.dsTapNo.LoadTrigger = null;
-            this.dsTapNo.RefreshValve = 1000;
+            this.dsTapNo.RefreshValve = 60000;
             this.dsTapNo.SourceCommand = null;
             this.dsTapNo.SourceCondition = "";
             this.dsTapNo.SourceMethod = "";
@@ -546,7 +546,7 @@
             this.dsSend.L3DataAdapter = null;
             this.dsSend.LoadEvent = "";
             this.dsSend.LoadTrigger = null;
-            this.dsSend.RefreshValve = 1000;
+            this.dsSend.RefreshValve = 60000;
             this.dsSend.SourceCommand = null;
             this.dsSend.SourceCondition = "";
             this.dsSend.SourceMethod = "";
@@ -596,7 +596,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";

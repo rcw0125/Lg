@@ -189,7 +189,7 @@
             this.dsDuty.L3DataAdapter = this.Adapter;
             this.dsDuty.LoadEvent = "Click";
             this.dsDuty.LoadTrigger = null;
-            this.dsDuty.RefreshValve = 1000;
+            this.dsDuty.RefreshValve = 60000;
             this.dsDuty.SourceCommand = null;
             this.dsDuty.SourceCondition = "1=2";
             this.dsDuty.SourceMethod = "";
@@ -463,7 +463,7 @@
             this.dsCCM.L3DataAdapter = this.Adapter;
             this.dsCCM.LoadEvent = "";
             this.dsCCM.LoadTrigger = null;
-            this.dsCCM.RefreshValve = 1000;
+            this.dsCCM.RefreshValve = 60000;
             this.dsCCM.SourceCommand = null;
             this.dsCCM.SourceCondition = "CODE_GROUP = \'Caster\' order by code";
             this.dsCCM.SourceMethod = "";
@@ -517,7 +517,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\' order by code";
             this.dsTeam.SourceMethod = "";

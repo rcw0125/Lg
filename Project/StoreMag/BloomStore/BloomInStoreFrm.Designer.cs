@@ -167,7 +167,7 @@
             this.dsInStore.L3DataAdapter = this.Adapter;
             this.dsInStore.LoadEvent = "Click";
             this.dsInStore.LoadTrigger = null;
-            this.dsInStore.RefreshValve = 1000;
+            this.dsInStore.RefreshValve = 60000;
             this.dsInStore.SourceCommand = null;
             this.dsInStore.SourceCondition = "";
             this.dsInStore.SourceMethod = "";
@@ -514,7 +514,7 @@
             this.dsStoreAreaID.L3DataAdapter = this.Adapter;
             this.dsStoreAreaID.LoadEvent = "Click";
             this.dsStoreAreaID.LoadTrigger = null;
-            this.dsStoreAreaID.RefreshValve = 1000;
+            this.dsStoreAreaID.RefreshValve = 60000;
             this.dsStoreAreaID.SourceCommand = null;
             this.dsStoreAreaID.SourceCondition = "CODE_GROUP = \'BloomArea\'";
             this.dsStoreAreaID.SourceMethod = "";
@@ -566,7 +566,7 @@
             this.dsCurPileID.L3DataAdapter = this.Adapter;
             this.dsCurPileID.LoadEvent = "Click";
             this.dsCurPileID.LoadTrigger = null;
-            this.dsCurPileID.RefreshValve = 1000;
+            this.dsCurPileID.RefreshValve = 60000;
             this.dsCurPileID.SourceCommand = null;
             this.dsCurPileID.SourceCondition = "CODE_GROUP = \'BLOOM_SPILE\' or CODE_GROUP = \'KEEP_SPILE\' ";
             this.dsCurPileID.SourceMethod = "";
@@ -697,7 +697,7 @@
             this.dsCurLayerID.L3DataAdapter = this.Adapter;
             this.dsCurLayerID.LoadEvent = "Click";
             this.dsCurLayerID.LoadTrigger = null;
-            this.dsCurLayerID.RefreshValve = 1000;
+            this.dsCurLayerID.RefreshValve = 60000;
             this.dsCurLayerID.SourceCommand = null;
             this.dsCurLayerID.SourceCondition = "CODE_GROUP = \'\'";
             this.dsCurLayerID.SourceMethod = "";
@@ -738,7 +738,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "owner = \'BloomColdSendInStore\'";
             this.dsError.SourceMethod = "";

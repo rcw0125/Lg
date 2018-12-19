@@ -162,7 +162,7 @@
             this.dsOutStore.L3DataAdapter = this.Adapter;
             this.dsOutStore.LoadEvent = "Click";
             this.dsOutStore.LoadTrigger = null;
-            this.dsOutStore.RefreshValve = 1000;
+            this.dsOutStore.RefreshValve = 60000;
             this.dsOutStore.SourceCommand = null;
             this.dsOutStore.SourceCondition = "";
             this.dsOutStore.SourceMethod = "GetScrapes";

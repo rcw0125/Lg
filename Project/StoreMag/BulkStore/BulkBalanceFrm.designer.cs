@@ -118,7 +118,7 @@
             this.dsBalance.L3DataAdapter = null;
             this.dsBalance.LoadEvent = "Click";
             this.dsBalance.LoadTrigger = null;
-            this.dsBalance.RefreshValve = 1000;
+            this.dsBalance.RefreshValve = 60000;
             this.dsBalance.SourceCommand = null;
             this.dsBalance.SourceCondition = null;
             this.dsBalance.SourceMethod = "GetAllMaterialOnStore";
@@ -458,7 +458,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\' and CODE is not null";
             this.dsBulkCode.SourceMethod = "";
@@ -521,7 +521,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsPosition.SourceMethod = "";
@@ -682,7 +682,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'ModifyMaterialAmount\'";
             this.dsError.SourceMethod = "";

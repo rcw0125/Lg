@@ -343,7 +343,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -497,7 +497,7 @@
             this.dsMaterial.L3DataAdapter = null;
             this.dsMaterial.LoadEvent = "";
             this.dsMaterial.LoadTrigger = null;
-            this.dsMaterial.RefreshValve = 1000;
+            this.dsMaterial.RefreshValve = 60000;
             this.dsMaterial.SourceCommand = null;
             this.dsMaterial.SourceCondition = "";
             this.dsMaterial.SourceMethod = "";
@@ -749,7 +749,7 @@
             this.dsLog.L3DataAdapter = null;
             this.dsLog.LoadEvent = "";
             this.dsLog.LoadTrigger = null;
-            this.dsLog.RefreshValve = 1000;
+            this.dsLog.RefreshValve = 60000;
             this.dsLog.SourceCommand = null;
             this.dsLog.SourceCondition = "";
             this.dsLog.SourceMethod = "";

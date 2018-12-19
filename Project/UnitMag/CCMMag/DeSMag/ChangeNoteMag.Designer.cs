@@ -208,7 +208,7 @@
             this.dsNote.L3DataAdapter = this.Adapter;
             this.dsNote.LoadEvent = "";
             this.dsNote.LoadTrigger = null;
-            this.dsNote.RefreshValve = 1000;
+            this.dsNote.RefreshValve = 60000;
             this.dsNote.SourceCommand = null;
             this.dsNote.SourceCondition = "code_group = \'DeSEquipmentStatus\'";
             this.dsNote.SourceMethod = "";
@@ -393,7 +393,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'NewDeSEquipmentStatusData\'";
             this.dsError.SourceMethod = "";

@@ -145,15 +145,15 @@
             // 
             // dsBOFData
             // 
-            this.dsBOFData.AutoLoad = true;
-            this.dsBOFData.AutoSubscribe = true;
+            this.dsBOFData.AutoLoad = false;
+            this.dsBOFData.AutoSubscribe = false;
             this.dsBOFData.DataSetName = "L3DataSet";
             this.dsBOFData.DeleteMethod = null;
             this.dsBOFData.InsertMethod = null;
             this.dsBOFData.L3DataAdapter = this.Adapter;
             this.dsBOFData.LoadEvent = "Click";
             this.dsBOFData.LoadTrigger = null;
-            this.dsBOFData.RefreshValve = 1000;
+            this.dsBOFData.RefreshValve = 60000;
             this.dsBOFData.SourceCommand = null;
             this.dsBOFData.SourceCondition = "1=2";
             this.dsBOFData.SourceMethod = "";
@@ -176,7 +176,7 @@
             this.btnConfirm.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirm.Image")));
             this.btnConfirm.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(73, 22);
+            this.btnConfirm.Size = new System.Drawing.Size(76, 22);
             this.btnConfirm.Text = "实绩确认";
             this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
             // 
@@ -480,7 +480,7 @@
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(32, 22);
             this.bindingNavigatorCountItem.Text = "/ {0}";
             this.bindingNavigatorCountItem.ToolTipText = "总项数";
             // 
@@ -553,7 +553,7 @@
             this.btnQuery.Image = ((System.Drawing.Image)(resources.GetObject("btnQuery.Image")));
             this.btnQuery.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnQuery.Name = "btnQuery";
-            this.btnQuery.Size = new System.Drawing.Size(49, 22);
+            this.btnQuery.Size = new System.Drawing.Size(52, 22);
             this.btnQuery.Text = "查询";
             this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
             // 
@@ -615,7 +615,7 @@
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.RightToLeftAutoMirrorImage = true;
-            this.btnAdd.Size = new System.Drawing.Size(49, 22);
+            this.btnAdd.Size = new System.Drawing.Size(52, 22);
             this.btnAdd.Text = "新增";
             this.btnAdd.Visible = false;
             // 
@@ -659,8 +659,8 @@
             this.dvBOFData.Size = new System.Drawing.Size(1022, 431);
             this.dvBOFData.TabIndex = 0;
             this.dvBOFData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvBOFData_CellDoubleClick_1);
-            this.dvBOFData.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dvBOFData_DataError);
             this.dvBOFData.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dvBOFData_DataBindingComplete);
+            this.dvBOFData.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dvBOFData_DataError);
             // 
             // HeatID
             // 
@@ -712,7 +712,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "Click";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift.SourceMethod = "";
@@ -766,7 +766,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -852,7 +852,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "CODE_GROUP = \'BOF\' order by code";
             this.dsHeatID.SourceMethod = "";
@@ -941,7 +941,7 @@
             this.dsTempt.L3DataAdapter = this.Adapter;
             this.dsTempt.LoadEvent = "Click";
             this.dsTempt.LoadTrigger = null;
-            this.dsTempt.RefreshValve = 1000;
+            this.dsTempt.RefreshValve = 60000;
             this.dsTempt.SourceCommand = null;
             this.dsTempt.SourceCondition = "";
             this.dsTempt.SourceMethod = "";
@@ -1049,8 +1049,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.TabText = "转炉实绩数据管理";
             this.Text = "转炉实绩数据管理";
-            this.Load += new System.EventHandler(this.BOFHeatFinalDataFrm_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BOFHeatFinalDataFrm_FormClosing);
+            this.Load += new System.EventHandler(this.BOFHeatFinalDataFrm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bsBOFData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsBOFData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schemadsBOFData)).EndInit();

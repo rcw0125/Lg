@@ -247,7 +247,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "code_group = \'AlloyWire\' order by code";
             this.dsAlloyArea.SourceMethod = "";
@@ -288,7 +288,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_FUNCTION_GROUP = \'FeedWire\' order by code";
             this.dsAlloyCode.SourceMethod = "";
@@ -411,7 +411,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\'and code is not null";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -458,7 +458,7 @@
             this.dsFeed.L3DataAdapter = this.Adapter;
             this.dsFeed.LoadEvent = "";
             this.dsFeed.LoadTrigger = null;
-            this.dsFeed.RefreshValve = 1000;
+            this.dsFeed.RefreshValve = 60000;
             this.dsFeed.SourceCommand = null;
             this.dsFeed.SourceCondition = "substr(Alloy_Area,4,1) = \'W\'";
             this.dsFeed.SourceMethod = "";

@@ -135,7 +135,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "";
             this.dsBase.SourceMethod = "";
@@ -692,7 +692,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "Code_Group = \'HURRYGAP_OFF_REASON\'";
             this.dsOffLineReason.SourceMethod = "";
@@ -775,7 +775,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "CODE_GROUP = \'Caster\' order by code";
             this.dsHeatID.SourceMethod = "";

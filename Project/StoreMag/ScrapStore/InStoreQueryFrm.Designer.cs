@@ -200,7 +200,7 @@
             this.dsScrapCode.L3DataAdapter = this.Adapter;
             this.dsScrapCode.LoadEvent = "Click";
             this.dsScrapCode.LoadTrigger = null;
-            this.dsScrapCode.RefreshValve = 1000;
+            this.dsScrapCode.RefreshValve = 60000;
             this.dsScrapCode.SourceCommand = null;
             this.dsScrapCode.SourceCondition = "CODE_GROUP = \'SCRAP_CODE\'";
             this.dsScrapCode.SourceMethod = "";
@@ -279,7 +279,7 @@
             this.dsScrapArea.L3DataAdapter = this.Adapter;
             this.dsScrapArea.LoadEvent = "Click";
             this.dsScrapArea.LoadTrigger = null;
-            this.dsScrapArea.RefreshValve = 1000;
+            this.dsScrapArea.RefreshValve = 60000;
             this.dsScrapArea.SourceCommand = null;
             this.dsScrapArea.SourceCondition = "CODE_GROUP = \'ScrapArea\'";
             this.dsScrapArea.SourceMethod = "";
@@ -354,7 +354,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -408,7 +408,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -454,7 +454,7 @@
             this.dsInStore.L3DataAdapter = null;
             this.dsInStore.LoadEvent = "Click";
             this.dsInStore.LoadTrigger = null;
-            this.dsInStore.RefreshValve = 1000;
+            this.dsInStore.RefreshValve = 60000;
             this.dsInStore.SourceCommand = null;
             this.dsInStore.SourceCondition = "1=2";
             this.dsInStore.SourceMethod = "";

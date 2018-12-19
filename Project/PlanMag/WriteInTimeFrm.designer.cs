@@ -88,7 +88,7 @@
             this.dsWriteTime.L3DataAdapter = null;
             this.dsWriteTime.LoadEvent = "Click";
             this.dsWriteTime.LoadTrigger = null;
-            this.dsWriteTime.RefreshValve = 1000;
+            this.dsWriteTime.RefreshValve = 60000;
             this.dsWriteTime.SourceCommand = null;
             this.dsWriteTime.SourceCondition = "";
             this.dsWriteTime.SourceMethod = "";

@@ -1063,7 +1063,7 @@
             this.dsMag.L3DataAdapter = this.Adapter;
             this.dsMag.LoadEvent = "Click";
             this.dsMag.LoadTrigger = null;
-            this.dsMag.RefreshValve = 1000;
+            this.dsMag.RefreshValve = 60000;
             this.dsMag.SourceCommand = null;
             this.dsMag.SourceCondition = "1=2";
             this.dsMag.SourceMethod = "";
@@ -1468,7 +1468,7 @@
             this.dsInnerBuild.L3DataAdapter = null;
             this.dsInnerBuild.LoadEvent = "Click";
             this.dsInnerBuild.LoadTrigger = null;
-            this.dsInnerBuild.RefreshValve = 1000;
+            this.dsInnerBuild.RefreshValve = 60000;
             this.dsInnerBuild.SourceCommand = null;
             this.dsInnerBuild.SourceCondition = "";
             this.dsInnerBuild.SourceMethod = "";
@@ -1604,7 +1604,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -1651,7 +1651,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -1698,7 +1698,7 @@
             this.dsInnerFire.L3DataAdapter = null;
             this.dsInnerFire.LoadEvent = "Click";
             this.dsInnerFire.LoadTrigger = null;
-            this.dsInnerFire.RefreshValve = 1000;
+            this.dsInnerFire.RefreshValve = 60000;
             this.dsInnerFire.SourceCommand = null;
             this.dsInnerFire.SourceCondition = null;
             this.dsInnerFire.SourceMethod = "";
@@ -1850,7 +1850,7 @@
             this.dsDaub.L3DataAdapter = null;
             this.dsDaub.LoadEvent = "Click";
             this.dsDaub.LoadTrigger = null;
-            this.dsDaub.RefreshValve = 1000;
+            this.dsDaub.RefreshValve = 60000;
             this.dsDaub.SourceCommand = null;
             this.dsDaub.SourceCondition = "";
             this.dsDaub.SourceMethod = "";
@@ -2093,7 +2093,7 @@
             this.dsOTInstall.L3DataAdapter = null;
             this.dsOTInstall.LoadEvent = "Click";
             this.dsOTInstall.LoadTrigger = null;
-            this.dsOTInstall.RefreshValve = 1000;
+            this.dsOTInstall.RefreshValve = 60000;
             this.dsOTInstall.SourceCommand = null;
             this.dsOTInstall.SourceCondition = null;
             this.dsOTInstall.SourceMethod = "";
@@ -2209,7 +2209,7 @@
             this.dsTFFInstall.L3DataAdapter = null;
             this.dsTFFInstall.LoadEvent = "Click";
             this.dsTFFInstall.LoadTrigger = null;
-            this.dsTFFInstall.RefreshValve = 1000;
+            this.dsTFFInstall.RefreshValve = 60000;
             this.dsTFFInstall.SourceCommand = null;
             this.dsTFFInstall.SourceCondition = null;
             this.dsTFFInstall.SourceMethod = "";
@@ -2436,7 +2436,7 @@
             this.dsTFFFireInfo.L3DataAdapter = null;
             this.dsTFFFireInfo.LoadEvent = "Click";
             this.dsTFFFireInfo.LoadTrigger = null;
-            this.dsTFFFireInfo.RefreshValve = 1000;
+            this.dsTFFFireInfo.RefreshValve = 60000;
             this.dsTFFFireInfo.SourceCommand = null;
             this.dsTFFFireInfo.SourceCondition = null;
             this.dsTFFFireInfo.SourceMethod = "";
@@ -2817,7 +2817,7 @@
             this.dsOTFireInfo.L3DataAdapter = null;
             this.dsOTFireInfo.LoadEvent = "Click";
             this.dsOTFireInfo.LoadTrigger = null;
-            this.dsOTFireInfo.RefreshValve = 1000;
+            this.dsOTFireInfo.RefreshValve = 60000;
             this.dsOTFireInfo.SourceCommand = null;
             this.dsOTFireInfo.SourceCondition = "";
             this.dsOTFireInfo.SourceMethod = "";
@@ -3002,7 +3002,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "Click";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "TundishID is not null order by TundishID";
             this.dsTundishID.SourceMethod = "";
@@ -3639,7 +3639,7 @@
             this.dsInnerRefraFac.L3DataAdapter = this.Adapter;
             this.dsInnerRefraFac.LoadEvent = "";
             this.dsInnerRefraFac.LoadTrigger = null;
-            this.dsInnerRefraFac.RefreshValve = 1000;
+            this.dsInnerRefraFac.RefreshValve = 60000;
             this.dsInnerRefraFac.SourceCommand = null;
             this.dsInnerRefraFac.SourceCondition = "Code_Group = \'Tundish_InnerRefra_Fac\' order by Code_Des";
             this.dsInnerRefraFac.SourceMethod = "";
@@ -3724,7 +3724,7 @@
             this.dsInnerRefraName.L3DataAdapter = this.Adapter;
             this.dsInnerRefraName.LoadEvent = "";
             this.dsInnerRefraName.LoadTrigger = null;
-            this.dsInnerRefraName.RefreshValve = 1000;
+            this.dsInnerRefraName.RefreshValve = 60000;
             this.dsInnerRefraName.SourceCommand = null;
             this.dsInnerRefraName.SourceCondition = "Code_Group = \'Tundish_InnerRefra_Name\' order by Code_Des";
             this.dsInnerRefraName.SourceMethod = "";
@@ -4516,7 +4516,7 @@
             this.dsGluemudFac.L3DataAdapter = this.Adapter;
             this.dsGluemudFac.LoadEvent = "Click";
             this.dsGluemudFac.LoadTrigger = null;
-            this.dsGluemudFac.RefreshValve = 1000;
+            this.dsGluemudFac.RefreshValve = 60000;
             this.dsGluemudFac.SourceCommand = null;
             this.dsGluemudFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'胶泥\'";
             this.dsGluemudFac.SourceMethod = "";
@@ -4571,7 +4571,7 @@
             this.dsDryMatFac.L3DataAdapter = this.Adapter;
             this.dsDryMatFac.LoadEvent = "Click";
             this.dsDryMatFac.LoadTrigger = null;
-            this.dsDryMatFac.RefreshValve = 1000;
+            this.dsDryMatFac.RefreshValve = 60000;
             this.dsDryMatFac.SourceCommand = null;
             this.dsDryMatFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'干振料\'";
             this.dsDryMatFac.SourceMethod = "";
@@ -4626,7 +4626,7 @@
             this.dsDaubFac.L3DataAdapter = this.Adapter;
             this.dsDaubFac.LoadEvent = "Click";
             this.dsDaubFac.LoadTrigger = null;
-            this.dsDaubFac.RefreshValve = 1000;
+            this.dsDaubFac.RefreshValve = 60000;
             this.dsDaubFac.SourceCommand = null;
             this.dsDaubFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'涂抹料\'";
             this.dsDaubFac.SourceMethod = "";
@@ -4798,7 +4798,7 @@
             this.dsTranqFac.L3DataAdapter = this.Adapter;
             this.dsTranqFac.LoadEvent = "Click";
             this.dsTranqFac.LoadTrigger = null;
-            this.dsTranqFac.RefreshValve = 1000;
+            this.dsTranqFac.RefreshValve = 60000;
             this.dsTranqFac.SourceCommand = null;
             this.dsTranqFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'紊流器\'";
             this.dsTranqFac.SourceMethod = "";
@@ -4853,7 +4853,7 @@
             this.dsWardDregsFac.L3DataAdapter = this.Adapter;
             this.dsWardDregsFac.LoadEvent = "Click";
             this.dsWardDregsFac.LoadTrigger = null;
-            this.dsWardDregsFac.RefreshValve = 1000;
+            this.dsWardDregsFac.RefreshValve = 60000;
             this.dsWardDregsFac.SourceCommand = null;
             this.dsWardDregsFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'挡渣墙\'";
             this.dsWardDregsFac.SourceMethod = "";
@@ -4908,7 +4908,7 @@
             this.dsGapBriFac.L3DataAdapter = this.Adapter;
             this.dsGapBriFac.LoadEvent = "Click";
             this.dsGapBriFac.LoadTrigger = null;
-            this.dsGapBriFac.RefreshValve = 1000;
+            this.dsGapBriFac.RefreshValve = 60000;
             this.dsGapBriFac.SourceCommand = null;
             this.dsGapBriFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'座砖\'";
             this.dsGapBriFac.SourceMethod = "";
@@ -5132,7 +5132,7 @@
             this.dsProject.L3DataAdapter = this.Adapter;
             this.dsProject.LoadEvent = "";
             this.dsProject.LoadTrigger = null;
-            this.dsProject.RefreshValve = 1000;
+            this.dsProject.RefreshValve = 60000;
             this.dsProject.SourceCommand = null;
             this.dsProject.SourceCondition = "Code_Group = \'Tundish_Project\'　and Code is not null order by Code";
             this.dsProject.SourceMethod = "";
@@ -5348,7 +5348,7 @@
             this.dsUpGapFac.L3DataAdapter = this.Adapter;
             this.dsUpGapFac.LoadEvent = "";
             this.dsUpGapFac.LoadTrigger = null;
-            this.dsUpGapFac.RefreshValve = 1000;
+            this.dsUpGapFac.RefreshValve = 60000;
             this.dsUpGapFac.SourceCommand = null;
             this.dsUpGapFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'上水口\'";
             this.dsUpGapFac.SourceMethod = "";
@@ -5471,7 +5471,7 @@
             this.dsSmoothBlock.L3DataAdapter = this.Adapter;
             this.dsSmoothBlock.LoadEvent = "";
             this.dsSmoothBlock.LoadTrigger = null;
-            this.dsSmoothBlock.RefreshValve = 1000;
+            this.dsSmoothBlock.RefreshValve = 60000;
             this.dsSmoothBlock.SourceCommand = null;
             this.dsSmoothBlock.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'滑块\'";
             this.dsSmoothBlock.SourceMethod = "";
@@ -5713,7 +5713,7 @@
             this.dsStuStiFac.L3DataAdapter = this.Adapter;
             this.dsStuStiFac.LoadEvent = "Click";
             this.dsStuStiFac.LoadTrigger = null;
-            this.dsStuStiFac.RefreshValve = 1000;
+            this.dsStuStiFac.RefreshValve = 60000;
             this.dsStuStiFac.SourceCommand = null;
             this.dsStuStiFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'塞棒\'";
             this.dsStuStiFac.SourceMethod = "";
@@ -5838,7 +5838,7 @@
             this.dsGapFac.L3DataAdapter = this.Adapter;
             this.dsGapFac.LoadEvent = "";
             this.dsGapFac.LoadTrigger = null;
-            this.dsGapFac.RefreshValve = 1000;
+            this.dsGapFac.RefreshValve = 60000;
             this.dsGapFac.SourceCommand = null;
             this.dsGapFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and MATNAME = \'侵入式水口\'";
             this.dsGapFac.SourceMethod = "";
@@ -7561,7 +7561,7 @@
             this.dsStopCastingReason.L3DataAdapter = this.Adapter;
             this.dsStopCastingReason.LoadEvent = "";
             this.dsStopCastingReason.LoadTrigger = null;
-            this.dsStopCastingReason.RefreshValve = 1000;
+            this.dsStopCastingReason.RefreshValve = 60000;
             this.dsStopCastingReason.SourceCommand = null;
             this.dsStopCastingReason.SourceCondition = "Code_Group = \'TundishNO_Stop_Reason\' order by Code";
             this.dsStopCastingReason.SourceMethod = "";
@@ -7621,7 +7621,7 @@
             this.dsCoverCase.L3DataAdapter = this.Adapter;
             this.dsCoverCase.LoadEvent = "Click";
             this.dsCoverCase.LoadTrigger = null;
-            this.dsCoverCase.RefreshValve = 1000;
+            this.dsCoverCase.RefreshValve = 60000;
             this.dsCoverCase.SourceCommand = null;
             this.dsCoverCase.SourceCondition = "Code_Group = \'Cover_Use_Case\'";
             this.dsCoverCase.SourceMethod = "";
@@ -7689,7 +7689,7 @@
             this.dsProtect_Use_Case.L3DataAdapter = this.Adapter;
             this.dsProtect_Use_Case.LoadEvent = "";
             this.dsProtect_Use_Case.LoadTrigger = null;
-            this.dsProtect_Use_Case.RefreshValve = 1000;
+            this.dsProtect_Use_Case.RefreshValve = 60000;
             this.dsProtect_Use_Case.SourceCommand = null;
             this.dsProtect_Use_Case.SourceCondition = "Code_Group = \'Protect_Use_Case\' order by Code\r\n";
             this.dsProtect_Use_Case.SourceMethod = "";
@@ -7757,7 +7757,7 @@
             this.dsDaubUseCase.L3DataAdapter = this.Adapter;
             this.dsDaubUseCase.LoadEvent = "Click";
             this.dsDaubUseCase.LoadTrigger = null;
-            this.dsDaubUseCase.RefreshValve = 1000;
+            this.dsDaubUseCase.RefreshValve = 60000;
             this.dsDaubUseCase.SourceCommand = null;
             this.dsDaubUseCase.SourceCondition = "Code_Group = \'Daub_Case\'";
             this.dsDaubUseCase.SourceMethod = "";
@@ -7820,7 +7820,7 @@
             this.dsTranqCase.L3DataAdapter = this.Adapter;
             this.dsTranqCase.LoadEvent = "";
             this.dsTranqCase.LoadTrigger = null;
-            this.dsTranqCase.RefreshValve = 1000;
+            this.dsTranqCase.RefreshValve = 60000;
             this.dsTranqCase.SourceCommand = null;
             this.dsTranqCase.SourceCondition = "Code_Group = \'Tranq_Case\'";
             this.dsTranqCase.SourceMethod = "";
@@ -7914,7 +7914,7 @@
             this.dsRefraOT.L3DataAdapter = null;
             this.dsRefraOT.LoadEvent = "Click";
             this.dsRefraOT.LoadTrigger = null;
-            this.dsRefraOT.RefreshValve = 1000;
+            this.dsRefraOT.RefreshValve = 60000;
             this.dsRefraOT.SourceCommand = null;
             this.dsRefraOT.SourceCondition = null;
             this.dsRefraOT.SourceMethod = "";
@@ -8200,7 +8200,7 @@
             this.dsTuckStickCase.L3DataAdapter = this.Adapter;
             this.dsTuckStickCase.LoadEvent = "Click";
             this.dsTuckStickCase.LoadTrigger = null;
-            this.dsTuckStickCase.RefreshValve = 1000;
+            this.dsTuckStickCase.RefreshValve = 60000;
             this.dsTuckStickCase.SourceCommand = null;
             this.dsTuckStickCase.SourceCondition = "Code_Group = \'Tuck_Stick_Case\'";
             this.dsTuckStickCase.SourceMethod = "";
@@ -8322,7 +8322,7 @@
             this.dsBigGapCase.L3DataAdapter = this.Adapter;
             this.dsBigGapCase.LoadEvent = "Click";
             this.dsBigGapCase.LoadTrigger = null;
-            this.dsBigGapCase.RefreshValve = 1000;
+            this.dsBigGapCase.RefreshValve = 60000;
             this.dsBigGapCase.SourceCommand = null;
             this.dsBigGapCase.SourceCondition = "Code_Group = \'Big_Gap_Case\'";
             this.dsBigGapCase.SourceMethod = "";
@@ -8439,7 +8439,7 @@
             this.dsWard_Dregs_Case.L3DataAdapter = this.Adapter;
             this.dsWard_Dregs_Case.LoadEvent = "";
             this.dsWard_Dregs_Case.LoadTrigger = null;
-            this.dsWard_Dregs_Case.RefreshValve = 1000;
+            this.dsWard_Dregs_Case.RefreshValve = 60000;
             this.dsWard_Dregs_Case.SourceCommand = null;
             this.dsWard_Dregs_Case.SourceCondition = "Code_Group = \'Ward_Dregs_Case\' order by Code";
             this.dsWard_Dregs_Case.SourceMethod = "";
@@ -8530,7 +8530,7 @@
             this.dsHoldTempMat_Use.L3DataAdapter = this.Adapter;
             this.dsHoldTempMat_Use.LoadEvent = "";
             this.dsHoldTempMat_Use.LoadTrigger = null;
-            this.dsHoldTempMat_Use.RefreshValve = 1000;
+            this.dsHoldTempMat_Use.RefreshValve = 60000;
             this.dsHoldTempMat_Use.SourceCommand = null;
             this.dsHoldTempMat_Use.SourceCondition = "Code_Group = \'CCCM_Heat_HoldTempMat_UseInformation\' order by Code";
             this.dsHoldTempMat_Use.SourceMethod = "";
@@ -8623,7 +8623,7 @@
             this.dsRefraTFF.L3DataAdapter = null;
             this.dsRefraTFF.LoadEvent = "Click";
             this.dsRefraTFF.LoadTrigger = null;
-            this.dsRefraTFF.RefreshValve = 1000;
+            this.dsRefraTFF.RefreshValve = 60000;
             this.dsRefraTFF.SourceCommand = null;
             this.dsRefraTFF.SourceCondition = null;
             this.dsRefraTFF.SourceMethod = "";

@@ -249,7 +249,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = this.cmdMain;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "GetVacTubeUse";
@@ -1041,7 +1041,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -1105,7 +1105,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "Click";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "CODE_GROUP = \'CVACTUBE_OFF_REASON\'";
             this.dsOffLineReason.SourceMethod = "";
@@ -1175,7 +1175,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -1506,7 +1506,7 @@
             this.dsDetail.L3DataAdapter = this.Adapter;
             this.dsDetail.LoadEvent = "";
             this.dsDetail.LoadTrigger = null;
-            this.dsDetail.RefreshValve = 1000;
+            this.dsDetail.RefreshValve = 60000;
             this.dsDetail.SourceCommand = this.cmdDetail;
             this.dsDetail.SourceCondition = "";
             this.dsDetail.SourceMethod = "GetVacTubeUseInfo";
@@ -1860,7 +1860,7 @@
             this.dsName.L3DataAdapter = this.Adapter;
             this.dsName.LoadEvent = "Click";
             this.dsName.LoadTrigger = null;
-            this.dsName.RefreshValve = 1000;
+            this.dsName.RefreshValve = 60000;
             this.dsName.SourceCommand = null;
             this.dsName.SourceCondition = "CODE_GROUP = \'VacTubeName\'  AND CODE < \'3\'";
             this.dsName.SourceMethod = "";
@@ -1902,7 +1902,7 @@
             this.dsSlotID.L3DataAdapter = this.Adapter;
             this.dsSlotID.LoadEvent = "Click";
             this.dsSlotID.LoadTrigger = null;
-            this.dsSlotID.RefreshValve = 1000;
+            this.dsSlotID.RefreshValve = 60000;
             this.dsSlotID.SourceCommand = null;
             this.dsSlotID.SourceCondition = "VACTUBE_NAME <> \'3\'";
             this.dsSlotID.SourceMethod = "";

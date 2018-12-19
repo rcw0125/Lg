@@ -158,7 +158,7 @@
             this.dsCode.L3DataAdapter = this.Adapter;
             this.dsCode.LoadEvent = "Click";
             this.dsCode.LoadTrigger = null;
-            this.dsCode.RefreshValve = 1000;
+            this.dsCode.RefreshValve = 60000;
             this.dsCode.SourceCommand = this.cmdApply;
             this.dsCode.SourceCondition = "Code_Group = \'SteelTrunReason\' and Code is not null";
             this.dsCode.SourceMethod = "";
@@ -223,7 +223,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'UnitMag\'";
             this.dsError.SourceMethod = "";
@@ -264,7 +264,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "";
             this.dsHeatID.SourceMethod = "GetPreThreeHeatID";

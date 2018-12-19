@@ -188,7 +188,7 @@
             this.dsPlan.L3DataAdapter = null;
             this.dsPlan.LoadEvent = "Click";
             this.dsPlan.LoadTrigger = null;
-            this.dsPlan.RefreshValve = 1000;
+            this.dsPlan.RefreshValve = 60000;
             this.dsPlan.SourceCommand = null;
             this.dsPlan.SourceCondition = "";
             this.dsPlan.SourceMethod = "";
@@ -822,7 +822,7 @@
             this.dsCaster.L3DataAdapter = this.Adapter;
             this.dsCaster.LoadEvent = "Click";
             this.dsCaster.LoadTrigger = null;
-            this.dsCaster.RefreshValve = 1000;
+            this.dsCaster.RefreshValve = 60000;
             this.dsCaster.SourceCommand = null;
             this.dsCaster.SourceCondition = "Code_Group = \'Caster\'";
             this.dsCaster.SourceMethod = "";
@@ -885,7 +885,7 @@
             this.dsBOF.L3DataAdapter = this.Adapter;
             this.dsBOF.LoadEvent = "Click";
             this.dsBOF.LoadTrigger = null;
-            this.dsBOF.RefreshValve = 1000;
+            this.dsBOF.RefreshValve = 60000;
             this.dsBOF.SourceCommand = null;
             this.dsBOF.SourceCondition = "Code_Group = \'BOF\'";
             this.dsBOF.SourceMethod = "";
@@ -943,7 +943,7 @@
             this.dsRH.L3DataAdapter = this.Adapter;
             this.dsRH.LoadEvent = "Click";
             this.dsRH.LoadTrigger = null;
-            this.dsRH.RefreshValve = 1000;
+            this.dsRH.RefreshValve = 60000;
             this.dsRH.SourceCommand = null;
             this.dsRH.SourceCondition = "Code_Group = \'RH_CHANGE\'";
             this.dsRH.SourceMethod = "";
@@ -1019,7 +1019,7 @@
             this.dsLF.L3DataAdapter = this.Adapter;
             this.dsLF.LoadEvent = "Click";
             this.dsLF.LoadTrigger = null;
-            this.dsLF.RefreshValve = 1000;
+            this.dsLF.RefreshValve = 60000;
             this.dsLF.SourceCommand = null;
             this.dsLF.SourceCondition = "Code_Group = \'LF_CHANGE\'";
             this.dsLF.SourceMethod = "";
@@ -1214,7 +1214,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'TappingPlanChangeRoute\'";
             this.dsError.SourceMethod = "";

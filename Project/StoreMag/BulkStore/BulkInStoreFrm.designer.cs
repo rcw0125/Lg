@@ -140,7 +140,7 @@
             this.dsBulkInStore.L3DataAdapter = this.Adapter;
             this.dsBulkInStore.LoadEvent = "Click";
             this.dsBulkInStore.LoadTrigger = null;
-            this.dsBulkInStore.RefreshValve = 1000;
+            this.dsBulkInStore.RefreshValve = 60000;
             this.dsBulkInStore.SourceCommand = null;
             this.dsBulkInStore.SourceCondition = null;
             this.dsBulkInStore.SourceMethod = "GetMaterialOnInputCache";
@@ -540,7 +540,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\'";
             this.dsBulkCode.SourceMethod = "";
@@ -622,7 +622,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\'";
             this.dsBulkArea.SourceMethod = "";
@@ -771,7 +771,7 @@
             this.dsBulkInStoreSend.L3DataAdapter = this.Adapter;
             this.dsBulkInStoreSend.LoadEvent = "Click";
             this.dsBulkInStoreSend.LoadTrigger = null;
-            this.dsBulkInStoreSend.RefreshValve = 1000;
+            this.dsBulkInStoreSend.RefreshValve = 60000;
             this.dsBulkInStoreSend.SourceCommand = null;
             this.dsBulkInStoreSend.SourceCondition = "";
             this.dsBulkInStoreSend.SourceMethod = "";

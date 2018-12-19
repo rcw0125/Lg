@@ -245,7 +245,7 @@
             this.dsAdjustSet.L3DataAdapter = this.Adapter;
             this.dsAdjustSet.LoadEvent = "";
             this.dsAdjustSet.LoadTrigger = null;
-            this.dsAdjustSet.RefreshValve = 1000;
+            this.dsAdjustSet.RefreshValve = 60000;
             this.dsAdjustSet.SourceCommand = null;
             this.dsAdjustSet.SourceCondition = "CCMID is not null order by CCMID,StrandNo";
             this.dsAdjustSet.SourceMethod = "";
@@ -510,7 +510,7 @@
             this.dsAdjustStd.L3DataAdapter = this.Adapter;
             this.dsAdjustStd.LoadEvent = "Click";
             this.dsAdjustStd.LoadTrigger = null;
-            this.dsAdjustStd.RefreshValve = 1000;
+            this.dsAdjustStd.RefreshValve = 60000;
             this.dsAdjustStd.SourceCommand = null;
             this.dsAdjustStd.SourceCondition = "";
             this.dsAdjustStd.SourceMethod = "";
@@ -594,7 +594,7 @@
             this.dsStatus.L3DataAdapter = null;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "";
             this.dsStatus.SourceMethod = "";
@@ -616,7 +616,7 @@
             this.dsAdjustObject.L3DataAdapter = this.Adapter;
             this.dsAdjustObject.LoadEvent = "Click";
             this.dsAdjustObject.LoadTrigger = null;
-            this.dsAdjustObject.RefreshValve = 1000;
+            this.dsAdjustObject.RefreshValve = 60000;
             this.dsAdjustObject.SourceCommand = null;
             this.dsAdjustObject.SourceCondition = "Code_Group = \'AdjustObject\' order by Code";
             this.dsAdjustObject.SourceMethod = "";
@@ -638,7 +638,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "Click";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "Code_Group = \'UnitID\' order by Code";
             this.dsUnitID.SourceMethod = "";

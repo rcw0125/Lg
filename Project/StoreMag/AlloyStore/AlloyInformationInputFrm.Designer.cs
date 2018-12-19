@@ -323,7 +323,7 @@
             this.dsAlloyInfor.L3DataAdapter = null;
             this.dsAlloyInfor.LoadEvent = "Click";
             this.dsAlloyInfor.LoadTrigger = null;
-            this.dsAlloyInfor.RefreshValve = 1000;
+            this.dsAlloyInfor.RefreshValve = 60000;
             this.dsAlloyInfor.SourceCommand = null;
             this.dsAlloyInfor.SourceCondition = "";
             this.dsAlloyInfor.SourceMethod = "";
@@ -887,7 +887,7 @@
             this.dsElement.L3DataAdapter = null;
             this.dsElement.LoadEvent = "Click";
             this.dsElement.LoadTrigger = null;
-            this.dsElement.RefreshValve = 1000;
+            this.dsElement.RefreshValve = 60000;
             this.dsElement.SourceCommand = null;
             this.dsElement.SourceCondition = null;
             this.dsElement.SourceMethod = "";
@@ -1386,7 +1386,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\'";
             this.dsAlloyCode.SourceMethod = "";
@@ -1584,7 +1584,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'AlloyDataAccept\'";
             this.dsError.SourceMethod = "";

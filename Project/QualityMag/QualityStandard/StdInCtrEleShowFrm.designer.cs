@@ -317,7 +317,7 @@
             this.dsStdInCtrEle.L3DataAdapter = null;
             this.dsStdInCtrEle.LoadEvent = "Click";
             this.dsStdInCtrEle.LoadTrigger = null;
-            this.dsStdInCtrEle.RefreshValve = 1000;
+            this.dsStdInCtrEle.RefreshValve = 60000;
             this.dsStdInCtrEle.SourceCommand = null;
             this.dsStdInCtrEle.SourceCondition = "";
             this.dsStdInCtrEle.SourceMethod = "";

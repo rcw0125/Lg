@@ -210,7 +210,7 @@
             this.dsLadlePlan.L3DataAdapter = this.Adapter;
             this.dsLadlePlan.LoadEvent = "";
             this.dsLadlePlan.LoadTrigger = null;
-            this.dsLadlePlan.RefreshValve = 1000;
+            this.dsLadlePlan.RefreshValve = 60000;
             this.dsLadlePlan.SourceCommand = this.cmdLadlePlan;
             this.dsLadlePlan.SourceCondition = null;
             this.dsLadlePlan.SourceMethod = "";
@@ -557,7 +557,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = null;
             this.dsShiftID.SourceMethod = null;
@@ -578,7 +578,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = null;
             this.dsTeamID.SourceMethod = null;
@@ -1251,7 +1251,7 @@
             this.dsLadleID.L3DataAdapter = this.Adapter;
             this.dsLadleID.LoadEvent = "Click";
             this.dsLadleID.LoadTrigger = null;
-            this.dsLadleID.RefreshValve = 1000;
+            this.dsLadleID.RefreshValve = 60000;
             this.dsLadleID.SourceCommand = null;
             this.dsLadleID.SourceCondition = "Code_Group = \'Ladle\' order by Code";
             this.dsLadleID.SourceMethod = "";
@@ -1541,7 +1541,7 @@
             this.dsBOFID.L3DataAdapter = this.Adapter;
             this.dsBOFID.LoadEvent = "Click";
             this.dsBOFID.LoadTrigger = null;
-            this.dsBOFID.RefreshValve = 1000;
+            this.dsBOFID.RefreshValve = 60000;
             this.dsBOFID.SourceCommand = null;
             this.dsBOFID.SourceCondition = "Code_Group = \'BOF\'";
             this.dsBOFID.SourceMethod = "";
@@ -1583,7 +1583,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\'";
             this.dsCasterID.SourceMethod = "";

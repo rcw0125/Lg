@@ -526,7 +526,7 @@
             this.dsSteelGradeStd.L3DataAdapter = this.Adapter;
             this.dsSteelGradeStd.LoadEvent = "Click";
             this.dsSteelGradeStd.LoadTrigger = null;
-            this.dsSteelGradeStd.RefreshValve = 1000;
+            this.dsSteelGradeStd.RefreshValve = 60000;
             this.dsSteelGradeStd.SourceCommand = null;
             this.dsSteelGradeStd.SourceCondition = "";
             this.dsSteelGradeStd.SourceMethod = "";
@@ -953,7 +953,7 @@
             this.dsIronInfo.L3DataAdapter = this.Adapter;
             this.dsIronInfo.LoadEvent = "Click";
             this.dsIronInfo.LoadTrigger = null;
-            this.dsIronInfo.RefreshValve = 1000;
+            this.dsIronInfo.RefreshValve = 60000;
             this.dsIronInfo.SourceCommand = null;
             this.dsIronInfo.SourceCondition = "";
             this.dsIronInfo.SourceMethod = "GetUnprocessSampIrons";
@@ -1635,7 +1635,7 @@
             this.dsWeight.L3DataAdapter = this.Adapter;
             this.dsWeight.LoadEvent = "";
             this.dsWeight.LoadTrigger = null;
-            this.dsWeight.RefreshValve = 1000;
+            this.dsWeight.RefreshValve = 60000;
             this.dsWeight.SourceCommand = null;
             this.dsWeight.SourceCondition = "";
             this.dsWeight.SourceMethod = "";

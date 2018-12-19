@@ -139,7 +139,7 @@
             this.dsBOFData.L3DataAdapter = this.Adapter;
             this.dsBOFData.LoadEvent = "Click";
             this.dsBOFData.LoadTrigger = null;
-            this.dsBOFData.RefreshValve = 1000;
+            this.dsBOFData.RefreshValve = 60000;
             this.dsBOFData.SourceCommand = null;
             this.dsBOFData.SourceCondition = "1=2";
             this.dsBOFData.SourceMethod = "";
@@ -691,7 +691,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "Click";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift.SourceMethod = "";
@@ -746,7 +746,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";

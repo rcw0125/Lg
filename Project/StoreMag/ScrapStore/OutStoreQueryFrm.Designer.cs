@@ -236,7 +236,7 @@
             this.dsFGST.L3DataAdapter = this.Adapter;
             this.dsFGST.LoadEvent = "Click";
             this.dsFGST.LoadTrigger = null;
-            this.dsFGST.RefreshValve = 1000;
+            this.dsFGST.RefreshValve = 60000;
             this.dsFGST.SourceCommand = null;
             this.dsFGST.SourceCondition = "CODE_GROUP = \'PigIronGroupName\' or CODE_GROUP = \'ScrapGroupName\'";
             this.dsFGST.SourceMethod = "";
@@ -294,7 +294,7 @@
             this.dsST.L3DataAdapter = this.Adapter;
             this.dsST.LoadEvent = "Click";
             this.dsST.LoadTrigger = null;
-            this.dsST.RefreshValve = 1000;
+            this.dsST.RefreshValve = 60000;
             this.dsST.SourceCommand = null;
             this.dsST.SourceCondition = "";
             this.dsST.SourceMethod = "";
@@ -423,7 +423,7 @@
             this.dsFG.L3DataAdapter = this.Adapter;
             this.dsFG.LoadEvent = "Click";
             this.dsFG.LoadTrigger = null;
-            this.dsFG.RefreshValve = 1000;
+            this.dsFG.RefreshValve = 60000;
             this.dsFG.SourceCommand = null;
             this.dsFG.SourceCondition = "";
             this.dsFG.SourceMethod = "";
@@ -580,7 +580,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -636,7 +636,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -683,7 +683,7 @@
             this.dsOutStore.L3DataAdapter = this.Adapter;
             this.dsOutStore.LoadEvent = "Click";
             this.dsOutStore.LoadTrigger = null;
-            this.dsOutStore.RefreshValve = 1000;
+            this.dsOutStore.RefreshValve = 60000;
             this.dsOutStore.SourceCommand = null;
             this.dsOutStore.SourceCondition = "";
             this.dsOutStore.SourceMethod = " ";
@@ -962,7 +962,7 @@
             this.dsScrapCode.L3DataAdapter = this.Adapter;
             this.dsScrapCode.LoadEvent = "Click";
             this.dsScrapCode.LoadTrigger = null;
-            this.dsScrapCode.RefreshValve = 1000;
+            this.dsScrapCode.RefreshValve = 60000;
             this.dsScrapCode.SourceCommand = null;
             this.dsScrapCode.SourceCondition = "CODE_GROUP = \'SCRAP_CODE\'";
             this.dsScrapCode.SourceMethod = "";
@@ -1004,7 +1004,7 @@
             this.dsScrapArea.L3DataAdapter = this.Adapter;
             this.dsScrapArea.LoadEvent = "Click";
             this.dsScrapArea.LoadTrigger = null;
-            this.dsScrapArea.RefreshValve = 1000;
+            this.dsScrapArea.RefreshValve = 60000;
             this.dsScrapArea.SourceCommand = null;
             this.dsScrapArea.SourceCondition = "CODE_GROUP = \'ScrapArea\'";
             this.dsScrapArea.SourceMethod = "";
@@ -1046,7 +1046,7 @@
             this.dsFG1.L3DataAdapter = this.Adapter;
             this.dsFG1.LoadEvent = "Click";
             this.dsFG1.LoadTrigger = null;
-            this.dsFG1.RefreshValve = 1000;
+            this.dsFG1.RefreshValve = 60000;
             this.dsFG1.SourceCommand = null;
             this.dsFG1.SourceCondition = "";
             this.dsFG1.SourceMethod = "";
@@ -1067,7 +1067,7 @@
             this.dsST1.L3DataAdapter = this.Adapter;
             this.dsST1.LoadEvent = "Click";
             this.dsST1.LoadTrigger = null;
-            this.dsST1.RefreshValve = 1000;
+            this.dsST1.RefreshValve = 60000;
             this.dsST1.SourceCommand = null;
             this.dsST1.SourceCondition = "";
             this.dsST1.SourceMethod = "";

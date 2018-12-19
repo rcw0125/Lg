@@ -213,7 +213,7 @@
             this.dsTapping.L3DataAdapter = this.Adapter;
             this.dsTapping.LoadEvent = "Click";
             this.dsTapping.LoadTrigger = this.tsbtnQuery;
-            this.dsTapping.RefreshValve = 1000;
+            this.dsTapping.RefreshValve = 60000;
             this.dsTapping.SourceCommand = this.cmdQuery;
             this.dsTapping.SourceCondition = null;
             this.dsTapping.SourceMethod = "GetCastingPlan";
@@ -844,7 +844,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' order by Code";
             this.dsCasterID.SourceMethod = "";
@@ -886,7 +886,7 @@
             this.dsNewBOFFlag.L3DataAdapter = this.Adapter;
             this.dsNewBOFFlag.LoadEvent = "Click";
             this.dsNewBOFFlag.LoadTrigger = null;
-            this.dsNewBOFFlag.RefreshValve = 1000;
+            this.dsNewBOFFlag.RefreshValve = 60000;
             this.dsNewBOFFlag.SourceCommand = null;
             this.dsNewBOFFlag.SourceCondition = "Code_Group = \'BOF_TYPE\' and Code is not Null";
             this.dsNewBOFFlag.SourceMethod = "";
@@ -929,7 +929,7 @@
             this.dsBOFID.L3DataAdapter = this.Adapter;
             this.dsBOFID.LoadEvent = "Click";
             this.dsBOFID.LoadTrigger = null;
-            this.dsBOFID.RefreshValve = 1000;
+            this.dsBOFID.RefreshValve = 60000;
             this.dsBOFID.SourceCommand = null;
             this.dsBOFID.SourceCondition = "Code_Group = \'BOF\' and Code is not null";
             this.dsBOFID.SourceMethod = "";
@@ -971,7 +971,7 @@
             this.dsLFID.L3DataAdapter = this.Adapter;
             this.dsLFID.LoadEvent = "Click";
             this.dsLFID.LoadTrigger = null;
-            this.dsLFID.RefreshValve = 1000;
+            this.dsLFID.RefreshValve = 60000;
             this.dsLFID.SourceCommand = null;
             this.dsLFID.SourceCondition = "Code_Group = \'LF_CHANGE\'";
             this.dsLFID.SourceMethod = "";
@@ -1013,7 +1013,7 @@
             this.dsRHID.L3DataAdapter = this.Adapter;
             this.dsRHID.LoadEvent = "Click";
             this.dsRHID.LoadTrigger = null;
-            this.dsRHID.RefreshValve = 1000;
+            this.dsRHID.RefreshValve = 60000;
             this.dsRHID.SourceCommand = null;
             this.dsRHID.SourceCondition = "Code_Group = \'RH_CHANGE\'";
             this.dsRHID.SourceMethod = "";
@@ -1055,7 +1055,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'CASTING_PLAN_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -1169,7 +1169,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'TappingPlanGen\'";
             this.dsError.SourceMethod = "";

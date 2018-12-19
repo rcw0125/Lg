@@ -207,7 +207,7 @@
             this.dsIronLadle.L3DataAdapter = this.Adapter;
             this.dsIronLadle.LoadEvent = "";
             this.dsIronLadle.LoadTrigger = null;
-            this.dsIronLadle.RefreshValve = 1000;
+            this.dsIronLadle.RefreshValve = 60000;
             this.dsIronLadle.SourceCommand = this.cmdIronLadle;
             this.dsIronLadle.SourceCondition = "IDObject is not null order by IDObject";
             this.dsIronLadle.SourceMethod = "";
@@ -437,7 +437,7 @@
             this.dsCode.L3DataAdapter = this.Adapter;
             this.dsCode.LoadEvent = "";
             this.dsCode.LoadTrigger = null;
-            this.dsCode.RefreshValve = 1000;
+            this.dsCode.RefreshValve = 60000;
             this.dsCode.SourceCommand = null;
             this.dsCode.SourceCondition = "Code_Group_Des = \'能源消耗\'";
             this.dsCode.SourceMethod = "";

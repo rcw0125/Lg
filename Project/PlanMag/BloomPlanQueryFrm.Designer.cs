@@ -258,7 +258,7 @@
             this.dsBloomPlan.L3DataAdapter = this.Adapter;
             this.dsBloomPlan.LoadEvent = "";
             this.dsBloomPlan.LoadTrigger = null;
-            this.dsBloomPlan.RefreshValve = 1000;
+            this.dsBloomPlan.RefreshValve = 60000;
             this.dsBloomPlan.SourceCommand = null;
             this.dsBloomPlan.SourceCondition = "";
             this.dsBloomPlan.SourceMethod = "";

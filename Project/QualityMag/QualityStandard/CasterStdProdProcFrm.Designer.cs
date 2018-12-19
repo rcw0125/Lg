@@ -211,7 +211,7 @@
             this.dsProdProc.L3DataAdapter = this.Adapter;
             this.dsProdProc.LoadEvent = "Click";
             this.dsProdProc.LoadTrigger = null;
-            this.dsProdProc.RefreshValve = 1000;
+            this.dsProdProc.RefreshValve = 60000;
             this.dsProdProc.SourceCommand = null;
             this.dsProdProc.SourceCondition = "1=2";
             this.dsProdProc.SourceMethod = "";
@@ -558,7 +558,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "CODE_GROUP = \'Caster\'";
             this.dsCasterID.SourceMethod = "";
@@ -667,7 +667,7 @@
             this.dsUnitName.L3DataAdapter = this.Adapter;
             this.dsUnitName.LoadEvent = "Click";
             this.dsUnitName.LoadTrigger = null;
-            this.dsUnitName.RefreshValve = 1000;
+            this.dsUnitName.RefreshValve = 60000;
             this.dsUnitName.SourceCommand = null;
             this.dsUnitName.SourceCondition = null;
             this.dsUnitName.SourceMethod = null;
@@ -688,7 +688,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = this.Adapter;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = null;
             this.dsSteelGradeIndex.SourceCondition = "steelgradeindex is not null order by SteelGradeIndex";
             this.dsSteelGradeIndex.SourceMethod = "";
@@ -759,7 +759,7 @@
             this.dsSteelGrade.L3DataAdapter = this.Adapter;
             this.dsSteelGrade.LoadEvent = "";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "1=2";
             this.dsSteelGrade.SourceMethod = "";

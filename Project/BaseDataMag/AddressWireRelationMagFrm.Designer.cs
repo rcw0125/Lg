@@ -167,7 +167,7 @@
             this.dsWireID.L3DataAdapter = this.Adapter;
             this.dsWireID.LoadEvent = "Click";
             this.dsWireID.LoadTrigger = null;
-            this.dsWireID.RefreshValve = 1000;
+            this.dsWireID.RefreshValve = 60000;
             this.dsWireID.SourceCommand = null;
             this.dsWireID.SourceCondition = "Code_Group = \'FeedWire_Code\'";
             this.dsWireID.SourceMethod = "";
@@ -222,7 +222,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "1=2";
             this.dsBase.SourceMethod = "";
@@ -441,7 +441,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "Click";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "";
             this.dsUnitID.SourceMethod = "";

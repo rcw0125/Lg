@@ -124,7 +124,7 @@
             this.dsShiftTeamOrder.L3DataAdapter = this.Adapter;
             this.dsShiftTeamOrder.LoadEvent = "Click";
             this.dsShiftTeamOrder.LoadTrigger = null;
-            this.dsShiftTeamOrder.RefreshValve = 1000;
+            this.dsShiftTeamOrder.RefreshValve = 60000;
             this.dsShiftTeamOrder.SourceCommand = null;
             this.dsShiftTeamOrder.SourceCondition = null;
             this.dsShiftTeamOrder.SourceMethod = "";
@@ -257,7 +257,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -305,7 +305,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";

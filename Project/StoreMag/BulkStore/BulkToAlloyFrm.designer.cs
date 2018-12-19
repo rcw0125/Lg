@@ -356,7 +356,7 @@
             this.dsBulkToAlloy.L3DataAdapter = null;
             this.dsBulkToAlloy.LoadEvent = "";
             this.dsBulkToAlloy.LoadTrigger = null;
-            this.dsBulkToAlloy.RefreshValve = 1000;
+            this.dsBulkToAlloy.RefreshValve = 60000;
             this.dsBulkToAlloy.SourceCommand = null;
             this.dsBulkToAlloy.SourceCondition = "";
             this.dsBulkToAlloy.SourceMethod = "GetMaterialOnInputCache";

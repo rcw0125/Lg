@@ -348,7 +348,7 @@
             this.dsHeatData.L3DataAdapter = null;
             this.dsHeatData.LoadEvent = "Click";
             this.dsHeatData.LoadTrigger = null;
-            this.dsHeatData.RefreshValve = 1000;
+            this.dsHeatData.RefreshValve = 60000;
             this.dsHeatData.SourceCommand = null;
             this.dsHeatData.SourceCondition = "";
             this.dsHeatData.SourceMethod = "";
@@ -1569,7 +1569,7 @@
             this.dsWasteReason.L3DataAdapter = this.Adapter;
             this.dsWasteReason.LoadEvent = "Click";
             this.dsWasteReason.LoadTrigger = null;
-            this.dsWasteReason.RefreshValve = 1000;
+            this.dsWasteReason.RefreshValve = 60000;
             this.dsWasteReason.SourceCommand = null;
             this.dsWasteReason.SourceCondition = "Code_Group = \'WASTE_REASON_CODE\' order by code";
             this.dsWasteReason.SourceMethod = "";

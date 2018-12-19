@@ -157,7 +157,7 @@
             this.dsDecideCodeMainten.L3DataAdapter = this.Adapter;
             this.dsDecideCodeMainten.LoadEvent = "Click";
             this.dsDecideCodeMainten.LoadTrigger = null;
-            this.dsDecideCodeMainten.RefreshValve = 1000;
+            this.dsDecideCodeMainten.RefreshValve = 60000;
             this.dsDecideCodeMainten.SourceCommand = null;
             this.dsDecideCodeMainten.SourceCondition = "";
             this.dsDecideCodeMainten.SourceMethod = "";

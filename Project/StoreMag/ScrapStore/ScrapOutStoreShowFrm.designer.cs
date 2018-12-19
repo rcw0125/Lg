@@ -188,7 +188,7 @@
             this.dsScrapOutStoreConfirm.L3DataAdapter = null;
             this.dsScrapOutStoreConfirm.LoadEvent = "Click";
             this.dsScrapOutStoreConfirm.LoadTrigger = null;
-            this.dsScrapOutStoreConfirm.RefreshValve = 1000;
+            this.dsScrapOutStoreConfirm.RefreshValve = 60000;
             this.dsScrapOutStoreConfirm.SourceCommand = null;
             this.dsScrapOutStoreConfirm.SourceCondition = "";
             this.dsScrapOutStoreConfirm.SourceMethod = "";
@@ -817,7 +817,7 @@
             this.dsStoreAreaID.L3DataAdapter = this.Adapter;
             this.dsStoreAreaID.LoadEvent = "Click";
             this.dsStoreAreaID.LoadTrigger = null;
-            this.dsStoreAreaID.RefreshValve = 1000;
+            this.dsStoreAreaID.RefreshValve = 60000;
             this.dsStoreAreaID.SourceCommand = null;
             this.dsStoreAreaID.SourceCondition = "CODE_GROUP = \'ScrapArea\' and CODE is not null";
             this.dsStoreAreaID.SourceMethod = "";
@@ -1062,7 +1062,7 @@
             this.dsIron.L3DataAdapter = this.Adapter;
             this.dsIron.LoadEvent = "Click";
             this.dsIron.LoadTrigger = null;
-            this.dsIron.RefreshValve = 1000;
+            this.dsIron.RefreshValve = 60000;
             this.dsIron.SourceCommand = null;
             this.dsIron.SourceCondition = "CODE_GROUP = \'PigIronGroupName\' ";
             this.dsIron.SourceMethod = "";
@@ -1180,7 +1180,7 @@
             this.dsSteelName.L3DataAdapter = this.Adapter;
             this.dsSteelName.LoadEvent = "Click";
             this.dsSteelName.LoadTrigger = null;
-            this.dsSteelName.RefreshValve = 1000;
+            this.dsSteelName.RefreshValve = 60000;
             this.dsSteelName.SourceCommand = null;
             this.dsSteelName.SourceCondition = "CODE_GROUP = \'ScrapGroupName\' ";
             this.dsSteelName.SourceMethod = "";
@@ -1232,7 +1232,7 @@
             this.dsSend.L3DataAdapter = this.Adapter;
             this.dsSend.LoadEvent = "Click";
             this.dsSend.LoadTrigger = null;
-            this.dsSend.RefreshValve = 1000;
+            this.dsSend.RefreshValve = 60000;
             this.dsSend.SourceCommand = null;
             this.dsSend.SourceCondition = "";
             this.dsSend.SourceMethod = "";

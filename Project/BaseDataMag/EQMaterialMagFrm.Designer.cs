@@ -174,7 +174,7 @@
             this.dsEQM.L3DataAdapter = this.Adapter;
             this.dsEQM.LoadEvent = "Click";
             this.dsEQM.LoadTrigger = null;
-            this.dsEQM.RefreshValve = 1000;
+            this.dsEQM.RefreshValve = 60000;
             this.dsEQM.SourceCommand = null;
             this.dsEQM.SourceCondition = "";
             this.dsEQM.SourceMethod = "";

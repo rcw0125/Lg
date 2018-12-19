@@ -168,7 +168,7 @@
             this.dsUpID.L3DataAdapter = this.Adapter;
             this.dsUpID.LoadEvent = "";
             this.dsUpID.LoadTrigger = null;
-            this.dsUpID.RefreshValve = 1000;
+            this.dsUpID.RefreshValve = 60000;
             this.dsUpID.SourceCommand = null;
             this.dsUpID.SourceCondition = "VacTube_Name = \'1\' and Status = \'01\' and flag = \'1\' order by  VacTube_ID";
             this.dsUpID.SourceMethod = "";
@@ -190,7 +190,7 @@
             this.dsDownID.L3DataAdapter = this.Adapter;
             this.dsDownID.LoadEvent = "";
             this.dsDownID.LoadTrigger = null;
-            this.dsDownID.RefreshValve = 1000;
+            this.dsDownID.RefreshValve = 60000;
             this.dsDownID.SourceCommand = null;
             this.dsDownID.SourceCondition = "VacTube_Name = \'2\' and Status = \'01\' and flag = \'1\' order by  VacTube_ID";
             this.dsDownID.SourceMethod = "";

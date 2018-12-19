@@ -147,7 +147,7 @@
             this.dsDesination.L3DataAdapter = this.Adapter;
             this.dsDesination.LoadEvent = "";
             this.dsDesination.LoadTrigger = null;
-            this.dsDesination.RefreshValve = 1000;
+            this.dsDesination.RefreshValve = 60000;
             this.dsDesination.SourceCommand = null;
             this.dsDesination.SourceCondition = "code_group = \'Iron_Destination\' and code != \'0\' order by code_val_str";
             this.dsDesination.SourceMethod = "";
@@ -356,7 +356,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'IronsDeparture\'";
             this.dsError.SourceMethod = "";

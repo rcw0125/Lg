@@ -148,7 +148,7 @@
             this.dsgIron.L3DataAdapter = this.Adapter;
             this.dsgIron.LoadEvent = "Click";
             this.dsgIron.LoadTrigger = this.btnRefresh;
-            this.dsgIron.RefreshValve = 1000;
+            this.dsgIron.RefreshValve = 60000;
             this.dsgIron.SourceCommand = this.l3cmdIron;
             this.dsgIron.SourceCondition = null;
             this.dsgIron.SourceMethod = "GetUnArrivedIrons";
@@ -775,7 +775,7 @@
             this.dsIronSource.L3DataAdapter = this.Adapter;
             this.dsIronSource.LoadEvent = "Click";
             this.dsIronSource.LoadTrigger = null;
-            this.dsIronSource.RefreshValve = 1000;
+            this.dsIronSource.RefreshValve = 60000;
             this.dsIronSource.SourceCommand = null;
             this.dsIronSource.SourceCondition = "CODE_GROUP = \'Iron_Source\'";
             this.dsIronSource.SourceMethod = "";
@@ -839,7 +839,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'UnitMag\'";
             this.dsError.SourceMethod = "";

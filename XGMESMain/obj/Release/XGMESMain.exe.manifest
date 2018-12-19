@@ -81,14 +81,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BaseDataMag.dll" size="1075200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BaseDataMag.dll" size="1073664">
       <assemblyIdentity name="BaseDataMag" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>VI3QsneSA9xjs1JQ0OGkHMwFhNA=</dsig:DigestValue>
+        <dsig:DigestValue>iVAXZIJJ+ygh8tH9b8wvcWi7r7c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -136,7 +136,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EFFgRyrNtU++At50aPWozQD0T+I=</dsig:DigestValue>
+        <dsig:DigestValue>d9HMP4Lc4z4sefDpks7fkTTPC9k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -213,14 +213,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EquipMag.dll" size="6690816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EquipMag.dll" size="6681600">
       <assemblyIdentity name="EquipMag" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NLBzGcLU01pRQLizmCCiF+9+WQo=</dsig:DigestValue>
+        <dsig:DigestValue>lPnM0eeJpXPMVOHkqQuqcbnRah8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -249,26 +249,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NCTelDataMag.dll" size="454144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NCTelDataMag.dll" size="453120">
       <assemblyIdentity name="NCTelDataMag" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>uC7Lf6beEZROXU8cJju1rDP0tnQ=</dsig:DigestValue>
+        <dsig:DigestValue>O9tcFW/HsYbGoEGRxUecNkFWJRc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PlanMag.dll" size="1055232">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PlanMag.dll" size="1054208">
       <assemblyIdentity name="PlanMag" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>td50EiT++TzWl4npjl/NgdYfchg=</dsig:DigestValue>
+        <dsig:DigestValue>0khvaj9ox906FvaPjEUC36zqY/Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -477,14 +477,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QualityMag.dll" size="3196416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QualityMag.dll" size="3191808">
       <assemblyIdentity name="QualityMag" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Y8/BbV9zVYtzaRdNV5wpb+b5BUM=</dsig:DigestValue>
+        <dsig:DigestValue>HK9tkiByGcVT6mpGzB0Kw3oCTjg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -513,26 +513,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="32384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="32392">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aJr1WJTFvNTqmW3GzpFAYfGnHr8=</dsig:DigestValue>
+        <dsig:DigestValue>ktNm3hC1M2WpE4GIHeFQW655yXk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StoreMag.dll" size="2759168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StoreMag.dll" size="2755072">
       <assemblyIdentity name="StoreMag" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>RLqWMaZpzvoTLXYaI25hxKFx3EE=</dsig:DigestValue>
+        <dsig:DigestValue>9eSmzedsR7kpgY1VClQEFBeMNGQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -561,14 +561,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnitMag.dll" size="5765632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnitMag.dll" size="5753856">
       <assemblyIdentity name="UnitMag" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1S5YsEudyQfS7LpVtciAr+OiLVY=</dsig:DigestValue>
+        <dsig:DigestValue>yTYAGekkk2cpwZYWhn0moAjnuFg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -597,14 +597,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XGMESMain.exe" size="320000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XGMESMain.exe" size="322048">
       <assemblyIdentity name="XGMESMain" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>LZVhMCfwwoIoT4epCoWgIsHkyCs=</dsig:DigestValue>
+        <dsig:DigestValue>GMwd6Q60GJiQXTJ4mSS1VtNdxS0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

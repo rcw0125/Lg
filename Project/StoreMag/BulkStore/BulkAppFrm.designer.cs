@@ -109,7 +109,7 @@
             this.dsBulkApp.L3DataAdapter = this.Adapter;
             this.dsBulkApp.LoadEvent = "Click";
             this.dsBulkApp.LoadTrigger = null;
-            this.dsBulkApp.RefreshValve = 1000;
+            this.dsBulkApp.RefreshValve = 60000;
             this.dsBulkApp.SourceCommand = null;
             this.dsBulkApp.SourceCondition = "";
             this.dsBulkApp.SourceMethod = "";
@@ -407,7 +407,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsBulkArea.SourceMethod = "";
@@ -473,7 +473,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\' and CODE is not null";
             this.dsBulkCode.SourceMethod = "";

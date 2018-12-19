@@ -168,7 +168,7 @@
             this.dsPlan.L3DataAdapter = this.Adapter;
             this.dsPlan.LoadEvent = "Click";
             this.dsPlan.LoadTrigger = null;
-            this.dsPlan.RefreshValve = 1000;
+            this.dsPlan.RefreshValve = 60000;
             this.dsPlan.SourceCommand = null;
             this.dsPlan.SourceCondition = "";
             this.dsPlan.SourceMethod = "";

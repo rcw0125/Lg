@@ -172,7 +172,7 @@
             this.dsTappingAct.L3DataAdapter = this.Adapter;
             this.dsTappingAct.LoadEvent = "Click";
             this.dsTappingAct.LoadTrigger = null;
-            this.dsTappingAct.RefreshValve = 1000;
+            this.dsTappingAct.RefreshValve = 60000;
             this.dsTappingAct.SourceCommand = null;
             this.dsTappingAct.SourceCondition = "PreHeatID =\'1\' or PreHeatID =\'2\' or PreHeatID =\'3\' or PreHeatID =\'4\' or PreHeatID" +
                 " =\'5\'";
@@ -275,7 +275,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "CODE_GROUP = \'BOFUseFlag\' and CODE is not null";
             this.dsStatus.SourceMethod = "";
@@ -316,7 +316,7 @@
             this.dsNewBOFFlag.L3DataAdapter = this.Adapter;
             this.dsNewBOFFlag.LoadEvent = "Click";
             this.dsNewBOFFlag.LoadTrigger = null;
-            this.dsNewBOFFlag.RefreshValve = 1000;
+            this.dsNewBOFFlag.RefreshValve = 60000;
             this.dsNewBOFFlag.SourceCommand = null;
             this.dsNewBOFFlag.SourceCondition = "CODE_GROUP = \'BOF_TYPE\' and CODE is not null";
             this.dsNewBOFFlag.SourceMethod = "";

@@ -171,7 +171,7 @@
             this.dsDuty.L3DataAdapter = this.Adapter;
             this.dsDuty.LoadEvent = "Click";
             this.dsDuty.LoadTrigger = null;
-            this.dsDuty.RefreshValve = 1000;
+            this.dsDuty.RefreshValve = 60000;
             this.dsDuty.SourceCommand = null;
             this.dsDuty.SourceCondition = "UnitID in (\'S02\',\'S03\')";
             this.dsDuty.SourceMethod = "";
@@ -435,7 +435,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -477,7 +477,7 @@
             this.dsDeSUnitID.L3DataAdapter = this.Adapter;
             this.dsDeSUnitID.LoadEvent = "";
             this.dsDeSUnitID.LoadTrigger = null;
-            this.dsDeSUnitID.RefreshValve = 1000;
+            this.dsDeSUnitID.RefreshValve = 60000;
             this.dsDeSUnitID.SourceCommand = null;
             this.dsDeSUnitID.SourceCondition = "code_group = \'DeS\'";
             this.dsDeSUnitID.SourceMethod = "";

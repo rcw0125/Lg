@@ -164,7 +164,7 @@
             this.dsHeatExcepCodeMainten.L3DataAdapter = this.Adapter;
             this.dsHeatExcepCodeMainten.LoadEvent = "Click";
             this.dsHeatExcepCodeMainten.LoadTrigger = null;
-            this.dsHeatExcepCodeMainten.RefreshValve = 1000;
+            this.dsHeatExcepCodeMainten.RefreshValve = 60000;
             this.dsHeatExcepCodeMainten.SourceCommand = null;
             this.dsHeatExcepCodeMainten.SourceCondition = null;
             this.dsHeatExcepCodeMainten.SourceMethod = "";

@@ -374,7 +374,7 @@
             this.dsMold.L3DataAdapter = this.Adapter;
             this.dsMold.LoadEvent = "";
             this.dsMold.LoadTrigger = null;
-            this.dsMold.RefreshValve = 1000;
+            this.dsMold.RefreshValve = 60000;
             this.dsMold.SourceCommand = null;
             this.dsMold.SourceCondition = "1=2";
             this.dsMold.SourceMethod = "";

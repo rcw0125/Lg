@@ -328,7 +328,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -454,7 +454,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -509,7 +509,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -563,7 +563,7 @@
             this.dsWaster.L3DataAdapter = this.Adapter;
             this.dsWaster.LoadEvent = "Click";
             this.dsWaster.LoadTrigger = null;
-            this.dsWaster.RefreshValve = 1000;
+            this.dsWaster.RefreshValve = 60000;
             this.dsWaster.SourceCommand = null;
             this.dsWaster.SourceCondition = "1=2";
             this.dsWaster.SourceMethod = "";
@@ -965,7 +965,7 @@
             this.dsBloomArea.L3DataAdapter = this.Adapter;
             this.dsBloomArea.LoadEvent = "Click";
             this.dsBloomArea.LoadTrigger = null;
-            this.dsBloomArea.RefreshValve = 1000;
+            this.dsBloomArea.RefreshValve = 60000;
             this.dsBloomArea.SourceCommand = null;
             this.dsBloomArea.SourceCondition = "CODE_GROUP = \'BloomArea\'";
             this.dsBloomArea.SourceMethod = "";

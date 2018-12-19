@@ -123,7 +123,7 @@
             this.dsBulkInStoreConfirm.L3DataAdapter = this.Adapter;
             this.dsBulkInStoreConfirm.LoadEvent = "Click";
             this.dsBulkInStoreConfirm.LoadTrigger = null;
-            this.dsBulkInStoreConfirm.RefreshValve = 1000;
+            this.dsBulkInStoreConfirm.RefreshValve = 60000;
             this.dsBulkInStoreConfirm.SourceCommand = null;
             this.dsBulkInStoreConfirm.SourceCondition = "";
             this.dsBulkInStoreConfirm.SourceMethod = "";
@@ -360,7 +360,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsBulkArea.SourceMethod = "";
@@ -537,7 +537,7 @@
             this.dsCodeArea.L3DataAdapter = this.Adapter;
             this.dsCodeArea.LoadEvent = "Click";
             this.dsCodeArea.LoadTrigger = null;
-            this.dsCodeArea.RefreshValve = 1000;
+            this.dsCodeArea.RefreshValve = 60000;
             this.dsCodeArea.SourceCommand = this.cmdCodeArea;
             this.dsCodeArea.SourceCondition = null;
             this.dsCodeArea.SourceMethod = "GetBulkArea";
@@ -644,7 +644,7 @@
             this.dsGround.L3DataAdapter = this.Adapter;
             this.dsGround.LoadEvent = "Click";
             this.dsGround.LoadTrigger = null;
-            this.dsGround.RefreshValve = 1000;
+            this.dsGround.RefreshValve = 60000;
             this.dsGround.SourceCommand = null;
             this.dsGround.SourceCondition = "CODE_GROUP =  \'BulkGround\' ORDER BY CODE";
             this.dsGround.SourceMethod = "";
@@ -686,7 +686,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'BulkChangeStore\'";
             this.dsError.SourceMethod = "";

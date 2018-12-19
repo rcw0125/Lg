@@ -294,7 +294,7 @@
             this.dsStack.L3DataAdapter = null;
             this.dsStack.LoadEvent = "Click";
             this.dsStack.LoadTrigger = null;
-            this.dsStack.RefreshValve = 1000;
+            this.dsStack.RefreshValve = 60000;
             this.dsStack.SourceCommand = null;
             this.dsStack.SourceCondition = "";
             this.dsStack.SourceMethod = "";
@@ -388,7 +388,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -449,7 +449,7 @@
             this.dsStackContent.L3DataAdapter = this.Adapter;
             this.dsStackContent.LoadEvent = "Click";
             this.dsStackContent.LoadTrigger = null;
-            this.dsStackContent.RefreshValve = 1000;
+            this.dsStackContent.RefreshValve = 60000;
             this.dsStackContent.SourceCommand = null;
             this.dsStackContent.SourceCondition = "CODE_GROUP = \'BOF_Stack_Content\'";
             this.dsStackContent.SourceMethod = "";
@@ -528,7 +528,7 @@
             this.dsStackMaterial.L3DataAdapter = this.Adapter;
             this.dsStackMaterial.LoadEvent = "Click";
             this.dsStackMaterial.LoadTrigger = null;
-            this.dsStackMaterial.RefreshValve = 1000;
+            this.dsStackMaterial.RefreshValve = 60000;
             this.dsStackMaterial.SourceCommand = null;
             this.dsStackMaterial.SourceCondition = "CODE_GROUP = \'BOF_Stack_Materiel\'";
             this.dsStackMaterial.SourceMethod = "";
@@ -598,7 +598,7 @@
             this.dsTapholeVender.L3DataAdapter = this.Adapter;
             this.dsTapholeVender.LoadEvent = "Click";
             this.dsTapholeVender.LoadTrigger = null;
-            this.dsTapholeVender.RefreshValve = 1000;
+            this.dsTapholeVender.RefreshValve = 60000;
             this.dsTapholeVender.SourceCommand = null;
             this.dsTapholeVender.SourceCondition = "CODE_GROUP = \'BOF_Stack_Taphole_Vendor\'";
             this.dsTapholeVender.SourceMethod = "";
@@ -709,7 +709,7 @@
             this.dsMaterielVonder.L3DataAdapter = this.Adapter;
             this.dsMaterielVonder.LoadEvent = "Click";
             this.dsMaterielVonder.LoadTrigger = null;
-            this.dsMaterielVonder.RefreshValve = 1000;
+            this.dsMaterielVonder.RefreshValve = 60000;
             this.dsMaterielVonder.SourceCommand = null;
             this.dsMaterielVonder.SourceCondition = "CODE_GROUP = \'BOF_Stack_Materiel_Vendor\'";
             this.dsMaterielVonder.SourceMethod = "";

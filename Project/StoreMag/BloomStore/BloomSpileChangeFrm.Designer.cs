@@ -181,7 +181,7 @@
             this.dsStoreID.L3DataAdapter = this.Adapter;
             this.dsStoreID.LoadEvent = "Click";
             this.dsStoreID.LoadTrigger = null;
-            this.dsStoreID.RefreshValve = 1000;
+            this.dsStoreID.RefreshValve = 60000;
             this.dsStoreID.SourceCommand = null;
             this.dsStoreID.SourceCondition = "CODE_GROUP = \'BloomArea\' order by code";
             this.dsStoreID.SourceMethod = "";
@@ -248,7 +248,7 @@
             this.dsSpileChange.L3DataAdapter = this.Adapter;
             this.dsSpileChange.LoadEvent = "Click";
             this.dsSpileChange.LoadTrigger = null;
-            this.dsSpileChange.RefreshValve = 1000;
+            this.dsSpileChange.RefreshValve = 60000;
             this.dsSpileChange.SourceCommand = null;
             this.dsSpileChange.SourceCondition = "";
             this.dsSpileChange.SourceMethod = "";
@@ -899,7 +899,7 @@
             this.dsPile.L3DataAdapter = this.Adapter;
             this.dsPile.LoadEvent = "Click";
             this.dsPile.LoadTrigger = null;
-            this.dsPile.RefreshValve = 1000;
+            this.dsPile.RefreshValve = 60000;
             this.dsPile.SourceCommand = null;
             this.dsPile.SourceCondition = "CODE_GROUP = \'BLOOM_SPILE\' or CODE_GROUP = \'KEEP_SPILE\' order by code";
             this.dsPile.SourceMethod = "";

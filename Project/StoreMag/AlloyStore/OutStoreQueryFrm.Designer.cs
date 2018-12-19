@@ -210,7 +210,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -278,7 +278,7 @@
             this.dsStoreArea.L3DataAdapter = this.Adapter;
             this.dsStoreArea.LoadEvent = "Click";
             this.dsStoreArea.LoadTrigger = null;
-            this.dsStoreArea.RefreshValve = 1000;
+            this.dsStoreArea.RefreshValve = 60000;
             this.dsStoreArea.SourceCommand = null;
             this.dsStoreArea.SourceCondition = "CODE_GROUP = \'AlloyArea\'  or Code_Group = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\'";
@@ -341,7 +341,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "CODE_GROUP IN (\'BOF\',\'LF\',\'RH\')  and code is not null order by code";
             this.dsUnitID.SourceMethod = "";
@@ -419,7 +419,7 @@
             this.OutType.L3DataAdapter = this.Adapter;
             this.OutType.LoadEvent = "";
             this.OutType.LoadTrigger = null;
-            this.OutType.RefreshValve = 1000;
+            this.OutType.RefreshValve = 60000;
             this.OutType.SourceCommand = null;
             this.OutType.SourceCondition = "code_group = \'OutStoreType\'";
             this.OutType.SourceMethod = "";
@@ -496,7 +496,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -551,7 +551,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -628,7 +628,7 @@
             this.dsOutStore.L3DataAdapter = this.Adapter;
             this.dsOutStore.LoadEvent = "Click";
             this.dsOutStore.LoadTrigger = null;
-            this.dsOutStore.RefreshValve = 1000;
+            this.dsOutStore.RefreshValve = 60000;
             this.dsOutStore.SourceCommand = null;
             this.dsOutStore.SourceCondition = "1=2";
             this.dsOutStore.SourceMethod = "";

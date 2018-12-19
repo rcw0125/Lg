@@ -264,7 +264,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -310,7 +310,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -352,7 +352,7 @@
             this.dsCaster.L3DataAdapter = this.Adapter;
             this.dsCaster.LoadEvent = "Click";
             this.dsCaster.LoadTrigger = null;
-            this.dsCaster.RefreshValve = 1000;
+            this.dsCaster.RefreshValve = 60000;
             this.dsCaster.SourceCommand = null;
             this.dsCaster.SourceCondition = "CODE_GROUP = \'Caster\'";
             this.dsCaster.SourceMethod = "";
@@ -399,7 +399,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -456,7 +456,7 @@
             this.dsWrongReason.L3DataAdapter = this.Adapter;
             this.dsWrongReason.LoadEvent = "Click";
             this.dsWrongReason.LoadTrigger = null;
-            this.dsWrongReason.RefreshValve = 1000;
+            this.dsWrongReason.RefreshValve = 60000;
             this.dsWrongReason.SourceCommand = null;
             this.dsWrongReason.SourceCondition = "CODE_GROUP = \'WRONG_REASON_CODE\'";
             this.dsWrongReason.SourceMethod = "";
@@ -513,7 +513,7 @@
             this.dsHotJudge.L3DataAdapter = this.Adapter;
             this.dsHotJudge.LoadEvent = "Click";
             this.dsHotJudge.LoadTrigger = null;
-            this.dsHotJudge.RefreshValve = 1000;
+            this.dsHotJudge.RefreshValve = 60000;
             this.dsHotJudge.SourceCommand = null;
             this.dsHotJudge.SourceCondition = "1=2";
             this.dsHotJudge.SourceMethod = "";
@@ -1040,7 +1040,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = this.Adapter;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = null;
             this.dsSteelGradeIndex.SourceCondition = null;
             this.dsSteelGradeIndex.SourceMethod = "";

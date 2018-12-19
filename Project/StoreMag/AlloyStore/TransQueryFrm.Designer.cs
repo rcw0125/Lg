@@ -215,7 +215,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -288,7 +288,7 @@
             this.dsStoreArea.L3DataAdapter = this.Adapter;
             this.dsStoreArea.LoadEvent = "Click";
             this.dsStoreArea.LoadTrigger = null;
-            this.dsStoreArea.RefreshValve = 1000;
+            this.dsStoreArea.RefreshValve = 60000;
             this.dsStoreArea.SourceCommand = null;
             this.dsStoreArea.SourceCondition = "CODE_GROUP = \'AlloyArea\'  or Code_Group = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\'";
@@ -364,7 +364,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -419,7 +419,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -473,7 +473,7 @@
             this.dsTrans.L3DataAdapter = null;
             this.dsTrans.LoadEvent = "Click";
             this.dsTrans.LoadTrigger = null;
-            this.dsTrans.RefreshValve = 1000;
+            this.dsTrans.RefreshValve = 60000;
             this.dsTrans.SourceCommand = null;
             this.dsTrans.SourceCondition = "1=2";
             this.dsTrans.SourceMethod = "";

@@ -261,7 +261,7 @@
             this.dsStore.L3DataAdapter = this.Adapter;
             this.dsStore.LoadEvent = "Click";
             this.dsStore.LoadTrigger = null;
-            this.dsStore.RefreshValve = 1000;
+            this.dsStore.RefreshValve = 60000;
             this.dsStore.SourceCommand = null;
             this.dsStore.SourceCondition = null;
             this.dsStore.SourceMethod = "GetAllMaterialOnStore";
@@ -1003,7 +1003,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or code_group = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -1060,7 +1060,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\'";
             this.dsAlloyCode.SourceMethod = "";
@@ -1305,7 +1305,7 @@
             this.dsStoreSend.L3DataAdapter = null;
             this.dsStoreSend.LoadEvent = "Click";
             this.dsStoreSend.LoadTrigger = null;
-            this.dsStoreSend.RefreshValve = 1000;
+            this.dsStoreSend.RefreshValve = 60000;
             this.dsStoreSend.SourceCommand = null;
             this.dsStoreSend.SourceCondition = "";
             this.dsStoreSend.SourceMethod = "";
@@ -1448,7 +1448,7 @@
             this.dsClear.L3DataAdapter = null;
             this.dsClear.LoadEvent = "";
             this.dsClear.LoadTrigger = null;
-            this.dsClear.RefreshValve = 1000;
+            this.dsClear.RefreshValve = 60000;
             this.dsClear.SourceCommand = null;
             this.dsClear.SourceCondition = "";
             this.dsClear.SourceMethod = "GetAllMaterialOnStore";

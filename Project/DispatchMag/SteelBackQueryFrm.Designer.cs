@@ -204,7 +204,7 @@
             this.dsSteelBackReason.L3DataAdapter = this.Adapter;
             this.dsSteelBackReason.LoadEvent = "Click";
             this.dsSteelBackReason.LoadTrigger = null;
-            this.dsSteelBackReason.RefreshValve = 1000;
+            this.dsSteelBackReason.RefreshValve = 60000;
             this.dsSteelBackReason.SourceCommand = null;
             this.dsSteelBackReason.SourceCondition = "CODE_GROUP = \'SteelBackReason\'";
             this.dsSteelBackReason.SourceMethod = "";
@@ -281,7 +281,7 @@
             this.dsSteelBack.L3DataAdapter = this.Adapter;
             this.dsSteelBack.LoadEvent = "Click";
             this.dsSteelBack.LoadTrigger = null;
-            this.dsSteelBack.RefreshValve = 1000;
+            this.dsSteelBack.RefreshValve = 60000;
             this.dsSteelBack.SourceCommand = null;
             this.dsSteelBack.SourceCondition = "　";
             this.dsSteelBack.SourceMethod = "";

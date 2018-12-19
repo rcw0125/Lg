@@ -456,7 +456,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = this.cmdMain;
             this.dsMain.SourceCondition = "Location is not null order by Location";
             this.dsMain.SourceMethod = "QueryCalibration";
@@ -684,7 +684,7 @@
             this.dsDetail.L3DataAdapter = this.Adapter;
             this.dsDetail.LoadEvent = "Click";
             this.dsDetail.LoadTrigger = null;
-            this.dsDetail.RefreshValve = 1000;
+            this.dsDetail.RefreshValve = 60000;
             this.dsDetail.SourceCommand = this.cmdDetail;
             this.dsDetail.SourceCondition = null;
             this.dsDetail.SourceMethod = "QueryCalibrationDetail";
@@ -1379,7 +1379,7 @@
             this.dsLocation.L3DataAdapter = this.Adapter;
             this.dsLocation.LoadEvent = "Click";
             this.dsLocation.LoadTrigger = null;
-            this.dsLocation.RefreshValve = 1000;
+            this.dsLocation.RefreshValve = 60000;
             this.dsLocation.SourceCommand = null;
             this.dsLocation.SourceCondition = "Code_Group = \'Location\' order by Code";
             this.dsLocation.SourceMethod = "";
@@ -1448,7 +1448,7 @@
             this.dsLocation_Des.L3DataAdapter = this.Adapter;
             this.dsLocation_Des.LoadEvent = "Click";
             this.dsLocation_Des.LoadTrigger = null;
-            this.dsLocation_Des.RefreshValve = 1000;
+            this.dsLocation_Des.RefreshValve = 60000;
             this.dsLocation_Des.SourceCommand = null;
             this.dsLocation_Des.SourceCondition = "Code_Group = \'Location_Des\' order by Code";
             this.dsLocation_Des.SourceMethod = "";
@@ -1605,7 +1605,7 @@
             this.dsCheck.L3DataAdapter = null;
             this.dsCheck.LoadEvent = "Click";
             this.dsCheck.LoadTrigger = null;
-            this.dsCheck.RefreshValve = 1000;
+            this.dsCheck.RefreshValve = 60000;
             this.dsCheck.SourceCommand = null;
             this.dsCheck.SourceCondition = "";
             this.dsCheck.SourceMethod = "";

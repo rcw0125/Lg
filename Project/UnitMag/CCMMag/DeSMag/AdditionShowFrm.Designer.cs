@@ -167,7 +167,7 @@
             this.dsAdditon.L3DataAdapter = null;
             this.dsAdditon.LoadEvent = "";
             this.dsAdditon.LoadTrigger = null;
-            this.dsAdditon.RefreshValve = 1000;
+            this.dsAdditon.RefreshValve = 60000;
             this.dsAdditon.SourceCommand = null;
             this.dsAdditon.SourceCondition = "";
             this.dsAdditon.SourceMethod = "";
@@ -283,7 +283,7 @@
             this.dsMatVendor.L3DataAdapter = this.Adapter;
             this.dsMatVendor.LoadEvent = "";
             this.dsMatVendor.LoadTrigger = null;
-            this.dsMatVendor.RefreshValve = 1000;
+            this.dsMatVendor.RefreshValve = 60000;
             this.dsMatVendor.SourceCommand = null;
             this.dsMatVendor.SourceCondition = "code_group = \'DeS_Mat_Vendor\'";
             this.dsMatVendor.SourceMethod = "";
@@ -393,7 +393,7 @@
             this.dsMatCode.L3DataAdapter = this.Adapter;
             this.dsMatCode.LoadEvent = "";
             this.dsMatCode.LoadTrigger = null;
-            this.dsMatCode.RefreshValve = 1000;
+            this.dsMatCode.RefreshValve = 60000;
             this.dsMatCode.SourceCommand = null;
             this.dsMatCode.SourceCondition = "code_group = \'DeS_Mat_Code\'";
             this.dsMatCode.SourceMethod = "";
@@ -449,7 +449,7 @@
             this.dsDeSUnitID.L3DataAdapter = this.Adapter;
             this.dsDeSUnitID.LoadEvent = "";
             this.dsDeSUnitID.LoadTrigger = null;
-            this.dsDeSUnitID.RefreshValve = 1000;
+            this.dsDeSUnitID.RefreshValve = 60000;
             this.dsDeSUnitID.SourceCommand = null;
             this.dsDeSUnitID.SourceCondition = "code_group = \'DeS\' and (code = \'S02\' or code = \'S03\')";
             this.dsDeSUnitID.SourceMethod = "";
@@ -644,7 +644,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'NewDeSAdditionData\'";
             this.dsError.SourceMethod = "";

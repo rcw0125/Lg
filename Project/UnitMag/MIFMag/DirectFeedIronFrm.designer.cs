@@ -394,7 +394,7 @@
             this.dsMixs.L3DataAdapter = null;
             this.dsMixs.LoadEvent = "";
             this.dsMixs.LoadTrigger = null;
-            this.dsMixs.RefreshValve = 1000;
+            this.dsMixs.RefreshValve = 60000;
             this.dsMixs.SourceCommand = null;
             this.dsMixs.SourceCondition = "";
             this.dsMixs.SourceMethod = "";
@@ -1174,7 +1174,7 @@
             this.dsIronLadles.L3DataAdapter = this.Adapter;
             this.dsIronLadles.LoadEvent = "Click";
             this.dsIronLadles.LoadTrigger = null;
-            this.dsIronLadles.RefreshValve = 1000;
+            this.dsIronLadles.RefreshValve = 60000;
             this.dsIronLadles.SourceCommand = null;
             this.dsIronLadles.SourceCondition = null;
             this.dsIronLadles.SourceMethod = "GetHotIronLadles";
@@ -1352,7 +1352,7 @@
             this.dsIronSource.L3DataAdapter = this.Adapter;
             this.dsIronSource.LoadEvent = "Click";
             this.dsIronSource.LoadTrigger = null;
-            this.dsIronSource.RefreshValve = 1000;
+            this.dsIronSource.RefreshValve = 60000;
             this.dsIronSource.SourceCommand = null;
             this.dsIronSource.SourceCondition = "CODE_GROUP = \'Iron_Source\' and Code_des is not null ";
             this.dsIronSource.SourceMethod = "";
@@ -1650,7 +1650,7 @@
             this.dsIrons.L3DataAdapter = this.Adapter;
             this.dsIrons.LoadEvent = "";
             this.dsIrons.LoadTrigger = null;
-            this.dsIrons.RefreshValve = 1000;
+            this.dsIrons.RefreshValve = 60000;
             this.dsIrons.SourceCommand = null;
             this.dsIrons.SourceCondition = "";
             this.dsIrons.SourceMethod = "GetIncomingIrons";
@@ -2336,7 +2336,7 @@
             this.dsIronMode.L3DataAdapter = this.Adapter;
             this.dsIronMode.LoadEvent = "Click";
             this.dsIronMode.LoadTrigger = null;
-            this.dsIronMode.RefreshValve = 1000;
+            this.dsIronMode.RefreshValve = 60000;
             this.dsIronMode.SourceCommand = null;
             this.dsIronMode.SourceCondition = "CODE_GROUP = \'Iron_Mode\'";
             this.dsIronMode.SourceMethod = "";
@@ -2811,7 +2811,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'UnitMag\'";
             this.dsError.SourceMethod = "";

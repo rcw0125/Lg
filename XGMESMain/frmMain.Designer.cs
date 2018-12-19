@@ -4190,7 +4190,7 @@
             this.dsTeamID.L3DataAdapter = null;
             this.dsTeamID.LoadEvent = "";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -4232,7 +4232,7 @@
             this.dsShiftID.L3DataAdapter = null;
             this.dsShiftID.LoadEvent = "";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";

@@ -597,7 +597,7 @@
             this.dsSteelExchange.L3DataAdapter = this.Adapter;
             this.dsSteelExchange.LoadEvent = "Click";
             this.dsSteelExchange.LoadTrigger = null;
-            this.dsSteelExchange.RefreshValve = 1000;
+            this.dsSteelExchange.RefreshValve = 60000;
             this.dsSteelExchange.SourceCommand = null;
             this.dsSteelExchange.SourceCondition = null;
             this.dsSteelExchange.SourceMethod = "GetCurSteelExInfor";
@@ -1182,7 +1182,7 @@
             this.dsHeatExcept.L3DataAdapter = null;
             this.dsHeatExcept.LoadEvent = "Click";
             this.dsHeatExcept.LoadTrigger = null;
-            this.dsHeatExcept.RefreshValve = 1000;
+            this.dsHeatExcept.RefreshValve = 60000;
             this.dsHeatExcept.SourceCommand = null;
             this.dsHeatExcept.SourceCondition = null;
             this.dsHeatExcept.SourceMethod = "";
@@ -1454,7 +1454,7 @@
             this.dsSteelChangeReason.L3DataAdapter = this.Adapter;
             this.dsSteelChangeReason.LoadEvent = "Click";
             this.dsSteelChangeReason.LoadTrigger = null;
-            this.dsSteelChangeReason.RefreshValve = 1000;
+            this.dsSteelChangeReason.RefreshValve = 60000;
             this.dsSteelChangeReason.SourceCommand = null;
             this.dsSteelChangeReason.SourceCondition = "CODE_GROUP = \'SteelChangeReason\'";
             this.dsSteelChangeReason.SourceMethod = "";
@@ -1767,7 +1767,7 @@
             this.dsSteelTrunReason.L3DataAdapter = this.Adapter;
             this.dsSteelTrunReason.LoadEvent = "Click";
             this.dsSteelTrunReason.LoadTrigger = null;
-            this.dsSteelTrunReason.RefreshValve = 1000;
+            this.dsSteelTrunReason.RefreshValve = 60000;
             this.dsSteelTrunReason.SourceCommand = null;
             this.dsSteelTrunReason.SourceCondition = "CODE_GROUP = \'SteelTrunReason\'";
             this.dsSteelTrunReason.SourceMethod = "";
@@ -1863,7 +1863,7 @@
             this.dsSteelTurn.L3DataAdapter = this.Adapter;
             this.dsSteelTurn.LoadEvent = "Click";
             this.dsSteelTurn.LoadTrigger = null;
-            this.dsSteelTurn.RefreshValve = 1000;
+            this.dsSteelTurn.RefreshValve = 60000;
             this.dsSteelTurn.SourceCommand = null;
             this.dsSteelTurn.SourceCondition = null;
             this.dsSteelTurn.SourceMethod = "GetCurSteelTurnInfor";
@@ -2244,7 +2244,7 @@
             this.dsSteelBackReason.L3DataAdapter = this.Adapter;
             this.dsSteelBackReason.LoadEvent = "Click";
             this.dsSteelBackReason.LoadTrigger = null;
-            this.dsSteelBackReason.RefreshValve = 1000;
+            this.dsSteelBackReason.RefreshValve = 60000;
             this.dsSteelBackReason.SourceCommand = null;
             this.dsSteelBackReason.SourceCondition = "CODE_GROUP = \'SteelBackReason\'";
             this.dsSteelBackReason.SourceMethod = "";
@@ -2340,7 +2340,7 @@
             this.dsSteelBack.L3DataAdapter = this.Adapter;
             this.dsSteelBack.LoadEvent = "Click";
             this.dsSteelBack.LoadTrigger = null;
-            this.dsSteelBack.RefreshValve = 1000;
+            this.dsSteelBack.RefreshValve = 60000;
             this.dsSteelBack.SourceCommand = null;
             this.dsSteelBack.SourceCondition = null;
             this.dsSteelBack.SourceMethod = "GetCurSteelBackInfor";
@@ -2734,7 +2734,7 @@
             this.dsSteelDivReason.L3DataAdapter = this.Adapter;
             this.dsSteelDivReason.LoadEvent = "Click";
             this.dsSteelDivReason.LoadTrigger = null;
-            this.dsSteelDivReason.RefreshValve = 1000;
+            this.dsSteelDivReason.RefreshValve = 60000;
             this.dsSteelDivReason.SourceCommand = null;
             this.dsSteelDivReason.SourceCondition = "CODE_GROUP = \'SteelDivReason\'";
             this.dsSteelDivReason.SourceMethod = "";
@@ -2802,7 +2802,7 @@
             this.dsSteelDiv.L3DataAdapter = this.Adapter;
             this.dsSteelDiv.LoadEvent = "Click";
             this.dsSteelDiv.LoadTrigger = null;
-            this.dsSteelDiv.RefreshValve = 1000;
+            this.dsSteelDiv.RefreshValve = 60000;
             this.dsSteelDiv.SourceCommand = null;
             this.dsSteelDiv.SourceCondition = null;
             this.dsSteelDiv.SourceMethod = "GetCurSteelDivInfor";
@@ -3054,7 +3054,7 @@
             this.dsExchangeSend.L3DataAdapter = null;
             this.dsExchangeSend.LoadEvent = "Click";
             this.dsExchangeSend.LoadTrigger = null;
-            this.dsExchangeSend.RefreshValve = 1000;
+            this.dsExchangeSend.RefreshValve = 60000;
             this.dsExchangeSend.SourceCommand = null;
             this.dsExchangeSend.SourceCondition = "";
             this.dsExchangeSend.SourceMethod = "";
@@ -3191,7 +3191,7 @@
             this.dsTurnSend.L3DataAdapter = null;
             this.dsTurnSend.LoadEvent = "Click";
             this.dsTurnSend.LoadTrigger = null;
-            this.dsTurnSend.RefreshValve = 1000;
+            this.dsTurnSend.RefreshValve = 60000;
             this.dsTurnSend.SourceCommand = null;
             this.dsTurnSend.SourceCondition = "";
             this.dsTurnSend.SourceMethod = "";
@@ -3329,7 +3329,7 @@
             this.dsBackSend.L3DataAdapter = null;
             this.dsBackSend.LoadEvent = "Click";
             this.dsBackSend.LoadTrigger = null;
-            this.dsBackSend.RefreshValve = 1000;
+            this.dsBackSend.RefreshValve = 60000;
             this.dsBackSend.SourceCommand = null;
             this.dsBackSend.SourceCondition = "";
             this.dsBackSend.SourceMethod = "";
@@ -3466,7 +3466,7 @@
             this.dsDivSend.L3DataAdapter = null;
             this.dsDivSend.LoadEvent = "Click";
             this.dsDivSend.LoadTrigger = null;
-            this.dsDivSend.RefreshValve = 1000;
+            this.dsDivSend.RefreshValve = 60000;
             this.dsDivSend.SourceCommand = null;
             this.dsDivSend.SourceCondition = "";
             this.dsDivSend.SourceMethod = "";
@@ -3603,7 +3603,7 @@
             this.dsElement.L3DataAdapter = null;
             this.dsElement.LoadEvent = "Click";
             this.dsElement.LoadTrigger = null;
-            this.dsElement.RefreshValve = 1000;
+            this.dsElement.RefreshValve = 60000;
             this.dsElement.SourceCommand = null;
             this.dsElement.SourceCondition = null;
             this.dsElement.SourceMethod = "";
@@ -3967,7 +3967,7 @@
             this.dsEleStd.L3DataAdapter = null;
             this.dsEleStd.LoadEvent = "Click";
             this.dsEleStd.LoadTrigger = null;
-            this.dsEleStd.RefreshValve = 1000;
+            this.dsEleStd.RefreshValve = 60000;
             this.dsEleStd.SourceCommand = null;
             this.dsEleStd.SourceCondition = null;
             this.dsEleStd.SourceMethod = "";

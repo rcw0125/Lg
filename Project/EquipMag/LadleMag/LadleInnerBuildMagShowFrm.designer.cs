@@ -323,7 +323,7 @@
             this.dsBuildInfo.L3DataAdapter = null;
             this.dsBuildInfo.LoadEvent = "Click";
             this.dsBuildInfo.LoadTrigger = null;
-            this.dsBuildInfo.RefreshValve = 1000;
+            this.dsBuildInfo.RefreshValve = 60000;
             this.dsBuildInfo.SourceCommand = null;
             this.dsBuildInfo.SourceCondition = "";
             this.dsBuildInfo.SourceMethod = "";
@@ -612,7 +612,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -672,7 +672,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -941,7 +941,7 @@
             this.dsMgFirecalyFact.L3DataAdapter = this.Adapter;
             this.dsMgFirecalyFact.LoadEvent = "Click";
             this.dsMgFirecalyFact.LoadTrigger = null;
-            this.dsMgFirecalyFact.RefreshValve = 1000;
+            this.dsMgFirecalyFact.RefreshValve = 60000;
             this.dsMgFirecalyFact.SourceCommand = null;
             this.dsMgFirecalyFact.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'镁火泥\'";
             this.dsMgFirecalyFact.SourceMethod = "";
@@ -994,7 +994,7 @@
             this.dsAlMgBrickFac.L3DataAdapter = this.Adapter;
             this.dsAlMgBrickFac.LoadEvent = "Click";
             this.dsAlMgBrickFac.LoadTrigger = null;
-            this.dsAlMgBrickFac.RefreshValve = 1000;
+            this.dsAlMgBrickFac.RefreshValve = 60000;
             this.dsAlMgBrickFac.SourceCommand = null;
             this.dsAlMgBrickFac.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'铝镁砖\'";
             this.dsAlMgBrickFac.SourceMethod = "";
@@ -1047,7 +1047,7 @@
             this.dsCastMat.L3DataAdapter = this.Adapter;
             this.dsCastMat.LoadEvent = "Click";
             this.dsCastMat.LoadTrigger = null;
-            this.dsCastMat.RefreshValve = 1000;
+            this.dsCastMat.RefreshValve = 60000;
             this.dsCastMat.SourceCommand = null;
             this.dsCastMat.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'尖晶石浇铸料\'";
             this.dsCastMat.SourceMethod = "";
@@ -1100,7 +1100,7 @@
             this.dsHardFiAdiBoaFac.L3DataAdapter = this.Adapter;
             this.dsHardFiAdiBoaFac.LoadEvent = "Click";
             this.dsHardFiAdiBoaFac.LoadTrigger = null;
-            this.dsHardFiAdiBoaFac.RefreshValve = 1000;
+            this.dsHardFiAdiBoaFac.RefreshValve = 60000;
             this.dsHardFiAdiBoaFac.SourceCommand = null;
             this.dsHardFiAdiBoaFac.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'硬质纤维隔热板\'";
             this.dsHardFiAdiBoaFac.SourceMethod = "";
@@ -1154,7 +1154,7 @@
             this.dsLadleID.L3DataAdapter = this.Adapter;
             this.dsLadleID.LoadEvent = "Click";
             this.dsLadleID.LoadTrigger = null;
-            this.dsLadleID.RefreshValve = 1000;
+            this.dsLadleID.RefreshValve = 60000;
             this.dsLadleID.SourceCommand = null;
             this.dsLadleID.SourceCondition = "";
             this.dsLadleID.SourceMethod = "";
@@ -1206,7 +1206,7 @@
             this.dsAtoLigCastFac.L3DataAdapter = this.Adapter;
             this.dsAtoLigCastFac.LoadEvent = "Click";
             this.dsAtoLigCastFac.LoadTrigger = null;
-            this.dsAtoLigCastFac.RefreshValve = 1000;
+            this.dsAtoLigCastFac.RefreshValve = 60000;
             this.dsAtoLigCastFac.SourceCommand = null;
             this.dsAtoLigCastFac.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'微孔轻质浇铸料\'";
             this.dsAtoLigCastFac.SourceMethod = "";

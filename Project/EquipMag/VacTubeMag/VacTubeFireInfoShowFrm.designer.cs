@@ -136,7 +136,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -679,7 +679,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -749,7 +749,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -898,7 +898,7 @@
             this.dsPossition.L3DataAdapter = this.Adapter;
             this.dsPossition.LoadEvent = "Click";
             this.dsPossition.LoadTrigger = null;
-            this.dsPossition.RefreshValve = 1000;
+            this.dsPossition.RefreshValve = 60000;
             this.dsPossition.SourceCommand = null;
             this.dsPossition.SourceCondition = "CODE_GROUP = \'VacTube_Position\' and CODE <> \'1\'";
             this.dsPossition.SourceMethod = "";

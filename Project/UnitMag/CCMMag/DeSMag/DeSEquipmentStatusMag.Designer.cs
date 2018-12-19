@@ -190,7 +190,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "code_group = \'DeSEquipmentStatus\'";
             this.dsStatus.SourceMethod = "";
@@ -361,7 +361,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'NewDeSEquipmentStatusData\'";
             this.dsError.SourceMethod = "";

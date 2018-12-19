@@ -288,7 +288,7 @@
             this.dsIron.L3DataAdapter = this.Adapter;
             this.dsIron.LoadEvent = "Click";
             this.dsIron.LoadTrigger = null;
-            this.dsIron.RefreshValve = 1000;
+            this.dsIron.RefreshValve = 60000;
             this.dsIron.SourceCommand = null;
             this.dsIron.SourceCondition = null;
             this.dsIron.SourceMethod = "";
@@ -960,7 +960,7 @@
             this.dsIronMode.L3DataAdapter = this.Adapter;
             this.dsIronMode.LoadEvent = "Click";
             this.dsIronMode.LoadTrigger = null;
-            this.dsIronMode.RefreshValve = 1000;
+            this.dsIronMode.RefreshValve = 60000;
             this.dsIronMode.SourceCommand = null;
             this.dsIronMode.SourceCondition = "CODE_GROUP = \'Iron_Mode\'";
             this.dsIronMode.SourceMethod = "";
@@ -1147,7 +1147,7 @@
             this.dsScrapes.L3DataAdapter = this.Adapter;
             this.dsScrapes.LoadEvent = "Click";
             this.dsScrapes.LoadTrigger = null;
-            this.dsScrapes.RefreshValve = 1000;
+            this.dsScrapes.RefreshValve = 60000;
             this.dsScrapes.SourceCommand = null;
             this.dsScrapes.SourceCondition = null;
             this.dsScrapes.SourceMethod = "GetScrapesForDesignate";
@@ -1271,7 +1271,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'DesignateMainMaterial\'";
             this.dsError.SourceMethod = "";
@@ -1349,7 +1349,7 @@
             this.dsTurnSteelInfo.L3DataAdapter = null;
             this.dsTurnSteelInfo.LoadEvent = "Click";
             this.dsTurnSteelInfo.LoadTrigger = null;
-            this.dsTurnSteelInfo.RefreshValve = 1000;
+            this.dsTurnSteelInfo.RefreshValve = 60000;
             this.dsTurnSteelInfo.SourceCommand = null;
             this.dsTurnSteelInfo.SourceCondition = "";
             this.dsTurnSteelInfo.SourceMethod = "";
@@ -1399,7 +1399,7 @@
             this.dsSteelGrade.L3DataAdapter = null;
             this.dsSteelGrade.LoadEvent = "";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "SteelGrade is not null";
             this.dsSteelGrade.SourceMethod = "";
@@ -1546,7 +1546,7 @@
             this.dsErrorCode.L3DataAdapter = this.Adapter;
             this.dsErrorCode.LoadEvent = "";
             this.dsErrorCode.LoadTrigger = null;
-            this.dsErrorCode.RefreshValve = 1000;
+            this.dsErrorCode.RefreshValve = 60000;
             this.dsErrorCode.SourceCommand = null;
             this.dsErrorCode.SourceCondition = "OWNER = \'DesignateMainMaterial\'";
             this.dsErrorCode.SourceMethod = "";
@@ -1588,7 +1588,7 @@
             this.l3DataSet1.L3DataAdapter = this.Adapter;
             this.l3DataSet1.LoadEvent = "Click";
             this.l3DataSet1.LoadTrigger = null;
-            this.l3DataSet1.RefreshValve = 1000;
+            this.l3DataSet1.RefreshValve = 60000;
             this.l3DataSet1.SourceCommand = null;
             this.l3DataSet1.SourceCondition = null;
             this.l3DataSet1.SourceMethod = "GetScrapesForDesignate";
@@ -1659,7 +1659,7 @@
             this.dsTempt.L3DataAdapter = this.Adapter;
             this.dsTempt.LoadEvent = "";
             this.dsTempt.LoadTrigger = null;
-            this.dsTempt.RefreshValve = 1000;
+            this.dsTempt.RefreshValve = 60000;
             this.dsTempt.SourceCommand = null;
             this.dsTempt.SourceCondition = "";
             this.dsTempt.SourceMethod = "";
@@ -1715,7 +1715,7 @@
             this.dsFGST.L3DataAdapter = this.Adapter;
             this.dsFGST.LoadEvent = "Click";
             this.dsFGST.LoadTrigger = null;
-            this.dsFGST.RefreshValve = 1000;
+            this.dsFGST.RefreshValve = 60000;
             this.dsFGST.SourceCommand = null;
             this.dsFGST.SourceCondition = "CODE_GROUP=\'ScrapGroupName\' or CODE_GROUP=\'PigIronGroupName\'";
             this.dsFGST.SourceMethod = "";

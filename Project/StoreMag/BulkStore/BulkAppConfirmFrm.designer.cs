@@ -126,7 +126,7 @@
             this.dsyAPPConfirm.L3DataAdapter = this.Adapter;
             this.dsyAPPConfirm.LoadEvent = "Click";
             this.dsyAPPConfirm.LoadTrigger = this.btnQuery;
-            this.dsyAPPConfirm.RefreshValve = 1000;
+            this.dsyAPPConfirm.RefreshValve = 60000;
             this.dsyAPPConfirm.SourceCommand = this.cmdQurey;
             this.dsyAPPConfirm.SourceCondition = null;
             this.dsyAPPConfirm.SourceMethod = "GetBulkAppInfor";
@@ -313,7 +313,7 @@
             this.ds.L3DataAdapter = this.Adapter;
             this.ds.LoadEvent = "Click";
             this.ds.LoadTrigger = null;
-            this.ds.RefreshValve = 1000;
+            this.ds.RefreshValve = 60000;
             this.ds.SourceCommand = null;
             this.ds.SourceCondition = null;
             this.ds.SourceMethod = "GetBulkAppInfor";
@@ -593,7 +593,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'Bulk_CODE\' and CODE is not null";
             this.dsBulkCode.SourceMethod = "";
@@ -634,7 +634,7 @@
             this.dsAppUnitID.L3DataAdapter = this.Adapter;
             this.dsAppUnitID.LoadEvent = "Click";
             this.dsAppUnitID.LoadTrigger = null;
-            this.dsAppUnitID.RefreshValve = 1000;
+            this.dsAppUnitID.RefreshValve = 60000;
             this.dsAppUnitID.SourceCommand = null;
             this.dsAppUnitID.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsAppUnitID.SourceMethod = "";

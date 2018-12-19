@@ -144,7 +144,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = null;
             this.dsMain.SourceMethod = "";
@@ -678,7 +678,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -756,7 +756,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -935,7 +935,7 @@
             this.dsFac.L3DataAdapter = this.Adapter;
             this.dsFac.LoadEvent = "Click";
             this.dsFac.LoadTrigger = null;
-            this.dsFac.RefreshValve = 1000;
+            this.dsFac.RefreshValve = 60000;
             this.dsFac.SourceCommand = null;
             this.dsFac.SourceCondition = "MatGroup_Code = \'VacTubeFac\' and MatName = \'耐材\'";
             this.dsFac.SourceMethod = "";
@@ -988,7 +988,7 @@
             this.dsHotSpyID.L3DataAdapter = this.Adapter;
             this.dsHotSpyID.LoadEvent = "Click";
             this.dsHotSpyID.LoadTrigger = null;
-            this.dsHotSpyID.RefreshValve = 1000;
+            this.dsHotSpyID.RefreshValve = 60000;
             this.dsHotSpyID.SourceCommand = null;
             this.dsHotSpyID.SourceCondition = "VACTUBE_NAME = \'3\'";
             this.dsHotSpyID.SourceMethod = "";

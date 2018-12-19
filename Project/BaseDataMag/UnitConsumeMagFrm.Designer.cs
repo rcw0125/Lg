@@ -212,7 +212,7 @@
             this.dsUnitConsume.L3DataAdapter = this.Adapter;
             this.dsUnitConsume.LoadEvent = "";
             this.dsUnitConsume.LoadTrigger = null;
-            this.dsUnitConsume.RefreshValve = 1000;
+            this.dsUnitConsume.RefreshValve = 60000;
             this.dsUnitConsume.SourceCommand = null;
             this.dsUnitConsume.SourceCondition = "";
             this.dsUnitConsume.SourceMethod = "";
@@ -383,7 +383,7 @@
             this.dsUnitCode.L3DataAdapter = this.Adapter;
             this.dsUnitCode.LoadEvent = "";
             this.dsUnitCode.LoadTrigger = null;
-            this.dsUnitCode.RefreshValve = 1000;
+            this.dsUnitCode.RefreshValve = 60000;
             this.dsUnitCode.SourceCommand = null;
             this.dsUnitCode.SourceCondition = "";
             this.dsUnitCode.SourceMethod = "";
@@ -520,7 +520,7 @@
             this.dsSteelGrade.L3DataAdapter = this.Adapter;
             this.dsSteelGrade.LoadEvent = "";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "";
             this.dsSteelGrade.SourceMethod = "";

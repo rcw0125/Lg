@@ -84,7 +84,7 @@
             this.dsNote.L3DataAdapter = null;
             this.dsNote.LoadEvent = "Click";
             this.dsNote.LoadTrigger = null;
-            this.dsNote.RefreshValve = 1000;
+            this.dsNote.RefreshValve = 60000;
             this.dsNote.SourceCommand = null;
             this.dsNote.SourceCondition = "";
             this.dsNote.SourceMethod = "";

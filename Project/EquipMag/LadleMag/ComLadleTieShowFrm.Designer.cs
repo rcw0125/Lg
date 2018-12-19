@@ -363,7 +363,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -793,7 +793,7 @@
             this.dsLadleID.L3DataAdapter = this.Adapter;
             this.dsLadleID.LoadEvent = "Click";
             this.dsLadleID.LoadTrigger = null;
-            this.dsLadleID.RefreshValve = 1000;
+            this.dsLadleID.RefreshValve = 60000;
             this.dsLadleID.SourceCommand = null;
             this.dsLadleID.SourceCondition = "LadleType = \'1\'";
             this.dsLadleID.SourceMethod = "";
@@ -846,7 +846,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -906,7 +906,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -1025,7 +1025,7 @@
             this.dsHalfBoaFac.L3DataAdapter = this.Adapter;
             this.dsHalfBoaFac.LoadEvent = "Click";
             this.dsHalfBoaFac.LoadTrigger = null;
-            this.dsHalfBoaFac.RefreshValve = 1000;
+            this.dsHalfBoaFac.RefreshValve = 60000;
             this.dsHalfBoaFac.SourceCommand = null;
             this.dsHalfBoaFac.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'半板片\'";
             this.dsHalfBoaFac.SourceMethod = "";
@@ -1078,7 +1078,7 @@
             this.dsSquLeadFac.L3DataAdapter = this.Adapter;
             this.dsSquLeadFac.LoadEvent = "Click";
             this.dsSquLeadFac.LoadTrigger = null;
-            this.dsSquLeadFac.RefreshValve = 1000;
+            this.dsSquLeadFac.RefreshValve = 60000;
             this.dsSquLeadFac.SourceCommand = null;
             this.dsSquLeadFac.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'鳞片状石墨粉\'";
             this.dsSquLeadFac.SourceMethod = "";
@@ -1131,7 +1131,7 @@
             this.dsCastMat.L3DataAdapter = this.Adapter;
             this.dsCastMat.LoadEvent = "Click";
             this.dsCastMat.LoadTrigger = null;
-            this.dsCastMat.RefreshValve = 1000;
+            this.dsCastMat.RefreshValve = 60000;
             this.dsCastMat.SourceCommand = null;
             this.dsCastMat.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'尖晶石浇铸料\'";
             this.dsCastMat.SourceMethod = "";
@@ -1184,7 +1184,7 @@
             this.dsBreBri.L3DataAdapter = this.Adapter;
             this.dsBreBri.LoadEvent = "Click";
             this.dsBreBri.LoadTrigger = null;
-            this.dsBreBri.RefreshValve = 1000;
+            this.dsBreBri.RefreshValve = 60000;
             this.dsBreBri.SourceCommand = null;
             this.dsBreBri.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'透气座砖\'";
             this.dsBreBri.SourceMethod = "";
@@ -1237,7 +1237,7 @@
             this.dsGapBri.L3DataAdapter = this.Adapter;
             this.dsGapBri.LoadEvent = "Click";
             this.dsGapBri.LoadTrigger = null;
-            this.dsGapBri.RefreshValve = 1000;
+            this.dsGapBri.RefreshValve = 60000;
             this.dsGapBri.SourceCommand = null;
             this.dsGapBri.SourceCondition = "MATGROUP_CODE = \'LadleFac\' and MATNAME = \'水口座砖\'";
             this.dsGapBri.SourceMethod = "";

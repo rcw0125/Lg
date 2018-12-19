@@ -213,7 +213,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = this.cmdMain;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "GetVacTubeFire";
@@ -829,7 +829,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "Code_Group = \'VacTube_Position\' and Code <> \'1\' order by Code";
             this.dsPosition.SourceMethod = "";
@@ -916,7 +916,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -971,7 +971,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -1262,7 +1262,7 @@
             this.dsDetail.L3DataAdapter = this.Adapter;
             this.dsDetail.LoadEvent = "";
             this.dsDetail.LoadTrigger = null;
-            this.dsDetail.RefreshValve = 1000;
+            this.dsDetail.RefreshValve = 60000;
             this.dsDetail.SourceCommand = this.cmdDetail;
             this.dsDetail.SourceCondition = "";
             this.dsDetail.SourceMethod = "GetVacTubeFireInfo";

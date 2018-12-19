@@ -10813,7 +10813,7 @@
             this.dsDeSType.L3DataAdapter = this.Adapter;
             this.dsDeSType.LoadEvent = "";
             this.dsDeSType.LoadTrigger = null;
-            this.dsDeSType.RefreshValve = 1000;
+            this.dsDeSType.RefreshValve = 60000;
             this.dsDeSType.SourceCommand = null;
             this.dsDeSType.SourceCondition = "CODE_GROUP = \'DeSType\'";
             this.dsDeSType.SourceMethod = "";

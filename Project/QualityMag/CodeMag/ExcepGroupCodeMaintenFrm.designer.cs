@@ -155,7 +155,7 @@
             this.dsExcepGroupCodeMainten.L3DataAdapter = this.Adapter;
             this.dsExcepGroupCodeMainten.LoadEvent = "Click";
             this.dsExcepGroupCodeMainten.LoadTrigger = null;
-            this.dsExcepGroupCodeMainten.RefreshValve = 1000;
+            this.dsExcepGroupCodeMainten.RefreshValve = 60000;
             this.dsExcepGroupCodeMainten.SourceCommand = null;
             this.dsExcepGroupCodeMainten.SourceCondition = null;
             this.dsExcepGroupCodeMainten.SourceMethod = "";

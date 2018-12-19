@@ -704,7 +704,7 @@
             this.dsChemicalStd.L3DataAdapter = null;
             this.dsChemicalStd.LoadEvent = "Click";
             this.dsChemicalStd.LoadTrigger = null;
-            this.dsChemicalStd.RefreshValve = 1000;
+            this.dsChemicalStd.RefreshValve = 60000;
             this.dsChemicalStd.SourceCommand = this.cmdChemicalStd;
             this.dsChemicalStd.SourceCondition = null;
             this.dsChemicalStd.SourceMethod = "GetBloomStdEle";
@@ -1672,7 +1672,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCondition = null;
             this.dsHeatID.SourceMethod = "GetBofSteelJudgeHeat";
             this.dsHeatID.SourceType = AppSvrHMI.L3DataSetSourceType.Method;
@@ -1716,7 +1716,7 @@
             this.dsHeatExcept.L3DataAdapter = this.Adapter;
             this.dsHeatExcept.LoadEvent = "Click";
             this.dsHeatExcept.LoadTrigger = null;
-            this.dsHeatExcept.RefreshValve = 1000;
+            this.dsHeatExcept.RefreshValve = 60000;
             this.dsHeatExcept.SourceCommand = null;
             this.dsHeatExcept.SourceCondition = "1=2";
             this.dsHeatExcept.SourceMethod = "";
@@ -1836,7 +1836,7 @@
             this.dsHeatGrade.L3DataAdapter = null;
             this.dsHeatGrade.LoadEvent = "Click";
             this.dsHeatGrade.LoadTrigger = null;
-            this.dsHeatGrade.RefreshValve = 1000;
+            this.dsHeatGrade.RefreshValve = 60000;
             this.dsHeatGrade.SourceCommand = null;
             this.dsHeatGrade.SourceCondition = "1=2";
             this.dsHeatGrade.SourceMethod = "";
@@ -1950,7 +1950,7 @@
             this.dsRefineThirdEle.L3DataAdapter = null;
             this.dsRefineThirdEle.LoadEvent = "Click";
             this.dsRefineThirdEle.LoadTrigger = null;
-            this.dsRefineThirdEle.RefreshValve = 1000;
+            this.dsRefineThirdEle.RefreshValve = 60000;
             this.dsRefineThirdEle.SourceCommand = this.cmdRefineThirdEle;
             this.dsRefineThirdEle.SourceCondition = null;
             this.dsRefineThirdEle.SourceMethod = "GetRefineThirdEle";
@@ -2373,7 +2373,7 @@
             this.dsFinalChemical.L3DataAdapter = null;
             this.dsFinalChemical.LoadEvent = "Click";
             this.dsFinalChemical.LoadTrigger = null;
-            this.dsFinalChemical.RefreshValve = 1000;
+            this.dsFinalChemical.RefreshValve = 60000;
             this.dsFinalChemical.SourceCommand = this.cmdFinalChemical;
             this.dsFinalChemical.SourceCondition = null;
             this.dsFinalChemical.SourceMethod = "GetBloomTerminalEle";

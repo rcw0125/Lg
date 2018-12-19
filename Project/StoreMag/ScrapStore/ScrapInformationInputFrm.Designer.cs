@@ -284,7 +284,7 @@
             this.dsScrapInfor.L3DataAdapter = this.Adapter;
             this.dsScrapInfor.LoadEvent = "Click";
             this.dsScrapInfor.LoadTrigger = null;
-            this.dsScrapInfor.RefreshValve = 1000;
+            this.dsScrapInfor.RefreshValve = 60000;
             this.dsScrapInfor.SourceCommand = null;
             this.dsScrapInfor.SourceCondition = "";
             this.dsScrapInfor.SourceMethod = "";
@@ -612,7 +612,7 @@
             this.dsScrapCode.L3DataAdapter = this.Adapter;
             this.dsScrapCode.LoadEvent = "Click";
             this.dsScrapCode.LoadTrigger = null;
-            this.dsScrapCode.RefreshValve = 1000;
+            this.dsScrapCode.RefreshValve = 60000;
             this.dsScrapCode.SourceCommand = null;
             this.dsScrapCode.SourceCondition = "Code_Group = \'SCRAP_CODE\'";
             this.dsScrapCode.SourceMethod = "";
@@ -828,7 +828,7 @@
             this.dsTrans.L3DataAdapter = null;
             this.dsTrans.LoadEvent = "Click";
             this.dsTrans.LoadTrigger = null;
-            this.dsTrans.RefreshValve = 1000;
+            this.dsTrans.RefreshValve = 60000;
             this.dsTrans.SourceCommand = null;
             this.dsTrans.SourceCondition = null;
             this.dsTrans.SourceMethod = "";

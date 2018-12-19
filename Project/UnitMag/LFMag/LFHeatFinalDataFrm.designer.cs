@@ -138,14 +138,14 @@
             // dsData
             // 
             this.dsData.AutoLoad = true;
-            this.dsData.AutoSubscribe = true;
+            this.dsData.AutoSubscribe = false;
             this.dsData.DataSetName = "L3DataSet";
             this.dsData.DeleteMethod = null;
             this.dsData.InsertMethod = null;
             this.dsData.L3DataAdapter = this.Adapter;
             this.dsData.LoadEvent = "Click";
             this.dsData.LoadTrigger = null;
-            this.dsData.RefreshValve = 1000;
+            this.dsData.RefreshValve = 60000;
             this.dsData.SourceCommand = null;
             this.dsData.SourceCondition = "1=2";
             this.dsData.SourceMethod = "";
@@ -649,10 +649,10 @@
             this.dvLFData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dvLFData.Size = new System.Drawing.Size(1034, 462);
             this.dvLFData.TabIndex = 1;
-            this.dvLFData.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
-            this.dvLFData.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dvLFData_DataError);
-            this.dvLFData.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dvLFData_DataBindingComplete);
             this.dvLFData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvLFData_CellContentClick);
+            this.dvLFData.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
+            this.dvLFData.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dvLFData_DataBindingComplete);
+            this.dvLFData.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dvLFData_DataError);
             // 
             // TreatNo
             // 
@@ -756,7 +756,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "Click";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift.SourceMethod = "";
@@ -811,7 +811,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -853,7 +853,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = null;
             this.dsHeatID.SourceCondition = "CODE_GROUP = \'LF\' order by code";
             this.dsHeatID.SourceMethod = "";
@@ -945,8 +945,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.TabText = "LF炉次实绩数据管理";
             this.Text = "LF炉次实绩数据管理";
-            this.Load += new System.EventHandler(this.LFHeatFinalDataFrm_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LFHeatFinalDataFrm_FormClosing);
+            this.Load += new System.EventHandler(this.LFHeatFinalDataFrm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bsData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsData)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schemadsData)).EndInit();

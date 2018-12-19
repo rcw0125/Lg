@@ -170,7 +170,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\'";
             this.dsBulkArea.SourceMethod = "";
@@ -237,7 +237,7 @@
             this.dsModify.L3DataAdapter = this.Adapter;
             this.dsModify.LoadEvent = "Click";
             this.dsModify.LoadTrigger = null;
-            this.dsModify.RefreshValve = 1000;
+            this.dsModify.RefreshValve = 60000;
             this.dsModify.SourceCommand = null;
             this.dsModify.SourceCondition = "CODE_GROUP = \'MODIFY_TYPE\'";
             this.dsModify.SourceMethod = "";
@@ -319,7 +319,7 @@
             this.dsBalance.L3DataAdapter = null;
             this.dsBalance.LoadEvent = "Click";
             this.dsBalance.LoadTrigger = null;
-            this.dsBalance.RefreshValve = 1000;
+            this.dsBalance.RefreshValve = 60000;
             this.dsBalance.SourceCommand = null;
             this.dsBalance.SourceCondition = "1=2";
             this.dsBalance.SourceMethod = "";
@@ -571,7 +571,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -612,7 +612,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";

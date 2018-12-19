@@ -813,7 +813,7 @@
             this.dsEnergy.L3DataAdapter = null;
             this.dsEnergy.LoadEvent = "Click";
             this.dsEnergy.LoadTrigger = null;
-            this.dsEnergy.RefreshValve = 1000;
+            this.dsEnergy.RefreshValve = 60000;
             this.dsEnergy.SourceCommand = null;
             this.dsEnergy.SourceCondition = null;
             this.dsEnergy.SourceMethod = "";
@@ -1233,7 +1233,7 @@
             this.dsPlugBar.L3DataAdapter = null;
             this.dsPlugBar.LoadEvent = "Click";
             this.dsPlugBar.LoadTrigger = null;
-            this.dsPlugBar.RefreshValve = 1000;
+            this.dsPlugBar.RefreshValve = 60000;
             this.dsPlugBar.SourceCommand = null;
             this.dsPlugBar.SourceCondition = null;
             this.dsPlugBar.SourceMethod = "";
@@ -1675,7 +1675,7 @@
             this.dsOscillate.L3DataAdapter = null;
             this.dsOscillate.LoadEvent = "Click";
             this.dsOscillate.LoadTrigger = null;
-            this.dsOscillate.RefreshValve = 1000;
+            this.dsOscillate.RefreshValve = 60000;
             this.dsOscillate.SourceCommand = null;
             this.dsOscillate.SourceCondition = null;
             this.dsOscillate.SourceMethod = "";
@@ -2291,7 +2291,7 @@
             this.dsElectMix.L3DataAdapter = null;
             this.dsElectMix.LoadEvent = "Click";
             this.dsElectMix.LoadTrigger = null;
-            this.dsElectMix.RefreshValve = 1000;
+            this.dsElectMix.RefreshValve = 60000;
             this.dsElectMix.SourceCommand = null;
             this.dsElectMix.SourceCondition = null;
             this.dsElectMix.SourceMethod = "";
@@ -2975,7 +2975,7 @@
             this.dsCool.L3DataAdapter = null;
             this.dsCool.LoadEvent = "Click";
             this.dsCool.LoadTrigger = null;
-            this.dsCool.RefreshValve = 1000;
+            this.dsCool.RefreshValve = 60000;
             this.dsCool.SourceCommand = null;
             this.dsCool.SourceCondition = null;
             this.dsCool.SourceMethod = "";
@@ -3593,7 +3593,7 @@
             this.dsMold.L3DataAdapter = null;
             this.dsMold.LoadEvent = "Click";
             this.dsMold.LoadTrigger = null;
-            this.dsMold.RefreshValve = 1000;
+            this.dsMold.RefreshValve = 60000;
             this.dsMold.SourceCommand = null;
             this.dsMold.SourceCondition = null;
             this.dsMold.SourceMethod = "";
@@ -4200,7 +4200,7 @@
             this.dsEnd.L3DataAdapter = null;
             this.dsEnd.LoadEvent = "";
             this.dsEnd.LoadTrigger = null;
-            this.dsEnd.RefreshValve = 1000;
+            this.dsEnd.RefreshValve = 60000;
             this.dsEnd.SourceCommand = null;
             this.dsEnd.SourceCondition = "";
             this.dsEnd.SourceMethod = "";
@@ -4592,7 +4592,7 @@
             this.dsGUID.L3DataAdapter = null;
             this.dsGUID.LoadEvent = "Click";
             this.dsGUID.LoadTrigger = null;
-            this.dsGUID.RefreshValve = 1000;
+            this.dsGUID.RefreshValve = 60000;
             this.dsGUID.SourceCommand = null;
             this.dsGUID.SourceCondition = null;
             this.dsGUID.SourceMethod = null;

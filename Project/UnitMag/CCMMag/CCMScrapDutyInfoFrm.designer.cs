@@ -256,7 +256,7 @@
             this.dsWasterData.L3DataAdapter = null;
             this.dsWasterData.LoadEvent = "";
             this.dsWasterData.LoadTrigger = null;
-            this.dsWasterData.RefreshValve = 1000;
+            this.dsWasterData.RefreshValve = 60000;
             this.dsWasterData.SourceCommand = null;
             this.dsWasterData.SourceCondition = "1=2";
             this.dsWasterData.SourceMethod = "";
@@ -813,7 +813,7 @@
             this.dsWasteReason.L3DataAdapter = this.Adapter;
             this.dsWasteReason.LoadEvent = "Click";
             this.dsWasteReason.LoadTrigger = null;
-            this.dsWasteReason.RefreshValve = 1000;
+            this.dsWasteReason.RefreshValve = 60000;
             this.dsWasteReason.SourceCommand = null;
             this.dsWasteReason.SourceCondition = "Code_Group = \'WASTE_REASON_CODE\' order by code";
             this.dsWasteReason.SourceMethod = "";
@@ -1090,7 +1090,7 @@
             this.dsShop.L3DataAdapter = this.Adapter;
             this.dsShop.LoadEvent = "";
             this.dsShop.LoadTrigger = null;
-            this.dsShop.RefreshValve = 1000;
+            this.dsShop.RefreshValve = 60000;
             this.dsShop.SourceCommand = null;
             this.dsShop.SourceCondition = "Code_Group=\'XG_Shop\' order by Code";
             this.dsShop.SourceMethod = "";
@@ -1224,7 +1224,7 @@
             this.dsUnit.L3DataAdapter = this.Adapter;
             this.dsUnit.LoadEvent = "";
             this.dsUnit.LoadTrigger = null;
-            this.dsUnit.RefreshValve = 1000;
+            this.dsUnit.RefreshValve = 60000;
             this.dsUnit.SourceCommand = null;
             this.dsUnit.SourceCondition = "Code_Group=\'XG_Unit\' order by Code";
             this.dsUnit.SourceMethod = "";
@@ -1367,7 +1367,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "Code_Group=\'TeamID\' order by Code";
             this.dsTeam.SourceMethod = "";

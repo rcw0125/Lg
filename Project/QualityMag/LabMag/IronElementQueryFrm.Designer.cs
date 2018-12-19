@@ -285,7 +285,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "CODE_GROUP = \'QA_Sample_Addr\' and (code_function_group = \'G\' OR code_function_gro" +
                 "up = \'H\' OR code_function_group = \'T\') order by code_val_long";
@@ -347,7 +347,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "CODE_GROUP = \'QA_Sample_Type\' AND SUBSTR(CODE,1,1) <> \'Z\' AND (code_function_grou" +
                 "p = \'G\' OR code_function_group = \'H\' OR code_function_group = \'T\') order by code" +
@@ -659,7 +659,7 @@
             this.dsIronElement.L3DataAdapter = this.Adapter;
             this.dsIronElement.LoadEvent = "Click";
             this.dsIronElement.LoadTrigger = null;
-            this.dsIronElement.RefreshValve = 1000;
+            this.dsIronElement.RefreshValve = 60000;
             this.dsIronElement.SourceCommand = null;
             this.dsIronElement.SourceCondition = "1=2";
             this.dsIronElement.SourceMethod = "";

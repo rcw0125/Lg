@@ -106,7 +106,7 @@
             this.dsAlloyApp.L3DataAdapter = this.Adapter;
             this.dsAlloyApp.LoadEvent = "Click";
             this.dsAlloyApp.LoadTrigger = null;
-            this.dsAlloyApp.RefreshValve = 1000;
+            this.dsAlloyApp.RefreshValve = 60000;
             this.dsAlloyApp.SourceCommand = null;
             this.dsAlloyApp.SourceCondition = "";
             this.dsAlloyApp.SourceMethod = "";
@@ -405,7 +405,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "CODE_GROUP = \'AlloyArea\' and CODE is not null";
             this.dsAlloyArea.SourceMethod = "";
@@ -471,7 +471,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' and CODE is not null";
             this.dsAlloyCode.SourceMethod = "";

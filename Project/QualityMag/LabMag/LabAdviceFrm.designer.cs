@@ -157,7 +157,7 @@
             this.dsSheetApp.L3DataAdapter = this.Adapter;
             this.dsSheetApp.LoadEvent = "Click";
             this.dsSheetApp.LoadTrigger = null;
-            this.dsSheetApp.RefreshValve = 1000;
+            this.dsSheetApp.RefreshValve = 60000;
             this.dsSheetApp.SourceCommand = null;
             this.dsSheetApp.SourceCondition = null;
             this.dsSheetApp.SourceMethod = null;
@@ -306,7 +306,7 @@
             this.dsUnitName.L3DataAdapter = this.Adapter;
             this.dsUnitName.LoadEvent = "Click";
             this.dsUnitName.LoadTrigger = null;
-            this.dsUnitName.RefreshValve = 1000;
+            this.dsUnitName.RefreshValve = 60000;
             this.dsUnitName.SourceCommand = null;
             this.dsUnitName.SourceCondition = null;
             this.dsUnitName.SourceMethod = null;

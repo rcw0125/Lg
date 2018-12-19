@@ -325,7 +325,7 @@
             this.dsProcessData.L3DataAdapter = this.Adapter;
             this.dsProcessData.LoadEvent = "";
             this.dsProcessData.LoadTrigger = null;
-            this.dsProcessData.RefreshValve = 1000;
+            this.dsProcessData.RefreshValve = 60000;
             this.dsProcessData.SourceCommand = null;
             this.dsProcessData.SourceCondition = "1=2";
             this.dsProcessData.SourceMethod = "";

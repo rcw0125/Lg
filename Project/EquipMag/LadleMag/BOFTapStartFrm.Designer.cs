@@ -149,7 +149,7 @@
             this.dsBOFID.L3DataAdapter = this.Adapter;
             this.dsBOFID.LoadEvent = "Click";
             this.dsBOFID.LoadTrigger = null;
-            this.dsBOFID.RefreshValve = 1000;
+            this.dsBOFID.RefreshValve = 60000;
             this.dsBOFID.SourceCommand = null;
             this.dsBOFID.SourceCondition = "Code_Group = \'BOF\' and Code is not null order by Code";
             this.dsBOFID.SourceMethod = "";

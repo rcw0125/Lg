@@ -244,7 +244,7 @@
             this.dsAddition.L3DataAdapter = this.Adapter;
             this.dsAddition.LoadEvent = "Click";
             this.dsAddition.LoadTrigger = null;
-            this.dsAddition.RefreshValve = 1000;
+            this.dsAddition.RefreshValve = 60000;
             this.dsAddition.SourceCommand = null;
             this.dsAddition.SourceCondition = "1=2";
             this.dsAddition.SourceMethod = "";
@@ -555,7 +555,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "code_group = \'DeS\'";
             this.dsUnitID.SourceMethod = "";
@@ -610,7 +610,7 @@
             this.dsMatCode.L3DataAdapter = this.Adapter;
             this.dsMatCode.LoadEvent = "";
             this.dsMatCode.LoadTrigger = null;
-            this.dsMatCode.RefreshValve = 1000;
+            this.dsMatCode.RefreshValve = 60000;
             this.dsMatCode.SourceCommand = null;
             this.dsMatCode.SourceCondition = "code_group = \'DeS_Mat_Code\'";
             this.dsMatCode.SourceMethod = "";
@@ -665,7 +665,7 @@
             this.dsMatVonder.L3DataAdapter = this.Adapter;
             this.dsMatVonder.LoadEvent = "";
             this.dsMatVonder.LoadTrigger = null;
-            this.dsMatVonder.RefreshValve = 1000;
+            this.dsMatVonder.RefreshValve = 60000;
             this.dsMatVonder.SourceCommand = null;
             this.dsMatVonder.SourceCondition = "code_group = \'DeS_Mat_Vendor\'";
             this.dsMatVonder.SourceMethod = "";
@@ -737,7 +737,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -792,7 +792,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "Click";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift.SourceMethod = "";
@@ -1080,7 +1080,7 @@
             this.dsAdditionSend.L3DataAdapter = null;
             this.dsAdditionSend.LoadEvent = "";
             this.dsAdditionSend.LoadTrigger = null;
-            this.dsAdditionSend.RefreshValve = 1000;
+            this.dsAdditionSend.RefreshValve = 60000;
             this.dsAdditionSend.SourceCommand = null;
             this.dsAdditionSend.SourceCondition = "";
             this.dsAdditionSend.SourceMethod = "";

@@ -218,7 +218,7 @@
             this.dsStore.L3DataAdapter = null;
             this.dsStore.LoadEvent = "Click";
             this.dsStore.LoadTrigger = null;
-            this.dsStore.RefreshValve = 1000;
+            this.dsStore.RefreshValve = 60000;
             this.dsStore.SourceCommand = null;
             this.dsStore.SourceCondition = null;
             this.dsStore.SourceMethod = "GetAllMaterialOnStore";
@@ -466,7 +466,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\'";
             this.dsBulkCode.SourceMethod = "";
@@ -869,7 +869,7 @@
             this.dsStoreSend.L3DataAdapter = this.Adapter;
             this.dsStoreSend.LoadEvent = "Click";
             this.dsStoreSend.LoadTrigger = null;
-            this.dsStoreSend.RefreshValve = 1000;
+            this.dsStoreSend.RefreshValve = 60000;
             this.dsStoreSend.SourceCommand = null;
             this.dsStoreSend.SourceCondition = "";
             this.dsStoreSend.SourceMethod = "";
@@ -1080,7 +1080,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\'";
             this.dsBulkArea.SourceMethod = "";
@@ -1121,7 +1121,7 @@
             this.dsClear.L3DataAdapter = null;
             this.dsClear.LoadEvent = "";
             this.dsClear.LoadTrigger = null;
-            this.dsClear.RefreshValve = 1000;
+            this.dsClear.RefreshValve = 60000;
             this.dsClear.SourceCommand = null;
             this.dsClear.SourceCondition = "";
             this.dsClear.SourceMethod = "";

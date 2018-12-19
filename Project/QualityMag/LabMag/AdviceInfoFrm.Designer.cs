@@ -189,7 +189,7 @@
             this.dsAdvice.L3DataAdapter = this.Adapter;
             this.dsAdvice.LoadEvent = "Click";
             this.dsAdvice.LoadTrigger = null;
-            this.dsAdvice.RefreshValve = 1000;
+            this.dsAdvice.RefreshValve = 60000;
             this.dsAdvice.SourceCommand = null;
             this.dsAdvice.SourceCondition = "";
             this.dsAdvice.SourceMethod = "";
@@ -283,7 +283,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\'";
             this.dsCasterID.SourceMethod = "";
@@ -346,7 +346,7 @@
             this.dsCutSize.L3DataAdapter = this.Adapter;
             this.dsCutSize.LoadEvent = "Click";
             this.dsCutSize.LoadTrigger = null;
-            this.dsCutSize.RefreshValve = 1000;
+            this.dsCutSize.RefreshValve = 60000;
             this.dsCutSize.SourceCommand = null;
             this.dsCutSize.SourceCondition = "Code_Group = \'CutAdvice_Size\'";
             this.dsCutSize.SourceMethod = "";
@@ -414,7 +414,7 @@
             this.dsCutPosition.L3DataAdapter = this.Adapter;
             this.dsCutPosition.LoadEvent = "Click";
             this.dsCutPosition.LoadTrigger = null;
-            this.dsCutPosition.RefreshValve = 1000;
+            this.dsCutPosition.RefreshValve = 60000;
             this.dsCutPosition.SourceCommand = null;
             this.dsCutPosition.SourceCondition = "Code_Group = \'CutAdvice_Position\'";
             this.dsCutPosition.SourceMethod = "";
@@ -528,7 +528,7 @@
             this.dsGrade.L3DataAdapter = this.Adapter;
             this.dsGrade.LoadEvent = "Click";
             this.dsGrade.LoadTrigger = null;
-            this.dsGrade.RefreshValve = 1000;
+            this.dsGrade.RefreshValve = 60000;
             this.dsGrade.SourceCommand = this.cmdGrade;
             this.dsGrade.SourceCondition = null;
             this.dsGrade.SourceMethod = "GetGradeByHeatID";

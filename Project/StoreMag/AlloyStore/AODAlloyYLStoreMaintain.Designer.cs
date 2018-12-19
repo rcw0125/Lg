@@ -269,7 +269,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -312,7 +312,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -359,7 +359,7 @@
             this.dsPublic.L3DataAdapter = this.Adapter;
             this.dsPublic.LoadEvent = "Click";
             this.dsPublic.LoadTrigger = null;
-            this.dsPublic.RefreshValve = 1000;
+            this.dsPublic.RefreshValve = 60000;
             this.dsPublic.SourceCommand = null;
             this.dsPublic.SourceCondition = "name=\'13\'";
             this.dsPublic.SourceMethod = "";
@@ -416,7 +416,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\' and code is not null";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -604,7 +604,7 @@
             this.dsGroundPublic.L3DataAdapter = this.Adapter;
             this.dsGroundPublic.LoadEvent = "";
             this.dsGroundPublic.LoadTrigger = null;
-            this.dsGroundPublic.RefreshValve = 1000;
+            this.dsGroundPublic.RefreshValve = 60000;
             this.dsGroundPublic.SourceCommand = null;
             this.dsGroundPublic.SourceCondition = "name = \'14\'";
             this.dsGroundPublic.SourceMethod = "";

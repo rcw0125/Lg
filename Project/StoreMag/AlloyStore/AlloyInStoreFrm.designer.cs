@@ -221,7 +221,7 @@
             this.dsAlloyInStore.L3DataAdapter = this.Adapter;
             this.dsAlloyInStore.LoadEvent = "Click";
             this.dsAlloyInStore.LoadTrigger = null;
-            this.dsAlloyInStore.RefreshValve = 1000;
+            this.dsAlloyInStore.RefreshValve = 60000;
             this.dsAlloyInStore.SourceCommand = null;
             this.dsAlloyInStore.SourceCondition = null;
             this.dsAlloyInStore.SourceMethod = "GetMaterialOnInputCache";
@@ -1092,7 +1092,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\'";
             this.dsAlloyCode.SourceMethod = "";
@@ -1299,7 +1299,7 @@
             this.dsAlloyInStoreSend.L3DataAdapter = null;
             this.dsAlloyInStoreSend.LoadEvent = "Click";
             this.dsAlloyInStoreSend.LoadTrigger = null;
-            this.dsAlloyInStoreSend.RefreshValve = 1000;
+            this.dsAlloyInStoreSend.RefreshValve = 60000;
             this.dsAlloyInStoreSend.SourceCommand = null;
             this.dsAlloyInStoreSend.SourceCondition = "";
             this.dsAlloyInStoreSend.SourceMethod = "";

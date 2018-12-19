@@ -286,7 +286,7 @@
             this.dsMatPrice.L3DataAdapter = this.Adapter;
             this.dsMatPrice.LoadEvent = "";
             this.dsMatPrice.LoadTrigger = null;
-            this.dsMatPrice.RefreshValve = 1000;
+            this.dsMatPrice.RefreshValve = 60000;
             this.dsMatPrice.SourceCommand = this.cmdGetMatPrice;
             this.dsMatPrice.SourceCondition = "";
             this.dsMatPrice.SourceMethod = "Get_Materia_Price";
@@ -775,7 +775,7 @@
             this.dsMatCode.L3DataAdapter = this.Adapter;
             this.dsMatCode.LoadEvent = "";
             this.dsMatCode.LoadTrigger = null;
-            this.dsMatCode.RefreshValve = 1000;
+            this.dsMatCode.RefreshValve = 60000;
             this.dsMatCode.SourceCommand = null;
             this.dsMatCode.SourceCondition = "";
             this.dsMatCode.SourceMethod = "";

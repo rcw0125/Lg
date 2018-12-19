@@ -207,7 +207,7 @@
             this.dsFire.L3DataAdapter = this.Adapter;
             this.dsFire.LoadEvent = "Click";
             this.dsFire.LoadTrigger = null;
-            this.dsFire.RefreshValve = 1000;
+            this.dsFire.RefreshValve = 60000;
             this.dsFire.SourceCommand = null;
             this.dsFire.SourceCondition = "name = \'5\'";
             this.dsFire.SourceMethod = "";
@@ -408,7 +408,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -451,7 +451,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -493,7 +493,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\' and code is not null";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -678,7 +678,7 @@
             this.dsGround.L3DataAdapter = this.Adapter;
             this.dsGround.LoadEvent = "Click";
             this.dsGround.LoadTrigger = null;
-            this.dsGround.RefreshValve = 1000;
+            this.dsGround.RefreshValve = 60000;
             this.dsGround.SourceCommand = null;
             this.dsGround.SourceCondition = "name = \'1\' order by Alloy_Area";
             this.dsGround.SourceMethod = "";
@@ -848,7 +848,7 @@
             this.dsWire.L3DataAdapter = this.Adapter;
             this.dsWire.LoadEvent = "";
             this.dsWire.LoadTrigger = null;
-            this.dsWire.RefreshValve = 1000;
+            this.dsWire.RefreshValve = 60000;
             this.dsWire.SourceCommand = null;
             this.dsWire.SourceCondition = "Alloy_Area in (\'S81W01\',\'S81W02\',\'S81W03\',\'S81W04\',\'S81W05\',\'S81W06\',\'S81W07\',\'S8" +
                 "1W08\')";
@@ -1093,7 +1093,7 @@
             this.dsForStoreMagQuery.L3DataAdapter = this.Adapter;
             this.dsForStoreMagQuery.LoadEvent = "Click";
             this.dsForStoreMagQuery.LoadTrigger = null;
-            this.dsForStoreMagQuery.RefreshValve = 1000;
+            this.dsForStoreMagQuery.RefreshValve = 60000;
             this.dsForStoreMagQuery.SourceCommand = null;
             this.dsForStoreMagQuery.SourceCondition = "";
             this.dsForStoreMagQuery.SourceMethod = "";
@@ -1211,7 +1211,7 @@
             this.dsAod.L3DataAdapter = this.Adapter;
             this.dsAod.LoadEvent = "Click";
             this.dsAod.LoadTrigger = null;
-            this.dsAod.RefreshValve = 1000;
+            this.dsAod.RefreshValve = 60000;
             this.dsAod.SourceCommand = null;
             this.dsAod.SourceCondition = "name = \'13\'";
             this.dsAod.SourceMethod = "";
@@ -1344,7 +1344,7 @@
             this.dsAodGround.L3DataAdapter = this.Adapter;
             this.dsAodGround.LoadEvent = "Click";
             this.dsAodGround.LoadTrigger = null;
-            this.dsAodGround.RefreshValve = 1000;
+            this.dsAodGround.RefreshValve = 60000;
             this.dsAodGround.SourceCommand = null;
             this.dsAodGround.SourceCondition = "name = \'14\' order by Alloy_Area";
             this.dsAodGround.SourceMethod = "";

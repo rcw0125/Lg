@@ -392,7 +392,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = null;
             this.dsBase.SourceMethod = "";
@@ -501,7 +501,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -559,7 +559,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -801,7 +801,7 @@
             this.dsTapAddtionType.L3DataAdapter = this.Adapter;
             this.dsTapAddtionType.LoadEvent = "Click";
             this.dsTapAddtionType.LoadTrigger = null;
-            this.dsTapAddtionType.RefreshValve = 1000;
+            this.dsTapAddtionType.RefreshValve = 60000;
             this.dsTapAddtionType.SourceCommand = null;
             this.dsTapAddtionType.SourceCondition = "Code_Group = \'TAP_Addtion_Type\'";
             this.dsTapAddtionType.SourceMethod = "";
@@ -880,7 +880,7 @@
             this.dsTapAddtionPropert.L3DataAdapter = this.Adapter;
             this.dsTapAddtionPropert.LoadEvent = "Click";
             this.dsTapAddtionPropert.LoadTrigger = null;
-            this.dsTapAddtionPropert.RefreshValve = 1000;
+            this.dsTapAddtionPropert.RefreshValve = 60000;
             this.dsTapAddtionPropert.SourceCommand = null;
             this.dsTapAddtionPropert.SourceCondition = "Code_Group = \'TAP_Addtion_Propert\'";
             this.dsTapAddtionPropert.SourceMethod = "";
@@ -933,7 +933,7 @@
             this.dsMat.L3DataAdapter = this.Adapter;
             this.dsMat.LoadEvent = "Click";
             this.dsMat.LoadTrigger = null;
-            this.dsMat.RefreshValve = 1000;
+            this.dsMat.RefreshValve = 60000;
             this.dsMat.SourceCommand = null;
             this.dsMat.SourceCondition = null;
             this.dsMat.SourceMethod = "";
@@ -1209,7 +1209,7 @@
             this.dsProcess.L3DataAdapter = this.Adapter;
             this.dsProcess.LoadEvent = "Click";
             this.dsProcess.LoadTrigger = null;
-            this.dsProcess.RefreshValve = 1000;
+            this.dsProcess.RefreshValve = 60000;
             this.dsProcess.SourceCommand = null;
             this.dsProcess.SourceCondition = null;
             this.dsProcess.SourceMethod = "";
@@ -1328,7 +1328,7 @@
             this.dsTuneFlag.L3DataAdapter = this.Adapter;
             this.dsTuneFlag.LoadEvent = "Click";
             this.dsTuneFlag.LoadTrigger = null;
-            this.dsTuneFlag.RefreshValve = 1000;
+            this.dsTuneFlag.RefreshValve = 60000;
             this.dsTuneFlag.SourceCommand = null;
             this.dsTuneFlag.SourceCondition = "CODE_GROUP = \'Tune_Flag\'";
             this.dsTuneFlag.SourceMethod = "";
@@ -1387,7 +1387,7 @@
             this.dsBlowMode.L3DataAdapter = this.Adapter;
             this.dsBlowMode.LoadEvent = "Click";
             this.dsBlowMode.LoadTrigger = null;
-            this.dsBlowMode.RefreshValve = 1000;
+            this.dsBlowMode.RefreshValve = 60000;
             this.dsBlowMode.SourceCommand = null;
             this.dsBlowMode.SourceCondition = "CODE_GROUP = \'Blow_Mode\'";
             this.dsBlowMode.SourceMethod = "";
@@ -1738,7 +1738,7 @@
             this.dsBOFTempMode.L3DataAdapter = this.Adapter;
             this.dsBOFTempMode.LoadEvent = "Click";
             this.dsBOFTempMode.LoadTrigger = null;
-            this.dsBOFTempMode.RefreshValve = 1000;
+            this.dsBOFTempMode.RefreshValve = 60000;
             this.dsBOFTempMode.SourceCommand = null;
             this.dsBOFTempMode.SourceCondition = "CODE_GROUP = \'BOF_Temp_Mode\'";
             this.dsBOFTempMode.SourceMethod = "";
@@ -1784,7 +1784,7 @@
             this.dsTemp.L3DataAdapter = this.Adapter;
             this.dsTemp.LoadEvent = "Click";
             this.dsTemp.LoadTrigger = null;
-            this.dsTemp.RefreshValve = 1000;
+            this.dsTemp.RefreshValve = 60000;
             this.dsTemp.SourceCommand = null;
             this.dsTemp.SourceCondition = null;
             this.dsTemp.SourceMethod = "";
@@ -2065,7 +2065,7 @@
             this.dsOxygen.L3DataAdapter = this.Adapter;
             this.dsOxygen.LoadEvent = "Click";
             this.dsOxygen.LoadTrigger = null;
-            this.dsOxygen.RefreshValve = 1000;
+            this.dsOxygen.RefreshValve = 60000;
             this.dsOxygen.SourceCommand = null;
             this.dsOxygen.SourceCondition = null;
             this.dsOxygen.SourceMethod = "";

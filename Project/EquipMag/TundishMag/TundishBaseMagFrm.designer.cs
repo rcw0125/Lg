@@ -188,7 +188,7 @@
             this.dsTundish.L3DataAdapter = this.Adapter;
             this.dsTundish.LoadEvent = "Click";
             this.dsTundish.LoadTrigger = null;
-            this.dsTundish.RefreshValve = 1000;
+            this.dsTundish.RefreshValve = 60000;
             this.dsTundish.SourceCommand = null;
             this.dsTundish.SourceCondition = "TundishType = \'2\' or TundishType = \'3\' or TundishType = \'4\' or TundishType = \'5\' " +
                 "order by TundishID";
@@ -578,7 +578,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'Tundish_Status\'";
             this.dsStatus.SourceMethod = "";
@@ -835,7 +835,7 @@
             this.dsTundishType.L3DataAdapter = this.Adapter;
             this.dsTundishType.LoadEvent = "Click";
             this.dsTundishType.LoadTrigger = null;
-            this.dsTundishType.RefreshValve = 1000;
+            this.dsTundishType.RefreshValve = 60000;
             this.dsTundishType.SourceCommand = null;
             this.dsTundishType.SourceCondition = "Code_Group = \'TundishDirection\'";
             this.dsTundishType.SourceMethod = "";
@@ -984,7 +984,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "Click";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "Code_Group = \'Tundish\'";
             this.dsTundishID.SourceMethod = "";
@@ -1026,7 +1026,7 @@
             this.dsCastID.L3DataAdapter = this.Adapter;
             this.dsCastID.LoadEvent = "Click";
             this.dsCastID.LoadTrigger = null;
-            this.dsCastID.RefreshValve = 1000;
+            this.dsCastID.RefreshValve = 60000;
             this.dsCastID.SourceCommand = null;
             this.dsCastID.SourceCondition = "Code_Group = \'Caster\'";
             this.dsCastID.SourceMethod = "";
@@ -1068,7 +1068,7 @@
             this.dsRefraPro.L3DataAdapter = this.Adapter;
             this.dsRefraPro.LoadEvent = "Click";
             this.dsRefraPro.LoadTrigger = null;
-            this.dsRefraPro.RefreshValve = 1000;
+            this.dsRefraPro.RefreshValve = 60000;
             this.dsRefraPro.SourceCommand = null;
             this.dsRefraPro.SourceCondition = null;
             this.dsRefraPro.SourceMethod = null;

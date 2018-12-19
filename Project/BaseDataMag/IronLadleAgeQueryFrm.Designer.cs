@@ -67,7 +67,7 @@
             this.dsQuery.L3DataAdapter = this.Adapter;
             this.dsQuery.LoadEvent = "";
             this.dsQuery.LoadTrigger = null;
-            this.dsQuery.RefreshValve = 1000;
+            this.dsQuery.RefreshValve = 60000;
             this.dsQuery.SourceCommand = null;
             this.dsQuery.SourceCondition = "";
             this.dsQuery.SourceMethod = "";

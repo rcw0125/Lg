@@ -180,7 +180,7 @@
             this.dsCalWeightMainten.L3DataAdapter = this.Adapter;
             this.dsCalWeightMainten.LoadEvent = "Click";
             this.dsCalWeightMainten.LoadTrigger = null;
-            this.dsCalWeightMainten.RefreshValve = 1000;
+            this.dsCalWeightMainten.RefreshValve = 60000;
             this.dsCalWeightMainten.SourceCommand = null;
             this.dsCalWeightMainten.SourceCondition = "1=2";
             this.dsCalWeightMainten.SourceMethod = "";
@@ -448,7 +448,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "1=2";
             this.dsMain.SourceMethod = "";

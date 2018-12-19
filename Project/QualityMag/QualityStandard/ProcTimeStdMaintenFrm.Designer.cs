@@ -190,7 +190,7 @@
             this.dsProcTime.L3DataAdapter = this.Adapter;
             this.dsProcTime.LoadEvent = "Click";
             this.dsProcTime.LoadTrigger = null;
-            this.dsProcTime.RefreshValve = 1000;
+            this.dsProcTime.RefreshValve = 60000;
             this.dsProcTime.SourceCommand = null;
             this.dsProcTime.SourceCondition = "1=2";
             this.dsProcTime.SourceMethod = "";
@@ -538,7 +538,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = this.Adapter;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = null;
             this.dsSteelGradeIndex.SourceCondition = "SteelGradeIndex is not null order by SteelGradeIndex";
             this.dsSteelGradeIndex.SourceMethod = "";
@@ -572,7 +572,7 @@
             this.dsSteelGrade.L3DataAdapter = this.Adapter;
             this.dsSteelGrade.LoadEvent = "";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "1=2";
             this.dsSteelGrade.SourceMethod = "";

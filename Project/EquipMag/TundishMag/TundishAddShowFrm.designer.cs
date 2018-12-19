@@ -349,7 +349,7 @@
             this.dsTundish.L3DataAdapter = this.Adapter;
             this.dsTundish.LoadEvent = "";
             this.dsTundish.LoadTrigger = null;
-            this.dsTundish.RefreshValve = 1000;
+            this.dsTundish.RefreshValve = 60000;
             this.dsTundish.SourceCommand = null;
             this.dsTundish.SourceCondition = "1=2";
             this.dsTundish.SourceMethod = "";

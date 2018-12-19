@@ -110,7 +110,7 @@
             this.dsLFUnit.L3DataAdapter = this.Adapter;
             this.dsLFUnit.LoadEvent = "Click";
             this.dsLFUnit.LoadTrigger = null;
-            this.dsLFUnit.RefreshValve = 1000;
+            this.dsLFUnit.RefreshValve = 60000;
             this.dsLFUnit.SourceCommand = null;
             this.dsLFUnit.SourceCondition = null;
             this.dsLFUnit.SourceMethod = "";
@@ -402,7 +402,7 @@
             this.dsOxy.L3DataAdapter = this.Adapter;
             this.dsOxy.LoadEvent = "";
             this.dsOxy.LoadTrigger = null;
-            this.dsOxy.RefreshValve = 1000;
+            this.dsOxy.RefreshValve = 60000;
             this.dsOxy.SourceCommand = null;
             this.dsOxy.SourceCondition = "code_group = \'Probe_Vonder\' order by code";
             this.dsOxy.SourceMethod = "";
@@ -465,7 +465,7 @@
             this.dsPoleVendor.L3DataAdapter = this.Adapter;
             this.dsPoleVendor.LoadEvent = "Click";
             this.dsPoleVendor.LoadTrigger = null;
-            this.dsPoleVendor.RefreshValve = 1000;
+            this.dsPoleVendor.RefreshValve = 60000;
             this.dsPoleVendor.SourceCommand = null;
             this.dsPoleVendor.SourceCondition = "code_group = \'Pole_Vendor\' order by code";
             this.dsPoleVendor.SourceMethod = "";

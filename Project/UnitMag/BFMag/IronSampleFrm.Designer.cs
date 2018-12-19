@@ -1101,7 +1101,7 @@
             this.dsM.L3DataAdapter = null;
             this.dsM.LoadEvent = "";
             this.dsM.LoadTrigger = null;
-            this.dsM.RefreshValve = 1000;
+            this.dsM.RefreshValve = 60000;
             this.dsM.SourceCommand = null;
             this.dsM.SourceCondition = "";
             this.dsM.SourceMethod = "";
@@ -1180,7 +1180,7 @@
             this.dsGroupNo.L3DataAdapter = this.Adapter;
             this.dsGroupNo.LoadEvent = "";
             this.dsGroupNo.LoadTrigger = null;
-            this.dsGroupNo.RefreshValve = 1000;
+            this.dsGroupNo.RefreshValve = 60000;
             this.dsGroupNo.SourceCommand = null;
             this.dsGroupNo.SourceCondition = "";
             this.dsGroupNo.SourceMethod = "";
@@ -1215,7 +1215,7 @@
             this.dsSqlNo.L3DataAdapter = this.Adapter;
             this.dsSqlNo.LoadEvent = "";
             this.dsSqlNo.LoadTrigger = null;
-            this.dsSqlNo.RefreshValve = 1000;
+            this.dsSqlNo.RefreshValve = 60000;
             this.dsSqlNo.SourceCommand = null;
             this.dsSqlNo.SourceCondition = "";
             this.dsSqlNo.SourceMethod = "";
@@ -1251,7 +1251,7 @@
             this.dsTapNo.L3DataAdapter = this.Adapter;
             this.dsTapNo.LoadEvent = "";
             this.dsTapNo.LoadTrigger = null;
-            this.dsTapNo.RefreshValve = 1000;
+            this.dsTapNo.RefreshValve = 60000;
             this.dsTapNo.SourceCommand = null;
             this.dsTapNo.SourceCondition = "";
             this.dsTapNo.SourceMethod = "GetMaxTAPNoByBFID";
@@ -1295,7 +1295,7 @@
             this.dsIronLadleInfo.L3DataAdapter = this.Adapter;
             this.dsIronLadleInfo.LoadEvent = "";
             this.dsIronLadleInfo.LoadTrigger = null;
-            this.dsIronLadleInfo.RefreshValve = 1000;
+            this.dsIronLadleInfo.RefreshValve = 60000;
             this.dsIronLadleInfo.SourceCommand = null;
             this.dsIronLadleInfo.SourceCondition = "TPC_No is not null order by TPC_No";
             this.dsIronLadleInfo.SourceMethod = "";

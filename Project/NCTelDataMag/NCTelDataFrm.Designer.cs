@@ -154,7 +154,7 @@
             this.dsLog.L3DataAdapter = this.Adapter;
             this.dsLog.LoadEvent = "";
             this.dsLog.LoadTrigger = null;
-            this.dsLog.RefreshValve = 1000;
+            this.dsLog.RefreshValve = 60000;
             this.dsLog.SourceCommand = null;
             this.dsLog.SourceCondition = "";
             this.dsLog.SourceMethod = "";
@@ -404,7 +404,7 @@
             this.dsType.L3DataAdapter = this.Adapter;
             this.dsType.LoadEvent = "";
             this.dsType.LoadTrigger = null;
-            this.dsType.RefreshValve = 1000;
+            this.dsType.RefreshValve = 60000;
             this.dsType.SourceCommand = null;
             this.dsType.SourceCondition = "Code_Group=\'NCTEL_TYPE\'";
             this.dsType.SourceMethod = "";
@@ -451,7 +451,7 @@
             this.dsYesNo.L3DataAdapter = this.Adapter;
             this.dsYesNo.LoadEvent = "";
             this.dsYesNo.LoadTrigger = null;
-            this.dsYesNo.RefreshValve = 1000;
+            this.dsYesNo.RefreshValve = 60000;
             this.dsYesNo.SourceCommand = null;
             this.dsYesNo.SourceCondition = "Code_Group=\'NCTEL_YESNO\'";
             this.dsYesNo.SourceMethod = "";

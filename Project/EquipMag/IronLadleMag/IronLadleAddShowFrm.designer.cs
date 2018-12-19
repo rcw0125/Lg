@@ -322,7 +322,7 @@
             this.dsIronLadle.L3DataAdapter = this.Adapter;
             this.dsIronLadle.LoadEvent = "";
             this.dsIronLadle.LoadTrigger = null;
-            this.dsIronLadle.RefreshValve = 1000;
+            this.dsIronLadle.RefreshValve = 60000;
             this.dsIronLadle.SourceCommand = null;
             this.dsIronLadle.SourceCondition = "1=2";
             this.dsIronLadle.SourceMethod = "";

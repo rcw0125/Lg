@@ -188,7 +188,7 @@
             this.dsM.L3DataAdapter = this.Adapter;
             this.dsM.LoadEvent = "Click";
             this.dsM.LoadTrigger = null;
-            this.dsM.RefreshValve = 1000;
+            this.dsM.RefreshValve = 60000;
             this.dsM.SourceCommand = this.cmdM;
             this.dsM.SourceCondition = null;
             this.dsM.SourceMethod = "GetLanceCheckInfo";
@@ -933,7 +933,7 @@
             this.dsCommonYesNo.L3DataAdapter = this.Adapter;
             this.dsCommonYesNo.LoadEvent = "";
             this.dsCommonYesNo.LoadTrigger = null;
-            this.dsCommonYesNo.RefreshValve = 1000;
+            this.dsCommonYesNo.RefreshValve = 60000;
             this.dsCommonYesNo.SourceCommand = null;
             this.dsCommonYesNo.SourceCondition = "Code_Group = \'COMMON_YESNO\'";
             this.dsCommonYesNo.SourceMethod = "";
@@ -1041,7 +1041,7 @@
             this.dsNormal.L3DataAdapter = this.Adapter;
             this.dsNormal.LoadEvent = "";
             this.dsNormal.LoadTrigger = null;
-            this.dsNormal.RefreshValve = 1000;
+            this.dsNormal.RefreshValve = 60000;
             this.dsNormal.SourceCommand = null;
             this.dsNormal.SourceCondition = "Code_Group = \'CommonNormal\'";
             this.dsNormal.SourceMethod = "";
@@ -1157,7 +1157,7 @@
             this.dsGood.L3DataAdapter = this.Adapter;
             this.dsGood.LoadEvent = "";
             this.dsGood.LoadTrigger = null;
-            this.dsGood.RefreshValve = 1000;
+            this.dsGood.RefreshValve = 60000;
             this.dsGood.SourceCommand = null;
             this.dsGood.SourceCondition = "Code_Group = \'CommonGood\'";
             this.dsGood.SourceMethod = "";
@@ -1246,7 +1246,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -1302,7 +1302,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -1386,7 +1386,7 @@
             this.dsLanceID.L3DataAdapter = this.Adapter;
             this.dsLanceID.LoadEvent = "Click";
             this.dsLanceID.LoadTrigger = null;
-            this.dsLanceID.RefreshValve = 1000;
+            this.dsLanceID.RefreshValve = 60000;
             this.dsLanceID.SourceCommand = null;
             this.dsLanceID.SourceCondition = null;
             this.dsLanceID.SourceMethod = "";

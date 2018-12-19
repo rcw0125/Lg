@@ -406,7 +406,7 @@
             this.dsBloom.L3DataAdapter = this.Adapter;
             this.dsBloom.LoadEvent = "Click";
             this.dsBloom.LoadTrigger = null;
-            this.dsBloom.RefreshValve = 1000;
+            this.dsBloom.RefreshValve = 60000;
             this.dsBloom.SourceCommand = null;
             this.dsBloom.SourceCondition = null;
             this.dsBloom.SourceMethod = "GetMaterialOnInputCache";
@@ -1051,7 +1051,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "Click";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "CODE_GROUP = \'OFFLINE_REASON_CODE\'";
             this.dsOffLineReason.SourceMethod = "";
@@ -1114,7 +1114,7 @@
             this.dsWrongReason.L3DataAdapter = this.Adapter;
             this.dsWrongReason.LoadEvent = "Click";
             this.dsWrongReason.LoadTrigger = null;
-            this.dsWrongReason.RefreshValve = 1000;
+            this.dsWrongReason.RefreshValve = 60000;
             this.dsWrongReason.SourceCommand = null;
             this.dsWrongReason.SourceCondition = "CODE_GROUP = \'WRONG_REASON_CODE\'";
             this.dsWrongReason.SourceMethod = "";
@@ -1943,7 +1943,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -2382,7 +2382,7 @@
             this.dsBloomSend.L3DataAdapter = null;
             this.dsBloomSend.LoadEvent = "Click";
             this.dsBloomSend.LoadTrigger = null;
-            this.dsBloomSend.RefreshValve = 1000;
+            this.dsBloomSend.RefreshValve = 60000;
             this.dsBloomSend.SourceCommand = null;
             this.dsBloomSend.SourceCondition = "";
             this.dsBloomSend.SourceMethod = "";

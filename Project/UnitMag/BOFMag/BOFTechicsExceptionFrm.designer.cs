@@ -280,7 +280,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "Click";
             this.dsHeatID.LoadTrigger = null;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = this.cmdHeatID;
             this.dsHeatID.SourceCondition = null;
             this.dsHeatID.SourceMethod = "GetExceptHeatID";
@@ -401,7 +401,7 @@
             this.dsExcept.L3DataAdapter = this.Adapter;
             this.dsExcept.LoadEvent = "Click";
             this.dsExcept.LoadTrigger = null;
-            this.dsExcept.RefreshValve = 1000;
+            this.dsExcept.RefreshValve = 60000;
             this.dsExcept.SourceCommand = null;
             this.dsExcept.SourceCondition = "Unit=\'{UnitID}\'";
             this.dsExcept.SourceMethod = "";
@@ -457,7 +457,7 @@
             this.dsHeatExcept.L3DataAdapter = null;
             this.dsHeatExcept.LoadEvent = "Click";
             this.dsHeatExcept.LoadTrigger = null;
-            this.dsHeatExcept.RefreshValve = 1000;
+            this.dsHeatExcept.RefreshValve = 60000;
             this.dsHeatExcept.SourceCommand = null;
             this.dsHeatExcept.SourceCondition = null;
             this.dsHeatExcept.SourceMethod = "";
@@ -557,7 +557,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'UnitMag\'";
             this.dsError.SourceMethod = "";

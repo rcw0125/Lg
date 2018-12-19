@@ -170,7 +170,7 @@
             this.dsHeatData.L3DataAdapter = this.Adapter;
             this.dsHeatData.LoadEvent = "Click";
             this.dsHeatData.LoadTrigger = null;
-            this.dsHeatData.RefreshValve = 1000;
+            this.dsHeatData.RefreshValve = 60000;
             this.dsHeatData.SourceCommand = null;
             this.dsHeatData.SourceCondition = null;
             this.dsHeatData.SourceMethod = "GetHeatAllInformation";
@@ -611,7 +611,7 @@
             this.dsWasterReason.L3DataAdapter = null;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -816,7 +816,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' and CODE is not null order by CODE ";
             this.dsCasterID.SourceMethod = "";

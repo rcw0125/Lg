@@ -245,7 +245,7 @@
             this.dsBulkArea.L3DataAdapter = this.Adapter;
             this.dsBulkArea.LoadEvent = "Click";
             this.dsBulkArea.LoadTrigger = null;
-            this.dsBulkArea.RefreshValve = 1000;
+            this.dsBulkArea.RefreshValve = 60000;
             this.dsBulkArea.SourceCommand = null;
             this.dsBulkArea.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsBulkArea.SourceMethod = "";
@@ -287,7 +287,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "CODE_GROUP = \'BULK_CODE\' and CODE is not null";
             this.dsBulkCode.SourceMethod = "";
@@ -329,7 +329,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\'";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -377,7 +377,7 @@
             this.dsBOF.L3DataAdapter = this.Adapter;
             this.dsBOF.LoadEvent = "Click";
             this.dsBOF.LoadTrigger = null;
-            this.dsBOF.RefreshValve = 1000;
+            this.dsBOF.RefreshValve = 60000;
             this.dsBOF.SourceCommand = null;
             this.dsBOF.SourceCondition = "SubStr(Bulk_Area,4,1) in (\'A\',\'B\',\'C\',\'D\',\'E\')  ORDER BY BULK_AREA ASC";
             this.dsBOF.SourceMethod = "";

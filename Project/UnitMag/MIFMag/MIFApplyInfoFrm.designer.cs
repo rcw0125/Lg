@@ -117,7 +117,7 @@
             this.dsSampleApply.L3DataAdapter = null;
             this.dsSampleApply.LoadEvent = "Click";
             this.dsSampleApply.LoadTrigger = null;
-            this.dsSampleApply.RefreshValve = 1000;
+            this.dsSampleApply.RefreshValve = 60000;
             this.dsSampleApply.SourceCommand = null;
             this.dsSampleApply.SourceCondition = "";
             this.dsSampleApply.SourceMethod = "";
@@ -567,7 +567,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "Code_Group =  \'QA_Sample_Type\' and Code_Function_Group = \'H\' order by Code";
             this.dsSampleType.SourceMethod = "";
@@ -630,7 +630,7 @@
             this.dsIronLadleID.L3DataAdapter = this.Adapter;
             this.dsIronLadleID.LoadEvent = "Click";
             this.dsIronLadleID.LoadTrigger = null;
-            this.dsIronLadleID.RefreshValve = 1000;
+            this.dsIronLadleID.RefreshValve = 60000;
             this.dsIronLadleID.SourceCommand = null;
             this.dsIronLadleID.SourceCondition = null;
             this.dsIronLadleID.SourceMethod = "";
@@ -665,7 +665,7 @@
             this.dsAddress.L3DataAdapter = null;
             this.dsAddress.LoadEvent = "Click";
             this.dsAddress.LoadTrigger = null;
-            this.dsAddress.RefreshValve = 1000;
+            this.dsAddress.RefreshValve = 60000;
             this.dsAddress.SourceCommand = null;
             this.dsAddress.SourceCondition = null;
             this.dsAddress.SourceMethod = null;

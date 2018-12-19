@@ -203,7 +203,7 @@
             this.dsUnitPrice.L3DataAdapter = this.Adapter;
             this.dsUnitPrice.LoadEvent = "";
             this.dsUnitPrice.LoadTrigger = null;
-            this.dsUnitPrice.RefreshValve = 1000;
+            this.dsUnitPrice.RefreshValve = 60000;
             this.dsUnitPrice.SourceCommand = null;
             this.dsUnitPrice.SourceCondition = "";
             this.dsUnitPrice.SourceMethod = "";
@@ -334,7 +334,7 @@
             this.dsUnitCode.L3DataAdapter = this.Adapter;
             this.dsUnitCode.LoadEvent = "";
             this.dsUnitCode.LoadTrigger = null;
-            this.dsUnitCode.RefreshValve = 1000;
+            this.dsUnitCode.RefreshValve = 60000;
             this.dsUnitCode.SourceCommand = null;
             this.dsUnitCode.SourceCondition = "";
             this.dsUnitCode.SourceMethod = "";

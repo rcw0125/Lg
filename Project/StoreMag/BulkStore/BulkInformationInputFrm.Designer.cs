@@ -297,7 +297,7 @@
             this.dsBulkInfor.L3DataAdapter = this.Adapter;
             this.dsBulkInfor.LoadEvent = "Click";
             this.dsBulkInfor.LoadTrigger = null;
-            this.dsBulkInfor.RefreshValve = 1000;
+            this.dsBulkInfor.RefreshValve = 60000;
             this.dsBulkInfor.SourceCommand = null;
             this.dsBulkInfor.SourceCondition = "";
             this.dsBulkInfor.SourceMethod = "";
@@ -624,7 +624,7 @@
             this.dsBulkCode.L3DataAdapter = this.Adapter;
             this.dsBulkCode.LoadEvent = "Click";
             this.dsBulkCode.LoadTrigger = null;
-            this.dsBulkCode.RefreshValve = 1000;
+            this.dsBulkCode.RefreshValve = 60000;
             this.dsBulkCode.SourceCommand = null;
             this.dsBulkCode.SourceCondition = "Code_Group = \'BULK_CODE\'";
             this.dsBulkCode.SourceMethod = "";
@@ -790,7 +790,7 @@
             this.dsBulkTrans.L3DataAdapter = this.Adapter;
             this.dsBulkTrans.LoadEvent = "Click";
             this.dsBulkTrans.LoadTrigger = null;
-            this.dsBulkTrans.RefreshValve = 1000;
+            this.dsBulkTrans.RefreshValve = 60000;
             this.dsBulkTrans.SourceCommand = null;
             this.dsBulkTrans.SourceCondition = "";
             this.dsBulkTrans.SourceMethod = "";
@@ -1282,7 +1282,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'BulkChangeStore\'";
             this.dsError.SourceMethod = "";

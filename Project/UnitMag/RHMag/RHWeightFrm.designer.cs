@@ -113,7 +113,7 @@
             this.dsSteels.L3DataAdapter = this.Adapter;
             this.dsSteels.LoadEvent = "Click";
             this.dsSteels.LoadTrigger = null;
-            this.dsSteels.RefreshValve = 1000;
+            this.dsSteels.RefreshValve = 60000;
             this.dsSteels.SourceCommand = null;
             this.dsSteels.SourceCondition = null;
             this.dsSteels.SourceMethod = "GetInputSteels";

@@ -123,7 +123,7 @@
             this.dsTapping.L3DataAdapter = this.Adapter;
             this.dsTapping.LoadEvent = "Click";
             this.dsTapping.LoadTrigger = null;
-            this.dsTapping.RefreshValve = 1000;
+            this.dsTapping.RefreshValve = 60000;
             this.dsTapping.SourceCommand = null;
             this.dsTapping.SourceCondition = "1=2";
             this.dsTapping.SourceMethod = "";

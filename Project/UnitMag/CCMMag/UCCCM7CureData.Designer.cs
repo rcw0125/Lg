@@ -1523,7 +1523,7 @@
             this.dsCoolGas.L3DataAdapter = null;
             this.dsCoolGas.LoadEvent = "Click";
             this.dsCoolGas.LoadTrigger = null;
-            this.dsCoolGas.RefreshValve = 1000;
+            this.dsCoolGas.RefreshValve = 60000;
             this.dsCoolGas.SourceCommand = null;
             this.dsCoolGas.SourceCondition = null;
             this.dsCoolGas.SourceMethod = "";
@@ -1865,7 +1865,7 @@
             this.dsCoolWater.L3DataAdapter = null;
             this.dsCoolWater.LoadEvent = "Click";
             this.dsCoolWater.LoadTrigger = null;
-            this.dsCoolWater.RefreshValve = 1000;
+            this.dsCoolWater.RefreshValve = 60000;
             this.dsCoolWater.SourceCommand = null;
             this.dsCoolWater.SourceCondition = null;
             this.dsCoolWater.SourceMethod = "";
@@ -2271,7 +2271,7 @@
             this.dsRoller.L3DataAdapter = null;
             this.dsRoller.LoadEvent = "Click";
             this.dsRoller.LoadTrigger = null;
-            this.dsRoller.RefreshValve = 1000;
+            this.dsRoller.RefreshValve = 60000;
             this.dsRoller.SourceCommand = null;
             this.dsRoller.SourceCondition = null;
             this.dsRoller.SourceMethod = "";
@@ -2789,7 +2789,7 @@
             this.dsMold.L3DataAdapter = null;
             this.dsMold.LoadEvent = "Click";
             this.dsMold.LoadTrigger = null;
-            this.dsMold.RefreshValve = 1000;
+            this.dsMold.RefreshValve = 60000;
             this.dsMold.SourceCommand = null;
             this.dsMold.SourceCondition = null;
             this.dsMold.SourceMethod = "";
@@ -3075,7 +3075,7 @@
             this.dsOscillate.L3DataAdapter = null;
             this.dsOscillate.LoadEvent = "Click";
             this.dsOscillate.LoadTrigger = null;
-            this.dsOscillate.RefreshValve = 1000;
+            this.dsOscillate.RefreshValve = 60000;
             this.dsOscillate.SourceCommand = null;
             this.dsOscillate.SourceCondition = null;
             this.dsOscillate.SourceMethod = "";
@@ -3318,7 +3318,7 @@
             this.dsEnergy.L3DataAdapter = null;
             this.dsEnergy.LoadEvent = "Click";
             this.dsEnergy.LoadTrigger = null;
-            this.dsEnergy.RefreshValve = 1000;
+            this.dsEnergy.RefreshValve = 60000;
             this.dsEnergy.SourceCommand = null;
             this.dsEnergy.SourceCondition = null;
             this.dsEnergy.SourceMethod = "";
@@ -3407,7 +3407,7 @@
             this.dsElectMix.L3DataAdapter = null;
             this.dsElectMix.LoadEvent = "Click";
             this.dsElectMix.LoadTrigger = null;
-            this.dsElectMix.RefreshValve = 1000;
+            this.dsElectMix.RefreshValve = 60000;
             this.dsElectMix.SourceCommand = null;
             this.dsElectMix.SourceCondition = null;
             this.dsElectMix.SourceMethod = "";
@@ -3709,7 +3709,7 @@
             this.dsPlugBar.L3DataAdapter = null;
             this.dsPlugBar.LoadEvent = "Click";
             this.dsPlugBar.LoadTrigger = null;
-            this.dsPlugBar.RefreshValve = 1000;
+            this.dsPlugBar.RefreshValve = 60000;
             this.dsPlugBar.SourceCommand = null;
             this.dsPlugBar.SourceCondition = "";
             this.dsPlugBar.SourceMethod = "";
@@ -7760,7 +7760,7 @@
             this.dsLevel.L3DataAdapter = null;
             this.dsLevel.LoadEvent = "Click";
             this.dsLevel.LoadTrigger = null;
-            this.dsLevel.RefreshValve = 1000;
+            this.dsLevel.RefreshValve = 60000;
             this.dsLevel.SourceCommand = null;
             this.dsLevel.SourceCondition = null;
             this.dsLevel.SourceMethod = "";
@@ -8000,7 +8000,7 @@
             this.dsGUID.L3DataAdapter = null;
             this.dsGUID.LoadEvent = "Click";
             this.dsGUID.LoadTrigger = null;
-            this.dsGUID.RefreshValve = 1000;
+            this.dsGUID.RefreshValve = 60000;
             this.dsGUID.SourceCommand = null;
             this.dsGUID.SourceCondition = "";
             this.dsGUID.SourceMethod = null;

@@ -199,7 +199,7 @@
             this.dsDesStdMainten.L3DataAdapter = this.Adapter;
             this.dsDesStdMainten.LoadEvent = "Click";
             this.dsDesStdMainten.LoadTrigger = null;
-            this.dsDesStdMainten.RefreshValve = 1000;
+            this.dsDesStdMainten.RefreshValve = 60000;
             this.dsDesStdMainten.SourceCommand = null;
             this.dsDesStdMainten.SourceCondition = "1=2";
             this.dsDesStdMainten.SourceMethod = "";

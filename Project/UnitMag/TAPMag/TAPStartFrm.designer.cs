@@ -143,7 +143,7 @@
             this.dsSteels.L3DataAdapter = this.Adapter;
             this.dsSteels.LoadEvent = "Click";
             this.dsSteels.LoadTrigger = null;
-            this.dsSteels.RefreshValve = 1000;
+            this.dsSteels.RefreshValve = 60000;
             this.dsSteels.SourceCommand = null;
             this.dsSteels.SourceCondition = null;
             this.dsSteels.SourceMethod = "GetInputSteels";
@@ -660,7 +660,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "CODE_GROUP = \'TAP_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -907,7 +907,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'UnitMag\'";
             this.dsError.SourceMethod = "";

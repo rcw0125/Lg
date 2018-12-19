@@ -168,7 +168,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -226,7 +226,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -289,7 +289,7 @@
             this.dsNotte.L3DataAdapter = this.Adapter;
             this.dsNotte.LoadEvent = "Click";
             this.dsNotte.LoadTrigger = null;
-            this.dsNotte.RefreshValve = 1000;
+            this.dsNotte.RefreshValve = 60000;
             this.dsNotte.SourceCommand = null;
             this.dsNotte.SourceCondition = "1=2";
             this.dsNotte.SourceMethod = "";
@@ -593,7 +593,7 @@
             this.dsScrapArea.L3DataAdapter = this.Adapter;
             this.dsScrapArea.LoadEvent = "Click";
             this.dsScrapArea.LoadTrigger = null;
-            this.dsScrapArea.RefreshValve = 1000;
+            this.dsScrapArea.RefreshValve = 60000;
             this.dsScrapArea.SourceCommand = null;
             this.dsScrapArea.SourceCondition = "CODE_GROUP = \'ScrapArea\'";
             this.dsScrapArea.SourceMethod = "";

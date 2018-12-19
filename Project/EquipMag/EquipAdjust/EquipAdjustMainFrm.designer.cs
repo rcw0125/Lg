@@ -275,7 +275,7 @@
             this.dsEquipAdjustSet.L3DataAdapter = this.Adapter;
             this.dsEquipAdjustSet.LoadEvent = "Click";
             this.dsEquipAdjustSet.LoadTrigger = null;
-            this.dsEquipAdjustSet.RefreshValve = 1000;
+            this.dsEquipAdjustSet.RefreshValve = 60000;
             this.dsEquipAdjustSet.SourceCommand = null;
             this.dsEquipAdjustSet.SourceCondition = "Location is not null order by Location,Location_Des";
             this.dsEquipAdjustSet.SourceMethod = "";
@@ -824,7 +824,7 @@
             this.dsLocation_Des.L3DataAdapter = this.Adapter;
             this.dsLocation_Des.LoadEvent = "Click";
             this.dsLocation_Des.LoadTrigger = null;
-            this.dsLocation_Des.RefreshValve = 1000;
+            this.dsLocation_Des.RefreshValve = 60000;
             this.dsLocation_Des.SourceCommand = null;
             this.dsLocation_Des.SourceCondition = "Code_Group = \'Location_Des\' order by Code";
             this.dsLocation_Des.SourceMethod = "";
@@ -879,7 +879,7 @@
             this.dsLocation.L3DataAdapter = this.Adapter;
             this.dsLocation.LoadEvent = "Click";
             this.dsLocation.LoadTrigger = null;
-            this.dsLocation.RefreshValve = 1000;
+            this.dsLocation.RefreshValve = 60000;
             this.dsLocation.SourceCommand = null;
             this.dsLocation.SourceCondition = "Code_Group = \'Location\' order by Code";
             this.dsLocation.SourceMethod = "";

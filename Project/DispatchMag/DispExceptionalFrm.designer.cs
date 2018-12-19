@@ -289,7 +289,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = this.cmdMain;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "GetDispExceData";
@@ -436,7 +436,7 @@
             this.dsDetail.L3DataAdapter = this.Adapter;
             this.dsDetail.LoadEvent = "";
             this.dsDetail.LoadTrigger = null;
-            this.dsDetail.RefreshValve = 1000;
+            this.dsDetail.RefreshValve = 60000;
             this.dsDetail.SourceCommand = this.cmdDetail;
             this.dsDetail.SourceCondition = "";
             this.dsDetail.SourceMethod = "GetDispExceItemData";
@@ -672,7 +672,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "";
             this.dsUnitID.SourceMethod = "";
@@ -740,7 +740,7 @@
             this.dsShiftNC.L3DataAdapter = this.Adapter;
             this.dsShiftNC.LoadEvent = "";
             this.dsShiftNC.LoadTrigger = null;
-            this.dsShiftNC.RefreshValve = 1000;
+            this.dsShiftNC.RefreshValve = 60000;
             this.dsShiftNC.SourceCommand = null;
             this.dsShiftNC.SourceCondition = "";
             this.dsShiftNC.SourceMethod = "";
@@ -808,7 +808,7 @@
             this.dsTeamNC.L3DataAdapter = this.Adapter;
             this.dsTeamNC.LoadEvent = "";
             this.dsTeamNC.LoadTrigger = null;
-            this.dsTeamNC.RefreshValve = 1000;
+            this.dsTeamNC.RefreshValve = 60000;
             this.dsTeamNC.SourceCommand = null;
             this.dsTeamNC.SourceCondition = "";
             this.dsTeamNC.SourceMethod = "";
@@ -1029,7 +1029,7 @@
             this.dsException.L3DataAdapter = this.Adapter;
             this.dsException.LoadEvent = "";
             this.dsException.LoadTrigger = null;
-            this.dsException.RefreshValve = 1000;
+            this.dsException.RefreshValve = 60000;
             this.dsException.SourceCommand = null;
             this.dsException.SourceCondition = "";
             this.dsException.SourceMethod = "";
@@ -1468,7 +1468,7 @@
             this.dsItems.L3DataAdapter = this.Adapter;
             this.dsItems.LoadEvent = "";
             this.dsItems.LoadTrigger = null;
-            this.dsItems.RefreshValve = 1000;
+            this.dsItems.RefreshValve = 60000;
             this.dsItems.SourceCommand = null;
             this.dsItems.SourceCondition = "";
             this.dsItems.SourceMethod = "";
@@ -1517,7 +1517,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -1559,7 +1559,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";

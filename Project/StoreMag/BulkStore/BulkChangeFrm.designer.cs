@@ -123,7 +123,7 @@
             this.dsChange.L3DataAdapter = this.Adapter;
             this.dsChange.LoadEvent = "Click";
             this.dsChange.LoadTrigger = null;
-            this.dsChange.RefreshValve = 1000;
+            this.dsChange.RefreshValve = 60000;
             this.dsChange.SourceCommand = null;
             this.dsChange.SourceCondition = null;
             this.dsChange.SourceMethod = "GetAllMaterialOnStore";
@@ -510,7 +510,7 @@
             this.dsCodeArea.L3DataAdapter = null;
             this.dsCodeArea.LoadEvent = "Click";
             this.dsCodeArea.LoadTrigger = null;
-            this.dsCodeArea.RefreshValve = 1000;
+            this.dsCodeArea.RefreshValve = 60000;
             this.dsCodeArea.SourceCommand = this.cmdCodeArea;
             this.dsCodeArea.SourceCondition = null;
             this.dsCodeArea.SourceMethod = "GetBulkArea";
@@ -596,7 +596,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "CODE_GROUP = \'BulkArea\' and CODE is not null";
             this.dsPosition.SourceMethod = "";
@@ -747,7 +747,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'BulkChangeStore\'";
             this.dsError.SourceMethod = "";

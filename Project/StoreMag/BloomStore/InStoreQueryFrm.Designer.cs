@@ -290,7 +290,7 @@
             this.dsBloomArea.L3DataAdapter = this.Adapter;
             this.dsBloomArea.LoadEvent = "Click";
             this.dsBloomArea.LoadTrigger = null;
-            this.dsBloomArea.RefreshValve = 1000;
+            this.dsBloomArea.RefreshValve = 60000;
             this.dsBloomArea.SourceCommand = null;
             this.dsBloomArea.SourceCondition = "CODE_GROUP = \'BloomArea\'";
             this.dsBloomArea.SourceMethod = "";
@@ -356,7 +356,7 @@
             this.dsCurPileID.L3DataAdapter = this.Adapter;
             this.dsCurPileID.LoadEvent = "Click";
             this.dsCurPileID.LoadTrigger = null;
-            this.dsCurPileID.RefreshValve = 1000;
+            this.dsCurPileID.RefreshValve = 60000;
             this.dsCurPileID.SourceCommand = null;
             this.dsCurPileID.SourceCondition = "CODE_GROUP = \'BLOOM_SPILE\' or CODE_GROUP = \'KEEP_SPILE\' ";
             this.dsCurPileID.SourceMethod = "";
@@ -537,7 +537,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -592,7 +592,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -746,7 +746,7 @@
             this.dsInStore.L3DataAdapter = this.Adapter;
             this.dsInStore.LoadEvent = "Click";
             this.dsInStore.LoadTrigger = null;
-            this.dsInStore.RefreshValve = 1000;
+            this.dsInStore.RefreshValve = 60000;
             this.dsInStore.SourceCommand = null;
             this.dsInStore.SourceCondition = "";
             this.dsInStore.SourceMethod = "";

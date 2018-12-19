@@ -288,7 +288,7 @@
             this.dsTapping.L3DataAdapter = this.Adapter;
             this.dsTapping.LoadEvent = "Click";
             this.dsTapping.LoadTrigger = null;
-            this.dsTapping.RefreshValve = 1000;
+            this.dsTapping.RefreshValve = 60000;
             this.dsTapping.SourceCommand = this.cmdTapping;
             this.dsTapping.SourceCondition = null;
             this.dsTapping.SourceMethod = "GetCurDayTappingPlan";
@@ -1326,7 +1326,7 @@
             this.dsDest.L3DataAdapter = this.Adapter;
             this.dsDest.LoadEvent = "Click";
             this.dsDest.LoadTrigger = null;
-            this.dsDest.RefreshValve = 1000;
+            this.dsDest.RefreshValve = 60000;
             this.dsDest.SourceCommand = null;
             this.dsDest.SourceCondition = "CODE_GROUP = \'DESTINATION\'";
             this.dsDest.SourceMethod = "";
@@ -1974,7 +1974,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' and code is not null";
             this.dsCasterID.SourceMethod = "";
@@ -2142,7 +2142,7 @@
             this.dsDES.L3DataAdapter = null;
             this.dsDES.LoadEvent = "Click";
             this.dsDES.LoadTrigger = null;
-            this.dsDES.RefreshValve = 1000;
+            this.dsDES.RefreshValve = 60000;
             this.dsDES.SourceCommand = null;
             this.dsDES.SourceCondition = null;
             this.dsDES.SourceMethod = null;
@@ -2174,7 +2174,7 @@
             this.dsWriteTime.L3DataAdapter = null;
             this.dsWriteTime.LoadEvent = "Click";
             this.dsWriteTime.LoadTrigger = null;
-            this.dsWriteTime.RefreshValve = 1000;
+            this.dsWriteTime.RefreshValve = 60000;
             this.dsWriteTime.SourceCommand = null;
             this.dsWriteTime.SourceCondition = "";
             this.dsWriteTime.SourceMethod = "";
@@ -2225,7 +2225,7 @@
             this.dsChangePlanTime.L3DataAdapter = null;
             this.dsChangePlanTime.LoadEvent = "Click";
             this.dsChangePlanTime.LoadTrigger = null;
-            this.dsChangePlanTime.RefreshValve = 1000;
+            this.dsChangePlanTime.RefreshValve = 60000;
             this.dsChangePlanTime.SourceCommand = null;
             this.dsChangePlanTime.SourceCondition = null;
             this.dsChangePlanTime.SourceMethod = null;
@@ -2246,7 +2246,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'TappingPlanChangeTimeTable\'";
             this.dsError.SourceMethod = "";

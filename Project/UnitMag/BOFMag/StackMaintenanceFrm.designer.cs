@@ -325,7 +325,7 @@
             this.dsData.L3DataAdapter = this.Adapter;
             this.dsData.LoadEvent = "";
             this.dsData.LoadTrigger = null;
-            this.dsData.RefreshValve = 1000;
+            this.dsData.RefreshValve = 60000;
             this.dsData.SourceCommand = null;
             this.dsData.SourceCondition = "1=2";
             this.dsData.SourceMethod = "";
@@ -614,7 +614,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -656,7 +656,7 @@
             this.dsContent.L3DataAdapter = this.Adapter;
             this.dsContent.LoadEvent = "";
             this.dsContent.LoadTrigger = null;
-            this.dsContent.RefreshValve = 1000;
+            this.dsContent.RefreshValve = 60000;
             this.dsContent.SourceCommand = null;
             this.dsContent.SourceCondition = "Code_Group = \'BOF_Stack_Content\'";
             this.dsContent.SourceMethod = "";
@@ -698,7 +698,7 @@
             this.dsMateriel.L3DataAdapter = this.Adapter;
             this.dsMateriel.LoadEvent = "";
             this.dsMateriel.LoadTrigger = null;
-            this.dsMateriel.RefreshValve = 1000;
+            this.dsMateriel.RefreshValve = 60000;
             this.dsMateriel.SourceCommand = null;
             this.dsMateriel.SourceCondition = "Code_Group = \'BOF_Stack_Materiel\'";
             this.dsMateriel.SourceMethod = "";
@@ -740,7 +740,7 @@
             this.dsTaphole_Vendor.L3DataAdapter = this.Adapter;
             this.dsTaphole_Vendor.LoadEvent = "";
             this.dsTaphole_Vendor.LoadTrigger = null;
-            this.dsTaphole_Vendor.RefreshValve = 1000;
+            this.dsTaphole_Vendor.RefreshValve = 60000;
             this.dsTaphole_Vendor.SourceCommand = null;
             this.dsTaphole_Vendor.SourceCondition = "Code_Group = \'BOF_Stack_Taphole_Vendor\'";
             this.dsTaphole_Vendor.SourceMethod = "";
@@ -782,7 +782,7 @@
             this.dsMateriel_Vendor.L3DataAdapter = this.Adapter;
             this.dsMateriel_Vendor.LoadEvent = "";
             this.dsMateriel_Vendor.LoadTrigger = null;
-            this.dsMateriel_Vendor.RefreshValve = 1000;
+            this.dsMateriel_Vendor.RefreshValve = 60000;
             this.dsMateriel_Vendor.SourceCommand = null;
             this.dsMateriel_Vendor.SourceCondition = "Code_Group = \'BOF_Stack_Materiel_Vendor\'";
             this.dsMateriel_Vendor.SourceMethod = "";

@@ -131,7 +131,7 @@
             this.dsAlloyInStoreConfirm.L3DataAdapter = null;
             this.dsAlloyInStoreConfirm.LoadEvent = "Click";
             this.dsAlloyInStoreConfirm.LoadTrigger = null;
-            this.dsAlloyInStoreConfirm.RefreshValve = 1000;
+            this.dsAlloyInStoreConfirm.RefreshValve = 60000;
             this.dsAlloyInStoreConfirm.SourceCommand = null;
             this.dsAlloyInStoreConfirm.SourceCondition = "";
             this.dsAlloyInStoreConfirm.SourceMethod = "";
@@ -413,7 +413,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'\'";
             this.dsAlloyArea.SourceMethod = "";
@@ -581,7 +581,7 @@
             this.dsPossition.L3DataAdapter = null;
             this.dsPossition.LoadEvent = "Click";
             this.dsPossition.LoadTrigger = null;
-            this.dsPossition.RefreshValve = 1000;
+            this.dsPossition.RefreshValve = 60000;
             this.dsPossition.SourceCommand = this.cmdPossition;
             this.dsPossition.SourceCondition = null;
             this.dsPossition.SourceMethod = "GetAlloyArea";
@@ -767,7 +767,7 @@
             this.dsGround.L3DataAdapter = this.Adapter;
             this.dsGround.LoadEvent = "Click";
             this.dsGround.LoadTrigger = null;
-            this.dsGround.RefreshValve = 1000;
+            this.dsGround.RefreshValve = 60000;
             this.dsGround.SourceCommand = null;
             this.dsGround.SourceCondition = "CODE_GROUP =  \'AlloyGround\' ORDER BY CODE";
             this.dsGround.SourceMethod = "";
@@ -809,7 +809,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'AlloyInStore\'";
             this.dsError.SourceMethod = "";

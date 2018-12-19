@@ -168,7 +168,7 @@
             this.dsIronsInfo.L3DataAdapter = this.Adapter;
             this.dsIronsInfo.LoadEvent = "";
             this.dsIronsInfo.LoadTrigger = null;
-            this.dsIronsInfo.RefreshValve = 1000;
+            this.dsIronsInfo.RefreshValve = 60000;
             this.dsIronsInfo.SourceCommand = null;
             this.dsIronsInfo.SourceCondition = "1=2";
             this.dsIronsInfo.SourceMethod = "";
@@ -336,7 +336,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'IronsDeparture\'";
             this.dsError.SourceMethod = "";

@@ -120,7 +120,7 @@
             this.dsInstall.L3DataAdapter = this.Adapter;
             this.dsInstall.LoadEvent = "Click";
             this.dsInstall.LoadTrigger = null;
-            this.dsInstall.RefreshValve = 1000;
+            this.dsInstall.RefreshValve = 60000;
             this.dsInstall.SourceCommand = null;
             this.dsInstall.SourceCondition = "1=2";
             this.dsInstall.SourceMethod = "";
@@ -248,7 +248,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "code_group = \'ShiftID\'";
             this.dsShiftID.SourceMethod = "";
@@ -289,7 +289,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "code_group = \'TeamID\'";
             this.dsTeamID.SourceMethod = "";
@@ -577,7 +577,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "Click";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "";
             this.dsTundishID.SourceMethod = "";

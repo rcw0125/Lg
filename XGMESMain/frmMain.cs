@@ -9,15 +9,34 @@ using System.Configuration;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Diagnostics;
 
 namespace XGMESMain
 {
     public partial class frmMain : Form
     {
+        public  void CheckUpdate()
+        {
+            string exeFile = System.AppDomain.CurrentDomain.BaseDirectory + "/AppUpdate.exe";
+            if (File.Exists(exeFile))
+            {
+                ProcessStartInfo info = new ProcessStartInfo();
+                info.FileName = exeFile;
+                info.Arguments = "Rcw";
+                info.WindowStyle = ProcessWindowStyle.Normal;
+                Process pro = Process.Start(info);
+                if (pro.Start())
+                {
+                    pro.Close();
 
+                }
+            }
+
+        }
         public frmMain()
         {
             InitializeComponent();
+            CheckUpdate();
         }
 
         #region   ComputerTime
@@ -470,11 +489,6 @@ namespace XGMESMain
         {
 
         }
-
-
-
-
-
 
     }
 }

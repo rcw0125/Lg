@@ -313,7 +313,7 @@
             this.dsLadleType.L3DataAdapter = this.Adapter;
             this.dsLadleType.LoadEvent = "Click";
             this.dsLadleType.LoadTrigger = null;
-            this.dsLadleType.RefreshValve = 1000;
+            this.dsLadleType.RefreshValve = 60000;
             this.dsLadleType.SourceCommand = null;
             this.dsLadleType.SourceCondition = "Code_Group = \'LadleType\' and code is not null order by code";
             this.dsLadleType.SourceMethod = "";
@@ -405,7 +405,7 @@
             this.dsLadle.L3DataAdapter = this.Adapter;
             this.dsLadle.LoadEvent = "";
             this.dsLadle.LoadTrigger = null;
-            this.dsLadle.RefreshValve = 1000;
+            this.dsLadle.RefreshValve = 60000;
             this.dsLadle.SourceCommand = null;
             this.dsLadle.SourceCondition = "1=2";
             this.dsLadle.SourceMethod = "";

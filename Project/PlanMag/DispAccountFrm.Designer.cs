@@ -172,7 +172,7 @@
             this.dsCaster.L3DataAdapter = this.Adapter;
             this.dsCaster.LoadEvent = "";
             this.dsCaster.LoadTrigger = null;
-            this.dsCaster.RefreshValve = 1000;
+            this.dsCaster.RefreshValve = 60000;
             this.dsCaster.SourceCommand = null;
             this.dsCaster.SourceCondition = "code_group = \'Caster\' order by code";
             this.dsCaster.SourceMethod = "";
@@ -230,7 +230,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -284,7 +284,7 @@
             this.dsAccountType.L3DataAdapter = this.Adapter;
             this.dsAccountType.LoadEvent = "";
             this.dsAccountType.LoadTrigger = null;
-            this.dsAccountType.RefreshValve = 1000;
+            this.dsAccountType.RefreshValve = 60000;
             this.dsAccountType.SourceCommand = null;
             this.dsAccountType.SourceCondition = "CODE_GROUP = \'Account_Type\'";
             this.dsAccountType.SourceMethod = "";
@@ -363,7 +363,7 @@
             this.dsDispAccount.L3DataAdapter = this.Adapter;
             this.dsDispAccount.LoadEvent = "";
             this.dsDispAccount.LoadTrigger = null;
-            this.dsDispAccount.RefreshValve = 1000;
+            this.dsDispAccount.RefreshValve = 60000;
             this.dsDispAccount.SourceCommand = null;
             this.dsDispAccount.SourceCondition = " 1=2";
             this.dsDispAccount.SourceMethod = "";
@@ -627,7 +627,7 @@
             this.dsAccountReason.L3DataAdapter = this.Adapter;
             this.dsAccountReason.LoadEvent = "";
             this.dsAccountReason.LoadTrigger = null;
-            this.dsAccountReason.RefreshValve = 1000;
+            this.dsAccountReason.RefreshValve = 60000;
             this.dsAccountReason.SourceCommand = null;
             this.dsAccountReason.SourceCondition = "CODE_GROUP = \'Account_Reason_UPRE\' or CODE_GROUP = \'Account_Reason_Leak\'";
             this.dsAccountReason.SourceMethod = "";
@@ -662,7 +662,7 @@
             this.dsResponsibilityOrgan.L3DataAdapter = this.Adapter;
             this.dsResponsibilityOrgan.LoadEvent = "";
             this.dsResponsibilityOrgan.LoadTrigger = null;
-            this.dsResponsibilityOrgan.RefreshValve = 1000;
+            this.dsResponsibilityOrgan.RefreshValve = 60000;
             this.dsResponsibilityOrgan.SourceCommand = null;
             this.dsResponsibilityOrgan.SourceCondition = "CODE_GROUP = \'Responsibility_Organ\'";
             this.dsResponsibilityOrgan.SourceMethod = "";

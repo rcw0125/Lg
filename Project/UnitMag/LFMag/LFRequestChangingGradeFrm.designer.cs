@@ -89,7 +89,7 @@
             this.dsGrid1.L3DataAdapter = this.Adapter;
             this.dsGrid1.LoadEvent = "Click";
             this.dsGrid1.LoadTrigger = null;
-            this.dsGrid1.RefreshValve = 1000;
+            this.dsGrid1.RefreshValve = 60000;
             this.dsGrid1.SourceCommand = null;
             this.dsGrid1.SourceCondition = null;
             this.dsGrid1.SourceMethod = null;

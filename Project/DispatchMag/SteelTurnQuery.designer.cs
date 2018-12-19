@@ -212,7 +212,7 @@
             this.dsSteelTrunReason.L3DataAdapter = this.Adapter;
             this.dsSteelTrunReason.LoadEvent = "Click";
             this.dsSteelTrunReason.LoadTrigger = null;
-            this.dsSteelTrunReason.RefreshValve = 1000;
+            this.dsSteelTrunReason.RefreshValve = 60000;
             this.dsSteelTrunReason.SourceCommand = null;
             this.dsSteelTrunReason.SourceCondition = "CODE_GROUP = \'SteelTrunReason\'";
             this.dsSteelTrunReason.SourceMethod = "";
@@ -293,7 +293,7 @@
             this.dsSteelTurn.L3DataAdapter = this.Adapter;
             this.dsSteelTurn.LoadEvent = "Click";
             this.dsSteelTurn.LoadTrigger = null;
-            this.dsSteelTurn.RefreshValve = 1000;
+            this.dsSteelTurn.RefreshValve = 60000;
             this.dsSteelTurn.SourceCommand = null;
             this.dsSteelTurn.SourceCondition = "1=2";
             this.dsSteelTurn.SourceMethod = "";

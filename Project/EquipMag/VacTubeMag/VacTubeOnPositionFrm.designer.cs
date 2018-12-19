@@ -274,7 +274,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "Code_Group = \'VacTube_Position\' order by Code";
             this.dsPosition.SourceMethod = "";
@@ -439,7 +439,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = null;
             this.dsBase.SourceMethod = "";
@@ -497,7 +497,7 @@
             this.dsOnPosition.L3DataAdapter = null;
             this.dsOnPosition.LoadEvent = "Click";
             this.dsOnPosition.LoadTrigger = null;
-            this.dsOnPosition.RefreshValve = 1000;
+            this.dsOnPosition.RefreshValve = 60000;
             this.dsOnPosition.SourceCommand = null;
             this.dsOnPosition.SourceCondition = "";
             this.dsOnPosition.SourceMethod = "";
@@ -576,7 +576,7 @@
             this.dsName.L3DataAdapter = this.Adapter;
             this.dsName.LoadEvent = "Click";
             this.dsName.LoadTrigger = null;
-            this.dsName.RefreshValve = 1000;
+            this.dsName.RefreshValve = 60000;
             this.dsName.SourceCommand = null;
             this.dsName.SourceCondition = "Code_Group = \'VacTubeName\' order by Code";
             this.dsName.SourceMethod = "";

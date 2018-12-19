@@ -122,7 +122,7 @@
             this.dsDiv.L3DataAdapter = null;
             this.dsDiv.LoadEvent = "Click";
             this.dsDiv.LoadTrigger = null;
-            this.dsDiv.RefreshValve = 1000;
+            this.dsDiv.RefreshValve = 60000;
             this.dsDiv.SourceCommand = null;
             this.dsDiv.SourceCondition = "";
             this.dsDiv.SourceMethod = "";
@@ -408,7 +408,7 @@
             this.dsUnitType.L3DataAdapter = this.Adapter;
             this.dsUnitType.LoadEvent = "Click";
             this.dsUnitType.LoadTrigger = null;
-            this.dsUnitType.RefreshValve = 1000;
+            this.dsUnitType.RefreshValve = 60000;
             this.dsUnitType.SourceCommand = null;
             this.dsUnitType.SourceCondition = "CODE_GROUP = \'UnitType\' and CODE_VAL_LONG>2 and CODE_VAL_LONG<6";
             this.dsUnitType.SourceMethod = "";
@@ -449,7 +449,7 @@
             this.dsAppUnitID.L3DataAdapter = this.Adapter;
             this.dsAppUnitID.LoadEvent = "Click";
             this.dsAppUnitID.LoadTrigger = null;
-            this.dsAppUnitID.RefreshValve = 1000;
+            this.dsAppUnitID.RefreshValve = 60000;
             this.dsAppUnitID.SourceCommand = null;
             this.dsAppUnitID.SourceCondition = "CODE_GROUP = \'UnitType\'";
             this.dsAppUnitID.SourceMethod = "";
@@ -533,7 +533,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'SteelDiv\'";
             this.dsError.SourceMethod = "";

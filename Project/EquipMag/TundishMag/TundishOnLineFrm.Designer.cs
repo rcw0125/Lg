@@ -157,7 +157,7 @@
             this.dsBase.L3DataAdapter = null;
             this.dsBase.LoadEvent = "";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "";
             this.dsBase.SourceMethod = "";

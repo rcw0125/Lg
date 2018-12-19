@@ -68,7 +68,7 @@
             this.dsCode.L3DataAdapter = this.Adapter;
             this.dsCode.LoadEvent = "Click";
             this.dsCode.LoadTrigger = null;
-            this.dsCode.RefreshValve = 1000;
+            this.dsCode.RefreshValve = 60000;
             this.dsCode.SourceCommand = this.cmdApply;
             this.dsCode.SourceCondition = "Code_Group = \'SteelDivReason\' and Code is not null";
             this.dsCode.SourceMethod = "";

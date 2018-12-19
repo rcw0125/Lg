@@ -82,7 +82,7 @@
             this.dsIronLadles.L3DataAdapter = this.Adapter;
             this.dsIronLadles.LoadEvent = "Click";
             this.dsIronLadles.LoadTrigger = null;
-            this.dsIronLadles.RefreshValve = 1000;
+            this.dsIronLadles.RefreshValve = 60000;
             this.dsIronLadles.SourceCommand = null;
             this.dsIronLadles.SourceCondition = null;
             this.dsIronLadles.SourceMethod = "GetHotIronLadles";

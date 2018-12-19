@@ -287,7 +287,7 @@
             this.dsBOF.L3DataAdapter = this.Adapter;
             this.dsBOF.LoadEvent = "Click";
             this.dsBOF.LoadTrigger = null;
-            this.dsBOF.RefreshValve = 1000;
+            this.dsBOF.RefreshValve = 60000;
             this.dsBOF.SourceCommand = null;
             this.dsBOF.SourceCondition = "Name = \'{BOFID}\'";
             this.dsBOF.SourceMethod = "";

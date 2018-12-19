@@ -355,7 +355,7 @@
             this.dsItem.L3DataAdapter = this.Adapter;
             this.dsItem.LoadEvent = "";
             this.dsItem.LoadTrigger = null;
-            this.dsItem.RefreshValve = 1000;
+            this.dsItem.RefreshValve = 60000;
             this.dsItem.SourceCommand = null;
             this.dsItem.SourceCondition = "code_group = \'Cost_Item\' and code is not null order by code_des";
             this.dsItem.SourceMethod = "";
@@ -409,7 +409,7 @@
             this.dsCostCenter.L3DataAdapter = this.Adapter;
             this.dsCostCenter.LoadEvent = "";
             this.dsCostCenter.LoadTrigger = null;
-            this.dsCostCenter.RefreshValve = 1000;
+            this.dsCostCenter.RefreshValve = 60000;
             this.dsCostCenter.SourceCommand = null;
             this.dsCostCenter.SourceCondition = "code_group = \'Caster\' and code is not null order by code";
             this.dsCostCenter.SourceMethod = "";
@@ -499,7 +499,7 @@
             this.dsCostStandardRate.L3DataAdapter = this.Adapter;
             this.dsCostStandardRate.LoadEvent = "";
             this.dsCostStandardRate.LoadTrigger = null;
-            this.dsCostStandardRate.RefreshValve = 1000;
+            this.dsCostStandardRate.RefreshValve = 60000;
             this.dsCostStandardRate.SourceCommand = null;
             this.dsCostStandardRate.SourceCondition = "";
             this.dsCostStandardRate.SourceMethod = "";

@@ -113,7 +113,7 @@
             this.dsScrap.L3DataAdapter = null;
             this.dsScrap.LoadEvent = "Click";
             this.dsScrap.LoadTrigger = null;
-            this.dsScrap.RefreshValve = 1000;
+            this.dsScrap.RefreshValve = 60000;
             this.dsScrap.SourceCommand = this.cmdQuery;
             this.dsScrap.SourceCondition = null;
             this.dsScrap.SourceMethod = "GetMaterialOnStore";
@@ -296,7 +296,7 @@
             this.dsStoreID.L3DataAdapter = this.Adapter;
             this.dsStoreID.LoadEvent = "Click";
             this.dsStoreID.LoadTrigger = null;
-            this.dsStoreID.RefreshValve = 1000;
+            this.dsStoreID.RefreshValve = 60000;
             this.dsStoreID.SourceCommand = null;
             this.dsStoreID.SourceCondition = "CODE_GROUP = \'ScrapArea\'";
             this.dsStoreID.SourceMethod = "";
@@ -338,7 +338,7 @@
             this.dsScrapSend.L3DataAdapter = null;
             this.dsScrapSend.LoadEvent = "Click";
             this.dsScrapSend.LoadTrigger = null;
-            this.dsScrapSend.RefreshValve = 1000;
+            this.dsScrapSend.RefreshValve = 60000;
             this.dsScrapSend.SourceCommand = null;
             this.dsScrapSend.SourceCondition = "";
             this.dsScrapSend.SourceMethod = "";
@@ -474,7 +474,7 @@
             this.dsScrapCode.L3DataAdapter = this.Adapter;
             this.dsScrapCode.LoadEvent = "Click";
             this.dsScrapCode.LoadTrigger = null;
-            this.dsScrapCode.RefreshValve = 1000;
+            this.dsScrapCode.RefreshValve = 60000;
             this.dsScrapCode.SourceCommand = null;
             this.dsScrapCode.SourceCondition = "CODE_GROUP = \'SCRAP_CODE\'";
             this.dsScrapCode.SourceMethod = "";

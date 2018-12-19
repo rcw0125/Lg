@@ -124,7 +124,7 @@
             this.dsBack.L3DataAdapter = null;
             this.dsBack.LoadEvent = "Click";
             this.dsBack.LoadTrigger = null;
-            this.dsBack.RefreshValve = 1000;
+            this.dsBack.RefreshValve = 60000;
             this.dsBack.SourceCommand = null;
             this.dsBack.SourceCondition = "";
             this.dsBack.SourceMethod = "";
@@ -413,7 +413,7 @@
             this.dsUnitTypeSend.L3DataAdapter = this.Adapter;
             this.dsUnitTypeSend.LoadEvent = "Click";
             this.dsUnitTypeSend.LoadTrigger = null;
-            this.dsUnitTypeSend.RefreshValve = 1000;
+            this.dsUnitTypeSend.RefreshValve = 60000;
             this.dsUnitTypeSend.SourceCommand = null;
             this.dsUnitTypeSend.SourceCondition = "CODE_GROUP = \'Caster\' or CODE_GROUP = \'LF\' or CODE_GROUP = \'RH\'";
             this.dsUnitTypeSend.SourceMethod = "";
@@ -455,7 +455,7 @@
             this.dsUnitType.L3DataAdapter = this.Adapter;
             this.dsUnitType.LoadEvent = "Click";
             this.dsUnitType.LoadTrigger = null;
-            this.dsUnitType.RefreshValve = 1000;
+            this.dsUnitType.RefreshValve = 60000;
             this.dsUnitType.SourceCommand = null;
             this.dsUnitType.SourceCondition = "CODE_GROUP = \'UnitType\' and CODE_VAL_LONG>2 and CODE_VAL_LONG<6";
             this.dsUnitType.SourceMethod = "";
@@ -541,7 +541,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'SteelBack\'";
             this.dsError.SourceMethod = "";

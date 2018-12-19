@@ -106,7 +106,7 @@
             this.dsTurn.L3DataAdapter = null;
             this.dsTurn.LoadEvent = "Click";
             this.dsTurn.LoadTrigger = null;
-            this.dsTurn.RefreshValve = 1000;
+            this.dsTurn.RefreshValve = 60000;
             this.dsTurn.SourceCommand = null;
             this.dsTurn.SourceCondition = "";
             this.dsTurn.SourceMethod = "";
@@ -504,7 +504,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'SteelTurn\'";
             this.dsError.SourceMethod = "";

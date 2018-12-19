@@ -276,7 +276,7 @@
             this.dsHeatData.L3DataAdapter = null;
             this.dsHeatData.LoadEvent = "Click";
             this.dsHeatData.LoadTrigger = null;
-            this.dsHeatData.RefreshValve = 1000;
+            this.dsHeatData.RefreshValve = 60000;
             this.dsHeatData.SourceCommand = null;
             this.dsHeatData.SourceCondition = null;
             this.dsHeatData.SourceMethod = "GetBloomWaitingSendInfor";
@@ -961,7 +961,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "code_group = \'BLOOM_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -1018,7 +1018,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "code_group = \'Cache\'";
             this.dsPosition.SourceMethod = "";
@@ -1199,7 +1199,7 @@
             this.dsBloomArea.L3DataAdapter = this.Adapter;
             this.dsBloomArea.LoadEvent = "";
             this.dsBloomArea.LoadTrigger = null;
-            this.dsBloomArea.RefreshValve = 1000;
+            this.dsBloomArea.RefreshValve = 60000;
             this.dsBloomArea.SourceCommand = null;
             this.dsBloomArea.SourceCondition = "code_des = \'BloomArea\'";
             this.dsBloomArea.SourceMethod = "";
@@ -1255,7 +1255,7 @@
             this.dsSpile.L3DataAdapter = this.Adapter;
             this.dsSpile.LoadEvent = "";
             this.dsSpile.LoadTrigger = null;
-            this.dsSpile.RefreshValve = 1000;
+            this.dsSpile.RefreshValve = 60000;
             this.dsSpile.SourceCommand = null;
             this.dsSpile.SourceCondition = "code_group = \'BLOOM_SPILE\'";
             this.dsSpile.SourceMethod = "";
@@ -1464,7 +1464,7 @@
             this.dsWasterReason.L3DataAdapter = null;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -1620,7 +1620,7 @@
             this.dsWrongReason.L3DataAdapter = this.Adapter;
             this.dsWrongReason.LoadEvent = "";
             this.dsWrongReason.LoadTrigger = null;
-            this.dsWrongReason.RefreshValve = 1000;
+            this.dsWrongReason.RefreshValve = 60000;
             this.dsWrongReason.SourceCommand = null;
             this.dsWrongReason.SourceCondition = "code_group = \'WRONG_REASON_CODE\'";
             this.dsWrongReason.SourceMethod = "";
@@ -1748,7 +1748,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "code_group = \'OFFLINE_REASON_CODE\'";
             this.dsOffLineReason.SourceMethod = "";
@@ -1947,7 +1947,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' and Code is not null order by Code";
             this.dsCasterID.SourceMethod = "";

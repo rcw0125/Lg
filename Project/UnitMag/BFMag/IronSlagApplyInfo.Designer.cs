@@ -169,7 +169,7 @@
             this.dsSampleApply.L3DataAdapter = null;
             this.dsSampleApply.LoadEvent = "Click";
             this.dsSampleApply.LoadTrigger = null;
-            this.dsSampleApply.RefreshValve = 1000;
+            this.dsSampleApply.RefreshValve = 60000;
             this.dsSampleApply.SourceCommand = null;
             this.dsSampleApply.SourceCondition = "";
             this.dsSampleApply.SourceMethod = "";
@@ -395,7 +395,7 @@
             this.dsSampleAddress.L3DataAdapter = this.Adapter;
             this.dsSampleAddress.LoadEvent = "";
             this.dsSampleAddress.LoadTrigger = null;
-            this.dsSampleAddress.RefreshValve = 1000;
+            this.dsSampleAddress.RefreshValve = 60000;
             this.dsSampleAddress.SourceCommand = null;
             this.dsSampleAddress.SourceCondition = "Code_Group = \'QA_Sample_Addr\' and substr(Code,1,1) = \'G\' order by Code";
             this.dsSampleAddress.SourceMethod = "";
@@ -436,7 +436,7 @@
             this.dsTapNo.L3DataAdapter = this.Adapter;
             this.dsTapNo.LoadEvent = "";
             this.dsTapNo.LoadTrigger = null;
-            this.dsTapNo.RefreshValve = 1000;
+            this.dsTapNo.RefreshValve = 60000;
             this.dsTapNo.SourceCommand = null;
             this.dsTapNo.SourceCondition = "";
             this.dsTapNo.SourceMethod = "GetMaxTAPNoByBFID";

@@ -154,7 +154,7 @@
             this.dsSmoothBlock.L3DataAdapter = this.Adapter;
             this.dsSmoothBlock.LoadEvent = "Click";
             this.dsSmoothBlock.LoadTrigger = null;
-            this.dsSmoothBlock.RefreshValve = 1000;
+            this.dsSmoothBlock.RefreshValve = 60000;
             this.dsSmoothBlock.SourceCommand = null;
             this.dsSmoothBlock.SourceCondition = "";
             this.dsSmoothBlock.SourceMethod = "";
@@ -675,7 +675,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "Code_Group = \'SMOOTH_BLOCK_OFF_REASON\' or Code_Group = \'HURRYGAP_OFF_REASON\' or C" +
                 "ode_Group = \'BIGGAP_OFF_REASON\'";
@@ -745,7 +745,7 @@
             this.dsRefraFac.L3DataAdapter = this.Adapter;
             this.dsRefraFac.LoadEvent = "";
             this.dsRefraFac.LoadTrigger = null;
-            this.dsRefraFac.RefreshValve = 1000;
+            this.dsRefraFac.RefreshValve = 60000;
             this.dsRefraFac.SourceCommand = null;
             this.dsRefraFac.SourceCondition = "MATGROUP_CODE = \'TundishFac\' and (MATNAME = \'滑块\' or MATNAME = \'快换水口\' or MATNAME =" +
                 " \'大包水口\')";
@@ -805,7 +805,7 @@
             this.dsHurryGap.L3DataAdapter = null;
             this.dsHurryGap.LoadEvent = "";
             this.dsHurryGap.LoadTrigger = null;
-            this.dsHurryGap.RefreshValve = 1000;
+            this.dsHurryGap.RefreshValve = 60000;
             this.dsHurryGap.SourceCommand = null;
             this.dsHurryGap.SourceCondition = "";
             this.dsHurryGap.SourceMethod = "";
@@ -906,7 +906,7 @@
             this.dsBigGap.L3DataAdapter = null;
             this.dsBigGap.LoadEvent = "";
             this.dsBigGap.LoadTrigger = null;
-            this.dsBigGap.RefreshValve = 1000;
+            this.dsBigGap.RefreshValve = 60000;
             this.dsBigGap.SourceCommand = null;
             this.dsBigGap.SourceCondition = "";
             this.dsBigGap.SourceMethod = "";

@@ -98,7 +98,7 @@
             this.dsScrapInStoreConfirm.L3DataAdapter = this.Adapter;
             this.dsScrapInStoreConfirm.LoadEvent = "Click";
             this.dsScrapInStoreConfirm.LoadTrigger = null;
-            this.dsScrapInStoreConfirm.RefreshValve = 1000;
+            this.dsScrapInStoreConfirm.RefreshValve = 60000;
             this.dsScrapInStoreConfirm.SourceCommand = null;
             this.dsScrapInStoreConfirm.SourceCondition = "";
             this.dsScrapInStoreConfirm.SourceMethod = "";
@@ -402,7 +402,7 @@
             this.dsScrapArea.L3DataAdapter = this.Adapter;
             this.dsScrapArea.LoadEvent = "Click";
             this.dsScrapArea.LoadTrigger = null;
-            this.dsScrapArea.RefreshValve = 1000;
+            this.dsScrapArea.RefreshValve = 60000;
             this.dsScrapArea.SourceCommand = null;
             this.dsScrapArea.SourceCondition = "CODE_GROUP = \'ScrapArea\' and CODE is not null";
             this.dsScrapArea.SourceMethod = "";

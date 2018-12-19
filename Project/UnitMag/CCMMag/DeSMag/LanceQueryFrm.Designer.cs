@@ -464,7 +464,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "code_group = \'DeS_Lance_Status\'order by code_val_long";
             this.dsStatus.SourceMethod = "";
@@ -533,7 +533,7 @@
             this.dsVendor.L3DataAdapter = this.Adapter;
             this.dsVendor.LoadEvent = "";
             this.dsVendor.LoadTrigger = null;
-            this.dsVendor.RefreshValve = 1000;
+            this.dsVendor.RefreshValve = 60000;
             this.dsVendor.SourceCommand = null;
             this.dsVendor.SourceCondition = "";
             this.dsVendor.SourceMethod = "";
@@ -632,7 +632,7 @@
             this.dsShift2.L3DataAdapter = this.Adapter;
             this.dsShift2.LoadEvent = "";
             this.dsShift2.LoadTrigger = null;
-            this.dsShift2.RefreshValve = 1000;
+            this.dsShift2.RefreshValve = 60000;
             this.dsShift2.SourceCommand = null;
             this.dsShift2.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift2.SourceMethod = "";
@@ -688,7 +688,7 @@
             this.dsTeam2.L3DataAdapter = this.Adapter;
             this.dsTeam2.LoadEvent = "";
             this.dsTeam2.LoadTrigger = null;
-            this.dsTeam2.RefreshValve = 1000;
+            this.dsTeam2.RefreshValve = 60000;
             this.dsTeam2.SourceCommand = null;
             this.dsTeam2.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam2.SourceMethod = "";
@@ -743,7 +743,7 @@
             this.dsLance.L3DataAdapter = this.Adapter;
             this.dsLance.LoadEvent = "";
             this.dsLance.LoadTrigger = null;
-            this.dsLance.RefreshValve = 1000;
+            this.dsLance.RefreshValve = 60000;
             this.dsLance.SourceCommand = null;
             this.dsLance.SourceCondition = "1=2";
             this.dsLance.SourceMethod = "";
@@ -1071,7 +1071,7 @@
             this.dsFQ.L3DataAdapter = this.Adapter;
             this.dsFQ.LoadEvent = "";
             this.dsFQ.LoadTrigger = null;
-            this.dsFQ.RefreshValve = 1000;
+            this.dsFQ.RefreshValve = 60000;
             this.dsFQ.SourceCommand = null;
             this.dsFQ.SourceCondition = "1=2";
             this.dsFQ.SourceMethod = "";

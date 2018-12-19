@@ -268,7 +268,7 @@
             this.dsPlanOrder.L3DataAdapter = this.Adapter;
             this.dsPlanOrder.LoadEvent = "";
             this.dsPlanOrder.LoadTrigger = null;
-            this.dsPlanOrder.RefreshValve = 1000;
+            this.dsPlanOrder.RefreshValve = 60000;
             this.dsPlanOrder.SourceCommand = null;
             this.dsPlanOrder.SourceCondition = "";
             this.dsPlanOrder.SourceMethod = "";
@@ -901,7 +901,7 @@
             this.dsMaterialID.L3DataAdapter = this.Adapter;
             this.dsMaterialID.LoadEvent = "";
             this.dsMaterialID.LoadTrigger = null;
-            this.dsMaterialID.RefreshValve = 1000;
+            this.dsMaterialID.RefreshValve = 60000;
             this.dsMaterialID.SourceCommand = null;
             this.dsMaterialID.SourceCondition = " SUBSTR (material_code, 1, 1) = \'1\'  OR SUBSTR (material_code, 1, 1) = \'5\'  OR SU" +
                 "BSTR (material_code, 1, 1) = \'6\'";
@@ -990,7 +990,7 @@
             this.dsDepartment.L3DataAdapter = this.Adapter;
             this.dsDepartment.LoadEvent = "";
             this.dsDepartment.LoadTrigger = null;
-            this.dsDepartment.RefreshValve = 1000;
+            this.dsDepartment.RefreshValve = 60000;
             this.dsDepartment.SourceCommand = null;
             this.dsDepartment.SourceCondition = "";
             this.dsDepartment.SourceMethod = "";
@@ -1046,7 +1046,7 @@
             this.dsWorkCenter.L3DataAdapter = this.Adapter;
             this.dsWorkCenter.LoadEvent = "";
             this.dsWorkCenter.LoadTrigger = null;
-            this.dsWorkCenter.RefreshValve = 1000;
+            this.dsWorkCenter.RefreshValve = 60000;
             this.dsWorkCenter.SourceCommand = null;
             this.dsWorkCenter.SourceCondition = "";
             this.dsWorkCenter.SourceMethod = "";
@@ -1142,7 +1142,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "";
             this.dsShift.SourceMethod = "";
@@ -1198,7 +1198,7 @@
             this.dsGroup.L3DataAdapter = this.Adapter;
             this.dsGroup.LoadEvent = "";
             this.dsGroup.LoadTrigger = null;
-            this.dsGroup.RefreshValve = 1000;
+            this.dsGroup.RefreshValve = 60000;
             this.dsGroup.SourceCommand = null;
             this.dsGroup.SourceCondition = "";
             this.dsGroup.SourceMethod = "";
@@ -1516,7 +1516,7 @@
             this.dsLog.L3DataAdapter = null;
             this.dsLog.LoadEvent = "";
             this.dsLog.LoadTrigger = null;
-            this.dsLog.RefreshValve = 1000;
+            this.dsLog.RefreshValve = 60000;
             this.dsLog.SourceCommand = null;
             this.dsLog.SourceCondition = "";
             this.dsLog.SourceMethod = "";

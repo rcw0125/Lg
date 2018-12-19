@@ -200,7 +200,7 @@
             this.dsTapno.L3DataAdapter = this.Adapter;
             this.dsTapno.LoadEvent = "";
             this.dsTapno.LoadTrigger = null;
-            this.dsTapno.RefreshValve = 1000;
+            this.dsTapno.RefreshValve = 60000;
             this.dsTapno.SourceCommand = null;
             this.dsTapno.SourceCondition = "";
             this.dsTapno.SourceMethod = "";
@@ -252,7 +252,7 @@
             this.dsSendNo.L3DataAdapter = null;
             this.dsSendNo.LoadEvent = "";
             this.dsSendNo.LoadTrigger = null;
-            this.dsSendNo.RefreshValve = 1000;
+            this.dsSendNo.RefreshValve = 60000;
             this.dsSendNo.SourceCommand = null;
             this.dsSendNo.SourceCondition = "";
             this.dsSendNo.SourceMethod = "";

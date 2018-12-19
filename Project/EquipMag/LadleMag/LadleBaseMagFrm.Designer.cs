@@ -175,7 +175,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = null;
             this.dsMain.SourceMethod = "";
@@ -384,7 +384,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'LadleStatus\'";
             this.dsStatus.SourceMethod = "";
@@ -835,7 +835,7 @@
             this.dsLadleType.L3DataAdapter = this.Adapter;
             this.dsLadleType.LoadEvent = "Click";
             this.dsLadleType.LoadTrigger = null;
-            this.dsLadleType.RefreshValve = 1000;
+            this.dsLadleType.RefreshValve = 60000;
             this.dsLadleType.SourceCommand = null;
             this.dsLadleType.SourceCondition = "Code_Group = \'LadleType\'";
             this.dsLadleType.SourceMethod = "";

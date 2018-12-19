@@ -102,7 +102,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = null;
             this.dsMain.SourceMethod = "";
@@ -262,7 +262,7 @@
             this.dsGroup.L3DataAdapter = this.Adapter;
             this.dsGroup.LoadEvent = "Click";
             this.dsGroup.LoadTrigger = null;
-            this.dsGroup.RefreshValve = 1000;
+            this.dsGroup.RefreshValve = 60000;
             this.dsGroup.SourceCommand = null;
             this.dsGroup.SourceCondition = "";
             this.dsGroup.SourceMethod = "select Code_Group,Code_Group_Des from CBase_All_Code  where Code_function_group =" +
@@ -362,7 +362,7 @@
             this.dsMatName.L3DataAdapter = this.Adapter;
             this.dsMatName.LoadEvent = "Click";
             this.dsMatName.LoadTrigger = null;
-            this.dsMatName.RefreshValve = 1000;
+            this.dsMatName.RefreshValve = 60000;
             this.dsMatName.SourceCommand = null;
             this.dsMatName.SourceCondition = "";
             this.dsMatName.SourceMethod = "select * from CBase_All_Code  where Code_function_group =\'EquipGroup\'";

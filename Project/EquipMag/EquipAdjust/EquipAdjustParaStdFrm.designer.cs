@@ -233,7 +233,7 @@
             this.dsAdjustSet.L3DataAdapter = this.Adapter;
             this.dsAdjustSet.LoadEvent = "";
             this.dsAdjustSet.LoadTrigger = null;
-            this.dsAdjustSet.RefreshValve = 1000;
+            this.dsAdjustSet.RefreshValve = 60000;
             this.dsAdjustSet.SourceCommand = null;
             this.dsAdjustSet.SourceCondition = "AdjustType is not null order by AdjustType,UnitID,AdjustObject";
             this.dsAdjustSet.SourceMethod = "";
@@ -447,7 +447,7 @@
             this.dsAdjustType.L3DataAdapter = this.Adapter;
             this.dsAdjustType.LoadEvent = "Click";
             this.dsAdjustType.LoadTrigger = null;
-            this.dsAdjustType.RefreshValve = 1000;
+            this.dsAdjustType.RefreshValve = 60000;
             this.dsAdjustType.SourceCommand = null;
             this.dsAdjustType.SourceCondition = "Code_Group = \'AdjustType\' order by Code";
             this.dsAdjustType.SourceMethod = "";
@@ -514,7 +514,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "Click";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "Code_Group = \'UnitID\' order by Code";
             this.dsUnitID.SourceMethod = "";
@@ -581,7 +581,7 @@
             this.dsAdjustObject.L3DataAdapter = this.Adapter;
             this.dsAdjustObject.LoadEvent = "Click";
             this.dsAdjustObject.LoadTrigger = null;
-            this.dsAdjustObject.RefreshValve = 1000;
+            this.dsAdjustObject.RefreshValve = 60000;
             this.dsAdjustObject.SourceCommand = null;
             this.dsAdjustObject.SourceCondition = "Code_Group = \'AdjustObject\' order by Code";
             this.dsAdjustObject.SourceMethod = "";
@@ -649,7 +649,7 @@
             this.dsItems.L3DataAdapter = this.Adapter;
             this.dsItems.LoadEvent = "Click";
             this.dsItems.LoadTrigger = null;
-            this.dsItems.RefreshValve = 1000;
+            this.dsItems.RefreshValve = 60000;
             this.dsItems.SourceCommand = null;
             this.dsItems.SourceCondition = "Code_Group = \'Items\' order by Code";
             this.dsItems.SourceMethod = "";

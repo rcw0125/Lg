@@ -169,7 +169,7 @@
             this.dsIntegernate.L3DataAdapter = this.Adapter;
             this.dsIntegernate.LoadEvent = "Click";
             this.dsIntegernate.LoadTrigger = this.btnQuery;
-            this.dsIntegernate.RefreshValve = 1000;
+            this.dsIntegernate.RefreshValve = 60000;
             this.dsIntegernate.SourceCommand = this.cmdIntegernate;
             this.dsIntegernate.SourceCondition = null;
             this.dsIntegernate.SourceMethod = "GetUnIntegratePlanOrd";
@@ -747,7 +747,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\'";
             this.dsCasterID.SourceMethod = "";
@@ -802,7 +802,7 @@
             this.dsNewBOFFlag.L3DataAdapter = this.Adapter;
             this.dsNewBOFFlag.LoadEvent = "Click";
             this.dsNewBOFFlag.LoadTrigger = null;
-            this.dsNewBOFFlag.RefreshValve = 1000;
+            this.dsNewBOFFlag.RefreshValve = 60000;
             this.dsNewBOFFlag.SourceCommand = null;
             this.dsNewBOFFlag.SourceCondition = "Code_Group = \'BOF_TYPE\' and Code is not Null";
             this.dsNewBOFFlag.SourceMethod = "";
@@ -905,7 +905,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'PLAN_ORDER_STATUS\'";
             this.dsStatus.SourceMethod = "";

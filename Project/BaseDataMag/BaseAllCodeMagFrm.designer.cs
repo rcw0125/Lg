@@ -192,7 +192,7 @@
             this.dsBase.L3DataAdapter = this.Adapter;
             this.dsBase.LoadEvent = "Click";
             this.dsBase.LoadTrigger = null;
-            this.dsBase.RefreshValve = 1000;
+            this.dsBase.RefreshValve = 60000;
             this.dsBase.SourceCommand = null;
             this.dsBase.SourceCondition = "1=2";
             this.dsBase.SourceMethod = "";
@@ -450,7 +450,7 @@
             this.dsCodeGroup.L3DataAdapter = this.Adapter;
             this.dsCodeGroup.LoadEvent = "Click";
             this.dsCodeGroup.LoadTrigger = null;
-            this.dsCodeGroup.RefreshValve = 1000;
+            this.dsCodeGroup.RefreshValve = 60000;
             this.dsCodeGroup.SourceCommand = null;
             this.dsCodeGroup.SourceCondition = "";
             this.dsCodeGroup.SourceMethod = "";

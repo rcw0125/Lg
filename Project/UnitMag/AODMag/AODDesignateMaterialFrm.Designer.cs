@@ -236,7 +236,7 @@
             this.dsIronMode.L3DataAdapter = this.Adapter;
             this.dsIronMode.LoadEvent = "Click";
             this.dsIronMode.LoadTrigger = null;
-            this.dsIronMode.RefreshValve = 1000;
+            this.dsIronMode.RefreshValve = 60000;
             this.dsIronMode.SourceCommand = null;
             this.dsIronMode.SourceCondition = "CODE_GROUP = \'Iron_Mode\'";
             this.dsIronMode.SourceMethod = "";
@@ -345,7 +345,7 @@
             this.dsIronInfo.L3DataAdapter = this.Adapter;
             this.dsIronInfo.LoadEvent = "";
             this.dsIronInfo.LoadTrigger = null;
-            this.dsIronInfo.RefreshValve = 1000;
+            this.dsIronInfo.RefreshValve = 60000;
             this.dsIronInfo.SourceCommand = null;
             this.dsIronInfo.SourceCondition = "";
             this.dsIronInfo.SourceMethod = "GetIronsForDesignate";
@@ -678,7 +678,7 @@
             this.dsScrapSteel.L3DataAdapter = this.Adapter;
             this.dsScrapSteel.LoadEvent = "";
             this.dsScrapSteel.LoadTrigger = null;
-            this.dsScrapSteel.RefreshValve = 1000;
+            this.dsScrapSteel.RefreshValve = 60000;
             this.dsScrapSteel.SourceCommand = null;
             this.dsScrapSteel.SourceCondition = "";
             this.dsScrapSteel.SourceMethod = "GetScrapesForDesignate";
@@ -757,7 +757,7 @@
             this.dsReturnSteel.L3DataAdapter = null;
             this.dsReturnSteel.LoadEvent = "";
             this.dsReturnSteel.LoadTrigger = null;
-            this.dsReturnSteel.RefreshValve = 1000;
+            this.dsReturnSteel.RefreshValve = 60000;
             this.dsReturnSteel.SourceCommand = null;
             this.dsReturnSteel.SourceCondition = "";
             this.dsReturnSteel.SourceMethod = "";

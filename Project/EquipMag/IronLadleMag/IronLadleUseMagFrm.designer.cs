@@ -128,7 +128,7 @@
             this.dsUseInfo.L3DataAdapter = this.Adapter;
             this.dsUseInfo.LoadEvent = "Click";
             this.dsUseInfo.LoadTrigger = null;
-            this.dsUseInfo.RefreshValve = 1000;
+            this.dsUseInfo.RefreshValve = 60000;
             this.dsUseInfo.SourceCommand = this.cmdUseInfo;
             this.dsUseInfo.SourceCondition = null;
             this.dsUseInfo.SourceMethod = "GetUseInfos";
@@ -758,7 +758,7 @@
             this.dsIronLadleID.L3DataAdapter = this.Adapter;
             this.dsIronLadleID.LoadEvent = "Click";
             this.dsIronLadleID.LoadTrigger = null;
-            this.dsIronLadleID.RefreshValve = 1000;
+            this.dsIronLadleID.RefreshValve = 60000;
             this.dsIronLadleID.SourceCommand = null;
             this.dsIronLadleID.SourceCondition = null;
             this.dsIronLadleID.SourceMethod = "";

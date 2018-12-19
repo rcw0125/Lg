@@ -138,7 +138,7 @@
             this.dsProcData.L3DataAdapter = this.Adapter;
             this.dsProcData.LoadEvent = "Click";
             this.dsProcData.LoadTrigger = null;
-            this.dsProcData.RefreshValve = 1000;
+            this.dsProcData.RefreshValve = 60000;
             this.dsProcData.SourceCommand = null;
             this.dsProcData.SourceCondition = "HeatID = \'{HeatID}\'";
             this.dsProcData.SourceMethod = "";
@@ -786,7 +786,7 @@
             this.dsElements.L3DataAdapter = this.Adapter;
             this.dsElements.LoadEvent = "Click";
             this.dsElements.LoadTrigger = null;
-            this.dsElements.RefreshValve = 1000;
+            this.dsElements.RefreshValve = 60000;
             this.dsElements.SourceCommand = null;
             this.dsElements.SourceCondition = "HeatID = \'{HeatID}\'";
             this.dsElements.SourceMethod = "";

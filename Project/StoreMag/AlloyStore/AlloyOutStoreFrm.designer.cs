@@ -132,7 +132,7 @@
             this.dsOutStroe.L3DataAdapter = null;
             this.dsOutStroe.LoadEvent = "Click";
             this.dsOutStroe.LoadTrigger = null;
-            this.dsOutStroe.RefreshValve = 1000;
+            this.dsOutStroe.RefreshValve = 60000;
             this.dsOutStroe.SourceCommand = null;
             this.dsOutStroe.SourceCondition = "";
             this.dsOutStroe.SourceMethod = "";
@@ -483,7 +483,7 @@
             this.dsHeatID.L3DataAdapter = this.Adapter;
             this.dsHeatID.LoadEvent = "";
             this.dsHeatID.LoadTrigger = this.cmbUnit;
-            this.dsHeatID.RefreshValve = 1000;
+            this.dsHeatID.RefreshValve = 60000;
             this.dsHeatID.SourceCommand = this.cmdHeatID;
             this.dsHeatID.SourceCondition = null;
             this.dsHeatID.SourceMethod = "GetUnitClosedHeatID";
@@ -526,7 +526,7 @@
             this.dsUnit.L3DataAdapter = this.Adapter;
             this.dsUnit.LoadEvent = "Click";
             this.dsUnit.LoadTrigger = null;
-            this.dsUnit.RefreshValve = 1000;
+            this.dsUnit.RefreshValve = 60000;
             this.dsUnit.SourceCommand = null;
             this.dsUnit.SourceCondition = "1=2";
             this.dsUnit.SourceMethod = "";
@@ -624,7 +624,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\'";
             this.dsAlloyCode.SourceMethod = "";
@@ -686,7 +686,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "CODE_GROUP = \'AlloyGround\' and CODE is not null";
             this.dsPosition.SourceMethod = "";

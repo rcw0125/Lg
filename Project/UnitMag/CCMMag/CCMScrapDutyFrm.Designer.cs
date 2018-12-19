@@ -215,7 +215,7 @@
             this.dsWasterData.L3DataAdapter = null;
             this.dsWasterData.LoadEvent = "";
             this.dsWasterData.LoadTrigger = null;
-            this.dsWasterData.RefreshValve = 1000;
+            this.dsWasterData.RefreshValve = 60000;
             this.dsWasterData.SourceCommand = null;
             this.dsWasterData.SourceCondition = "1=2";
             this.dsWasterData.SourceMethod = "";
@@ -871,7 +871,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\' ORDER BY CODE";
             this.dsWasterReason.SourceMethod = "";
@@ -950,7 +950,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "code_group = \'TeamID\' order by code";
             this.dsTeam.SourceMethod = "";
@@ -1163,7 +1163,7 @@
             this.dsShift.L3DataAdapter = this.Adapter;
             this.dsShift.LoadEvent = "";
             this.dsShift.LoadTrigger = null;
-            this.dsShift.RefreshValve = 1000;
+            this.dsShift.RefreshValve = 60000;
             this.dsShift.SourceCommand = null;
             this.dsShift.SourceCondition = "code_group = \'ShiftID\' order by code";
             this.dsShift.SourceMethod = "";

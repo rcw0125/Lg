@@ -175,7 +175,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -274,7 +274,7 @@
             this.dsItems.L3DataAdapter = this.Adapter;
             this.dsItems.LoadEvent = "";
             this.dsItems.LoadTrigger = null;
-            this.dsItems.RefreshValve = 1000;
+            this.dsItems.RefreshValve = 60000;
             this.dsItems.SourceCommand = null;
             this.dsItems.SourceCondition = "";
             this.dsItems.SourceMethod = "";
@@ -408,7 +408,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "";
             this.dsUnitID.SourceMethod = "";

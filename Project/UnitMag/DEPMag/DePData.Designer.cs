@@ -493,7 +493,7 @@
             this.dsPlan.L3DataAdapter = null;
             this.dsPlan.LoadEvent = "Click";
             this.dsPlan.LoadTrigger = null;
-            this.dsPlan.RefreshValve = 1000;
+            this.dsPlan.RefreshValve = 60000;
             this.dsPlan.SourceCommand = null;
             this.dsPlan.SourceCondition = "";
             this.dsPlan.SourceMethod = "";
@@ -704,7 +704,7 @@
             this.dsTapping.L3DataAdapter = null;
             this.dsTapping.LoadEvent = "Click";
             this.dsTapping.LoadTrigger = null;
-            this.dsTapping.RefreshValve = 1000;
+            this.dsTapping.RefreshValve = 60000;
             this.dsTapping.SourceCommand = null;
             this.dsTapping.SourceCondition = "1=2";
             this.dsTapping.SourceMethod = "";
@@ -819,7 +819,7 @@
             this.dsFeedPro.L3DataAdapter = null;
             this.dsFeedPro.LoadEvent = "Click";
             this.dsFeedPro.LoadTrigger = null;
-            this.dsFeedPro.RefreshValve = 1000;
+            this.dsFeedPro.RefreshValve = 60000;
             this.dsFeedPro.SourceCommand = null;
             this.dsFeedPro.SourceCondition = "1=2";
             this.dsFeedPro.SourceMethod = "";
@@ -952,7 +952,7 @@
             this.dsSumAddition.L3DataAdapter = null;
             this.dsSumAddition.LoadEvent = "Click";
             this.dsSumAddition.LoadTrigger = null;
-            this.dsSumAddition.RefreshValve = 1000;
+            this.dsSumAddition.RefreshValve = 60000;
             this.dsSumAddition.SourceCommand = null;
             this.dsSumAddition.SourceCondition = "1=2";
             this.dsSumAddition.SourceMethod = "";
@@ -1002,7 +1002,7 @@
             this.dsProStatus.L3DataAdapter = null;
             this.dsProStatus.LoadEvent = "Click";
             this.dsProStatus.LoadTrigger = null;
-            this.dsProStatus.RefreshValve = 1000;
+            this.dsProStatus.RefreshValve = 60000;
             this.dsProStatus.SourceCommand = null;
             this.dsProStatus.SourceCondition = "1=2";
             this.dsProStatus.SourceMethod = "";
@@ -1053,7 +1053,7 @@
             this.dsLabElement.L3DataAdapter = null;
             this.dsLabElement.LoadEvent = "Click";
             this.dsLabElement.LoadTrigger = null;
-            this.dsLabElement.RefreshValve = 1000;
+            this.dsLabElement.RefreshValve = 60000;
             this.dsLabElement.SourceCommand = null;
             this.dsLabElement.SourceCondition = "1=2";
             this.dsLabElement.SourceMethod = "";
@@ -1565,7 +1565,7 @@
             this.dsOut.L3DataAdapter = this.Adapter;
             this.dsOut.LoadEvent = "Click";
             this.dsOut.LoadTrigger = null;
-            this.dsOut.RefreshValve = 1000;
+            this.dsOut.RefreshValve = 60000;
             this.dsOut.SourceCommand = null;
             this.dsOut.SourceCondition = "";
             this.dsOut.SourceMethod = "GetOutgoingIrons2";
@@ -2173,7 +2173,7 @@
             this.dsBOFStatus.L3DataAdapter = this.Adapter;
             this.dsBOFStatus.LoadEvent = "Click";
             this.dsBOFStatus.LoadTrigger = null;
-            this.dsBOFStatus.RefreshValve = 1000;
+            this.dsBOFStatus.RefreshValve = 60000;
             this.dsBOFStatus.SourceCommand = null;
             this.dsBOFStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_BOF_STATUS\'";
             this.dsBOFStatus.SourceMethod = "";
@@ -2229,7 +2229,7 @@
             this.dsLFStatus.L3DataAdapter = this.Adapter;
             this.dsLFStatus.LoadEvent = "Click";
             this.dsLFStatus.LoadTrigger = null;
-            this.dsLFStatus.RefreshValve = 1000;
+            this.dsLFStatus.RefreshValve = 60000;
             this.dsLFStatus.SourceCommand = null;
             this.dsLFStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_LF_STATUS\'";
             this.dsLFStatus.SourceMethod = "";
@@ -2285,7 +2285,7 @@
             this.dsCasterStatus.L3DataAdapter = this.Adapter;
             this.dsCasterStatus.LoadEvent = "Click";
             this.dsCasterStatus.LoadTrigger = null;
-            this.dsCasterStatus.RefreshValve = 1000;
+            this.dsCasterStatus.RefreshValve = 60000;
             this.dsCasterStatus.SourceCommand = null;
             this.dsCasterStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_CCM_STATUS\'";
             this.dsCasterStatus.SourceMethod = "";
@@ -2729,7 +2729,7 @@
             this.dsUnitType.L3DataAdapter = this.Adapter;
             this.dsUnitType.LoadEvent = "Click";
             this.dsUnitType.LoadTrigger = null;
-            this.dsUnitType.RefreshValve = 1000;
+            this.dsUnitType.RefreshValve = 60000;
             this.dsUnitType.SourceCommand = null;
             this.dsUnitType.SourceCondition = "CODE_GROUP = \'UnitType\'";
             this.dsUnitType.SourceMethod = "";
@@ -2811,7 +2811,7 @@
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "CODE_GROUP = \'QA_Sample_Type\'";
             this.dsSampleType.SourceMethod = "";
@@ -3237,7 +3237,7 @@
             this.dsTemp.L3DataAdapter = null;
             this.dsTemp.LoadEvent = "Click";
             this.dsTemp.LoadTrigger = null;
-            this.dsTemp.RefreshValve = 1000;
+            this.dsTemp.RefreshValve = 60000;
             this.dsTemp.SourceCommand = null;
             this.dsTemp.SourceCondition = "1=2";
             this.dsTemp.SourceMethod = "";
@@ -3344,7 +3344,7 @@
             this.dsBOFUnitStatus.L3DataAdapter = this.Adapter;
             this.dsBOFUnitStatus.LoadEvent = "Click";
             this.dsBOFUnitStatus.LoadTrigger = null;
-            this.dsBOFUnitStatus.RefreshValve = 1000;
+            this.dsBOFUnitStatus.RefreshValve = 60000;
             this.dsBOFUnitStatus.SourceCommand = null;
             this.dsBOFUnitStatus.SourceCondition = "CODE_GROUP = \'DEPUnitStatus\'";
             this.dsBOFUnitStatus.SourceMethod = "";
@@ -3407,7 +3407,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "1=2";
             this.dsStatus.SourceMethod = "";
@@ -3526,7 +3526,7 @@
             this.dsCode.L3DataAdapter = this.Adapter;
             this.dsCode.LoadEvent = "Click";
             this.dsCode.LoadTrigger = null;
-            this.dsCode.RefreshValve = 1000;
+            this.dsCode.RefreshValve = 60000;
             this.dsCode.SourceCommand = null;
             this.dsCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' OR CODE_GROUP = \'BULK_CODE\'";
             this.dsCode.SourceMethod = "";
@@ -3576,7 +3576,7 @@
             this.dsTempMode.L3DataAdapter = this.Adapter;
             this.dsTempMode.LoadEvent = "Click";
             this.dsTempMode.LoadTrigger = null;
-            this.dsTempMode.RefreshValve = 1000;
+            this.dsTempMode.RefreshValve = 60000;
             this.dsTempMode.SourceCommand = null;
             this.dsTempMode.SourceCondition = "CODE_GROUP = \'BOF_Temp_Mode\'";
             this.dsTempMode.SourceMethod = "";
@@ -3619,7 +3619,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "Code_Group = \'QA_Sample_Addr\'";
             this.dsSampleAddr.SourceMethod = "";

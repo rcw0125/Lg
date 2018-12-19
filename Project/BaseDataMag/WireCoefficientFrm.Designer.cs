@@ -87,7 +87,7 @@
             this.dsWireData.L3DataAdapter = this.Adapter;
             this.dsWireData.LoadEvent = "";
             this.dsWireData.LoadTrigger = null;
-            this.dsWireData.RefreshValve = 1000;
+            this.dsWireData.RefreshValve = 60000;
             this.dsWireData.SourceCommand = null;
             this.dsWireData.SourceCondition = "";
             this.dsWireData.SourceMethod = "";
@@ -352,7 +352,7 @@
             this.dsWireCode.L3DataAdapter = this.Adapter;
             this.dsWireCode.LoadEvent = "";
             this.dsWireCode.LoadTrigger = null;
-            this.dsWireCode.RefreshValve = 1000;
+            this.dsWireCode.RefreshValve = 60000;
             this.dsWireCode.SourceCommand = null;
             this.dsWireCode.SourceCondition = "code_group = \'ALLOY_CODE\' and CODE_FUNCTION_GROUP = \'FeedWire\' ORDER BY code";
             this.dsWireCode.SourceMethod = "";

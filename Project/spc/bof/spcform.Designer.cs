@@ -306,7 +306,7 @@
             this.dsLabElement.L3DataAdapter = null;
             this.dsLabElement.LoadEvent = "";
             this.dsLabElement.LoadTrigger = null;
-            this.dsLabElement.RefreshValve = 1000;
+            this.dsLabElement.RefreshValve = 60000;
             this.dsLabElement.SourceCommand = null;
             this.dsLabElement.SourceCondition = "1=2";
             this.dsLabElement.SourceMethod = "";

@@ -141,7 +141,7 @@
             this.dsFireInfo.L3DataAdapter = this.Adapter;
             this.dsFireInfo.LoadEvent = "Click";
             this.dsFireInfo.LoadTrigger = null;
-            this.dsFireInfo.RefreshValve = 1000;
+            this.dsFireInfo.RefreshValve = 60000;
             this.dsFireInfo.SourceCommand = this.cmdFireInfo;
             this.dsFireInfo.SourceCondition = null;
             this.dsFireInfo.SourceMethod = "GetFireInfos";
@@ -677,7 +677,7 @@
             this.dsIronLadleFireType.L3DataAdapter = this.Adapter;
             this.dsIronLadleFireType.LoadEvent = "Click";
             this.dsIronLadleFireType.LoadTrigger = null;
-            this.dsIronLadleFireType.RefreshValve = 1000;
+            this.dsIronLadleFireType.RefreshValve = 60000;
             this.dsIronLadleFireType.SourceCommand = null;
             this.dsIronLadleFireType.SourceCondition = "Code_Group = \'IronLadleFireType\' order by Code";
             this.dsIronLadleFireType.SourceMethod = "";
@@ -773,7 +773,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -828,7 +828,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -896,7 +896,7 @@
             this.dsIronladleID.L3DataAdapter = this.Adapter;
             this.dsIronladleID.LoadEvent = "Click";
             this.dsIronladleID.LoadTrigger = null;
-            this.dsIronladleID.RefreshValve = 1000;
+            this.dsIronladleID.RefreshValve = 60000;
             this.dsIronladleID.SourceCommand = null;
             this.dsIronladleID.SourceCondition = null;
             this.dsIronladleID.SourceMethod = "";

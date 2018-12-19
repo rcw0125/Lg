@@ -334,7 +334,7 @@
             this.dsVacTube.L3DataAdapter = this.Adapter;
             this.dsVacTube.LoadEvent = "";
             this.dsVacTube.LoadTrigger = null;
-            this.dsVacTube.RefreshValve = 1000;
+            this.dsVacTube.RefreshValve = 60000;
             this.dsVacTube.SourceCommand = null;
             this.dsVacTube.SourceCondition = "1=2";
             this.dsVacTube.SourceMethod = "";

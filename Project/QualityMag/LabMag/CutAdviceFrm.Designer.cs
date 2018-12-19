@@ -227,7 +227,7 @@
             this.dsCutAdvice.L3DataAdapter = this.Adapter;
             this.dsCutAdvice.LoadEvent = "Click";
             this.dsCutAdvice.LoadTrigger = null;
-            this.dsCutAdvice.RefreshValve = 1000;
+            this.dsCutAdvice.RefreshValve = 60000;
             this.dsCutAdvice.SourceCommand = null;
             this.dsCutAdvice.SourceCondition = null;
             this.dsCutAdvice.SourceMethod = "GetCutAdviceData";
@@ -527,7 +527,7 @@
             this.dsCutPosition.L3DataAdapter = this.Adapter;
             this.dsCutPosition.LoadEvent = "Click";
             this.dsCutPosition.LoadTrigger = null;
-            this.dsCutPosition.RefreshValve = 1000;
+            this.dsCutPosition.RefreshValve = 60000;
             this.dsCutPosition.SourceCommand = null;
             this.dsCutPosition.SourceCondition = "Code_Group = \'CutAdvice_Position\'";
             this.dsCutPosition.SourceMethod = "";
@@ -581,7 +581,7 @@
             this.dsCutSize.L3DataAdapter = this.Adapter;
             this.dsCutSize.LoadEvent = "Click";
             this.dsCutSize.LoadTrigger = null;
-            this.dsCutSize.RefreshValve = 1000;
+            this.dsCutSize.RefreshValve = 60000;
             this.dsCutSize.SourceCommand = null;
             this.dsCutSize.SourceCondition = "Code_Group = \'CutAdvice_Size\'";
             this.dsCutSize.SourceMethod = "";

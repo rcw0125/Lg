@@ -151,7 +151,7 @@
             this.dsM.L3DataAdapter = this.Adapter;
             this.dsM.LoadEvent = "Click";
             this.dsM.LoadTrigger = null;
-            this.dsM.RefreshValve = 1000;
+            this.dsM.RefreshValve = 60000;
             this.dsM.SourceCommand = this.cmdM;
             this.dsM.SourceCondition = null;
             this.dsM.SourceMethod = "GetPipeInstallInfo";
@@ -846,7 +846,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -888,7 +888,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -930,7 +930,7 @@
             this.dsMoldID.L3DataAdapter = this.Adapter;
             this.dsMoldID.LoadEvent = "Click";
             this.dsMoldID.LoadTrigger = null;
-            this.dsMoldID.RefreshValve = 1000;
+            this.dsMoldID.RefreshValve = 60000;
             this.dsMoldID.SourceCommand = null;
             this.dsMoldID.SourceCondition = "MoldID Like \'J0%\'";
             this.dsMoldID.SourceMethod = "";
@@ -965,7 +965,7 @@
             this.dsCopperFac.L3DataAdapter = this.Adapter;
             this.dsCopperFac.LoadEvent = "Click";
             this.dsCopperFac.LoadTrigger = null;
-            this.dsCopperFac.RefreshValve = 1000;
+            this.dsCopperFac.RefreshValve = 60000;
             this.dsCopperFac.SourceCommand = null;
             this.dsCopperFac.SourceCondition = "MATGROUP_CODE = \'MoldFac\' and MATNAME = \'铜管\'";
             this.dsCopperFac.SourceMethod = "";

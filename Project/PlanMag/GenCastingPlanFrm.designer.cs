@@ -219,7 +219,7 @@
             this.dsGenCasting.L3DataAdapter = this.Adapter;
             this.dsGenCasting.LoadEvent = "Click";
             this.dsGenCasting.LoadTrigger = null;
-            this.dsGenCasting.RefreshValve = 1000;
+            this.dsGenCasting.RefreshValve = 60000;
             this.dsGenCasting.SourceCommand = this.cmdQuery;
             this.dsGenCasting.SourceCondition = null;
             this.dsGenCasting.SourceMethod = "GetIntegratedPlanOrd";
@@ -1017,7 +1017,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' order by code";
             this.dsCasterID.SourceMethod = "";
@@ -1181,7 +1181,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'PLAN_ORDER_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -1401,7 +1401,7 @@
             this.dsBOFFlag.L3DataAdapter = this.Adapter;
             this.dsBOFFlag.LoadEvent = "Click";
             this.dsBOFFlag.LoadTrigger = null;
-            this.dsBOFFlag.RefreshValve = 1000;
+            this.dsBOFFlag.RefreshValve = 60000;
             this.dsBOFFlag.SourceCommand = null;
             this.dsBOFFlag.SourceCondition = "Code_Group = \'BOF_TYPE\'";
             this.dsBOFFlag.SourceMethod = "";
@@ -1514,7 +1514,7 @@
             this.dsSteelGrade.L3DataAdapter = this.Adapter;
             this.dsSteelGrade.LoadEvent = "Click";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "";
             this.dsSteelGrade.SourceMethod = "select SteelGrade from CQA_SteelGradeIndex_R group by SteelGrade";
@@ -1549,7 +1549,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'CastingPlanGen\'";
             this.dsError.SourceMethod = "";

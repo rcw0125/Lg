@@ -144,7 +144,7 @@
             this.dsInstall.L3DataAdapter = this.Adapter;
             this.dsInstall.LoadEvent = "Click";
             this.dsInstall.LoadTrigger = null;
-            this.dsInstall.RefreshValve = 1000;
+            this.dsInstall.RefreshValve = 60000;
             this.dsInstall.SourceCommand = null;
             this.dsInstall.SourceCondition = "1=2";
             this.dsInstall.SourceMethod = "";
@@ -359,7 +359,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = null;
             this.dsShiftID.SourceMethod = null;
@@ -380,7 +380,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = null;
             this.dsTeamID.SourceMethod = null;
@@ -660,7 +660,7 @@
             this.dsProject.L3DataAdapter = this.Adapter;
             this.dsProject.LoadEvent = "";
             this.dsProject.LoadTrigger = null;
-            this.dsProject.RefreshValve = 1000;
+            this.dsProject.RefreshValve = 60000;
             this.dsProject.SourceCommand = null;
             this.dsProject.SourceCondition = "Code_Group = \'Tundish_Project\'　and Code is not null order by Code";
             this.dsProject.SourceMethod = "";
@@ -702,7 +702,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "Click";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "";
             this.dsTundishID.SourceMethod = "";

@@ -331,7 +331,7 @@
             this.dsQuery.L3DataAdapter = null;
             this.dsQuery.LoadEvent = "Click";
             this.dsQuery.LoadTrigger = null;
-            this.dsQuery.RefreshValve = 1000;
+            this.dsQuery.RefreshValve = 60000;
             this.dsQuery.SourceCommand = this.cmdQuery;
             this.dsQuery.SourceCondition = null;
             this.dsQuery.SourceMethod = "GetBloomOnStoreArea";
@@ -1166,7 +1166,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "CODE_GROUP = \'BLOOM_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -1213,7 +1213,7 @@
             this.dsStoreAreaID.L3DataAdapter = this.Adapter;
             this.dsStoreAreaID.LoadEvent = "Click";
             this.dsStoreAreaID.LoadTrigger = null;
-            this.dsStoreAreaID.RefreshValve = 1000;
+            this.dsStoreAreaID.RefreshValve = 60000;
             this.dsStoreAreaID.SourceCommand = null;
             this.dsStoreAreaID.SourceCondition = "CODE_GROUP = \'BloomArea\' order by code";
             this.dsStoreAreaID.SourceMethod = "";
@@ -1255,7 +1255,7 @@
             this.dsSpile.L3DataAdapter = this.Adapter;
             this.dsSpile.LoadEvent = "Click";
             this.dsSpile.LoadTrigger = null;
-            this.dsSpile.RefreshValve = 1000;
+            this.dsSpile.RefreshValve = 60000;
             this.dsSpile.SourceCommand = null;
             this.dsSpile.SourceCondition = "CODE_GROUP = \'BLOOM_SPILE\'";
             this.dsSpile.SourceMethod = "";
@@ -1297,7 +1297,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";
@@ -1339,7 +1339,7 @@
             this.dsWrongReason.L3DataAdapter = this.Adapter;
             this.dsWrongReason.LoadEvent = "Click";
             this.dsWrongReason.LoadTrigger = null;
-            this.dsWrongReason.RefreshValve = 1000;
+            this.dsWrongReason.RefreshValve = 60000;
             this.dsWrongReason.SourceCommand = null;
             this.dsWrongReason.SourceCondition = "CODE_GROUP = \'WRONG_REASON_CODE\'";
             this.dsWrongReason.SourceMethod = "";
@@ -1381,7 +1381,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "Click";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "CODE_GROUP = \'OFFLINE_REASON_CODE\'";
             this.dsOffLineReason.SourceMethod = "";

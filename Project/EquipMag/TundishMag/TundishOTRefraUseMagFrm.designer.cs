@@ -300,7 +300,7 @@
             this.dsRefraUse.L3DataAdapter = this.Adapter;
             this.dsRefraUse.LoadEvent = "";
             this.dsRefraUse.LoadTrigger = null;
-            this.dsRefraUse.RefreshValve = 1000;
+            this.dsRefraUse.RefreshValve = 60000;
             this.dsRefraUse.SourceCommand = null;
             this.dsRefraUse.SourceCondition = "";
             this.dsRefraUse.SourceMethod = "";
@@ -530,7 +530,7 @@
             this.dsStopCastingReason.L3DataAdapter = this.Adapter;
             this.dsStopCastingReason.LoadEvent = "";
             this.dsStopCastingReason.LoadTrigger = null;
-            this.dsStopCastingReason.RefreshValve = 1000;
+            this.dsStopCastingReason.RefreshValve = 60000;
             this.dsStopCastingReason.SourceCommand = null;
             this.dsStopCastingReason.SourceCondition = "Code_Group = \'TundishNO_Stop_Reason\' order by Code";
             this.dsStopCastingReason.SourceMethod = "";
@@ -585,7 +585,7 @@
             this.dsCoverCase.L3DataAdapter = this.Adapter;
             this.dsCoverCase.LoadEvent = "Click";
             this.dsCoverCase.LoadTrigger = null;
-            this.dsCoverCase.RefreshValve = 1000;
+            this.dsCoverCase.RefreshValve = 60000;
             this.dsCoverCase.SourceCommand = null;
             this.dsCoverCase.SourceCondition = "Code_Group = \'Cover_Use_Case\'";
             this.dsCoverCase.SourceMethod = "";
@@ -640,7 +640,7 @@
             this.dsProtect_Use_Case.L3DataAdapter = this.Adapter;
             this.dsProtect_Use_Case.LoadEvent = "";
             this.dsProtect_Use_Case.LoadTrigger = null;
-            this.dsProtect_Use_Case.RefreshValve = 1000;
+            this.dsProtect_Use_Case.RefreshValve = 60000;
             this.dsProtect_Use_Case.SourceCommand = null;
             this.dsProtect_Use_Case.SourceCondition = "Code_Group = \'Protect_Use_Case\' order by Code\r\n";
             this.dsProtect_Use_Case.SourceMethod = "";
@@ -695,7 +695,7 @@
             this.dsDaubUseCase.L3DataAdapter = this.Adapter;
             this.dsDaubUseCase.LoadEvent = "Click";
             this.dsDaubUseCase.LoadTrigger = null;
-            this.dsDaubUseCase.RefreshValve = 1000;
+            this.dsDaubUseCase.RefreshValve = 60000;
             this.dsDaubUseCase.SourceCommand = null;
             this.dsDaubUseCase.SourceCondition = "Code_Group = \'Daub_Case\'";
             this.dsDaubUseCase.SourceMethod = "";
@@ -750,7 +750,7 @@
             this.dsTranqCase.L3DataAdapter = this.Adapter;
             this.dsTranqCase.LoadEvent = "";
             this.dsTranqCase.LoadTrigger = null;
-            this.dsTranqCase.RefreshValve = 1000;
+            this.dsTranqCase.RefreshValve = 60000;
             this.dsTranqCase.SourceCommand = null;
             this.dsTranqCase.SourceCondition = "Code_Group = \'Tranq_Case\'";
             this.dsTranqCase.SourceMethod = "";
@@ -805,7 +805,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -860,7 +860,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -1123,7 +1123,7 @@
             this.dsTundishID.L3DataAdapter = this.Adapter;
             this.dsTundishID.LoadEvent = "Click";
             this.dsTundishID.LoadTrigger = null;
-            this.dsTundishID.RefreshValve = 1000;
+            this.dsTundishID.RefreshValve = 60000;
             this.dsTundishID.SourceCommand = null;
             this.dsTundishID.SourceCondition = "";
             this.dsTundishID.SourceMethod = "";

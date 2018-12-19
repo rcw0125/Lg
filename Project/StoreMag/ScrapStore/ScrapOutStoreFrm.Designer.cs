@@ -115,7 +115,7 @@
             this.dsScrapOutStore.L3DataAdapter = this.Adapter;
             this.dsScrapOutStore.LoadEvent = "Click";
             this.dsScrapOutStore.LoadTrigger = null;
-            this.dsScrapOutStore.RefreshValve = 1000;
+            this.dsScrapOutStore.RefreshValve = 60000;
             this.dsScrapOutStore.SourceCommand = null;
             this.dsScrapOutStore.SourceCondition = "";
             this.dsScrapOutStore.SourceMethod = "";

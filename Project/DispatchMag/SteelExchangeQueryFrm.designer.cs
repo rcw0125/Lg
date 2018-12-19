@@ -204,7 +204,7 @@
             this.dsSteelChangeReason.L3DataAdapter = this.Adapter;
             this.dsSteelChangeReason.LoadEvent = "Click";
             this.dsSteelChangeReason.LoadTrigger = null;
-            this.dsSteelChangeReason.RefreshValve = 1000;
+            this.dsSteelChangeReason.RefreshValve = 60000;
             this.dsSteelChangeReason.SourceCommand = null;
             this.dsSteelChangeReason.SourceCondition = "CODE_GROUP = \'SteelChangeReason\'";
             this.dsSteelChangeReason.SourceMethod = "";
@@ -281,7 +281,7 @@
             this.dsSteelExchange.L3DataAdapter = this.Adapter;
             this.dsSteelExchange.LoadEvent = "Click";
             this.dsSteelExchange.LoadTrigger = null;
-            this.dsSteelExchange.RefreshValve = 1000;
+            this.dsSteelExchange.RefreshValve = 60000;
             this.dsSteelExchange.SourceCommand = null;
             this.dsSteelExchange.SourceCondition = "1=2";
             this.dsSteelExchange.SourceMethod = "";

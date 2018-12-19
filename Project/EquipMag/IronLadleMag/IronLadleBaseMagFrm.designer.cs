@@ -154,7 +154,7 @@
             this.dsIronLadle.L3DataAdapter = this.Adapter;
             this.dsIronLadle.LoadEvent = "Click";
             this.dsIronLadle.LoadTrigger = null;
-            this.dsIronLadle.RefreshValve = 1000;
+            this.dsIronLadle.RefreshValve = 60000;
             this.dsIronLadle.SourceCommand = null;
             this.dsIronLadle.SourceCondition = null;
             this.dsIronLadle.SourceMethod = "";
@@ -549,7 +549,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'IRONLADLE_STATUS\' order by Code";
             this.dsStatus.SourceMethod = "";
@@ -816,7 +816,7 @@
             this.dsLadleGrade.L3DataAdapter = null;
             this.dsLadleGrade.LoadEvent = "Click";
             this.dsLadleGrade.LoadTrigger = null;
-            this.dsLadleGrade.RefreshValve = 1000;
+            this.dsLadleGrade.RefreshValve = 60000;
             this.dsLadleGrade.SourceCommand = null;
             this.dsLadleGrade.SourceCondition = null;
             this.dsLadleGrade.SourceMethod = null;
@@ -837,7 +837,7 @@
             this.dsRefraFac.L3DataAdapter = null;
             this.dsRefraFac.LoadEvent = "Click";
             this.dsRefraFac.LoadTrigger = null;
-            this.dsRefraFac.RefreshValve = 1000;
+            this.dsRefraFac.RefreshValve = 60000;
             this.dsRefraFac.SourceCommand = null;
             this.dsRefraFac.SourceCondition = null;
             this.dsRefraFac.SourceMethod = null;

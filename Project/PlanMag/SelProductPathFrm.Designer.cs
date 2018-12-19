@@ -81,7 +81,7 @@
             this.dsProductPath.L3DataAdapter = this.Adapter;
             this.dsProductPath.LoadEvent = "Click";
             this.dsProductPath.LoadTrigger = null;
-            this.dsProductPath.RefreshValve = 1000;
+            this.dsProductPath.RefreshValve = 60000;
             this.dsProductPath.SourceCommand = null;
             this.dsProductPath.SourceCondition = "";
             this.dsProductPath.SourceMethod = "";

@@ -169,7 +169,7 @@
             this.dsUseInfo.L3DataAdapter = null;
             this.dsUseInfo.LoadEvent = "Click";
             this.dsUseInfo.LoadTrigger = null;
-            this.dsUseInfo.RefreshValve = 1000;
+            this.dsUseInfo.RefreshValve = 60000;
             this.dsUseInfo.SourceCommand = null;
             this.dsUseInfo.SourceCondition = "";
             this.dsUseInfo.SourceMethod = "";
@@ -548,7 +548,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -589,7 +589,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -630,7 +630,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' and Code <> \'S65\' order by Code";
             this.dsCasterID.SourceMethod = "";
@@ -769,7 +769,7 @@
             this.dsCopperFac.L3DataAdapter = this.Adapter;
             this.dsCopperFac.LoadEvent = "Click";
             this.dsCopperFac.LoadTrigger = null;
-            this.dsCopperFac.RefreshValve = 1000;
+            this.dsCopperFac.RefreshValve = 60000;
             this.dsCopperFac.SourceCommand = null;
             this.dsCopperFac.SourceCondition = "MATGROUP_CODE = \'MoldFac\' and MATNAME = \'铜管\'";
             this.dsCopperFac.SourceMethod = "";
@@ -958,7 +958,7 @@
             this.dsMoldStopReason.L3DataAdapter = this.Adapter;
             this.dsMoldStopReason.LoadEvent = "Click";
             this.dsMoldStopReason.LoadTrigger = null;
-            this.dsMoldStopReason.RefreshValve = 1000;
+            this.dsMoldStopReason.RefreshValve = 60000;
             this.dsMoldStopReason.SourceCommand = null;
             this.dsMoldStopReason.SourceCondition = "CODE_GROUP = \'MoldStopReason\'";
             this.dsMoldStopReason.SourceMethod = "";
@@ -1187,7 +1187,7 @@
             this.dsJ06.L3DataAdapter = this.Adapter;
             this.dsJ06.LoadEvent = "Click";
             this.dsJ06.LoadTrigger = null;
-            this.dsJ06.RefreshValve = 1000;
+            this.dsJ06.RefreshValve = 60000;
             this.dsJ06.SourceCommand = null;
             this.dsJ06.SourceCondition = "MoldID like \'J06%\'";
             this.dsJ06.SourceMethod = "";
@@ -1221,7 +1221,7 @@
             this.dsJ09.L3DataAdapter = this.Adapter;
             this.dsJ09.LoadEvent = "Click";
             this.dsJ09.LoadTrigger = null;
-            this.dsJ09.RefreshValve = 1000;
+            this.dsJ09.RefreshValve = 60000;
             this.dsJ09.SourceCommand = null;
             this.dsJ09.SourceCondition = "MoldID like \'J09%\'";
             this.dsJ09.SourceMethod = "";

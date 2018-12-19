@@ -356,7 +356,7 @@
             this.dsAlloyToBulk.L3DataAdapter = null;
             this.dsAlloyToBulk.LoadEvent = "";
             this.dsAlloyToBulk.LoadTrigger = null;
-            this.dsAlloyToBulk.RefreshValve = 1000;
+            this.dsAlloyToBulk.RefreshValve = 60000;
             this.dsAlloyToBulk.SourceCommand = null;
             this.dsAlloyToBulk.SourceCondition = "";
             this.dsAlloyToBulk.SourceMethod = "";

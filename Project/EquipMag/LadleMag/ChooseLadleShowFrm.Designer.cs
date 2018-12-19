@@ -274,7 +274,7 @@
             this.dsPlan.L3DataAdapter = null;
             this.dsPlan.LoadEvent = "Click";
             this.dsPlan.LoadTrigger = null;
-            this.dsPlan.RefreshValve = 1000;
+            this.dsPlan.RefreshValve = 60000;
             this.dsPlan.SourceCommand = null;
             this.dsPlan.SourceCondition = "";
             this.dsPlan.SourceMethod = null;
@@ -313,7 +313,7 @@
             this.dsHotLadleID.L3DataAdapter = this.Adapter;
             this.dsHotLadleID.LoadEvent = "Click";
             this.dsHotLadleID.LoadTrigger = null;
-            this.dsHotLadleID.RefreshValve = 1000;
+            this.dsHotLadleID.RefreshValve = 60000;
             this.dsHotLadleID.SourceCommand = null;
             this.dsHotLadleID.SourceCondition = null;
             this.dsHotLadleID.SourceMethod = "GetAvailableLadle";

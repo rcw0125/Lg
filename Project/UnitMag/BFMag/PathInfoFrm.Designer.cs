@@ -118,7 +118,7 @@
             this.dsMain.L3DataAdapter = this.Adapter;
             this.dsMain.LoadEvent = "Click";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = null;
             this.dsMain.SourceMethod = "";
@@ -619,7 +619,7 @@
             this.dsPath.L3DataAdapter = this.Adapter;
             this.dsPath.LoadEvent = "Click";
             this.dsPath.LoadTrigger = null;
-            this.dsPath.RefreshValve = 1000;
+            this.dsPath.RefreshValve = 60000;
             this.dsPath.SourceCommand = null;
             this.dsPath.SourceCondition = "Code_Group = \'IRON_PATH\'";
             this.dsPath.SourceMethod = "";

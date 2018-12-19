@@ -139,7 +139,7 @@
             this.dsCleaningData.L3DataAdapter = this.Adapter;
             this.dsCleaningData.LoadEvent = "";
             this.dsCleaningData.LoadTrigger = null;
-            this.dsCleaningData.RefreshValve = 1000;
+            this.dsCleaningData.RefreshValve = 60000;
             this.dsCleaningData.SourceCommand = null;
             this.dsCleaningData.SourceCondition = "1=2";
             this.dsCleaningData.SourceMethod = "";
@@ -439,7 +439,7 @@
             this.dsCode.L3DataAdapter = null;
             this.dsCode.LoadEvent = "";
             this.dsCode.LoadTrigger = null;
-            this.dsCode.RefreshValve = 1000;
+            this.dsCode.RefreshValve = 60000;
             this.dsCode.SourceCommand = null;
             this.dsCode.SourceCondition = "";
             this.dsCode.SourceMethod = "";

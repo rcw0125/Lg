@@ -130,7 +130,7 @@
             this.l3DataSet1.L3DataAdapter = this.Adapter;
             this.l3DataSet1.LoadEvent = "";
             this.l3DataSet1.LoadTrigger = null;
-            this.l3DataSet1.RefreshValve = 1000;
+            this.l3DataSet1.RefreshValve = 60000;
             this.l3DataSet1.SourceCommand = null;
             this.l3DataSet1.SourceCondition = "";
             this.l3DataSet1.SourceMethod = "";
@@ -615,7 +615,7 @@
             this.dsTappingPlan.L3DataAdapter = null;
             this.dsTappingPlan.LoadEvent = "Click";
             this.dsTappingPlan.LoadTrigger = null;
-            this.dsTappingPlan.RefreshValve = 1000;
+            this.dsTappingPlan.RefreshValve = 60000;
             this.dsTappingPlan.SourceCommand = null;
             this.dsTappingPlan.SourceCondition = "";
             this.dsTappingPlan.SourceMethod = "";

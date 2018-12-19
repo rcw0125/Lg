@@ -159,7 +159,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "(code_group =\'BOF\' or code_group =\'Caster\' or code_group =\'LF\' or code_group =\'RH" +
                 "\') and code is not null";
@@ -217,7 +217,7 @@
             this.dsTeam.L3DataAdapter = this.Adapter;
             this.dsTeam.LoadEvent = "Click";
             this.dsTeam.LoadTrigger = null;
-            this.dsTeam.RefreshValve = 1000;
+            this.dsTeam.RefreshValve = 60000;
             this.dsTeam.SourceCommand = null;
             this.dsTeam.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam.SourceMethod = "";
@@ -270,7 +270,7 @@
             this.dsProcessTimeType.L3DataAdapter = this.Adapter;
             this.dsProcessTimeType.LoadEvent = "";
             this.dsProcessTimeType.LoadTrigger = null;
-            this.dsProcessTimeType.RefreshValve = 1000;
+            this.dsProcessTimeType.RefreshValve = 60000;
             this.dsProcessTimeType.SourceCommand = null;
             this.dsProcessTimeType.SourceCondition = "CODE_GROUP = \'Process_Time_Type\'";
             this.dsProcessTimeType.SourceMethod = "";
@@ -328,7 +328,7 @@
             this.dsProcessTime.L3DataAdapter = this.Adapter;
             this.dsProcessTime.LoadEvent = "";
             this.dsProcessTime.LoadTrigger = null;
-            this.dsProcessTime.RefreshValve = 1000;
+            this.dsProcessTime.RefreshValve = 60000;
             this.dsProcessTime.SourceCommand = null;
             this.dsProcessTime.SourceCondition = " 1=2";
             this.dsProcessTime.SourceMethod = "";

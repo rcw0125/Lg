@@ -101,7 +101,7 @@
             this.dsBalance.L3DataAdapter = this.Adapter;
             this.dsBalance.LoadEvent = "Click";
             this.dsBalance.LoadTrigger = null;
-            this.dsBalance.RefreshValve = 1000;
+            this.dsBalance.RefreshValve = 60000;
             this.dsBalance.SourceCommand = null;
             this.dsBalance.SourceCondition = "";
             this.dsBalance.SourceMethod = "";
@@ -434,7 +434,7 @@
             this.dsScrapArea.L3DataAdapter = this.Adapter;
             this.dsScrapArea.LoadEvent = "Click";
             this.dsScrapArea.LoadTrigger = null;
-            this.dsScrapArea.RefreshValve = 1000;
+            this.dsScrapArea.RefreshValve = 60000;
             this.dsScrapArea.SourceCommand = null;
             this.dsScrapArea.SourceCondition = "CODE_GROUP = \'ScrapArea\' and CODE is not null";
             this.dsScrapArea.SourceMethod = "";

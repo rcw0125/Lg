@@ -171,7 +171,7 @@
             this.dsMain.L3DataAdapter = null;
             this.dsMain.LoadEvent = "";
             this.dsMain.LoadTrigger = null;
-            this.dsMain.RefreshValve = 1000;
+            this.dsMain.RefreshValve = 60000;
             this.dsMain.SourceCommand = null;
             this.dsMain.SourceCondition = "";
             this.dsMain.SourceMethod = "";
@@ -478,7 +478,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "Code_Group = \'ShiftID\' order by Code";
             this.dsShiftID.SourceMethod = "";
@@ -519,7 +519,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "Code_Group = \'TeamID\' order by Code";
             this.dsTeamID.SourceMethod = "";
@@ -750,7 +750,7 @@
             this.dsOffLineReason.L3DataAdapter = this.Adapter;
             this.dsOffLineReason.LoadEvent = "Click";
             this.dsOffLineReason.LoadTrigger = null;
-            this.dsOffLineReason.RefreshValve = 1000;
+            this.dsOffLineReason.RefreshValve = 60000;
             this.dsOffLineReason.SourceCommand = null;
             this.dsOffLineReason.SourceCondition = "CODE_GROUP = \'CVACTUBE_OFF_REASON\'";
             this.dsOffLineReason.SourceMethod = "";
@@ -1134,7 +1134,7 @@
             this.dsNo.L3DataAdapter = this.Adapter;
             this.dsNo.LoadEvent = "Click";
             this.dsNo.LoadTrigger = null;
-            this.dsNo.RefreshValve = 1000;
+            this.dsNo.RefreshValve = 60000;
             this.dsNo.SourceCommand = null;
             this.dsNo.SourceCondition = "VacTube_Name = \'3\' order by VacTube_ID";
             this.dsNo.SourceMethod = "";
@@ -1207,7 +1207,7 @@
             this.dsFac.L3DataAdapter = this.Adapter;
             this.dsFac.LoadEvent = "Click";
             this.dsFac.LoadTrigger = null;
-            this.dsFac.RefreshValve = 1000;
+            this.dsFac.RefreshValve = 60000;
             this.dsFac.SourceCommand = null;
             this.dsFac.SourceCondition = "MatGroup_Code = \'VacTubeFac\' and MatName = \'耐材\'";
             this.dsFac.SourceMethod = "";

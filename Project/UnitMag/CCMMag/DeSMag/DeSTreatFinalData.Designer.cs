@@ -459,7 +459,7 @@
             this.dsUintID.L3DataAdapter = this.Adapter;
             this.dsUintID.LoadEvent = "";
             this.dsUintID.LoadTrigger = null;
-            this.dsUintID.RefreshValve = 1000;
+            this.dsUintID.RefreshValve = 60000;
             this.dsUintID.SourceCommand = null;
             this.dsUintID.SourceCondition = "code_group = \'DeS\'";
             this.dsUintID.SourceMethod = "";
@@ -544,7 +544,7 @@
             this.dsShift2.L3DataAdapter = this.Adapter;
             this.dsShift2.LoadEvent = "";
             this.dsShift2.LoadTrigger = null;
-            this.dsShift2.RefreshValve = 1000;
+            this.dsShift2.RefreshValve = 60000;
             this.dsShift2.SourceCommand = null;
             this.dsShift2.SourceCondition = "CODE_GROUP = \'ShiftID\'";
             this.dsShift2.SourceMethod = "";
@@ -599,7 +599,7 @@
             this.dsTeam2.L3DataAdapter = this.Adapter;
             this.dsTeam2.LoadEvent = "";
             this.dsTeam2.LoadTrigger = null;
-            this.dsTeam2.RefreshValve = 1000;
+            this.dsTeam2.RefreshValve = 60000;
             this.dsTeam2.SourceCommand = null;
             this.dsTeam2.SourceCondition = "CODE_GROUP = \'TeamID\'";
             this.dsTeam2.SourceMethod = "";
@@ -668,7 +668,7 @@
             this.dsYesNo.L3DataAdapter = this.Adapter;
             this.dsYesNo.LoadEvent = "";
             this.dsYesNo.LoadTrigger = null;
-            this.dsYesNo.RefreshValve = 1000;
+            this.dsYesNo.RefreshValve = 60000;
             this.dsYesNo.SourceCommand = null;
             this.dsYesNo.SourceCondition = "CODE_GROUP = \'COMMON_YESNO\'";
             this.dsYesNo.SourceMethod = "";
@@ -798,7 +798,7 @@
             this.dsType.L3DataAdapter = this.Adapter;
             this.dsType.LoadEvent = "";
             this.dsType.LoadTrigger = null;
-            this.dsType.RefreshValve = 1000;
+            this.dsType.RefreshValve = 60000;
             this.dsType.SourceCommand = null;
             this.dsType.SourceCondition = "code_group = \'DeSType\'";
             this.dsType.SourceMethod = "";
@@ -884,7 +884,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "code_group = \'DeSIronStatus\'";
             this.dsStatus.SourceMethod = "";
@@ -940,7 +940,7 @@
             this.dsDesination.L3DataAdapter = this.Adapter;
             this.dsDesination.LoadEvent = "";
             this.dsDesination.LoadTrigger = null;
-            this.dsDesination.RefreshValve = 1000;
+            this.dsDesination.RefreshValve = 60000;
             this.dsDesination.SourceCommand = null;
             this.dsDesination.SourceCondition = "code_group = \'Iron_Destination\' order by code";
             this.dsDesination.SourceMethod = "";
@@ -1002,7 +1002,7 @@
             this.dsDeSInfo.L3DataAdapter = this.Adapter;
             this.dsDeSInfo.LoadEvent = "Click";
             this.dsDeSInfo.LoadTrigger = null;
-            this.dsDeSInfo.RefreshValve = 1000;
+            this.dsDeSInfo.RefreshValve = 60000;
             this.dsDeSInfo.SourceCommand = null;
             this.dsDeSInfo.SourceCondition = "1=2";
             this.dsDeSInfo.SourceMethod = "";
@@ -1436,7 +1436,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'LockData\'";
             this.dsError.SourceMethod = "";

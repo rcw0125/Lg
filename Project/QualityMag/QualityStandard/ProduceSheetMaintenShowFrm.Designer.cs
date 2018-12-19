@@ -649,7 +649,7 @@
             this.dsDesStdMainten.L3DataAdapter = null;
             this.dsDesStdMainten.LoadEvent = "Click";
             this.dsDesStdMainten.LoadTrigger = null;
-            this.dsDesStdMainten.RefreshValve = 1000;
+            this.dsDesStdMainten.RefreshValve = 60000;
             this.dsDesStdMainten.SourceCommand = null;
             this.dsDesStdMainten.SourceCondition = "";
             this.dsDesStdMainten.SourceMethod = "";
@@ -4339,7 +4339,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = this.Adapter;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = null;
             this.dsSteelGradeIndex.SourceCondition = "SteelGradeIndex is not null order by SteelGradeIndex";
             this.dsSteelGradeIndex.SourceMethod = "";
@@ -4374,7 +4374,7 @@
             this.dsCopy.L3DataAdapter = null;
             this.dsCopy.LoadEvent = "Click";
             this.dsCopy.LoadTrigger = null;
-            this.dsCopy.RefreshValve = 1000;
+            this.dsCopy.RefreshValve = 60000;
             this.dsCopy.SourceCommand = null;
             this.dsCopy.SourceCondition = "1=2";
             this.dsCopy.SourceMethod = "";
@@ -5187,7 +5187,7 @@
             this.dsSteelGrade.L3DataAdapter = this.Adapter;
             this.dsSteelGrade.LoadEvent = "";
             this.dsSteelGrade.LoadTrigger = null;
-            this.dsSteelGrade.RefreshValve = 1000;
+            this.dsSteelGrade.RefreshValve = 60000;
             this.dsSteelGrade.SourceCommand = null;
             this.dsSteelGrade.SourceCondition = "1=2";
             this.dsSteelGrade.SourceMethod = "";

@@ -295,7 +295,7 @@
             this.dsRollBack.L3DataAdapter = null;
             this.dsRollBack.LoadEvent = "";
             this.dsRollBack.LoadTrigger = null;
-            this.dsRollBack.RefreshValve = 1000;
+            this.dsRollBack.RefreshValve = 60000;
             this.dsRollBack.SourceCommand = null;
             this.dsRollBack.SourceCondition = "";
             this.dsRollBack.SourceMethod = "";
@@ -387,7 +387,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or code_group = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -565,7 +565,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'AlloyChangeStore\'";
             this.dsError.SourceMethod = "";

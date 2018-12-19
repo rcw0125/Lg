@@ -878,7 +878,7 @@ namespace UnitMag.CCMMag
             this.dsPlan.L3DataAdapter = null;
             this.dsPlan.LoadEvent = "Click";
             this.dsPlan.LoadTrigger = null;
-            this.dsPlan.RefreshValve = 1000;
+            this.dsPlan.RefreshValve = 60000;
             this.dsPlan.SourceCommand = null;
             this.dsPlan.SourceCondition = "";
             this.dsPlan.SourceMethod = "";
@@ -1344,7 +1344,7 @@ namespace UnitMag.CCMMag
             this.dsArrivleCCMSteel.L3DataAdapter = null;
             this.dsArrivleCCMSteel.LoadEvent = "Click";
             this.dsArrivleCCMSteel.LoadTrigger = null;
-            this.dsArrivleCCMSteel.RefreshValve = 1000;
+            this.dsArrivleCCMSteel.RefreshValve = 60000;
             this.dsArrivleCCMSteel.SourceCommand = null;
             this.dsArrivleCCMSteel.SourceCondition = "1=2";
             this.dsArrivleCCMSteel.SourceMethod = "";
@@ -1464,7 +1464,7 @@ namespace UnitMag.CCMMag
             this.dsBOFStatus.L3DataAdapter = this.Adapter;
             this.dsBOFStatus.LoadEvent = "Click";
             this.dsBOFStatus.LoadTrigger = null;
-            this.dsBOFStatus.RefreshValve = 1000;
+            this.dsBOFStatus.RefreshValve = 60000;
             this.dsBOFStatus.SourceCommand = null;
             this.dsBOFStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_BOF_STATUS\'";
             this.dsBOFStatus.SourceMethod = "";
@@ -1506,7 +1506,7 @@ namespace UnitMag.CCMMag
             this.dsSideStatus.L3DataAdapter = this.Adapter;
             this.dsSideStatus.LoadEvent = "Click";
             this.dsSideStatus.LoadTrigger = null;
-            this.dsSideStatus.RefreshValve = 1000;
+            this.dsSideStatus.RefreshValve = 60000;
             this.dsSideStatus.SourceCommand = null;
             this.dsSideStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_SIDE_STATUS\'";
             this.dsSideStatus.SourceMethod = "";
@@ -1548,7 +1548,7 @@ namespace UnitMag.CCMMag
             this.dsLFStatus.L3DataAdapter = this.Adapter;
             this.dsLFStatus.LoadEvent = "Click";
             this.dsLFStatus.LoadTrigger = null;
-            this.dsLFStatus.RefreshValve = 1000;
+            this.dsLFStatus.RefreshValve = 60000;
             this.dsLFStatus.SourceCommand = null;
             this.dsLFStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_LF_STATUS\'";
             this.dsLFStatus.SourceMethod = "";
@@ -1590,7 +1590,7 @@ namespace UnitMag.CCMMag
             this.dsRHStatus.L3DataAdapter = this.Adapter;
             this.dsRHStatus.LoadEvent = "Click";
             this.dsRHStatus.LoadTrigger = null;
-            this.dsRHStatus.RefreshValve = 1000;
+            this.dsRHStatus.RefreshValve = 60000;
             this.dsRHStatus.SourceCommand = null;
             this.dsRHStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_RH_STATUS\'";
             this.dsRHStatus.SourceMethod = "";
@@ -1632,7 +1632,7 @@ namespace UnitMag.CCMMag
             this.dsCasterStatus.L3DataAdapter = this.Adapter;
             this.dsCasterStatus.LoadEvent = "Click";
             this.dsCasterStatus.LoadTrigger = null;
-            this.dsCasterStatus.RefreshValve = 1000;
+            this.dsCasterStatus.RefreshValve = 60000;
             this.dsCasterStatus.SourceCommand = null;
             this.dsCasterStatus.SourceCondition = "CODE_GROUP = \'TAPPING_PLAN_CCM_STATUS\'";
             this.dsCasterStatus.SourceMethod = "";
@@ -2098,7 +2098,7 @@ namespace UnitMag.CCMMag
             this.dsTundishStd.L3DataAdapter = null;
             this.dsTundishStd.LoadEvent = "Click";
             this.dsTundishStd.LoadTrigger = null;
-            this.dsTundishStd.RefreshValve = 1000;
+            this.dsTundishStd.RefreshValve = 60000;
             this.dsTundishStd.SourceCommand = null;
             this.dsTundishStd.SourceCondition = "1=2";
             this.dsTundishStd.SourceMethod = "";
@@ -2165,7 +2165,7 @@ namespace UnitMag.CCMMag
             this.dsSpeedStd.L3DataAdapter = null;
             this.dsSpeedStd.LoadEvent = "Click";
             this.dsSpeedStd.LoadTrigger = null;
-            this.dsSpeedStd.RefreshValve = 1000;
+            this.dsSpeedStd.RefreshValve = 60000;
             this.dsSpeedStd.SourceCommand = null;
             this.dsSpeedStd.SourceCondition = "1=2";
             this.dsSpeedStd.SourceMethod = "";
@@ -2368,7 +2368,7 @@ namespace UnitMag.CCMMag
             this.dsProcStd.L3DataAdapter = null;
             this.dsProcStd.LoadEvent = "Click";
             this.dsProcStd.LoadTrigger = null;
-            this.dsProcStd.RefreshValve = 1000;
+            this.dsProcStd.RefreshValve = 60000;
             this.dsProcStd.SourceCommand = null;
             this.dsProcStd.SourceCondition = "1=2";
             this.dsProcStd.SourceMethod = "";
@@ -3183,7 +3183,7 @@ namespace UnitMag.CCMMag
             this.dsBaseStd.L3DataAdapter = null;
             this.dsBaseStd.LoadEvent = "Click";
             this.dsBaseStd.LoadTrigger = null;
-            this.dsBaseStd.RefreshValve = 1000;
+            this.dsBaseStd.RefreshValve = 60000;
             this.dsBaseStd.SourceCommand = null;
             this.dsBaseStd.SourceCondition = "1=2";
             this.dsBaseStd.SourceMethod = "";
@@ -3335,7 +3335,7 @@ namespace UnitMag.CCMMag
             this.dsTundishFlux.L3DataAdapter = null;
             this.dsTundishFlux.LoadEvent = "Click";
             this.dsTundishFlux.LoadTrigger = null;
-            this.dsTundishFlux.RefreshValve = 1000;
+            this.dsTundishFlux.RefreshValve = 60000;
             this.dsTundishFlux.SourceCommand = null;
             this.dsTundishFlux.SourceCondition = "1=2";
             this.dsTundishFlux.SourceMethod = "";
@@ -3499,7 +3499,7 @@ namespace UnitMag.CCMMag
             this.dsCutPosition.L3DataAdapter = this.Adapter;
             this.dsCutPosition.LoadEvent = "Click";
             this.dsCutPosition.LoadTrigger = null;
-            this.dsCutPosition.RefreshValve = 1000;
+            this.dsCutPosition.RefreshValve = 60000;
             this.dsCutPosition.SourceCommand = null;
             this.dsCutPosition.SourceCondition = "Code_Group = \'CutAdvice_Position\'";
             this.dsCutPosition.SourceMethod = "";
@@ -3555,7 +3555,7 @@ namespace UnitMag.CCMMag
             this.dsCutSize.L3DataAdapter = this.Adapter;
             this.dsCutSize.LoadEvent = "Click";
             this.dsCutSize.LoadTrigger = null;
-            this.dsCutSize.RefreshValve = 1000;
+            this.dsCutSize.RefreshValve = 60000;
             this.dsCutSize.SourceCommand = null;
             this.dsCutSize.SourceCondition = "Code_Group = \'CutAdvice_Size\'";
             this.dsCutSize.SourceMethod = "";
@@ -3650,7 +3650,7 @@ namespace UnitMag.CCMMag
             this.dsCutInfo.L3DataAdapter = this.Adapter;
             this.dsCutInfo.LoadEvent = "Click";
             this.dsCutInfo.LoadTrigger = null;
-            this.dsCutInfo.RefreshValve = 1000;
+            this.dsCutInfo.RefreshValve = 60000;
             this.dsCutInfo.SourceCommand = null;
             this.dsCutInfo.SourceCondition = "1=2";
             this.dsCutInfo.SourceMethod = "";
@@ -3843,7 +3843,7 @@ namespace UnitMag.CCMMag
             this.dsCurve.L3DataAdapter = null;
             this.dsCurve.LoadEvent = "";
             this.dsCurve.LoadTrigger = null;
-            this.dsCurve.RefreshValve = 1000;
+            this.dsCurve.RefreshValve = 60000;
             this.dsCurve.SourceCommand = null;
             this.dsCurve.SourceCondition = "";
             this.dsCurve.SourceMethod = "";
@@ -3931,7 +3931,7 @@ namespace UnitMag.CCMMag
             this.dsProcessData.L3DataAdapter = null;
             this.dsProcessData.LoadEvent = "Click";
             this.dsProcessData.LoadTrigger = null;
-            this.dsProcessData.RefreshValve = 1000;
+            this.dsProcessData.RefreshValve = 60000;
             this.dsProcessData.SourceCommand = null;
             this.dsProcessData.SourceCondition = "1=2";
             this.dsProcessData.SourceMethod = "";
@@ -4088,7 +4088,7 @@ namespace UnitMag.CCMMag
             this.dsLadle.L3DataAdapter = null;
             this.dsLadle.LoadEvent = "Click";
             this.dsLadle.LoadTrigger = null;
-            this.dsLadle.RefreshValve = 1000;
+            this.dsLadle.RefreshValve = 60000;
             this.dsLadle.SourceCommand = null;
             this.dsLadle.SourceCondition = "1=2";
             this.dsLadle.SourceMethod = "";
@@ -4420,7 +4420,7 @@ namespace UnitMag.CCMMag
             this.dsBaseCCM.L3DataAdapter = null;
             this.dsBaseCCM.LoadEvent = "Click";
             this.dsBaseCCM.LoadTrigger = null;
-            this.dsBaseCCM.RefreshValve = 1000;
+            this.dsBaseCCM.RefreshValve = 60000;
             this.dsBaseCCM.SourceCommand = null;
             this.dsBaseCCM.SourceCondition = "1=2";
             this.dsBaseCCM.SourceMethod = "";
@@ -4789,7 +4789,7 @@ namespace UnitMag.CCMMag
             this.dsCCMTempMode.L3DataAdapter = this.Adapter;
             this.dsCCMTempMode.LoadEvent = "Click";
             this.dsCCMTempMode.LoadTrigger = null;
-            this.dsCCMTempMode.RefreshValve = 1000;
+            this.dsCCMTempMode.RefreshValve = 60000;
             this.dsCCMTempMode.SourceCommand = null;
             this.dsCCMTempMode.SourceCondition = "CODE_GROUP = \'CCM_TEMP_MODE\' and code is not null order by code";
             this.dsCCMTempMode.SourceMethod = "";
@@ -4850,7 +4850,7 @@ namespace UnitMag.CCMMag
             this.dsHeatTundishTemp.L3DataAdapter = null;
             this.dsHeatTundishTemp.LoadEvent = "Click";
             this.dsHeatTundishTemp.LoadTrigger = null;
-            this.dsHeatTundishTemp.RefreshValve = 1000;
+            this.dsHeatTundishTemp.RefreshValve = 60000;
             this.dsHeatTundishTemp.SourceCommand = null;
             this.dsHeatTundishTemp.SourceCondition = "1=2";
             this.dsHeatTundishTemp.SourceMethod = "";
@@ -5014,7 +5014,7 @@ namespace UnitMag.CCMMag
             this.dsCCMStatus.L3DataAdapter = this.Adapter;
             this.dsCCMStatus.LoadEvent = "Click";
             this.dsCCMStatus.LoadTrigger = null;
-            this.dsCCMStatus.RefreshValve = 1000;
+            this.dsCCMStatus.RefreshValve = 60000;
             this.dsCCMStatus.SourceCommand = null;
             this.dsCCMStatus.SourceCondition = "Code_Group = \'CasterUnitStatus\'";
             this.dsCCMStatus.SourceMethod = "";
@@ -5075,7 +5075,7 @@ namespace UnitMag.CCMMag
             this.dsProcessStatus.L3DataAdapter = null;
             this.dsProcessStatus.LoadEvent = "Click";
             this.dsProcessStatus.LoadTrigger = null;
-            this.dsProcessStatus.RefreshValve = 1000;
+            this.dsProcessStatus.RefreshValve = 60000;
             this.dsProcessStatus.SourceCommand = null;
             this.dsProcessStatus.SourceCondition = "1=2";
             this.dsProcessStatus.SourceMethod = "";
@@ -5252,7 +5252,7 @@ namespace UnitMag.CCMMag
             this.dsExceptCode.L3DataAdapter = null;
             this.dsExceptCode.LoadEvent = "";
             this.dsExceptCode.LoadTrigger = null;
-            this.dsExceptCode.RefreshValve = 1000;
+            this.dsExceptCode.RefreshValve = 60000;
             this.dsExceptCode.SourceCommand = null;
             this.dsExceptCode.SourceCondition = "";
             this.dsExceptCode.SourceMethod = "";
@@ -5304,7 +5304,7 @@ namespace UnitMag.CCMMag
             this.dsProdExcept.L3DataAdapter = null;
             this.dsProdExcept.LoadEvent = "Click";
             this.dsProdExcept.LoadTrigger = null;
-            this.dsProdExcept.RefreshValve = 1000;
+            this.dsProdExcept.RefreshValve = 60000;
             this.dsProdExcept.SourceCommand = null;
             this.dsProdExcept.SourceCondition = "1=2";
             this.dsProdExcept.SourceMethod = "";
@@ -5502,7 +5502,7 @@ namespace UnitMag.CCMMag
             this.dsCastingData.L3DataAdapter = null;
             this.dsCastingData.LoadEvent = "Click";
             this.dsCastingData.LoadTrigger = null;
-            this.dsCastingData.RefreshValve = 1000;
+            this.dsCastingData.RefreshValve = 60000;
             this.dsCastingData.SourceCommand = null;
             this.dsCastingData.SourceCondition = "1=2";
             this.dsCastingData.SourceMethod = "";
@@ -5608,7 +5608,7 @@ namespace UnitMag.CCMMag
             this.dsTundishData.L3DataAdapter = null;
             this.dsTundishData.LoadEvent = "Click";
             this.dsTundishData.LoadTrigger = null;
-            this.dsTundishData.RefreshValve = 1000;
+            this.dsTundishData.RefreshValve = 60000;
             this.dsTundishData.SourceCommand = null;
             this.dsTundishData.SourceCondition = "1=2";
             this.dsTundishData.SourceMethod = "";
@@ -6020,7 +6020,7 @@ namespace UnitMag.CCMMag
             this.dsProtectMat.L3DataAdapter = null;
             this.dsProtectMat.LoadEvent = "Click";
             this.dsProtectMat.LoadTrigger = null;
-            this.dsProtectMat.RefreshValve = 1000;
+            this.dsProtectMat.RefreshValve = 60000;
             this.dsProtectMat.SourceCommand = null;
             this.dsProtectMat.SourceCondition = "1=2";
             this.dsProtectMat.SourceMethod = "";
@@ -6069,7 +6069,7 @@ namespace UnitMag.CCMMag
             this.dsProtectCasting.L3DataAdapter = null;
             this.dsProtectCasting.LoadEvent = "Click";
             this.dsProtectCasting.LoadTrigger = null;
-            this.dsProtectCasting.RefreshValve = 1000;
+            this.dsProtectCasting.RefreshValve = 60000;
             this.dsProtectCasting.SourceCommand = null;
             this.dsProtectCasting.SourceCondition = "1=2";
             this.dsProtectCasting.SourceMethod = "";
@@ -6120,7 +6120,7 @@ namespace UnitMag.CCMMag
             this.dsDataLogMode.L3DataAdapter = this.Adapter;
             this.dsDataLogMode.LoadEvent = "Click";
             this.dsDataLogMode.LoadTrigger = null;
-            this.dsDataLogMode.RefreshValve = 1000;
+            this.dsDataLogMode.RefreshValve = 60000;
             this.dsDataLogMode.SourceCommand = null;
             this.dsDataLogMode.SourceCondition = "CODE_GROUP = \'DataLogMode\'";
             this.dsDataLogMode.SourceMethod = "";
@@ -6163,7 +6163,7 @@ namespace UnitMag.CCMMag
             this.dsUnitType.L3DataAdapter = this.Adapter;
             this.dsUnitType.LoadEvent = "Click";
             this.dsUnitType.LoadTrigger = null;
-            this.dsUnitType.RefreshValve = 1000;
+            this.dsUnitType.RefreshValve = 60000;
             this.dsUnitType.SourceCommand = null;
             this.dsUnitType.SourceCondition = "CODE_GROUP = \'UnitType\'";
             this.dsUnitType.SourceMethod = "";
@@ -6206,7 +6206,7 @@ namespace UnitMag.CCMMag
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "CODE_GROUP = \'QA_Sample_Addr\'";
             this.dsSampleAddr.SourceMethod = "";
@@ -6248,7 +6248,7 @@ namespace UnitMag.CCMMag
             this.dsSampleType.L3DataAdapter = this.Adapter;
             this.dsSampleType.LoadEvent = "Click";
             this.dsSampleType.LoadTrigger = null;
-            this.dsSampleType.RefreshValve = 1000;
+            this.dsSampleType.RefreshValve = 60000;
             this.dsSampleType.SourceCommand = null;
             this.dsSampleType.SourceCondition = "CODE_GROUP = \'QA_Sample_Type\'";
             this.dsSampleType.SourceMethod = "";
@@ -6290,7 +6290,7 @@ namespace UnitMag.CCMMag
             this.dsLabElement.L3DataAdapter = null;
             this.dsLabElement.LoadEvent = "Click";
             this.dsLabElement.LoadTrigger = null;
-            this.dsLabElement.RefreshValve = 1000;
+            this.dsLabElement.RefreshValve = 60000;
             this.dsLabElement.SourceCommand = null;
             this.dsLabElement.SourceCondition = "1=2";
             this.dsLabElement.SourceMethod = "";
@@ -6654,7 +6654,7 @@ namespace UnitMag.CCMMag
             this.dsElementStd.L3DataAdapter = null;
             this.dsElementStd.LoadEvent = "Click";
             this.dsElementStd.LoadTrigger = null;
-            this.dsElementStd.RefreshValve = 1000;
+            this.dsElementStd.RefreshValve = 60000;
             this.dsElementStd.SourceCommand = null;
             this.dsElementStd.SourceCondition = "1=2";
             this.dsElementStd.SourceMethod = "";

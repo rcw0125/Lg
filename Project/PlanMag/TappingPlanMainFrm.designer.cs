@@ -327,7 +327,7 @@
             this.dsTappingPlan.L3DataAdapter = null;
             this.dsTappingPlan.LoadEvent = "Click";
             this.dsTappingPlan.LoadTrigger = null;
-            this.dsTappingPlan.RefreshValve = 1000;
+            this.dsTappingPlan.RefreshValve = 60000;
             this.dsTappingPlan.SourceCommand = this.cmdQuery;
             this.dsTappingPlan.SourceCondition = "";
             this.dsTappingPlan.SourceMethod = "";
@@ -1755,7 +1755,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'TAPPING_PLAN_STATUS\'";
             this.dsStatus.SourceMethod = "";
@@ -2035,7 +2035,7 @@
             this.dsBOFID.L3DataAdapter = this.Adapter;
             this.dsBOFID.LoadEvent = "Click";
             this.dsBOFID.LoadTrigger = null;
-            this.dsBOFID.RefreshValve = 1000;
+            this.dsBOFID.RefreshValve = 60000;
             this.dsBOFID.SourceCommand = null;
             this.dsBOFID.SourceCondition = "Code_Group = \'BOF\' order by Code";
             this.dsBOFID.SourceMethod = "";
@@ -2077,7 +2077,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "Code_Group = \'Caster\' order by Code";
             this.dsCasterID.SourceMethod = "";
@@ -2352,7 +2352,7 @@
             this.dsChangeRoute.L3DataAdapter = null;
             this.dsChangeRoute.LoadEvent = "Click";
             this.dsChangeRoute.LoadTrigger = null;
-            this.dsChangeRoute.RefreshValve = 1000;
+            this.dsChangeRoute.RefreshValve = 60000;
             this.dsChangeRoute.SourceCommand = null;
             this.dsChangeRoute.SourceCondition = "";
             this.dsChangeRoute.SourceMethod = "";
@@ -2436,7 +2436,7 @@
             this.dsCmd.L3DataAdapter = null;
             this.dsCmd.LoadEvent = "Click";
             this.dsCmd.LoadTrigger = null;
-            this.dsCmd.RefreshValve = 1000;
+            this.dsCmd.RefreshValve = 60000;
             this.dsCmd.SourceCommand = null;
             this.dsCmd.SourceCondition = null;
             this.dsCmd.SourceMethod = null;
@@ -2494,7 +2494,7 @@
             this.dsCmdd.L3DataAdapter = null;
             this.dsCmdd.LoadEvent = "Click";
             this.dsCmdd.LoadTrigger = null;
-            this.dsCmdd.RefreshValve = 1000;
+            this.dsCmdd.RefreshValve = 60000;
             this.dsCmdd.SourceCommand = null;
             this.dsCmdd.SourceCondition = null;
             this.dsCmdd.SourceMethod = null;
@@ -2529,7 +2529,7 @@
             this.dsErrorHeatExchange.L3DataAdapter = this.Adapter;
             this.dsErrorHeatExchange.LoadEvent = "Click";
             this.dsErrorHeatExchange.LoadTrigger = null;
-            this.dsErrorHeatExchange.RefreshValve = 1000;
+            this.dsErrorHeatExchange.RefreshValve = 60000;
             this.dsErrorHeatExchange.SourceCommand = null;
             this.dsErrorHeatExchange.SourceCondition = "OWNER = \'TappingPlanExchange\'";
             this.dsErrorHeatExchange.SourceMethod = "";
@@ -2550,7 +2550,7 @@
             this.dsErrorExchange.L3DataAdapter = this.Adapter;
             this.dsErrorExchange.LoadEvent = "Click";
             this.dsErrorExchange.LoadTrigger = null;
-            this.dsErrorExchange.RefreshValve = 1000;
+            this.dsErrorExchange.RefreshValve = 60000;
             this.dsErrorExchange.SourceCommand = null;
             this.dsErrorExchange.SourceCondition = "OWNER = \'TappingPlanExchangeTreatSeq\'";
             this.dsErrorExchange.SourceMethod = "";

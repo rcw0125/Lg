@@ -180,7 +180,7 @@
             this.dsTransTime.L3DataAdapter = this.Adapter;
             this.dsTransTime.LoadEvent = "Click";
             this.dsTransTime.LoadTrigger = null;
-            this.dsTransTime.RefreshValve = 1000;
+            this.dsTransTime.RefreshValve = 60000;
             this.dsTransTime.SourceCommand = null;
             this.dsTransTime.SourceCondition = "1=2";
             this.dsTransTime.SourceMethod = "";
@@ -462,7 +462,7 @@
             this.dsUnitName.L3DataAdapter = this.Adapter;
             this.dsUnitName.LoadEvent = "Click";
             this.dsUnitName.LoadTrigger = null;
-            this.dsUnitName.RefreshValve = 1000;
+            this.dsUnitName.RefreshValve = 60000;
             this.dsUnitName.SourceCommand = null;
             this.dsUnitName.SourceCondition = "(CODE_GROUP = \'BOF\' or CODE_GROUP = \'Caster\' or CODE_GROUP = \'LF\' or CODE_GROUP =" +
                 " \'RH\') and code is not null order by Code";

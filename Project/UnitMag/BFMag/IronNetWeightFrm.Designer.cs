@@ -614,7 +614,7 @@
             this.dsM.L3DataAdapter = null;
             this.dsM.LoadEvent = "";
             this.dsM.LoadTrigger = null;
-            this.dsM.RefreshValve = 1000;
+            this.dsM.RefreshValve = 60000;
             this.dsM.SourceCommand = null;
             this.dsM.SourceCondition = "";
             this.dsM.SourceMethod = "";

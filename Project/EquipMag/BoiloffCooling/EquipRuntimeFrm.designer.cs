@@ -252,7 +252,7 @@
             this.dsRuntime.L3DataAdapter = null;
             this.dsRuntime.LoadEvent = "";
             this.dsRuntime.LoadTrigger = null;
-            this.dsRuntime.RefreshValve = 1000;
+            this.dsRuntime.RefreshValve = 60000;
             this.dsRuntime.SourceCommand = null;
             this.dsRuntime.SourceCondition = "";
             this.dsRuntime.SourceMethod = "";

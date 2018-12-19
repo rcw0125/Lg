@@ -149,7 +149,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "CODE_GROUP = \'BOFUseFlag\' and CODE is not null";
             this.dsStatus.SourceMethod = "";
@@ -204,7 +204,7 @@
             this.dsNewBOFFlag.L3DataAdapter = this.Adapter;
             this.dsNewBOFFlag.LoadEvent = "Click";
             this.dsNewBOFFlag.LoadTrigger = null;
-            this.dsNewBOFFlag.RefreshValve = 1000;
+            this.dsNewBOFFlag.RefreshValve = 60000;
             this.dsNewBOFFlag.SourceCommand = null;
             this.dsNewBOFFlag.SourceCondition = "CODE_GROUP = \'BOF_TYPE\' and CODE is not null";
             this.dsNewBOFFlag.SourceMethod = "";
@@ -265,7 +265,7 @@
             this.dsBOFStatus.L3DataAdapter = this.Adapter;
             this.dsBOFStatus.LoadEvent = "Click";
             this.dsBOFStatus.LoadTrigger = null;
-            this.dsBOFStatus.RefreshValve = 1000;
+            this.dsBOFStatus.RefreshValve = 60000;
             this.dsBOFStatus.SourceCommand = null;
             this.dsBOFStatus.SourceCondition = "";
             this.dsBOFStatus.SourceMethod = "";

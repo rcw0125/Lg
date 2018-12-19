@@ -195,7 +195,7 @@
             this.dsUnitRoute.L3DataAdapter = this.Adapter;
             this.dsUnitRoute.LoadEvent = "Click";
             this.dsUnitRoute.LoadTrigger = null;
-            this.dsUnitRoute.RefreshValve = 1000;
+            this.dsUnitRoute.RefreshValve = 60000;
             this.dsUnitRoute.SourceCommand = null;
             this.dsUnitRoute.SourceCondition = "CasterID is not null order by CasterID";
             this.dsUnitRoute.SourceMethod = "";
@@ -431,7 +431,7 @@
             this.dsBOFID.L3DataAdapter = this.Adapter;
             this.dsBOFID.LoadEvent = "Click";
             this.dsBOFID.LoadTrigger = null;
-            this.dsBOFID.RefreshValve = 1000;
+            this.dsBOFID.RefreshValve = 60000;
             this.dsBOFID.SourceCommand = null;
             this.dsBOFID.SourceCondition = "CODE_GROUP = \'BOF\' ORDER BY CODE";
             this.dsBOFID.SourceMethod = "";
@@ -485,7 +485,7 @@
             this.dsLFID.L3DataAdapter = this.Adapter;
             this.dsLFID.LoadEvent = "Click";
             this.dsLFID.LoadTrigger = null;
-            this.dsLFID.RefreshValve = 1000;
+            this.dsLFID.RefreshValve = 60000;
             this.dsLFID.SourceCommand = null;
             this.dsLFID.SourceCondition = "CODE_GROUP = \'LF_CHANGE\'  ORDER BY CODE";
             this.dsLFID.SourceMethod = "";
@@ -542,7 +542,7 @@
             this.dsRHID.L3DataAdapter = this.Adapter;
             this.dsRHID.LoadEvent = "Click";
             this.dsRHID.LoadTrigger = null;
-            this.dsRHID.RefreshValve = 1000;
+            this.dsRHID.RefreshValve = 60000;
             this.dsRHID.SourceCommand = null;
             this.dsRHID.SourceCondition = "CODE_GROUP = \'RH_CHANGE\'  ORDER BY CODE";
             this.dsRHID.SourceMethod = "";
@@ -599,7 +599,7 @@
             this.dsCasterID.L3DataAdapter = this.Adapter;
             this.dsCasterID.LoadEvent = "Click";
             this.dsCasterID.LoadTrigger = null;
-            this.dsCasterID.RefreshValve = 1000;
+            this.dsCasterID.RefreshValve = 60000;
             this.dsCasterID.SourceCommand = null;
             this.dsCasterID.SourceCondition = "CODE_GROUP = \'Caster\'  ORDER BY CODE";
             this.dsCasterID.SourceMethod = "";

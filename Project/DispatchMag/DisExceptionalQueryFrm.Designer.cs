@@ -112,7 +112,7 @@
             this.dsExceptional.L3DataAdapter = this.Adapter;
             this.dsExceptional.LoadEvent = "";
             this.dsExceptional.LoadTrigger = null;
-            this.dsExceptional.RefreshValve = 1000;
+            this.dsExceptional.RefreshValve = 60000;
             this.dsExceptional.SourceCommand = null;
             this.dsExceptional.SourceCondition = "";
             this.dsExceptional.SourceMethod = "";
@@ -457,7 +457,7 @@
             this.dsUnitID.L3DataAdapter = this.Adapter;
             this.dsUnitID.LoadEvent = "";
             this.dsUnitID.LoadTrigger = null;
-            this.dsUnitID.RefreshValve = 1000;
+            this.dsUnitID.RefreshValve = 60000;
             this.dsUnitID.SourceCommand = null;
             this.dsUnitID.SourceCondition = "";
             this.dsUnitID.SourceMethod = "";
@@ -505,7 +505,7 @@
             this.dsShiftNC.L3DataAdapter = this.Adapter;
             this.dsShiftNC.LoadEvent = "";
             this.dsShiftNC.LoadTrigger = null;
-            this.dsShiftNC.RefreshValve = 1000;
+            this.dsShiftNC.RefreshValve = 60000;
             this.dsShiftNC.SourceCommand = null;
             this.dsShiftNC.SourceCondition = "";
             this.dsShiftNC.SourceMethod = "";

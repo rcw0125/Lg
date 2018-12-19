@@ -407,7 +407,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -450,7 +450,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -497,7 +497,7 @@
             this.dsBOF.L3DataAdapter = this.Adapter;
             this.dsBOF.LoadEvent = "Click";
             this.dsBOF.LoadTrigger = null;
-            this.dsBOF.RefreshValve = 1000;
+            this.dsBOF.RefreshValve = 60000;
             this.dsBOF.SourceCommand = null;
             this.dsBOF.SourceCondition = "name = \'4\'";
             this.dsBOF.SourceMethod = "";
@@ -559,7 +559,7 @@
             this.dsLFOne.L3DataAdapter = this.Adapter;
             this.dsLFOne.LoadEvent = "Click";
             this.dsLFOne.LoadTrigger = null;
-            this.dsLFOne.RefreshValve = 1000;
+            this.dsLFOne.RefreshValve = 60000;
             this.dsLFOne.SourceCommand = null;
             this.dsLFOne.SourceCondition = "name = \'6\'";
             this.dsLFOne.SourceMethod = "";
@@ -621,7 +621,7 @@
             this.dsLFTwo.L3DataAdapter = this.Adapter;
             this.dsLFTwo.LoadEvent = "Click";
             this.dsLFTwo.LoadTrigger = null;
-            this.dsLFTwo.RefreshValve = 1000;
+            this.dsLFTwo.RefreshValve = 60000;
             this.dsLFTwo.SourceCommand = null;
             this.dsLFTwo.SourceCondition = "name = \'7\'";
             this.dsLFTwo.SourceMethod = "";
@@ -678,7 +678,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\' and code is not null";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -872,7 +872,7 @@
             this.dsWireLF2.L3DataAdapter = this.Adapter;
             this.dsWireLF2.LoadEvent = "";
             this.dsWireLF2.LoadTrigger = null;
-            this.dsWireLF2.RefreshValve = 1000;
+            this.dsWireLF2.RefreshValve = 60000;
             this.dsWireLF2.SourceCommand = null;
             this.dsWireLF2.SourceCondition = "Alloy_Area in (\'S81W13\',\'S81W14\',\'S81W15\',\'S81W16\')";
             this.dsWireLF2.SourceMethod = "";
@@ -1035,7 +1035,7 @@
             this.dsWireLF1.L3DataAdapter = this.Adapter;
             this.dsWireLF1.LoadEvent = "";
             this.dsWireLF1.LoadTrigger = null;
-            this.dsWireLF1.RefreshValve = 1000;
+            this.dsWireLF1.RefreshValve = 60000;
             this.dsWireLF1.SourceCommand = null;
             this.dsWireLF1.SourceCondition = "Alloy_Area in (\'S81W09\',\'S81W10\',\'S81W11\',\'S81W12\')";
             this.dsWireLF1.SourceMethod = "";
@@ -1198,7 +1198,7 @@
             this.dsGroundLF2.L3DataAdapter = this.Adapter;
             this.dsGroundLF2.LoadEvent = "";
             this.dsGroundLF2.LoadTrigger = null;
-            this.dsGroundLF2.RefreshValve = 1000;
+            this.dsGroundLF2.RefreshValve = 60000;
             this.dsGroundLF2.SourceCommand = null;
             this.dsGroundLF2.SourceCondition = "Alloy_Area in (\'S81Z09\',\'S81Z10\',\'S81Z11\',\'S81Z12\')";
             this.dsGroundLF2.SourceMethod = "";
@@ -1359,7 +1359,7 @@
             this.dsGroundLF1.L3DataAdapter = this.Adapter;
             this.dsGroundLF1.LoadEvent = "";
             this.dsGroundLF1.LoadTrigger = null;
-            this.dsGroundLF1.RefreshValve = 1000;
+            this.dsGroundLF1.RefreshValve = 60000;
             this.dsGroundLF1.SourceCommand = null;
             this.dsGroundLF1.SourceCondition = "Alloy_Area in (\'S81Z05\',\'S81Z06\',\'S81Z07\',\'S81Z08\')";
             this.dsGroundLF1.SourceMethod = "";
@@ -1521,7 +1521,7 @@
             this.dsGroundPublic.L3DataAdapter = this.Adapter;
             this.dsGroundPublic.LoadEvent = "Click";
             this.dsGroundPublic.LoadTrigger = null;
-            this.dsGroundPublic.RefreshValve = 1000;
+            this.dsGroundPublic.RefreshValve = 60000;
             this.dsGroundPublic.SourceCommand = null;
             this.dsGroundPublic.SourceCondition = "name = \'2\'";
             this.dsGroundPublic.SourceMethod = "";
@@ -1855,7 +1855,7 @@
             this.dsForStoreMagQuery.L3DataAdapter = this.Adapter;
             this.dsForStoreMagQuery.LoadEvent = "Click";
             this.dsForStoreMagQuery.LoadTrigger = null;
-            this.dsForStoreMagQuery.RefreshValve = 1000;
+            this.dsForStoreMagQuery.RefreshValve = 60000;
             this.dsForStoreMagQuery.SourceCommand = null;
             this.dsForStoreMagQuery.SourceCondition = "";
             this.dsForStoreMagQuery.SourceMethod = "";

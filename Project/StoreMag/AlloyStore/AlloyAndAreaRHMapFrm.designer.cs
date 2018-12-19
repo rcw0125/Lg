@@ -348,7 +348,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -391,7 +391,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\' order by code_des";
             this.dsAlloyCode.SourceMethod = "";
@@ -438,7 +438,7 @@
             this.dsPublic.L3DataAdapter = this.Adapter;
             this.dsPublic.LoadEvent = "Click";
             this.dsPublic.LoadTrigger = null;
-            this.dsPublic.RefreshValve = 1000;
+            this.dsPublic.RefreshValve = 60000;
             this.dsPublic.SourceCommand = null;
             this.dsPublic.SourceCondition = "name = \'8\'";
             this.dsPublic.SourceMethod = "";
@@ -495,7 +495,7 @@
             this.dsTopSlagFlag.L3DataAdapter = this.Adapter;
             this.dsTopSlagFlag.LoadEvent = "Click";
             this.dsTopSlagFlag.LoadTrigger = null;
-            this.dsTopSlagFlag.RefreshValve = 1000;
+            this.dsTopSlagFlag.RefreshValve = 60000;
             this.dsTopSlagFlag.SourceCommand = null;
             this.dsTopSlagFlag.SourceCondition = "CODE_GROUP = \'TopSlagFlag\' and code is not null";
             this.dsTopSlagFlag.SourceMethod = "";
@@ -684,7 +684,7 @@
             this.dsWireRH.L3DataAdapter = this.Adapter;
             this.dsWireRH.LoadEvent = "";
             this.dsWireRH.LoadTrigger = null;
-            this.dsWireRH.RefreshValve = 1000;
+            this.dsWireRH.RefreshValve = 60000;
             this.dsWireRH.SourceCommand = null;
             this.dsWireRH.SourceCondition = "Alloy_Area IN (\'S81W21\',\'S81W22\',\'S81W23\',\'S81W24\')";
             this.dsWireRH.SourceMethod = "";
@@ -844,7 +844,7 @@
             this.dsWireLF3.L3DataAdapter = this.Adapter;
             this.dsWireLF3.LoadEvent = "";
             this.dsWireLF3.LoadTrigger = null;
-            this.dsWireLF3.RefreshValve = 1000;
+            this.dsWireLF3.RefreshValve = 60000;
             this.dsWireLF3.SourceCommand = null;
             this.dsWireLF3.SourceCondition = "Alloy_Area IN (\'S81W17\',\'S81W18\',\'S81W19\',\'S81W20\')";
             this.dsWireLF3.SourceMethod = "";
@@ -1007,7 +1007,7 @@
             this.dsGroundPublic.L3DataAdapter = this.Adapter;
             this.dsGroundPublic.LoadEvent = "";
             this.dsGroundPublic.LoadTrigger = null;
-            this.dsGroundPublic.RefreshValve = 1000;
+            this.dsGroundPublic.RefreshValve = 60000;
             this.dsGroundPublic.SourceCommand = null;
             this.dsGroundPublic.SourceCondition = resources.GetString("dsGroundPublic.SourceCondition");
             this.dsGroundPublic.SourceMethod = "";
@@ -1167,7 +1167,7 @@
             this.dsGroundLF3.L3DataAdapter = this.Adapter;
             this.dsGroundLF3.LoadEvent = "Click";
             this.dsGroundLF3.LoadTrigger = null;
-            this.dsGroundLF3.RefreshValve = 1000;
+            this.dsGroundLF3.RefreshValve = 60000;
             this.dsGroundLF3.SourceCommand = null;
             this.dsGroundLF3.SourceCondition = "Alloy_Area IN (\'S81Z13\',\'S81Z14\',\'S81Z15\',\'S81Z16\')";
             this.dsGroundLF3.SourceMethod = "";
@@ -1329,7 +1329,7 @@
             this.dsForStoreMagQuery.L3DataAdapter = this.Adapter;
             this.dsForStoreMagQuery.LoadEvent = "Click";
             this.dsForStoreMagQuery.LoadTrigger = null;
-            this.dsForStoreMagQuery.RefreshValve = 1000;
+            this.dsForStoreMagQuery.RefreshValve = 60000;
             this.dsForStoreMagQuery.SourceCommand = null;
             this.dsForStoreMagQuery.SourceCondition = "";
             this.dsForStoreMagQuery.SourceMethod = "";

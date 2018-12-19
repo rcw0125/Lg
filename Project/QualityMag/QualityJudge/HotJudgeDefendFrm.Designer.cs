@@ -367,7 +367,7 @@
             this.dsBloomData.L3DataAdapter = null;
             this.dsBloomData.LoadEvent = "Click";
             this.dsBloomData.LoadTrigger = null;
-            this.dsBloomData.RefreshValve = 1000;
+            this.dsBloomData.RefreshValve = 60000;
             this.dsBloomData.SourceCommand = null;
             this.dsBloomData.SourceCondition = "";
             this.dsBloomData.SourceMethod = "";
@@ -858,7 +858,7 @@
             this.dsReason.L3DataAdapter = this.Adapter;
             this.dsReason.LoadEvent = "Click";
             this.dsReason.LoadTrigger = null;
-            this.dsReason.RefreshValve = 1000;
+            this.dsReason.RefreshValve = 60000;
             this.dsReason.SourceCommand = null;
             this.dsReason.SourceCondition = "Code_Group = \'WRONG_REASON_CODE\' order by Code";
             this.dsReason.SourceMethod = "";
@@ -1286,7 +1286,7 @@
             this.dsWasterReason.L3DataAdapter = this.Adapter;
             this.dsWasterReason.LoadEvent = "Click";
             this.dsWasterReason.LoadTrigger = null;
-            this.dsWasterReason.RefreshValve = 1000;
+            this.dsWasterReason.RefreshValve = 60000;
             this.dsWasterReason.SourceCommand = null;
             this.dsWasterReason.SourceCondition = "CODE_GROUP = \'WASTE_REASON_CODE\'";
             this.dsWasterReason.SourceMethod = "";

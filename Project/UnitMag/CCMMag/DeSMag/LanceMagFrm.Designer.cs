@@ -325,7 +325,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "code_group = \'DeS_Lance_Status\' order by code_val_long";
             this.dsStatus.SourceMethod = "";
@@ -393,7 +393,7 @@
             this.dsVendor.L3DataAdapter = this.Adapter;
             this.dsVendor.LoadEvent = "";
             this.dsVendor.LoadTrigger = null;
-            this.dsVendor.RefreshValve = 1000;
+            this.dsVendor.RefreshValve = 60000;
             this.dsVendor.SourceCommand = null;
             this.dsVendor.SourceCondition = "";
             this.dsVendor.SourceMethod = "";
@@ -464,7 +464,7 @@
             this.dsLance.L3DataAdapter = this.Adapter;
             this.dsLance.LoadEvent = "";
             this.dsLance.LoadTrigger = null;
-            this.dsLance.RefreshValve = 1000;
+            this.dsLance.RefreshValve = 60000;
             this.dsLance.SourceCommand = null;
             this.dsLance.SourceCondition = " Status<5 order by LANCENO DESC";
             this.dsLance.SourceMethod = "";

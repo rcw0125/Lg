@@ -195,7 +195,7 @@
             this.dsAlloyArea.L3DataAdapter = this.Adapter;
             this.dsAlloyArea.LoadEvent = "Click";
             this.dsAlloyArea.LoadTrigger = null;
-            this.dsAlloyArea.RefreshValve = 1000;
+            this.dsAlloyArea.RefreshValve = 60000;
             this.dsAlloyArea.SourceCommand = null;
             this.dsAlloyArea.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or CODE_GROUP = \'AlloyGround\' or code_group = \'AlloyWir" +
                 "e\') and CODE is not null";
@@ -279,7 +279,7 @@
             this.dsOperator.L3DataAdapter = this.Adapter;
             this.dsOperator.LoadEvent = "";
             this.dsOperator.LoadTrigger = null;
-            this.dsOperator.RefreshValve = 1000;
+            this.dsOperator.RefreshValve = 60000;
             this.dsOperator.SourceCommand = null;
             this.dsOperator.SourceCondition = "";
             this.dsOperator.SourceMethod = "";
@@ -334,7 +334,7 @@
             this.dsMatStoreEmpt.L3DataAdapter = this.Adapter;
             this.dsMatStoreEmpt.LoadEvent = "";
             this.dsMatStoreEmpt.LoadTrigger = null;
-            this.dsMatStoreEmpt.RefreshValve = 1000;
+            this.dsMatStoreEmpt.RefreshValve = 60000;
             this.dsMatStoreEmpt.SourceCommand = null;
             this.dsMatStoreEmpt.SourceCondition = "1=1 order by LogDate desc";
             this.dsMatStoreEmpt.SourceMethod = "";
@@ -466,7 +466,7 @@
             this.dsAlloyCode.L3DataAdapter = this.Adapter;
             this.dsAlloyCode.LoadEvent = "Click";
             this.dsAlloyCode.LoadTrigger = null;
-            this.dsAlloyCode.RefreshValve = 1000;
+            this.dsAlloyCode.RefreshValve = 60000;
             this.dsAlloyCode.SourceCommand = null;
             this.dsAlloyCode.SourceCondition = "CODE_GROUP = \'ALLOY_CODE\'";
             this.dsAlloyCode.SourceMethod = "";
@@ -606,7 +606,7 @@
             this.dsAlloyMainInfoQuery.L3DataAdapter = this.Adapter;
             this.dsAlloyMainInfoQuery.LoadEvent = "";
             this.dsAlloyMainInfoQuery.LoadTrigger = null;
-            this.dsAlloyMainInfoQuery.RefreshValve = 1000;
+            this.dsAlloyMainInfoQuery.RefreshValve = 60000;
             this.dsAlloyMainInfoQuery.SourceCommand = null;
             this.dsAlloyMainInfoQuery.SourceCondition = "1=1 order by OperatorTime desc";
             this.dsAlloyMainInfoQuery.SourceMethod = "";
@@ -854,7 +854,7 @@
             this.dsMaterial.L3DataAdapter = this.Adapter;
             this.dsMaterial.LoadEvent = "";
             this.dsMaterial.LoadTrigger = null;
-            this.dsMaterial.RefreshValve = 1000;
+            this.dsMaterial.RefreshValve = 60000;
             this.dsMaterial.SourceCommand = null;
             this.dsMaterial.SourceCondition = "";
             this.dsMaterial.SourceMethod = "";
@@ -990,7 +990,7 @@
             this.dsTempt.L3DataAdapter = this.Adapter;
             this.dsTempt.LoadEvent = "";
             this.dsTempt.LoadTrigger = null;
-            this.dsTempt.RefreshValve = 1000;
+            this.dsTempt.RefreshValve = 60000;
             this.dsTempt.SourceCommand = null;
             this.dsTempt.SourceCondition = "";
             this.dsTempt.SourceMethod = "";

@@ -137,7 +137,7 @@
             this.dsExchange.L3DataAdapter = this.Adapter;
             this.dsExchange.LoadEvent = "Click";
             this.dsExchange.LoadTrigger = null;
-            this.dsExchange.RefreshValve = 1000;
+            this.dsExchange.RefreshValve = 60000;
             this.dsExchange.SourceCommand = null;
             this.dsExchange.SourceCondition = "";
             this.dsExchange.SourceMethod = "";
@@ -458,7 +458,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'SteelExchange\'";
             this.dsError.SourceMethod = "";
@@ -689,7 +689,7 @@
             this.dsSteelGradeIndex.L3DataAdapter = null;
             this.dsSteelGradeIndex.LoadEvent = "Click";
             this.dsSteelGradeIndex.LoadTrigger = null;
-            this.dsSteelGradeIndex.RefreshValve = 1000;
+            this.dsSteelGradeIndex.RefreshValve = 60000;
             this.dsSteelGradeIndex.SourceCommand = this.cmdSteelGradeIndex;
             this.dsSteelGradeIndex.SourceCondition = null;
             this.dsSteelGradeIndex.SourceMethod = "GetJudgedSteelGrade";

@@ -233,7 +233,7 @@
             this.dsIronSource.L3DataAdapter = this.Adapter;
             this.dsIronSource.LoadEvent = "Click";
             this.dsIronSource.LoadTrigger = null;
-            this.dsIronSource.RefreshValve = 1000;
+            this.dsIronSource.RefreshValve = 60000;
             this.dsIronSource.SourceCommand = null;
             this.dsIronSource.SourceCondition = "CODE_GROUP = \'Iron_Source\' and Code_Des is not null";
             this.dsIronSource.SourceMethod = "";
@@ -293,7 +293,7 @@
             this.dsIronDestination.L3DataAdapter = this.Adapter;
             this.dsIronDestination.LoadEvent = "Click";
             this.dsIronDestination.LoadTrigger = null;
-            this.dsIronDestination.RefreshValve = 1000;
+            this.dsIronDestination.RefreshValve = 60000;
             this.dsIronDestination.SourceCommand = null;
             this.dsIronDestination.SourceCondition = "CODE_GROUP = \'Iron_Destination\' and Code_Des is not null";
             this.dsIronDestination.SourceMethod = "";
@@ -452,7 +452,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = "CODE_GROUP = \'TeamID\' and Code_Des is not null";
             this.dsTeamID.SourceMethod = "";
@@ -507,7 +507,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = "CODE_GROUP = \'ShiftID\' and Code_Des is not null";
             this.dsShiftID.SourceMethod = "";
@@ -561,7 +561,7 @@
             this.dsBFIron.L3DataAdapter = this.Adapter;
             this.dsBFIron.LoadEvent = "Click";
             this.dsBFIron.LoadTrigger = null;
-            this.dsBFIron.RefreshValve = 1000;
+            this.dsBFIron.RefreshValve = 60000;
             this.dsBFIron.SourceCommand = null;
             this.dsBFIron.SourceCondition = "1=2";
             this.dsBFIron.SourceMethod = "";

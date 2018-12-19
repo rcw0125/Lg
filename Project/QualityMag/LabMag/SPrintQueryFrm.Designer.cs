@@ -277,7 +277,7 @@
             this.dsSampleAddr.L3DataAdapter = this.Adapter;
             this.dsSampleAddr.LoadEvent = "Click";
             this.dsSampleAddr.LoadTrigger = null;
-            this.dsSampleAddr.RefreshValve = 1000;
+            this.dsSampleAddr.RefreshValve = 60000;
             this.dsSampleAddr.SourceCommand = null;
             this.dsSampleAddr.SourceCondition = "CODE_GROUP = \'QA_Sample_Addr\' and code_function_group = \'C\' order by code";
             this.dsSampleAddr.SourceMethod = "";
@@ -543,7 +543,7 @@
             this.dsSPrint.L3DataAdapter = this.Adapter;
             this.dsSPrint.LoadEvent = "Click";
             this.dsSPrint.LoadTrigger = null;
-            this.dsSPrint.RefreshValve = 1000;
+            this.dsSPrint.RefreshValve = 60000;
             this.dsSPrint.SourceCommand = null;
             this.dsSPrint.SourceCondition = "1=2";
             this.dsSPrint.SourceMethod = "";

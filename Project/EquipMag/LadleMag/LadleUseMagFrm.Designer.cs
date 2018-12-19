@@ -222,7 +222,7 @@
             this.dsUse.L3DataAdapter = this.Adapter;
             this.dsUse.LoadEvent = "Click";
             this.dsUse.LoadTrigger = null;
-            this.dsUse.RefreshValve = 1000;
+            this.dsUse.RefreshValve = 60000;
             this.dsUse.SourceCommand = this.cmdUse;
             this.dsUse.SourceCondition = "1=2";
             this.dsUse.SourceMethod = "";
@@ -692,7 +692,7 @@
             this.dsShiftID.L3DataAdapter = this.Adapter;
             this.dsShiftID.LoadEvent = "Click";
             this.dsShiftID.LoadTrigger = null;
-            this.dsShiftID.RefreshValve = 1000;
+            this.dsShiftID.RefreshValve = 60000;
             this.dsShiftID.SourceCommand = null;
             this.dsShiftID.SourceCondition = null;
             this.dsShiftID.SourceMethod = null;
@@ -713,7 +713,7 @@
             this.dsTeamID.L3DataAdapter = this.Adapter;
             this.dsTeamID.LoadEvent = "Click";
             this.dsTeamID.LoadTrigger = null;
-            this.dsTeamID.RefreshValve = 1000;
+            this.dsTeamID.RefreshValve = 60000;
             this.dsTeamID.SourceCommand = null;
             this.dsTeamID.SourceCondition = null;
             this.dsTeamID.SourceMethod = null;
@@ -1254,7 +1254,7 @@
             this.dsLadleChcke.L3DataAdapter = this.Adapter;
             this.dsLadleChcke.LoadEvent = "Click";
             this.dsLadleChcke.LoadTrigger = null;
-            this.dsLadleChcke.RefreshValve = 1000;
+            this.dsLadleChcke.RefreshValve = 60000;
             this.dsLadleChcke.SourceCommand = null;
             this.dsLadleChcke.SourceCondition = "Code_Group = \'LadleChcke\' order by Code";
             this.dsLadleChcke.SourceMethod = "";
@@ -1309,7 +1309,7 @@
             this.dsLadleChcke1.L3DataAdapter = this.Adapter;
             this.dsLadleChcke1.LoadEvent = "Click";
             this.dsLadleChcke1.LoadTrigger = null;
-            this.dsLadleChcke1.RefreshValve = 1000;
+            this.dsLadleChcke1.RefreshValve = 60000;
             this.dsLadleChcke1.SourceCommand = null;
             this.dsLadleChcke1.SourceCondition = "Code_Group = \'LadleChcke1\' order by Code";
             this.dsLadleChcke1.SourceMethod = "";
@@ -1365,7 +1365,7 @@
             this.dsLadleThrow.L3DataAdapter = this.Adapter;
             this.dsLadleThrow.LoadEvent = "Click";
             this.dsLadleThrow.LoadTrigger = null;
-            this.dsLadleThrow.RefreshValve = 1000;
+            this.dsLadleThrow.RefreshValve = 60000;
             this.dsLadleThrow.SourceCommand = null;
             this.dsLadleThrow.SourceCondition = "Code_Group = \'ComLadleThrow\' or Code_Group = \'FinLadleThrow\'";
             this.dsLadleThrow.SourceMethod = "";
@@ -1609,7 +1609,7 @@
             this.dsLadleID.L3DataAdapter = this.Adapter;
             this.dsLadleID.LoadEvent = "Click";
             this.dsLadleID.LoadTrigger = null;
-            this.dsLadleID.RefreshValve = 1000;
+            this.dsLadleID.RefreshValve = 60000;
             this.dsLadleID.SourceCommand = null;
             this.dsLadleID.SourceCondition = "LadleID is not null order by LadleID";
             this.dsLadleID.SourceMethod = "";

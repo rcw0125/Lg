@@ -375,7 +375,7 @@
             this.dsCCMProp.L3DataAdapter = null;
             this.dsCCMProp.LoadEvent = "";
             this.dsCCMProp.LoadTrigger = null;
-            this.dsCCMProp.RefreshValve = 1000;
+            this.dsCCMProp.RefreshValve = 60000;
             this.dsCCMProp.SourceCommand = null;
             this.dsCCMProp.SourceCondition = "";
             this.dsCCMProp.SourceMethod = "";
@@ -456,7 +456,7 @@
             this.dsCCMPropTruth.L3DataAdapter = this.Adapter;
             this.dsCCMPropTruth.LoadEvent = "";
             this.dsCCMPropTruth.LoadTrigger = null;
-            this.dsCCMPropTruth.RefreshValve = 1000;
+            this.dsCCMPropTruth.RefreshValve = 60000;
             this.dsCCMPropTruth.SourceCommand = null;
             this.dsCCMPropTruth.SourceCondition = "";
             this.dsCCMPropTruth.SourceMethod = "";

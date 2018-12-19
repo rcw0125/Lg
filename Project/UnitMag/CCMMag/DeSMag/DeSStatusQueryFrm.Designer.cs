@@ -135,7 +135,7 @@
             this.dsDeSStatus.L3DataAdapter = this.Adapter;
             this.dsDeSStatus.LoadEvent = "";
             this.dsDeSStatus.LoadTrigger = null;
-            this.dsDeSStatus.RefreshValve = 1000;
+            this.dsDeSStatus.RefreshValve = 60000;
             this.dsDeSStatus.SourceCommand = null;
             this.dsDeSStatus.SourceCondition = "1=2";
             this.dsDeSStatus.SourceMethod = "";
@@ -391,7 +391,7 @@
             this.dsDeSUnitID.L3DataAdapter = this.Adapter;
             this.dsDeSUnitID.LoadEvent = "";
             this.dsDeSUnitID.LoadTrigger = null;
-            this.dsDeSUnitID.RefreshValve = 1000;
+            this.dsDeSUnitID.RefreshValve = 60000;
             this.dsDeSUnitID.SourceCommand = null;
             this.dsDeSUnitID.SourceCondition = "code_group = \'DeS\'";
             this.dsDeSUnitID.SourceMethod = "";
@@ -446,7 +446,7 @@
             this.dsEquStatus.L3DataAdapter = this.Adapter;
             this.dsEquStatus.LoadEvent = "";
             this.dsEquStatus.LoadTrigger = null;
-            this.dsEquStatus.RefreshValve = 1000;
+            this.dsEquStatus.RefreshValve = 60000;
             this.dsEquStatus.SourceCommand = null;
             this.dsEquStatus.SourceCondition = "code_group = \'DeSEquipmentStatus\'";
             this.dsEquStatus.SourceMethod = "";

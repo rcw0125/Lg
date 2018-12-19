@@ -118,7 +118,7 @@
             this.dsChange.L3DataAdapter = this.Adapter;
             this.dsChange.LoadEvent = "Click";
             this.dsChange.LoadTrigger = null;
-            this.dsChange.RefreshValve = 1000;
+            this.dsChange.RefreshValve = 60000;
             this.dsChange.SourceCommand = null;
             this.dsChange.SourceCondition = null;
             this.dsChange.SourceMethod = "GetAllMaterialOnStore";
@@ -451,7 +451,7 @@
             this.dsTraget.L3DataAdapter = this.Adapter;
             this.dsTraget.LoadEvent = "Click";
             this.dsTraget.LoadTrigger = null;
-            this.dsTraget.RefreshValve = 1000;
+            this.dsTraget.RefreshValve = 60000;
             this.dsTraget.SourceCommand = this.cmdTraget;
             this.dsTraget.SourceCondition = "";
             this.dsTraget.SourceMethod = "GetAlloyArea";
@@ -540,7 +540,7 @@
             this.dsPosition.L3DataAdapter = this.Adapter;
             this.dsPosition.LoadEvent = "Click";
             this.dsPosition.LoadTrigger = null;
-            this.dsPosition.RefreshValve = 1000;
+            this.dsPosition.RefreshValve = 60000;
             this.dsPosition.SourceCommand = null;
             this.dsPosition.SourceCondition = "(CODE_GROUP = \'AlloyArea\' or code_group = \'AlloyGround\'  or code_group = \'AlloyWi" +
                 "re\') and CODE is not null";
@@ -692,7 +692,7 @@
             this.dsError.L3DataAdapter = this.Adapter;
             this.dsError.LoadEvent = "Click";
             this.dsError.LoadTrigger = null;
-            this.dsError.RefreshValve = 1000;
+            this.dsError.RefreshValve = 60000;
             this.dsError.SourceCommand = null;
             this.dsError.SourceCondition = "OWNER = \'AlloyChangeStore\'";
             this.dsError.SourceMethod = "";

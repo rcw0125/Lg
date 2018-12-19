@@ -141,7 +141,7 @@
             this.dsMold.L3DataAdapter = this.Adapter;
             this.dsMold.LoadEvent = "Click";
             this.dsMold.LoadTrigger = null;
-            this.dsMold.RefreshValve = 1000;
+            this.dsMold.RefreshValve = 60000;
             this.dsMold.SourceCommand = null;
             this.dsMold.SourceCondition = "BREAK_FACE_MEA<>6  order by UnitID";
             this.dsMold.SourceMethod = "";
@@ -351,7 +351,7 @@
             this.dsStatus.L3DataAdapter = this.Adapter;
             this.dsStatus.LoadEvent = "Click";
             this.dsStatus.LoadTrigger = null;
-            this.dsStatus.RefreshValve = 1000;
+            this.dsStatus.RefreshValve = 60000;
             this.dsStatus.SourceCommand = null;
             this.dsStatus.SourceCondition = "Code_Group = \'MoldStatus\' order by Code";
             this.dsStatus.SourceMethod = "";
@@ -625,7 +625,7 @@
             this.dsCCM.L3DataAdapter = this.Adapter;
             this.dsCCM.LoadEvent = "Click";
             this.dsCCM.LoadTrigger = null;
-            this.dsCCM.RefreshValve = 1000;
+            this.dsCCM.RefreshValve = 60000;
             this.dsCCM.SourceCommand = null;
             this.dsCCM.SourceCondition = "(Code_Group = \'Caster\'  or Code_Group = \'Caster34\')  and Code is not null order b" +
                 "y Code";
@@ -735,7 +735,7 @@
             this.dsRefraFac.L3DataAdapter = null;
             this.dsRefraFac.LoadEvent = "Click";
             this.dsRefraFac.LoadTrigger = null;
-            this.dsRefraFac.RefreshValve = 1000;
+            this.dsRefraFac.RefreshValve = 60000;
             this.dsRefraFac.SourceCommand = null;
             this.dsRefraFac.SourceCondition = null;
             this.dsRefraFac.SourceMethod = null;
