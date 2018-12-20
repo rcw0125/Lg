@@ -10,6 +10,8 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Diagnostics;
+using System.Net;
+using System.Net.Sockets;
 
 namespace XGMESMain
 {
@@ -263,13 +265,7 @@ namespace XGMESMain
             about.ShowAboutInfo();
         }
 
-        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            L3Session.Close();
-            L3Session.Dispose();
-            CommDataMag.CommonMethed.FlushMemory();
-        }
-
+       
         //
         private int iTimeTick = 0;
         private void timerTick_Tick(object sender, EventArgs e)
@@ -488,6 +484,73 @@ namespace XGMESMain
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public int timeCount = 0;
+        public string flag = "1";
+        private void jiancetimer_Tick(object sender, EventArgs e)
+        {
+            timeCount++;
+            if (flag != "999")
+            {
+                Log("1");
+            }
+               
+        }
+
+        public void Log(string type)
+        {
+          
+            Process[] ps = Process.GetProcessesByName("XGMESMain");
+            int clientCount = ps.Length;
+            try
+            {
+                LogWS.WSLog log = new LogWS.WSLog();
+                flag = log.Log(GetLocalIP(), clientCount.ToString(), type, timeCount.ToString(), labelUser.Text.ToString());
+            }
+            catch
+            {
+                flag = "999";
+            }
+            
+            
+           
+        }
+
+        public static string GetLocalIP()
+        {
+            try
+            {
+                string HostName = Dns.GetHostName(); //得到主机名
+                IPHostEntry IpEntry = Dns.GetHostEntry(HostName);
+                for (int i = 0; i < IpEntry.AddressList.Length; i++)
+                {
+                    //从IP地址列表中筛选出IPv4类型的IP地址
+                    //AddressFamily.InterNetwork表示此IP为IPv4,
+                    //AddressFamily.InterNetworkV6表示此地址为IPv6类型
+                    if (IpEntry.AddressList[i].AddressFamily == AddressFamily.InterNetwork)
+                    {
+                        return IpEntry.AddressList[i].ToString();
+                    }
+                }
+                return "";
+            }
+            catch
+            {
+                return "";
+            }
+
+        }
+
+        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (flag != "999")
+            {
+                Log("2");
+            
+            L3Session.Close();
+            L3Session.Dispose();
+            CommDataMag.CommonMethed.FlushMemory();
         }
 
     }

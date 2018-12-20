@@ -15,3 +15,31 @@ spc控制图gridview排序
 
 升级到2017 
 项目必须生成X86平台的
+
+
+CREATE TABLE XGMES.A_CLIENT_LOG
+(
+  C_ID           VARCHAR2(50 BYTE)              DEFAULT sys_guid(),
+  C_TS           VARCHAR2(50 BYTE)              DEFAULT to_char(sysdate,'yyyy-MM-dd HH24:MI:SS'),
+  C_IP           VARCHAR2(50 BYTE),
+  C_CLIENTCOUNT  VARCHAR2(50 BYTE),
+  C_TYPE         VARCHAR2(50 BYTE),
+  C_TIMECOUNT    VARCHAR2(50 BYTE),
+  C_ACCOUNT      VARCHAR2(50 BYTE)
+)
+TABLESPACE USERS
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+MONITORING;

@@ -470,6 +470,7 @@
             this.l3CommandParameter4 = new AppSvrHMI.L3CommandParameter();
             this.l3CommandParameter1 = new AppSvrHMI.L3CommandParameter();
             this.l3CommandParameter2 = new AppSvrHMI.L3CommandParameter();
+            this.jiancetimer = new System.Windows.Forms.Timer(this.components);
             this.menuMain.SuspendLayout();
             this.statusMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dsTeamID)).BeginInit();
@@ -4316,6 +4317,12 @@
             this.l3CommandParameter2.TargetObject = null;
             this.l3CommandParameter2.TargetProperty = null;
             // 
+            // jiancetimer
+            // 
+            this.jiancetimer.Enabled = true;
+            this.jiancetimer.Interval = 60000;
+            this.jiancetimer.Tick += new System.EventHandler(this.jiancetimer_Tick);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -4793,6 +4800,7 @@
         private System.Windows.Forms.ToolStripMenuItem 钙线喂入量ToolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem 转炉数据查询ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 出钢计划管理ToolStripMenuItem;
+        private System.Windows.Forms.Timer jiancetimer;
     }
 }
 

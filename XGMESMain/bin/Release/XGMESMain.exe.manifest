@@ -88,7 +88,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>iVAXZIJJ+ygh8tH9b8wvcWi7r7c=</dsig:DigestValue>
+        <dsig:DigestValue>6gsBaS6g3hITdXCFy/wdKE5H4u8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -136,7 +136,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d9HMP4Lc4z4sefDpks7fkTTPC9k=</dsig:DigestValue>
+        <dsig:DigestValue>XNYRmrUZkCkmhsQQ/myO051Dwgw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -220,7 +220,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lPnM0eeJpXPMVOHkqQuqcbnRah8=</dsig:DigestValue>
+        <dsig:DigestValue>QP6xMFohhNfRTGv8ulBQ/Lm3ngw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -256,7 +256,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>O9tcFW/HsYbGoEGRxUecNkFWJRc=</dsig:DigestValue>
+        <dsig:DigestValue>TMUIJKfhEA29Fz/eItX08QYYm6s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -268,7 +268,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>0khvaj9ox906FvaPjEUC36zqY/Q=</dsig:DigestValue>
+        <dsig:DigestValue>4COhQlbpjjIcFgIMTLmpp24Lcaw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -484,7 +484,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HK9tkiByGcVT6mpGzB0Kw3oCTjg=</dsig:DigestValue>
+        <dsig:DigestValue>/Pqe3/XAb7t7iM28O0lD54G2WtI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -532,7 +532,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9eSmzedsR7kpgY1VClQEFBeMNGQ=</dsig:DigestValue>
+        <dsig:DigestValue>6vr7qnOZzmOIhT7B38aP55xsCbE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -568,7 +568,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>yTYAGekkk2cpwZYWhn0moAjnuFg=</dsig:DigestValue>
+        <dsig:DigestValue>HeYm3DKBbVjnYPN7FeYcoTHizEs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -597,24 +597,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XGMESMain.exe" size="322048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XGMESMain.exe" size="327680">
       <assemblyIdentity name="XGMESMain" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GMwd6Q60GJiQXTJ4mSS1VtNdxS0=</dsig:DigestValue>
+        <dsig:DigestValue>XtGBkXUTLFBln34uMoZAdzLFw90=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="XGMESMain.exe.config" size="1152">
+  <file name="XGMESMain.exe.config" size="1850">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Tgp/h3m4rIwoKpWGNT0MDDETJt4=</dsig:DigestValue>
+      <dsig:DigestValue>0+s3cOEEQTpl4xFOjLloA/7rL5w=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
